@@ -1,0 +1,15 @@
+Title:  You Want To Use VoiceOver
+
+Class:  reason
+
+Seq:    22
+
+Level:  2
+
+Body:
+
+Notenik is written in Swift and uses AppKit and other standard macOS technologies. 
+
+This means that all of Notenik's features are available using [VoiceOver](https://www.apple.com/accessibility/vision/).
+
+We didn't realize how important -- or how unusual -- this was, until we started getting messages from self-described blind users expressing gratitude for their ability to use Notenik.

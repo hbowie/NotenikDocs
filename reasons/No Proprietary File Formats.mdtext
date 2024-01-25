@@ -1,0 +1,15 @@
+Title:  No Proprietary File Formats
+
+Class:  reason
+
+Seq:    12
+
+Level:  2
+
+Body:
+
+Many apps store your data in proprietary file formats that can only be accessed through those same apps. 
+
+Notenik stores all of your data in plain text files that can always be read and edited using any text editor. 
+
+So the text files in which Notenik stores your data are always transparent and interoperable.

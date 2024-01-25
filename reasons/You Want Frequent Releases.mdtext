@@ -1,0 +1,31 @@
+Title:  You Want Frequent Releases
+
+Class:  reason
+
+Seq:    29
+
+Level:  2
+
+Body:
+
+We typically release a new version of Notenik every couple of weeks or so. 
+
+Let's quantify this. 
+
++ Version 1.1.0 was released on July 5, 2019. 
+
+ + Version 13.4.0 was released on November 16, 2023. 
+
++ And there were 140 releases in between those two. 
+
++ How do we know this? It's all in the [Knowledge Base](https://notenik.app/knowledge-base/EPUB/html/version-history.html).
+
++ So that's a total of 142 releases over about 225 weeks.
+
++ So that actually works out to a new release about every 1.6 weeks. 
+
+Of course sometimes they don't come along that often. 
+
+And perhaps we might someday run out of stuff to improve. 
+
+But that's our track record to date, based on past and recent history.

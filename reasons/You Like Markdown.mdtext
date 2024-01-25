@@ -1,0 +1,25 @@
+Title:  You Like Markdown
+
+Class:  reason
+
+Seq:    16
+
+Level:  2
+
+Body:
+
+[Markdown](https://daringfireball.net/projects/markdown/) allows you to write using an easy-to-read, easy-to-write plain text format. 
+
+It's [easy to learn](https://www.markdownguide.org/getting-started/), and is becoming an increasingly universal way to format text to be read by others. 
+
+[WYSIWYG](https://en.wikipedia.org/wiki/WYSIWYG) started out as a good idea, but ended up shackling text formats -- including font specifications and type sizes -- too closely together with content. 
+
+This becomes problematic when you are trying to write, because you don't really want to be concerned with these sorts of formatting choices when you are in authoring mode. 
+
+And it becomes problematic when you are trying to separate chunks of text from their original documents and use them in other places, because all of the document formatting tends to travel along with the text. 
+
+And then the authoring applications become burdened with formatting buttons and such, so that your actual words often seem overwhelmed by all the surrounding toolbars and other UI controls. 
+
+Markdown solves all these problems. 
+
+And Notenik allows you to use Markdown when writing, and then converts it to an internal web page when you are ready to see your text in display mode.

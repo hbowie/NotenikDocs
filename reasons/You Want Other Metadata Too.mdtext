@@ -1,0 +1,19 @@
+Title:  You Want Other Metadata Too
+
+Class:  reason
+
+Seq:    20
+
+Level:  2
+
+Body:
+
+Tags are fine, but what about other sorts of fields you might want to use to categorize, filter, sort and annotate your Notes?
+
+Notenik let you add any number of additional fields to each Note in a Collection. 
+
+These additional fields are often referred to as metadata. 
+
+And in order to store metadata in your text files, you can choose between the [MultiMarkdown metadata format](https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/MultiMarkdown%20User%27s%20Guide.md#metadata), the [YAML frontmatter format](https://docs.zettlr.com/en/core/yaml-frontmatter/), and Notenik's own easy-to-read, easy-to-write format. 
+
+So Notenik goes above and beyond to make your notes interoperable with other note-processing systems.

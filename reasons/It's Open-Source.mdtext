@@ -1,0 +1,19 @@
+Title:  It's Open-Source
+
+Class:  reason
+
+Seq:    5
+
+Level:  2
+
+Body:
+
+You may be a fervent supporter of [open-source software](https://opensource.com/resources/what-open-source). 
+
+Or you may have never looked at a line of computer source code in your life, and never used a piece of software you didn't pay for. 
+
+We're good with both approaches. 
+
+But just so you know, every line of application code that goes into Notenik is [stored on GitHub](https://github.com/hbowie/notenik-swift), which means anyone can view it, or even make a copy and modify it. 
+
+Which means fewer worries about the app suddenly disappearing without a trace, never to be updated again.

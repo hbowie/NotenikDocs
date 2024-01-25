@@ -1,0 +1,25 @@
+Title:  You Don't Like Bugs
+
+Class:  reason
+
+Seq:    30
+
+Level:  2
+
+Body:
+
+Let's face it: no software is perfect. Every developer is prone to injecting bugs into their code from time to time. And we've created our fair share. 
+
+But here's the thing: 
+
++ We try to avoid dependencies on other people's software -- especially anything new or exotic;
++ We use our own software on a daily basis;
++ Notenik users have a forum they can use to report bugs;
++ We read every post that appears on the forum;
++ We *always* prioritize bug fixes over enhancements;
++ We rarely go more than a couple of weeks without releasing a new version;
++ We often post betas on the forum to validate bug fixes. 
+
+The result?
+
+We honestly can't think of a time when a bug hasn't been fixed within a week or two of being reported.

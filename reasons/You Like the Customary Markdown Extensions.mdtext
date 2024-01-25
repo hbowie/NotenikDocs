@@ -1,0 +1,15 @@
+Title:  You Like the Customary Markdown Extensions
+
+Class:  reason
+
+Seq:    17
+
+Level:  2
+
+Body:
+
+Markdown has been enhanced in various ways since its inception to handle a whole host of [popular syntax extensions](https://www.markdownguide.org/extended-syntax/). 
+
+Notenik supports almost all of these. 
+
+You can see the complete list of supported extensions within the [Knowledge Base](https://notenik.app/knowledge-base/EPUB/html/notenik-markdown-parser.html).
