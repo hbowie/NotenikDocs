@@ -34,7 +34,7 @@ Ext Links Open in New Windows: true
 
 Scrolling Sync: false
 
-Web Book Folder: /Users/hbowie/Sites/notenik-web/why
+Web Book Folder: /Users/hbowie/Sites/notenik-web/reasons
 
 Web Book EPUB: false
 
@@ -44,7 +44,7 @@ Hash Tags: false
 
 Window Numbers: 1186.0;0.0;1201.0;1411.0;504.0;
 
-Column Widths: klass: 60, 80, 150; author: 100, 200, 1000; tags: 50, 100, 1200; x: 12, 20, 50; seq: 30, 80, 250; dateadded: 100, 180, 250; rank: 50, 80, 250; statusdigit: 20, 30, 50; date: 80, 120, 500; datemod: 100, 180, 250; title: 200, 407, 1500; 
+Column Widths: seq: 30, 80, 250; author: 100, 200, 1000; klass: 60, 80, 150; tags: 50, 100, 1200; date: 80, 120, 500; rank: 50, 80, 250; x: 12, 20, 50; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; datemod: 100, 180, 250; title: 200, 407, 1500; 
 
 footer Note ID: footerpage
 
