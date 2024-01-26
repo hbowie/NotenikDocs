@@ -1,0 +1,47 @@
+Title:  Other Files and Subfolders
+
+Tags:   levels-outline.9 Files and Folders.5 Other Files and Subfolders
+
+Timestamp: 20210619163946
+
+Seq:    9.5
+
+Level:  3 - Section
+
+Index:  files; folders; subfolders; INFO files; README files; alias file; display files; class folder; export folder; mirror folder; reports folder; 
+
+Class:  version
+
+Body:
+
+Within each Collection folder you will find one file for each Note in the Collection, with the file name based closely on the Note`s title. 
+
+In addition to the Note files, the following special files and folders may be found within a Collection folder. 
+
+* The Notes may be stashed away in a subfolder named `notes`. This sort of Collection is known as a Web Collection, because the top level is reserved for generated HTML files, perhaps created using mirroring. In this case, the files and folders described below will be found within the `notes` folder. 
+
+* Each Collection folder will contain a special file named `- INFO.nnk`. This is a plain text file, in Notenik format, containing some handy metadata about the Collection, such as the last sort sequence set for it. If you sync a Collection to other devices using a service such as iCloud or Dropbox, then this metadata will be synced as well. 
+
+* Each [[parent realm]] folder will contain a special file named `- INFO-parent-realm.nnk`. This is a plain text file, in Notenik format, containing some handy metadata about the parent realm pseudo-Collection, such as the last size and location of the Collection window. 
+
+* Each Collection folder will also contain a special file named `- README.txt`. This file simply identifies the folder as a Notenik Collection. 
+
+* Each Collection folder will normally also contain a `template.txt` or `template.md` file identifying the fields used within the Collection. The file extension specified for this [[Collection Template file]] will be used as the file extension for all Notes within the Collection. 
+
+* A file named `alias.txt` may also be present. This file contains information used to prevent wiki-style links from breaking when Notes are renamed. 
+
+* A file named `display.css` can be used to override the default CSS values used on the Display tab. 
+
+* A file named `display.html` can be used to override the HTML template used to generate the Display tab. 
+
+* A file named `temp_display.html` will be temporarily created if the Collection Settings `Enable Local Image References` is turned on. 
+
++ A `class` folder will contain any [[class]] template files created for the Collection. 
+
++ An `export` folder will contain any [[Export Scripts]] in use for the Collection.
+
+* A `files` folder will contain any Attachments for the Collection. 
+
+* a `mirror` folder will contain templates, scripts and css used to mirror the collection to an alternate format (such as HTML). 
+
+* A `reports` sub-folder may contain a number of Template files and/or Script files.

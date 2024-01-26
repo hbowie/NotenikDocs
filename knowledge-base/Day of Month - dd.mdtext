@@ -1,0 +1,16 @@
+Title:  Day of Month - dd
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.11 Day of Month - dd
+
+AKA:    Day of Month Mod
+
+Timestamp: 20210616204254
+
+Seq:    14.3.11
+
+Level:  4 - Subsection
+
+Body:
+
+The letters "dd" represent a two-digit day of month within a date [[formatting string]].
+

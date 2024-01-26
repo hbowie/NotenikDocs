@@ -1,0 +1,16 @@
+Title:  loop command
+
+Tags:   levels-outline.14 Merge Templates.4 Merge Commands.15 loop command
+
+Timestamp: 20210616230442
+
+Seq:    14.4.15
+
+Level:  4 - Subsection
+
+Index:  loop command; 
+
+Body:
+
+This command indicates the end of the code that will be processed/written out once per data row. Lines after the loop command will be processed/written out once per execution.
+

@@ -1,0 +1,19 @@
+Title:  Work Link
+
+Tags:   levels-outline.11 Field Labels and Types.10 Fields Useful for Reviews Citations and Quotations.7 Work Link
+
+Timestamp: 20210609174110
+
+Seq:    11.10.7
+
+Level:  4 - Subsection
+
+Index:  work link field; 
+
+Body:
+
+This field type will be inferred for a field label of `Work Link`.
+
+For some exporting/sharing options, the [[Work Title]], [[Work Type]] and Work Link fields may be used to nicely format the resulting citation of the source. 
+
+In all other respects, this field type will behave identically to an ordinary [[Link]] field.

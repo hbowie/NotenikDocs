@@ -1,0 +1,20 @@
+Title:  File Name - F
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.14 File Name - F
+
+AKA:    File Name
+
+Timestamp: 20210616201349
+
+Seq:    14.3.14
+
+Level:  4 - Subsection
+
+Index:  file name formatting; 
+
+Class:  non-version
+
+Body:
+
+Converts a string to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens.
+

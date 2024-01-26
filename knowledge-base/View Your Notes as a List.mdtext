@@ -1,0 +1,33 @@
+Title:  View Your Notes as a List
+
+Tags:   levels-outline.8 Common Tasks.4 View Your Notes as a List
+
+AKA:    sort menu
+
+Timestamp: 20210618171450
+
+Seq:    8.4
+
+Level:  3 - Section
+
+Index:  list tab; next; prior; 
+
+Class:  non-version
+
+Body:
+
+The left side of a Collection Window shows all the Notes in your current Collection as a simple list, initially sorted by Title.
+
+See the `Sort` options available beneath the `Collection` menu to change the sort sequence. 
+
+You can navigate through this list using some of the buttons on the Toolbar:
+
+- The Home button takes you to the first Note.
+- '<' Takes you to the prior note.
+- '>' Takes you to the next note. 
+
+Some of the same navigational commands are available under the `Nav` menu, with handy keyboard shortcuts noted on the right. There you will also find a command to scroll the list so as to bring the currently selected Note into view at the top of the displayed Notes.
+
+Note that there is also an option beneath the Nav menu to navigate to a new Note in the Collection via a random path.
+
+The View menu contains a 'Show/Hide List' command that will allow you to collapse the List/Tags view, so that you can see the right side of the window without any distractions. Use the same command again to show the list after it has been concealed. The left side of the window can also be collapsed by dragging the divider all the way to the left. Again, though, use the View command to restore it after it has been collapsed.

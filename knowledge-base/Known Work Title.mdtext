@@ -1,0 +1,18 @@
+Title:  Known Work Title
+
+Tags:   levels-outline.14 Merge Templates.2 Merge Variables.2 Derived Variables
+
+Timestamp: 20221009214530
+
+Seq:    14.2.2.4
+
+Level:  5 - Details
+
+Index:  known work title; 
+
+Class:  non-version
+
+Body:
+
+When a [[Work Title]] field is available for a Collection, then then a special variable name of `known-work-title` can be used in a [[Merge Template]]. This derived variable will simply be equal to the Work Title, unless the Work Title is '`unkown`', in which case the Known Work Title will be blank. 
+

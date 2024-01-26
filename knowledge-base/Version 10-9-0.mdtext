@@ -1,0 +1,33 @@
+Title:  Version 10.9.0
+
+Tags:   levels-outline.19 Version History.31 Version 1090, settings
+
+Timestamp: 20220115163704
+
+Seq:    19.31
+
+Date:   2022-12-02
+
+Level:  3 - Section
+
+Teaser: Updated terminology in the app and its documentation to change 'Preferences' to 'Settings' (in line with macOS Ventura changes); fixed a bug that was not respecting the Collection setting  to save tags with a preceding hash symbol; improved handling of a file with the extension '.nnk' to help Notenik respond by opening the enclosing Collection; straightened out some issues with data entry on Lookup fields.
+
+Class:  version
+
+Body:
+
+##### Changing 'Preferences' to 'Settings'
+
+Changing references to `Preferences` to `Settings`, in line with the Ventura changes, including the Collection Preferences (now called Settings).
+
+##### Fixed Collection Setting to Save Tags with Hash Signs
+
+The Collection Setting to Save Tags with a preceding `#` sign was no longer working. This has been corrected.
+
+##### Improved Logic When Opening an '.nnk' File
+
+Improved Notenik logic when handling a `.nnk` file that has been double-clicked or dragged onto the Notenik icon.
+
+##### Improved Data Entry for Lookup Fields
+
+Improved the data entry for Lookup fields, so that users can enter lower-case text, but get back upper-case text (where appropriate).

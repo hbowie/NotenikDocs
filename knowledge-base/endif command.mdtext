@@ -1,0 +1,14 @@
+Title:  endif command
+
+Tags:   levels-outline.14 Merge Templates.4 Merge Commands.11 endif command
+
+Timestamp: 20210616225723
+
+Seq:    14.4.11
+
+Level:  4 - Subsection
+
+Body:
+
+The endif command terminates the scope of its corresponding if, ifchange, ifendgroup, ifnewgroup or else command.
+

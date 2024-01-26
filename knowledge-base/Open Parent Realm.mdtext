@@ -1,0 +1,34 @@
+Title:  Open Parent Realm
+
+Tags:   levels-outline.9 Files and Folders.7 Managing a Bunch of Collections.2 Open Parent Realm
+
+AKA:    parent realm
+
+Timestamp: 20210619170027
+
+Seq:    9.7.2
+
+Level:  4 - Subsection
+
+Index:  multiple collections; realm; parent realm; BBEdit project files; 
+
+Class:  version
+
+Body:
+
+In addition to the normal **Open** and **Open Recent** commands beneath the **File** menu, Notenik also has an **Open Parent Realm** command. 
+
+You may invoke this command to select a folder containing one or more items that Notenik can open individually. Subfolders avoiding certain common names (`css`, `files`, `fonts`, etc.) will also be scanned for eligible items. 
+
+Notenik will then construct a pseudo-Collection from these items, and present it to the user. The Collection will be in read-only mode, but can be used to open / launch any of the items appearing on the list. 
+
+The following types of items will be listed in a Parent Realm Pseudo-Collection:
+
++ Notenik [[Collection Folders]]
++ Notenik [[Script Files]] (with file extensions of `.tcz`)
++ [BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html)
++ [Web Location Files](https://fileinfo.com/extension/webloc)
+
+Note that the Tags tab will organize these Collections and Scripts by folder, and also by item type.
+
+Note also that Notenik will store a file in the parent realm folder named '`- INFO-parent-realm.nnk`', in order to preserve metadata about the pseudo-collection.

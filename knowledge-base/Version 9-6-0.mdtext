@@ -1,0 +1,37 @@
+Title:  Version 9.6.0
+
+Tags:   levels-outline.19 Version History.45 Version 960
+
+Timestamp: 20211116184349
+
+Seq:    19.45
+
+Date:   2022-06-23
+
+Level:  3 - Section
+
+Teaser: Added a Help menu link to the new Notenik Discussion Forums, hosted by Discourse; added an option allowing tailoring of font(s) used on the Edit tab; created a way to set default values for fields; added logic to Code field display to convert HTML in such a way that it will display as code; updated file extension change logic to include class templates.
+
+Class:  version
+
+Body:
+
+##### Created a Way of Setting Default Field Values
+
+In general, Notenik will leave a field blank unless a user explicitly specifies a field value. This works pretty well for most field types but, in some cases, it is desirable and convenient for Notenik to supply a non-blank default value for a field when creating a new Note. The [[Status]] field type is a good example. It is often desirable, when using a Status field, to have it default to some initial value. So now it is possible, even when not using a [[Class]] field, to create a [[defaults class template]] to specify default values for one or more fields.
+
+##### Added Class Template Extension Changes
+
+When changing a Collection's preferred file extension, the file extension for any associated [[class template files]] will be changed as well, along with Note file extensions.
+
+###### Added Help Menu Link to New DIscussion Forums
+
+Added a new item beneath the `Help` menu to provide a quick link to the new Notenik Discussion Forum.
+
+##### Enabling Code Field to Display HTML
+
+When using a field of type [[Code]], Notenik will now convert any HTML to allow the code to be displayed as intended, rather than being interpreted as HTML.
+
+##### Allow Tailoring of the Edit Tab
+
+A new option to [[Tailor the Edit Tab]] has been added, allowing selection of font in addition to font size.

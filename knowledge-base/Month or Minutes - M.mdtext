@@ -1,0 +1,20 @@
+Title:  Month or Minutes - M
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.22 Month or Minutes - M
+
+AKA:    Month or Minutes
+
+Timestamp: 20210616201933
+
+Seq:    14.3.22
+
+Level:  4 - Subsection
+
+Body:
+
+Used in a date [[formatting string]], with the following effects:
+
+- MM - Two-digit month
+- MMM - Three-letter month abbreviation
+- MMMM - Full month name
+- mm - Two-digit minute within the hour

@@ -1,0 +1,18 @@
+Title:  Base File Name - B
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.9 Base File Name - B
+
+AKA:    Base File Name
+
+Timestamp: 20210616201106
+
+Seq:    14.3.9
+
+Level:  4 - Subsection
+
+Index:  file name formatting; 
+
+Body:
+
+The letter "B" will cause the file extension, including the period, to be removed from a file name. This can be used, for example, to generate an output file name with the same name as the input data file (using the variable name "datafilename"), but with a different extension.
+

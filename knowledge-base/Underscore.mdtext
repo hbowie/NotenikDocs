@@ -1,0 +1,16 @@
+Title:  Underscore
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.3 Underscore
+
+Timestamp: 20210616203637
+
+Seq:    14.3.3
+
+Level:  4 - Subsection
+
+Index:  underscores; 
+
+Body:
+
+An underscore character ("_") will cause all spaces in the variable to be replaced by underscores. This can be useful when creating a file name, for example. Leading and trailing spaces will be trimmed without replacement.
+

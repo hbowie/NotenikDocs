@@ -1,0 +1,16 @@
+Title:  Initial Case - I
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.17 Initial Case - I
+
+AKA:    Initial Case
+
+Timestamp: 20210616201654
+
+Seq:    14.3.17
+
+Level:  4 - Subsection
+
+Body:
+
+When the letter 'I' immediately follows the [[Lowercase Modifier - L]] or the [[Uppercase Modifier - U]], then the case transformation (lower or upper) will only be applied to the initial letter of the variable.
+

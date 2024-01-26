@@ -1,0 +1,18 @@
+Title:  Year - y
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.35 Year - y
+
+AKA:    Year Mod
+
+Timestamp: 20210616204132
+
+Seq:    14.3.35
+
+Level:  4 - Subsection
+
+Body:
+
+Used within a [[formatting string]], with the following effects:
+
+- yy - Two-digit year
+- yyyy - Four-digit year

@@ -1,0 +1,41 @@
+Title:  Lookup
+
+Tags:   fields.lookup, levels-outline.11 Field Labels and Types.13 General-Purpose Fields.5 Lookup
+
+Timestamp: 20210821192019
+
+Seq:    11.13.5
+
+Level:  4 - Subsection
+
+Index:  lookup field; 
+
+Body:
+
+The word `lookup` can be used as a field type, but is not intended to be used as a field label. 
+
+The intent of a lookup field is to allow one Collection to reference Notes stored in a second Collection. 
+
+The second Collection must be identifiable via a [[Collection ID]]. 
+
+Here is an example of how a lookup field might be specified in [[the Collection template file]]. 
+
+```
+Author: <lookup: authors> 
+```
+
+The identifier for the Collection to be referenced must be specified following the colon. In the example above, 'authors' is the identifier for the second Collection.
+
+One must be mindful of [[Disk Access Permissions]] when using a field with type `lookup`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open the primary Collection (the one that does the referencing). 
+
+When viewing a `lookup` field on the Display tab, you will notice a couple of special features. 
+
++ The value stored in the `lookup` field will be formatted as a link, using Notenik's own [[Custom URL Scheme]]. If that value already exists as a `Title` within the Collection identified by the referenced shortcut, then the link will be formatted to `open` the referenced Note within the second Collection; if the value does not yet exist within the second Collection, the the link will be formatted to `add` a Note titled with that value in the second Collection. 
+
++ If there are additional non-blank fields found on the referenced Note in the second Collection, then the lookup value will appear following a disclosure triangle, and clicking on the triangle will disclose the additional available fields from the second Collection.
+
+Note that, when using a Lookup field in a [[Merge Template]], and the lookup field for a particular note is populated, and the "looked up" note can be found in the Lookup collection, then all of the fields in the "looked up" note become available for use in the template, so long as those "looked up" fields have unique field labels, that do not duplicate any of those defined in the primary Collection. No special syntax is required for these template variables. 
+
+Note that circular lookup references should not be attempted: that is, if Collection A has a lookup field to Collection B, then B should not have any direct or indirect lookup references to A. 
+
+See [[Create a Commonplace Book with Lookup Fields]] for an example of how `lookup` fields might be used.

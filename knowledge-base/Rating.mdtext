@@ -1,0 +1,25 @@
+Title:  Rating
+
+Tags:   levels-outline.11 Field Labels and Types.10 Fields Useful for Reviews Citations and Quotations.4 Rating
+
+Timestamp: 20210609172854
+
+Seq:    11.10.4
+
+Level:  4 - Subsection
+
+Index:  rating field; priority field; 
+
+Class:  version
+
+Body:
+
+The word `Rating` can be used as both a label and a type. 
+
+In addition to `rating` itself, this field type will be inferred for a label of `priority`.
+
+A Collection may have any number of `rating` fields.  
+
+A `rating` field is expected to contain a numeric value (integer or double) that indicates a rating or priority or some similar value.
+
+When editing, a rating field will appear as a single line of editable text.

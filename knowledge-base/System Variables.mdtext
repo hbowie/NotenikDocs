@@ -1,0 +1,45 @@
+Title:  System Variables
+
+Tags:   levels-outline.14 Merge Templates.2 Merge Variables.1 System Variables
+
+Timestamp: 20210610152725
+
+Seq:    14.2.1
+
+Level:  4 - Subsection
+
+Index:  merge variables, system; system merge variables; dates; today; 
+
+Body:
+
+The following special variables are predefined and available for substitution, no matter what data source is being used.
+
+datafilename
+: The name of the data source being used.
+
+dataparent
+: The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file.
+
+displaycss
+:  The default CSS used within Notenik for this Collection. This system variable can be placed in the `head` section of an HTML page, or copied into a stand-alone CSS file. 
+
+exportpath
+: When the script is being run from the Export menu, this variable will contain the path to the folder selected by the user. See [[Export Using Script]] for additional details. 
+
+nobr
+: Placing the variable 'nobr' anywhere on a line will cause that line to be written out without a trailing line break. The nobr variable itself will be removed from the line, without being replaced.
+
+parentfolder
+: The lowest-level folder immediately enclosing the data file.
+
+relative
+: If a Web Root directory has been specified, then this variable will be replaced by the relative path from the output file being created back to the root directory.
+
+templatefilename
+: The name of the template file (not including the path to the template file).
+
+templateparent
+: The entire parent path to the template file, excluding the file name itself.
+
+today
+: The current date, at the time that template output is being generated. Note that, if you specify a [[Formatting String]] that includes time elements, then this value will be formatted as the current date and time (rather than just the date).

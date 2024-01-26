@@ -1,0 +1,39 @@
+Title:  Single-Line Commands
+
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.14 Single-Line Commands
+
+Timestamp: 20220527163419
+
+Seq:    10.2.14
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+The Notenik parser enables several single-line commands that are generally indicated by enclosure between curly braces. Details are available in following notes; this page provides a convenient summary. 
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that the commands below resolve effectively, since most generate wiki-style links in Markdown before the conversion to HTML takes place. 
+
+| Syntax | Function |
+| --------- | ------------ |
+| `{:attachments}` | *[[Generate a List of Attachments]]* |
+| `{:biblio}` | *[[Generate a Bibliography]]* |
+| `{:calendar}` | *[[Generate a Collection Calendar]]* |
+| `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
+| `{:footer}` | *[[Supply a Page Footer]]* |
+| `{:header}` | *[[Supply a Page Header]]* |
+| `{:include:another-file.txt}` | *[[Include a Note or File]]* |
+| `{:index}` | *[[Generate a Collection Index]]* |
+| `{:metadata}` | *[[Supply EPUB Metadata]]* |
+| `{:nav}` | *[[Supply Page Navigation]]* |
+| `{:outline-bullets}` | *[[Generate Outline Based on Unordered List Items]]* |
+| `{:outline-headings:1}` | *[[Generate Outline Based on Headings]]* |
+| `{:random}` | *[[Go To Random Note]]* | 
+| `{:search}` | *[[Generate a Collection Search Page]]* |
+| `{:sort-table:table-id}` | *[[Make a Table Sortable]]* |
+| `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
+| `{:tags-outline}` | *[[Generate a Tags Outline]]* |
+| `{:teasers}` | *[[Display Teasers]]* | 
+| `{:toc:2-3}` | *[[Generate a Note Table of Contents]]* |

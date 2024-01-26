@@ -1,0 +1,25 @@
+Title:  Teaser
+
+Tags:   levels-outline.11 Field Labels and Types.9 Web-Making Fields.3 Teaser
+
+Timestamp: 20210609172439
+
+Seq:    11.9.3
+
+Level:  4 - Subsection
+
+Index:  teaser field; Markdown; 
+
+Body:
+
+The word `Teaser` can be used as a label and as a type. 
+
+A label of `Teaser` will imply a type of `teaser`.
+
+A Collection should only have one field of type `Teaser`. 
+
+A `Teaser` field is meant to contain an excerpt from the Note, or a summary of its contents, or any brief bit of enticing text that can be displayed, usually beneath a Note's title, to encourage potential readers to click on a link in order to read the entire body of the Note. 
+
+When editing, a `teaser` field will appear as multiple lines of editable text. A `teaser` field may be formatted using Markdown.
+
+When displayed, a `teaser` field will be transformed using a Markdown parser.

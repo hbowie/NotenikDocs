@@ -1,0 +1,16 @@
+Title:  Day of Week, Abbreviated - EEE
+
+Tags:   levels-outline.14 Merge Templates.3 Variable Modifiers.12 Day of Week Abbreviated - EEE
+
+AKA:    Day of Week Abbreviated
+
+Timestamp: 20210616215854
+
+Seq:    14.3.12
+
+Level:  4 - Subsection
+
+Body:
+
+The letters "EEE" represent an abbreviated, 3-character, day of week within a date formatting string.
+

@@ -1,0 +1,43 @@
+Title:  Generate a Collection Table of Contents
+
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.19 Generate a Collection Table of Contents
+
+Timestamp: 20210713204211
+
+Seq:    10.2.19
+
+Level:  4 - Subsection
+
+Index:  table of contents generation; 
+
+Class:  version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a Table of Contents may be generated for an entire Collection. 
+
+This feature may be invoked with a line like the following:
+
+```
+{:collection-toc}
+```
+
+This makes the most sense for a Collection that has a [[Seq]] field. 
+
+The order of the table of contents will be determined by the currently selected [[Sort Sequence]] for the Collection. This command will typically make the most sense for a Collection sorted by `Seq + Title`. 
+
+If the Collection has a [[Level]] field, then the contents of the level field will be used to control indentation and the nesting of lists, so that the table of contents will appear in an indented outline format. 
+
+The generated Table of Contents will support direct linking from any ToC entry to the represented Note itself. 
+
+See this Collection's [[Complete Table of Contents]] for an example.
+
+With options similar to those available to [[generate a Note Table of Contents]], this command may be followed by one or two digits to indicate, respectively, the lowest level to be included in the ToC, and the highest level.
+
+The Note in which the ToC appears will not itself be included in the generated Table.
+
+This command generates the table of contents using unordered list items, and placing the command to [[Generate Outline Based on Unordered List Items]] before this command will add disclosure triangles to the table of contents. 
+
+Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.
+
+If the Collection is sorted by `Date + Seq`, then an outline item will be generated for each Date, and then lower-level outline items will be generated for each Note, showing the Seq field followed by the Title field.

@@ -1,0 +1,16 @@
+Title:  No Backticks Style quotes
+
+Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.36 No Backticks Style quotes
+
+Timestamp: 20210607233725
+
+Seq:    10.2.36
+
+Level:  4 - Subsection
+
+Index:  backticks-style quotes; 
+
+Body:
+
+Backticks-style quotes are *not* converted to curly quotes.
+
