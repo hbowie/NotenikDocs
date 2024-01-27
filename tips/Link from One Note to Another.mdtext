@@ -1,0 +1,21 @@
+Title:  Link from One Note to Another
+
+Seq:    21
+
+Level:  2 - Tip
+
+Body: 
+
+In addition to [[Markdown Web Links]] 
+within the bodies of your notes, you 
+can create links that take the user 
+from one Note to another within Notenik. 
+These are known as double-bracket wiki-style links. 
+This paragraph contains an example of such a link. Here is the way it is coded. 
+
+```
+In addition to [[Markdown Web Links]] 
+within the bodies of your notes, you 
+can create links that take the user 
+from one Note to another within Notenik.
+```

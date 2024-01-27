@@ -1,0 +1,10 @@
+Title:  Make One Collection Essential
+
+Seq:    14
+
+Level:  2 - Tip
+
+Body: 
+
+If you have multiple Notenik Collections, and none of them is preferred, then Notenik will try to open the last Collection you were using the next time the app is launched. But if there is one Collection that you almost always want to open when you launch Notenik, then you can make that your Essential Collection. Just open that Collection however you normally would, and then look under the File menu for the option to Make This Collection Essential. If you ever end up closing this Collection, and want to re-open it, just select Open Essential Collection beneath the File menu, or use the keyboard shortcut Opt-Cmd-E. 
+

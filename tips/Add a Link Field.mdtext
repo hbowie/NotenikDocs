@@ -1,0 +1,10 @@
+Title:  Add a Link Field
+
+Seq:    20
+
+Level:  2 - Tip
+
+Body:
+
+You can use the Collection Settings to tailor the field labels and types used in a particular Collection. One of the available field types is a Link field. If you think that many or most of your Notes might include a Web Link, and if you think that each Note will have a single Link, or a single primary Link, then you may wish to include an explicit Link field in your Notes (as opposed to, or in addition to, using [[Markdown Web links]] in the body of your Notes). If you use a Link field, then the keyboard shortcut of Cmd-L will open a Link in your Web browser. You can also double-click on a Note in the List tab in order to open its Link. 
+

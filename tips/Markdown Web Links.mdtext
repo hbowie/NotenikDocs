@@ -1,0 +1,10 @@
+Title:  Markdown Web Links
+
+Seq:    10
+
+Level:  2 - Tip
+
+Body: 
+
+When you [[format notes using Markdown]], you can easily include links to various pages, resources and sites residing on the Web. If you simply click on one of these links (such as [this one](https://notenik.app)), then the page will be loaded right inside of Notenik, replacing the display of your Note. (To get back to your Note, just click on the Refresh button in the toolbar, or the back button.) But if you'd rather open such a link in your Web browser (Safari, Chrome, etc.), then right-click, or double-tap, or use Ctrl-Click on the link, to bring up a Contextual menu, then click on the option to Open Link in New Window.  
+

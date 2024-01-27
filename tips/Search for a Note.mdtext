@@ -1,0 +1,9 @@
+Title:  Search for a Note
+
+Seq:    6
+
+Level:  2 - Tip
+
+Body: 
+
+To search for a Note, you can use the Find option beneath the Nav menu -- or Cmd-F -- or just use your pointing device to position your cursor inside of the Search field on the right side of the Toolbar. Enter the text you are looking for, and Notenik will take you to the first Note in that Collection containing that bit of text, with the occurrence(s) of that string of text highlighted on the Display tab. 

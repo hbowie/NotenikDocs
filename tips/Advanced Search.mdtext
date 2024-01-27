@@ -1,0 +1,9 @@
+Title:  Advanced Search
+
+Seq:    8
+
+Level:  2 - Tip
+
+Body: 
+
+If you want to tweak your search parameters a bit, try using the Advanced Search option beneath the Nav menu (or just use the keyboard shortcut Opt-Cmd-F). You'll then see a separate window with a number of options. First, you can check or uncheck boxes to determine which fields you wish to search in. For example, you may wish to just search the Title field, ignoring matches in the Body field. And second, you can check the Case-sensitive box, if upper- and lower-case characters are important to your search. And oh, by the way, once you've tweaked these parameters here, they will remain in effect for the rest of your Notenik session, or until you change them later by pulling up the Advanced Search window again. 

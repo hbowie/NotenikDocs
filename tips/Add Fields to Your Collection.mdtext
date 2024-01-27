@@ -1,0 +1,10 @@
+Title:  Add Fields to Your Collection
+
+Seq:    19
+
+Level:  2 - Tip
+
+Body:
+
+Notenik supports fields that can be embedded in your Notes. Each Collection can support any number of fields, and the fields may have different labels, and be of different types. The fields allowed for each Collection are defined in the template file for the Collection. And you can add fields to a Collection by opening the Collection Settings (beneath the Collection menu), and checking additional boxes on the right side of the window. When you click OK, the additional fields will show up when you edit the Notes in that Collection. 
+

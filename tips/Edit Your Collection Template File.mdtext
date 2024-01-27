@@ -1,0 +1,10 @@
+Title:  Edit Your Collection Template File
+
+Seq:    24
+
+Level:  2 - Tip
+
+Body:
+
+In the same way that you can [[Edit a Note using a Text Editor]], you can also edit your Collection's template file using a text editor. Just select Text Edit Collection's Template file beneath the Collection menu -- or enter Opt-Cmd-T -- and you will see your template file -- normally named `template.txt` -- open up in your default text editor. Your template file will look much like any other Note, but it is the controlling template that determines what fields can be used within your Collection. This file is ordinarily edited for you behind the scenes when you modify your Collection Settings, but it can also be edited directly -- and there are advanced options you can implement here, that cannot be made to happen simply through use of the Collection Settings within Notenik. If you make any changes to your template file, be sure to save and close the file within your text editor and then, upon return to Notenik, use the Reload Collection command beneath the Collection menu -- or just enter Opt-Cmd-J -- to reload the template file, and the entire Collection, so that you can see your changes within Notenik. 
+
