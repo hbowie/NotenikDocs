@@ -4,9 +4,9 @@ Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.38 Markdown Cheat S
 
 Timestamp: 20220127213626
 
-Seq:    10.2.38
+Seq:    7.1
 
-Level:  4 - Subsection
+Level:  3 - Section
 
 Index:  Markdown; 
 
@@ -29,6 +29,6 @@ This Markdown cheat sheet provides a quick overview of the basic Markdown syntax
 | Link    | `[Notenik](https://notenik.app)`
 | Image   | `![alt text](https://notenik.app/images/notenik-logo.png)`
 
-For more information about any of these elements, refer to the [Daring Fireball site](https://daringfireball.net/projects/markdown/syntax) for basic syntax, or to the sections above for extensions provided by the [[Notenik Markdown Parser]].
+For more information about any of these elements, refer to the [Daring Fireball site](https://daringfireball.net/projects/markdown/syntax) for basic syntax, or to following sections for extensions provided by the [[Notenik Markdown Parser]].
 
 Thanks to [Matt Cone](https://www.mattcone.com/) for this cheat sheet I've adapted from his [Markdown Guide](https://www.markdownguide.org).

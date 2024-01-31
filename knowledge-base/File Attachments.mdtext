@@ -4,7 +4,7 @@ Tags:   levels-outline.9 Files and Folders.3 File Attachments
 
 Timestamp: 20210626221437
 
-Seq:    9.3
+Seq:    8.3
 
 Level:  3 - Section
 
@@ -23,8 +23,6 @@ Use the Add Attachment item under the Attachments menu in the Toolbar to add an 
 After you supply the requested information, Notenik will move or copy the indicated file to the `files` folder within your Collection. The file will be given a name that starts with the same name as the Note, followed by the specified suffix (with the two separated by a pipe symbol), and then followed by the original file extension.  
 
 Once a Note has attachments, you may open one of them by selecting it from the same Attachments menu in the Toolbar. The request will then be passed on to the operating system, and the attachment will be opened in whatever application is assigned to files of that type. 
-
-If you'd like to delete an Attachment, select the Delete Attachment item under the Note menu. If more than one attachment for that Note exists, then you will be prompted to specify the one you wish to delete. Be aware, though, that when you delete an Attachment, the underlying file in the `files` folder will be deleted. 
 
 If you change the Title of a Note, then any files attached to the Note will be automaticallly renamed to match the new Title for the Note. 
 

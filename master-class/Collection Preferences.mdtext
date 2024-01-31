@@ -1,0 +1,11 @@
+Title:  Collection Preferences
+
+Seq:    6.2
+
+Level:  3 - Topic
+
+Body:
+
+Both when creating a new collection, and at any time later, you may use the Collection Preferences window to modify the list of fields being used for that collection. 
+
+This works by presenting all of the collection's currently defined fields, as well as other common fields, as lists of checkboxes. Check one of the unchecked boxes to add a new field; uncheck one of the checked boxes to discard one of the current fields.

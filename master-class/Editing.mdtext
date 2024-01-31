@@ -1,0 +1,11 @@
+Title:  Editing
+
+Seq:    4.1
+
+Level:  3 - Topic
+
+Body:
+
+When you edit a note within Notenik, you will see each possible field presented individually, so you enter/alter the data for a note one field at a time. 
+
+And then different user interface widgets are presented for different fields, to optimize the editing for each different field. For a Date field, as an example, you might wish to pick a value from a calendar, rather than simply editing straight text, as you would for the Title of a note.

@@ -1,0 +1,29 @@
+Title:  Scripting Operations
+
+Seq:    11.1
+
+Level:  3 - Topic
+
+Body:
+
+A script file works its magic by generally executing the following operations, in the following sequence. 
+
+1. Identify an **input** data source: typically a Notenik Collection, but other options are available as well. 
+
+	Each new data source typically replaces any others that were previously identified, but a *merge* option is available to allow combining of multiple sources. 
+
+	Any data input is now treated as a series of rows arranged into columns, with each Note becoming a separate row, and each Field becoming a separate column. 
+
+2. Optionally **filter** the data to exclude some of the rows that are not needed for subsequent operations. 
+
+3. Optionally **sort** the data by one or more columns to get rows into some desired sequence to be used for subsequent operations. 
+
+4. Process a merge **template**, running the filtered and sorted data through the template, and generating whatever output was specified by the template. 
+
+5. Optionally generate an **output** file directly, without the use of a merge template. 
+
+6. Direct your web browser to **browse** a local URL at which you would expect to find your generated website. 
+
+This same general series of operations may be repeated as many times as is needed, depending on your goals, your data sources, and your merge templates. 
+
+Note that in the Knowledge Base, each of these operations is performed by its own [Scripting Module](notenik://help?id=scriptingmodules).

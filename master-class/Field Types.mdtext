@@ -1,0 +1,19 @@
+Title:  Field Types
+
+Seq:    5
+
+Level:  2 - Section
+
+Body:
+
+In order to make fields as useful as possible, Notenik recognizes different *types* of fields. 
+
+Different types of fields will have different editing widgets. 
+
+But different types of fields may also be sorted differently. 
+
+As an example, Notenik will recognize that, when you sort a date, the year is most important, then the month, and finally the day of the month -- even when the date components are entered in a different sequence, or with alphabetic values for months. 
+
+And when you sort a sequence number, Notenik will recognize that 2 should come before 10, even if the '2' is entered without a leading zero. 
+
+And different types of fields may also be formatted differently, with different formatting options.

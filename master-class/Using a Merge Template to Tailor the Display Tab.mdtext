@@ -1,0 +1,16 @@
+Title:  Using a Merge Template to Tailor the Display Tab
+
+Seq:    9
+
+Level:  2 - Section
+
+Body:
+
+One way to tailor the display of each note in a collection is to create a special [[Merge Template]] to be used for that purpose. 
+
+Such a file should start with a `<?nextrec?>` command and end with a `<?loop?>` command, and should not include an `<?output?>` command. 
+
+Such a file should be named `display.html` and placed within your Collection folder. 
+
+See the page titled [Tailor the Display](notenik://help?id=tailorthedisplay) within the Knowledge Base for further info. 
+

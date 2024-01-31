@@ -6,7 +6,7 @@ AKA:    Word Demarcation
 
 Timestamp: 20210616201225
 
-Seq:    14.3.10
+Seq:    12.3.10
 
 Level:  4 - Subsection
 
@@ -48,5 +48,4 @@ Then the resulting name in the output text file would be:
 
 	Herb&nbsp;Bowie
 
-No other variable modifiers may follow this one. 
-
+No other variable modifiers may follow this one.

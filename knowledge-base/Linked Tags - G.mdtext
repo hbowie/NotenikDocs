@@ -6,7 +6,7 @@ AKA:    Linked Tags
 
 Timestamp: 20210616201430
 
-Seq:    14.3.15
+Seq:    12.3.15
 
 Level:  4 - Subsection
 
@@ -43,6 +43,4 @@ Where:
 + `tags` is the variable name;
 + `tags/` is the path, starting from the web root;
 + `tag-class` is the class to be applied to each link (`<a `) HTML tag.
-+ '` | `' is the separator to be used between the links, for multiple tags. 
-
-
++ '` | `' is the separator to be used between the links, for multiple tags.

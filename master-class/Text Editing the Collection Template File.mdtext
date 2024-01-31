@@ -1,0 +1,56 @@
+Title:  Text Editing the Collection Template File
+
+Seq:    6.3
+
+Level:  3 - Topic
+
+Body:
+
+The final, and most powerful, way to change the configuration of a collection is by using your text editor to directly modify the collection template file. 
+
+This file is named `template.txt` (or `template.md`) with the file extension of the template file indicating the file extension to be used for all of the note files in the collection. 
+
+The easiest way to open this in your text editor from within Notenik is to use the keyboard shortcut OPT-CMD-T. 
+
+(And then, when you done editing this file, be sure to use OPT-CMD-J within Notenik to reload the collection using the new configuration.) 
+
+As an example, here is the current template file for this collection (the one I'm using to create this master class). 
+
+```
+Title: <title> 
+
+AKA: <aka> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Seq: <seq> 
+
+Level: <level: 1 - Class Title; 2 - Section; 3 - Topic; > 
+
+Body:  
+
+```
+
+The first thing you'll notice here is that the template file looks much like any of the note files. That is, you see a series of field labels, with each label immediately followed by a colon. 
+
+What makes the template file different (other than its name) is that the text following each field label and colon is used to indicate the configuration of that field. 
+
+The first part of each field's configuration is the field type. Now you'll notice here that this seems redundant -- each field label is just followed by the same value, without the leading upper-case letter. However, each field label and its associated field type need not align so closely. 
+
+For example, you might have a collection in which you wish to have a field explicitly labeled `Publication Date`. So this is a different field label, but it's not a new field type -- it's just another date field, in terms of how it will be displayed, presented for editing, and sorted. 
+
+And so your collection template file might have a line like this:
+
+```
+Publication Date: <date>
+```
+
+In general, Notenik will try to pick the appropriate type based on the field label, if a type is not explicitly stated, and if the label is one that is aligned with a corresponding type. That being said, it's never a bad idea to explicitly identify a type for each field. 
+
+Finally, for some field types, additional following text in the template definition will be used to specify the allowable values for that field -- as you can see with the `Level` field specification above. 
+
+Notenik has many different field types -- too many to go into here. But you can always consult the page titled [Lists of Labels and Types](notenik://help?id=listsoflabelsandtypes) within the Notenik Knowledge Base for a complete list. 
+
+One final comment about editing a collection's template file: by rearranging the fields within the template file, you can control the order in which they are presented on the Edit tab within Notenik. The only constraint here is that the Title field must come first, and the Body field must come last.

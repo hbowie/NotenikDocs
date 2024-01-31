@@ -4,7 +4,7 @@ Tags:   levels-outline.7 Creating and Tailoring a Collection of Notes.3 Starting
 
 Timestamp: 20231016184905
 
-Seq:    7.3.13
+Seq:    5.3.13
 
 Level:  4 - Subsection
 
@@ -14,5 +14,4 @@ This is a starter pack meant to be used for keeping track of contact information
 
 The Title field gets the label of "Full Name" and is expected to store the full name of an individual or organization.
 
-See the [[Import vCards]] page for more info on use of Notenik to track info about contacts. 
-
+See the [[Import vCards]] page for more info on use of Notenik to track info about contacts.

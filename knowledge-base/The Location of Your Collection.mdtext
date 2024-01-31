@@ -4,7 +4,7 @@ Tags:   levels-outline.7 Creating and Tailoring a Collection of Notes.1 Decision
 
 Timestamp: 20210617222203
 
-Seq:    7.1.1
+Seq:    5.1.1
 
 Level:  4 - Subsection
 
@@ -14,15 +14,15 @@ Class:  non-version
 
 Body:
 
-When it comes to the location of your Collection(s), you have two primary options.
-
-If you just want a quick and easy answer, then pick option 1. (You can always change your mind later, if needed.)
+When it comes to the location of your Collection(s), you have two primary options to choose from. 
 
 1. Within the Notenik folder (aka "sandbox") within iCloud Drive. The advantages of storing your Collection(s) here are:
 
 	+ Notenik will always be able to easily access your Collection(s);
 	+ Your only other location decision will be to name your Collection/folder;
 	+ It will always be easy to find your Notenik Collection(s).
+
+	(If you just want a quick and easy answer, then go for this first option -- you can always change your mind later, if needed.)
 
 2. Some other location on your Mac's hard drive, or on an external drive. The disadvantages here are:
 

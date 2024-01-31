@@ -1,0 +1,13 @@
+Title:  Text Editor
+
+Seq:    1.1
+
+Level:  3 - Topic
+
+Body:
+
+You do not need to learn programming in order to take advantage of the features described in this class, but you will need to be able to use a text editor of some sort. I use [BBEdit](https://www.barebones.com/products/bbedit/), but you may prefer another text edtor that works on the Mac: [Sublime Text](https://www.sublimetext.com), [Atom](https://atom.io) and [Visual Studio Code](https://code.visualstudio.com) are other popular choices. 
+
+Once you get comfortable using a particular text editor, you will probably want to use the macOS Finder to modify all files having your preferred note file extension ('`.txt`', let's say, or '`.md`') to [open by default using that application](https://support.apple.com/en-sa/guide/mac-help/mh35597/mac). 
+
+Then, when you are within Notenik, you can always use CMD-T to open your current note in your text editor, and use OPT-CMD-T to open your collection's template file (more on these later).

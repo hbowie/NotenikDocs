@@ -1,0 +1,44 @@
+Title:  Fields
+
+AKA:    metadata, front matter
+
+Seq:    3
+
+Level:  2 - Section
+
+Body:
+
+You probably already understand that Notenik, as with many other note-taking apps, stores its notes in plain text files. 
+
+At their simplest such files just contain text formatted using Markdown. 
+
+More complex sorts of notes may contain metadata: data about the note, as well as the note itself. For example, metadata might identify the author of the note, as well as the date on which it was written, or when it was published. 
+
+This metadata generally appears ahead of the body of the note, and so is often referred to as *front matter*.  
+
+Notenik takes all of this a step further, and refers to each separate component of a note file as a *field*. 
+
+Each field within Notenik consists of two parts: a *field label*, followed by a *field value*. A colon comes after the field label, in order to indicate where the label ends and where the value begins. 
+
+And so, here's how a simple Notenik note might appear when you look at it using your [[text editor]]. 
+
+```
+Title:  Fields
+
+Author: Herb Bowie
+
+Date:   7 Nov, 2022
+
+Body:
+
+You probably already understand that Notenik, as with 
+many other note-taking apps, 
+stores its notes in plain text files. 
+
+```
+
+Note that even the Title of the note, as well as its Body, are identified with their own labels. 
+
+As we will see, Notenik is very flexible and powerful when it comes to using fields within notes. 
+
+But before proceeding farther, we should probably talk about why fields are useful.

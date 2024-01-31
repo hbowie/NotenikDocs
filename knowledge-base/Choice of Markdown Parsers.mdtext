@@ -4,7 +4,7 @@ Tags:   levels-outline.10 Markdown.1 Choice of Markdown Parsers
 
 Timestamp: 20210607232518
 
-Seq:    10.1
+Seq:    7.2
 
 Level:  3 - Section
 
@@ -14,7 +14,7 @@ Class:  version
 
 Body:
 
-Thanks to the generosity of other open-source developers, Notenik gives you a choice of Markdown parsers to use. Visit the app settings to change your choice of parser. 
+Thanks to the generosity of other open-source developers, Notenik gives you a choice of Markdown parsers to use. Visit the Notenik Settings to change your choice of parser. 
 
 + [Down][] - Blazing fast Markdown rendering in Swift, built upon cmark, which is in turn based on the [CommonMark][cm] spec.
 

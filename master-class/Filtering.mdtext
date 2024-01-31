@@ -1,0 +1,10 @@
+Title:  Filtering
+
+Seq:    4.3
+
+Level:  3 - Topic
+
+Body:
+
+In addition to making various sorts possible, the presence of fields allows the user to filter their Notes, selecting some to show and temporarily hiding others. For example, if your blog collection had a status field, then you could select finished posts for publication, while holding back unfinished posts for further work before publishing. This can be done easily using the Scripting module. 
+

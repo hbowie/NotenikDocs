@@ -4,13 +4,17 @@ Tags:   levels-outline.17 Knowledge Base Navigation.5 Random Page
 
 Timestamp: 20230429162425
 
-Seq:    17.5
+Seq:    2.7
 
 Level:  3 - Section
 
 Class:  non-version
 
 Body:
+
+If you're just interested in gradually expanding your Notenik knowledge, you can always return to this page, and then from here navigate to some other page in the Collection, selected at random. 
+
+This functionality is provided by the [[Go To Random Note]] Markdown extension. 
 
 {:random}
 

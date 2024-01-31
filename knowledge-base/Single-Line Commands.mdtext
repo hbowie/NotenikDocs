@@ -4,7 +4,7 @@ Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser.14 Single-Line Comm
 
 Timestamp: 20220527163419
 
-Seq:    10.2.14
+Seq:    7.3.6
 
 Level:  4 - Subsection
 
@@ -15,6 +15,8 @@ Body:
 The Notenik parser enables several single-line commands that are generally indicated by enclosure between curly braces. Details are available in following notes; this page provides a convenient summary. 
 
 Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that the commands below resolve effectively, since most generate wiki-style links in Markdown before the conversion to HTML takes place. 
+
+Note also that these commands are further categorized based on their relationship to the Collection in which the Note is enclosed. 
 
 | Syntax | Function |
 | --------- | ------------ |

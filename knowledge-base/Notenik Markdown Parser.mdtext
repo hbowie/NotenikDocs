@@ -4,7 +4,7 @@ Tags:   levels-outline.10 Markdown.2 Notenik Markdown Parser
 
 Timestamp: 20210713200028
 
-Seq:    10.2
+Seq:    7.3
 
 Level:  3 - Section
 
@@ -14,5 +14,6 @@ Class:  version
 
 Body:
 
-The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, plus the [SmartyPants](https://daringfireball.net/projects/smartypants/) typographic intentions, with the following exceptions. 
+The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, plus the [SmartyPants](https://daringfireball.net/projects/smartypants/) typographic extensions. 
 
+Exceptions/extensions/additions to the original Gruber syntax are listed below, and grouped into categories.

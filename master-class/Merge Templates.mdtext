@@ -1,0 +1,27 @@
+Title:  Merge Templates
+
+AKA:    display templates
+
+Seq:    7
+
+Level:  2 - Section
+
+Body:
+
+In addition to collection templates, Notenik also recognizes what it calls *merge templates*. 
+
+Whereas a collection template provides a template for a note's data, a merge template provides a template for the display of one or more notes. 
+
+And so we might also think of this latter type of template as a *display template*. 
+
+When performing a merge operation, Notenik always starts with two things:
+
++ A list of one or more notes to be displayed, in a determined sequence. 
+
++ A merge template. 
+
+The merge template tells Notenik exactly how to merge the data from the input note(s) into some new arrangement. 
+
+The output from a merge operation consists of one or more text files -- often web pages using HTML -- expressing some or all of the input note fields in whatever new arrangement was specified by the merge template. 
+
+

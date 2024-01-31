@@ -1,0 +1,11 @@
+Title:  Sorting
+
+Seq:    4.2
+
+Level:  3 - Topic
+
+Body:
+
+One of the useful things you can do with fields is to sort a Collection of Notes in different ways. 
+
+The easiest and most obvious way to sort using one or more fields is to pull down the Collection menu, under which you will find a Sort menu. You may then choose from any of the these handy field combinations to sort your Collection in different ways. Once you choose a sort sequence, the Notes will then appear in that sequence on the List tab. But Notenik offers other ways to sort your Collection as well, in its Scripting module. (More about that later.)

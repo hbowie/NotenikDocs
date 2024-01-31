@@ -6,7 +6,7 @@ AKA:    Sort Sequence
 
 Timestamp: 20230622164148
 
-Seq:    8.5
+Seq:    6.6
 
 Level:  3 - Section
 
@@ -32,4 +32,4 @@ One Sort Option that requires some explanation is the `Last Name First` option. 
 + If the Collection is configured with an [[Author]] field, then that field will be used. 
 + In all other cases, the Title field will be assumed to contain the name of a person. 
 
-In all of these cases, an attempt will be made to extract the last name of an individual and then sort by that name, rather than sorting first name first. 
+In all of these cases, an attempt will be made to extract the last name of an individual and then sort by that name, rather than sorting first name first.

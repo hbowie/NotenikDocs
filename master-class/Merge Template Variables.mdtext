@@ -1,0 +1,33 @@
+Title:  Merge Template Variables
+
+Seq:    8.3
+
+Level:  3 - Topic
+
+Body:
+
+So [[Merge Template Literals]] provide the fixed content of your output. 
+
+And [[Merge Template Commands]] control the overall flow of the processing. 
+
+But how do you actually specify what data to insert, and where to insert it?
+
+That's the job for Merge Template Variables. 
+
+Following is an illustration of the basic syntax. 
+
+```
+<p>Note Title: =$title$=</p>
+
+<p>Body: </p>
+
+=$body$=
+
+```
+
+If you're unfamiliar with HTML, `<p>` and `</p>` are the ways you start and end a paragraph. 
+
+So the way you indicate the placement of field values is by placing `=$` and `$=`  around a field label. 
+
+BTW, capitalization, spacing and punctuation are not significant when specifying a field label. So `=$publication-date$=` will work just as well as `=$Publication Date$=`. 
+

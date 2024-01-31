@@ -1,0 +1,55 @@
+Title:  Knowledge Base Overview
+
+Timestamp: 20240130233002
+
+Seq:    1
+
+Level:  2 - Article
+
+Class:  non-version
+
+Body:
+
+This Knowledge Base provides detailed user instruction and reference for all Notenik functionality. 
+
+It is meant as a complement to other Notenik documentation. You can find links to all the Notenik docs on the [Notenik.app website](https://notenik.app/docs.html).
+
+It's worth noting that this Knowledge Base is itself a Notenik Collection and, as such, can be viewed in either of two ways:
+
++ As a read-only Collection viewed within Notenik, and accessed from the application's Help menu;
+
++ As a [web book published on the Notenik.app website](https://notenik.app/kb/notenik-knowledge-base.html). 
+
+You will find that this Knowledge Base is all text, without any screen shots. If you'd like to see what things look like as they are described, I would urge you to download Notenik from the [Mac App Store][store], and follow along within the app itself. 
+
+The Knowledge Base is organized into a number of distinct sections. 
+
++ If you're new to Notenik, it's best to start with the [[Application Overview]] for a general orientation. 
+
++ Once you've downloaded Notenik and are ready to start using it, it's worth reviewing the [[Intro to the User Interface]].
+
++ Then you'll probably be ready to learn about [[Creating and Tailoring a Collection of Notes]]. 
+
++ Once you've created a Collection for yourself, you'll be ready to perform some [[Common Tasks]].
+
++ The body of each Note is formatted using [[Markdown]], and the Notenik Markdown parser has lots of custom extensions, so you'll want to understand how this works. 
+
++ If you're interested in understanding how Notenik stores its notes on disk, then you'll want to read the section on [[Files and Folders]]. 
+
++ Much of the power and flexibility of Notenik comes from its [[Field Labels and Types]], so you'll want to acquaint yourself with these possibilities as you advance. 
+
++ There are many different options when it comes to [[Getting Data Into and Out of Notenik]], so be sure to review this section if you want to easily import, export, share and/or publish your Notes. 
+
++ Notenik also has multiple schemes for [[Integration]] with other applications. 
+
++ For the ultimate flexibility in formatting and exporting your Notes, you will want to take advantage of [[Merge Templates]]. 
+
++ And then, for repeated complex operations including filtering and sorting, you will want to make use of [[Script Files]].
+
++ The [[Putting It All Together]] section has a series of articles describing how you can combine various Notenik functions for specific usage scenarios. 
+
++ The [[Reference]] section contains a variety of information pages that you might find useful from time to time. 
+
++ And finally, at the very end, you'll find a complete [[Version History]] of the application, with the latest changes coming first. 
+
+[store]: https://apps.apple.com/us/app/notenik/id1465997984

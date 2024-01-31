@@ -1,0 +1,11 @@
+Title:  Merge Template Literals
+
+Seq:    8.1
+
+Level:  3 - Topic
+
+Body:
+
+Typically the bulk of any merge template will consist of text that is simply to be copied to the output without modification. 
+
+For example, if you are creating a web page, then the bulk of the merge template will consist of HTML used to structure and format each page. 

@@ -1,0 +1,29 @@
+Title:  Recording a Script
+
+Seq:    11.3
+
+Level:  3 - Topic
+
+Body:
+
+Notenik has a window called the **Scripter** window, which can be accessed by looking beneath the **Window** menu. 
+
+At the very top of the window, you can see what is essentially one row of a script, with each of the five columns presented in its own widget: either a popup or a dropdown menu. 
+
+There are two additional controls positioned to the far right of the same row, beyond the menus representing the five columns. 
+
+The first control is a small button labeled as '@'. Click on this button and Notenik will present you with a standard file chooser, with the path to the chosen file then being placed in the `Value` field. This can be used for any action that expects a file identifier to be found in the Value field. 
+
+The next button is labeled 'Go', and clicking on this button will cause Notenik to attempt to execute the scripting action entered to the left. 
+
+Results will be shown in the scrolling text box below. 
+
+Note that, after execution of one action (invoked by clicking on 'Go'), Notenik will often attempt to adjust the values in one or more of the widgets to prepare for a likely next action. 
+
+In order to begin recording a script, you will need to identify the name and location of your desired script file with a Module of `script` and an Action of `open`, a Modifier of `output` and a Value containing the path to your desired output file. 
+
+After opening the output script file, you will then need to execute another command with a Module of `script` and an Action of `record`. 
+
+At this point, Notenik will start recording all of your following actions. 
+
+When you are done recording a script, you must execute one final action, to say `script / stop`. This will stop recording and write all of your recorded actions to your output script file. **IF YOU SKIP THIS STEP, THEN ALL OF YOUR RECORDED ACTIONS WILL BE LOST**, so be sure to make this your last step.

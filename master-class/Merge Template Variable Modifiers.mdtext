@@ -1,0 +1,38 @@
+Title:  Merge Template Variable Modifiers
+
+Seq:    8.4
+
+Level:  3 - Topic
+
+Body:
+
+There's one last piece to the puzzle when it comes to the contents of a merge template, and that is the use of variable modifiers. 
+
+A variable modifier applies some sort of transformation to a merge template variable before it is inserted into the output from a template. 
+
+A variable modifier is generally a single character, sometimes with following attributes. 
+
+Zero to many variable modifiers may be applied to a single variable. The transformations will generally be applied in the sequence in which they are specified. 
+
+The modifiers appear after the name of the variable, and before the closing '`$=`'. 
+
+An ampersand character is used to indicate the beginning of the variable modifier(s). 
+
+Following is an example:
+
+```
+=$body&o$=
+```
+
+In this case the variable modifier of '`o`' indicates that the body field value of each Note should be converted from Markdown to HTML. 
+
+Here's another example:
+
+```
+<?output "=$title&f$=.html"?>
+```
+
+In this case the variable modifier of '`f`' is used to transform the title of each Note into a conventional, universal file name, replacing spaces with dashes and converting upper-case letters to lower-case. 
+
+The Notenik Knowledge Base contains a complete list of all available [variable modifiers](https://notenik.app/knowledge-base/EPUB/html/variable-modifiers.html). 
+

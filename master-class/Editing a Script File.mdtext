@@ -1,0 +1,23 @@
+Title:  Editing a Script File
+
+Seq:    11.4
+
+Level:  3 - Topic
+
+Body:
+
+Even though a script file has an odd-looking file extension of '`.tcz`', any Notenik script file can be opened by a normal text editor. 
+
+Generating a script file using the **Scripter** window can be a bit tedious and error-prone. So once you have an existing file, it is often easier to modify it and add to it via your text editor, rather than using the Notenik window. 
+
+By default, when you open a script file in your text editor, you may find that the tab characters separating the columns are not displayed. Depending on your text editor of choice, there should be a way to make these visible. Within BBEdit, for example, there is a Text Editing option to **Show Invisibles**. You may not want to see spaces and line endings, but you will want to **Show Tabs**. This way, as you are editing a file, you can make sure that each text string is still appearing in its intended column. 
+
+Once you get the hang of finding your way around a script file, copying and pasting and then modifying existing lines will end up being pretty easy. 
+
+Note that, as your script files grow in size, you will probably find it helpful to insert blank lines and comment lines to help you navigate through the various sections of your script. 
+
+A comment line would look like this:
+
+```
+<!-- Generate latest original content  -->
+```

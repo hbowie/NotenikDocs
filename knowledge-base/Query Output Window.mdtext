@@ -4,7 +4,7 @@ Tags:   levels-outline.12 Getting Data Into and Out of Notenik.9 Query Builder.1
 
 Timestamp: 20230129185112
 
-Seq:    12.9.1
+Seq:    10.9.1
 
 Level:  4 - Subsection
 
@@ -30,4 +30,4 @@ In all cases, this window now has a pull-down button, titled `Web Page` in the l
 
 	This function allows the user to select a folder and file name, saves the HTML to that location, and then sends a request to macOS to open this saved file in the user's default Web browser.
 
-Starting with [[Version 13.7.0]], this window also contains a `Refresh` button in the lower left corner. Pressing this button will refresh the display with the Collection's current data. 
+Starting with [[Version 13.7.0]], this window also contains a `Refresh` button in the lower left corner. Pressing this button will refresh the display with the Collection's current data.

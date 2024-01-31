@@ -6,7 +6,7 @@ AKA:    Punctuation Purification
 
 Timestamp: 20210616202228
 
-Seq:    14.3.25
+Seq:    12.3.25
 
 Level:  4 - Subsection
 
@@ -17,4 +17,3 @@ Body:
 The letter "P" will remove awkward punctuation characters, replacing them with spaces.
 
 If the '`P`' is followed by an exclamation mark ('`!`'), then punctuation and spaces will be "squeezed" from the value, without any replacement.
-

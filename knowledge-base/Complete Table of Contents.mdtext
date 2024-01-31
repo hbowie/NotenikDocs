@@ -4,13 +4,19 @@ Tags:   levels-outline.17 Knowledge Base Navigation.4 Complete Table of Contents
 
 Timestamp: 20210713225257
 
-Seq:    17.4
+Seq:    2.6
 
 Level:  3 - Section
 
 Class:  version
 
 Body:
+
+This page is similar to the list of contents found on the first page of the Collection -- the [[Notenik Knowledge Base]] page -- but this page allows you to fully explore the entire hierarchy of the Knowledge Base by clicking on disclosure triangles, rather than actually having to visit each page to see whatever children it might have. 
+
+You can always return to this Table of Contents by using the `Contents` link at the top right of any page. 
+
+This page is generated using the Markdown extension to [[Generate a Collection Table of Contents]], preceded by the extension to [[Generate Outline Based on Unordered List Items]].
 
 {:outline-bullets}
 {:collection-toc:2-4}

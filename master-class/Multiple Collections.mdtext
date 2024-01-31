@@ -1,0 +1,13 @@
+Title:  Multiple Collections
+
+Seq:    2
+
+Level:  2 - Section
+
+Body:
+
+Unlike many other note-taking apps, Notenik allows the user to create multiple *Collections* of notes, with each Collection stored on disk in its own folder. 
+
+Different Collections can be used to store different types of data, or data to be used for different purposes. 
+
+If you are building a website then, depending on the site's complexity, you can generate an entire site from one Collection, or generate one site from multiple Collections.
