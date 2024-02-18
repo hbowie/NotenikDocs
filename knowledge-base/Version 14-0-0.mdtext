@@ -1,0 +1,19 @@
+Title:  Version 14.0.0
+
+Timestamp: 20240215213227
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Note ID Configuration Options
+
+It's now possible to [[Change Note ID Configuration]] for a Collection so that each Note title no longer needs to be unique.
+
+##### Fixed a Wikilink Bug Affecting Non-English Alphabets
+
+When a Note's link ended up including non-English characters that required percent-encoding, Notenik was not decoding these properly. This has been corrected. 

@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 0
+Last Index Selected: 345
 
 Mirror Auto Index: false
 
@@ -44,9 +44,9 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 588.0;0.0;1247.0;1307.0;434.0;
+Window Numbers: 63.0;0.0;1469.0;1377.0;434.0;
 
-Column Widths: rank: 50, 80, 250; author: 100, 200, 1000; statusdigit: 20, 30, 50; date: 80, 120, 500; klass: 60, 80, 150; tags: 50, 100, 1200; dateadded: 100, 180, 250; title: 200, 322, 1500; datemod: 100, 180, 250; seq: 30, 80, 250; x: 12, 20, 50; 
+Column Widths: x: 12, 20, 50; statusdigit: 20, 30, 50; tags: 50, 100, 1200; dateadded: 100, 180, 250; datemod: 100, 180, 250; rank: 50, 80, 250; date: 80, 120, 500; author: 100, 200, 1000; seq: 30, 80, 250; title: 200, 322, 1500; klass: 60, 80, 150; 
 
 footer Note ID: footerpage
 

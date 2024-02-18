@@ -1,6 +1,6 @@
 Title:  Image Name
 
-Tags:   levels-outline.11 Field Labels and Types.9 Web-Making Fields.5 Image Name
+Tags:   levels-outline.9 Field Labels and Types.9 Web-Making Fields.5 Image Name
 
 Timestamp: 20210609172607
 
@@ -29,4 +29,4 @@ The following additional, related field labels may be specified to supply image 
 
 This metadata will be used when you [[Generate a Web Book]], or may be employed when creating [[Merge Templates]].
 
-Image Name is presented to the user on the Edit tab as a drop-down list including all of the Note's currently recognized file attachments. An assigned image name will not be preserved if the underlying file attachment is removed or renamed. 
+Image Name is presented to the user on the Edit tab as a drop-down list including all of the Note's currently recognized file attachments. An assigned image name will not be preserved if the underlying file attachment is removed or renamed.
