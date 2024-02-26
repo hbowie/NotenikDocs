@@ -1,10 +1,16 @@
 Title:  Version 14.0.0
 
+Tags:   levels-outline.16 Version History.1 Version 1400
+
 Timestamp: 20240215213227
 
 Seq:    16.1
 
+Date:   2024-02-26
+
 Level:  3 - Section
+
+Teaser: Added Note ID configuration options (to allow duplicate titles within a collection); added Markdown support for strikethroughs, subscripts and superscripts; fixed a couple of bugs.
 
 Class:  version
 
@@ -14,6 +20,18 @@ Body:
 
 It's now possible to [[Change Note ID Configuration]] for a Collection so that each Note title no longer needs to be unique.
 
+##### Added Strikethrough Support
+
+Added support for the [[Strikethrough]] syntax. 
+
+##### Added Subscript and Superscript Support
+
+Added support for [[Subscript]] and [[Superscript]] notation. 
+
 ##### Fixed a Wikilink Bug Affecting Non-English Alphabets
 
-When a Note's link ended up including non-English characters that required percent-encoding, Notenik was not decoding these properly. This has been corrected. 
+When a Note's link ended up including non-English characters that required percent-encoding, Notenik was not decoding these properly. This has been corrected.
+
+##### Fixed a Linking Bug Affecting Checklists
+
+Notenik would sometimes screw up ordinary [links](https://www.markdownguide.org/basic-syntax/#links) when they occurred on a check box line. This has been corrected.
