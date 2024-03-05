@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Notenik Knowledge Base</title>
+<title>Using Notenik As A Trip Planner</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -81,8 +81,8 @@ body {
   color: var(--text-color);
   line-height: 1.45;
 /* fontCSS insertion starts here */
-font-family: "Heliotrope 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 16pt;
+font-family: "Georgia", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 14pt;
 /* fontCSS insertion ends here   */
 }
 p {
@@ -333,7 +333,7 @@ summary {
 }
 /* Generated CSS for headings follows. */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Heliotrope 4", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 400;
     margin-top: 0.7em;
     margin-bottom: 0.2em;
@@ -377,36 +377,159 @@ window.MathJax = {
 </head>
 <body>
 
-<main>
-<h1 id="notenik-knowledge-base">Notenik Knowledge Base</h1>
+<header>
+<p>The Notenik Knowledge Base </p>
 
+</header>
 
-<hr />
-<h4>Contents</h4>
-<ul class="notenik-toc">
-<li>1. <a href="https://ntnk.app/knowledgebaseoverview" class="nav-link">Knowledge Base Overview</a></li>
-<li>2. <a href="https://ntnk.app/knowledgebasenavigation" class="nav-link">Knowledge Base Navigation</a></li>
-<li>3. <a href="https://ntnk.app/applicationoverview" class="nav-link">Application Overview</a></li>
-<li>4. <a href="https://ntnk.app/intrototheuserinterface" class="nav-link">Intro to the User Interface</a></li>
-<li>5. <a href="https://ntnk.app/creatingandtailoringacollectionofnotes" class="nav-link">Creating and Tailoring a Collection of Notes</a></li>
-<li>6. <a href="https://ntnk.app/commontasks" class="nav-link">Common Tasks</a></li>
-<li>7. <a href="https://ntnk.app/markdown" class="nav-link">Markdown</a></li>
-<li>8. <a href="https://ntnk.app/filesandfolders" class="nav-link">Files and Folders</a></li>
-<li>9. <a href="https://ntnk.app/fieldlabelsandtypes" class="nav-link">Field Labels and Types</a></li>
-<li>10. <a href="https://ntnk.app/gettingdataintoandoutofnotenik" class="nav-link">Getting Data Into and Out of Notenik</a></li>
-<li>11. <a href="https://ntnk.app/integration" class="nav-link">Integration</a></li>
-<li>12. <a href="https://ntnk.app/mergetemplates" class="nav-link">Merge Templates</a></li>
-<li>13. <a href="https://ntnk.app/scriptfiles" class="nav-link">Script Files</a></li>
-<li>14. <a href="https://ntnk.app/puttingitalltogether" class="nav-link">Putting It All Together</a></li>
-<li>15. <a href="https://ntnk.app/reference" class="nav-link">Reference</a></li>
-<li>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a></li>
+<nav>
+<ul>
+<li><a href="https://ntnk.app/completetableofcontents" class="wiki-link">Contents</a> </li>
+<li><a href="https://ntnk.app/indextotheknowledgebase" class="wiki-link">Index</a> </li>
 </ul>
 
-<hr />
 
+</nav>
+
+<main>
+<p>14. <a href="https://ntnk.app/puttingitalltogether" class="nav-link">Putting It All Together</a>&#160;&#8593;</p><h3 id="using-notenik-as-a-trip-planner">14.9 Using Notenik As A Trip Planner</h3>
+<p>As a user of Notenik, I recently ran into a problem. </p>
+
+<p>I was using Notenik to plan a vacation, and was sharing that info with other family members who would be traveling with us. </p>
+
+<p>During the planning phase, it all went well. I set up a <a href="https://support.apple.com/guide/icloud/share-files-and-folders-mm708256356b/icloud" class="ext-link" target="_blank" rel="noopener">shared iCloud folder</a>, and my wife and I were both able to edit it and add information to it from our respective Macs. </p>
+
+<p>But then, we embarked upon our vacation. I took my MacBook, but my wife did not take hers. But of course I did not take my Mac with me everywhere we went, and so we quickly found that all that carefully prepared information became very difficult to access. </p>
+
+<p>And so, as the developer of Notenik, that experience got me thinking: how could our carefully curated repository of information be usefully (and somewhat privately) shared with one another? </p>
+
+<p>And then I came up with what turned out to be an interesting idea: what about using Notenik to publish a little &#8220;trip book&#8221; in EPUB format, emailing it to family members, and then letting everyone open it in Apple Books (which would then <a href="https://support.apple.com/guide/books/books-audiobooks-devices-ibks86dab303/" class="ext-link" target="_blank" rel="noopener">sync it to all of their devices</a>, including iPhones and iPads)? </p>
+
+<p>I wasn&#8217;t really sure how this would work out. </p>
+
+<p>The first problem was to make several enhancements to Notenik that would make the EPUB publication feasible. Once I had these changes working, they were released as part of <a href="https://notenik.app/knowledge-base/EPUB/html/version-11.8.0.html" class="ext-link" target="_blank" rel="noopener">11.8.0</a>. </p>
+
+<p>The next task was to test it in the field, which I did with a recently completed family trip to Santa Fe. </p>
+
+<p>And I&#8217;m happy to say that it all seemed to work pretty well! </p>
+
+<p>So even though Apple Books and the EPUB standard were not necessarily designed with this sort of private usage in mind, it turns out they are flexible enough to allow it to happen! </p>
+
+<p>Here&#8217;s how it worked. </p>
+
+<h5 id="field-definitions">Field Definitions</h5>
+
+<p>Here&#8217;s the <code>template.txt</code> file I used. </p>
+
+<pre><code>
+Title: &lt;title> 
+
+Seq: &lt;seq> 
+
+Level: &lt;level: > 
+
+Tags: &lt;tags> 
+
+Date: &lt;date> 
+
+Time of Day: &lt;seq> 
+
+Status: 0 - Idea; 1 - Proposed; 3 - Planned; 6 - Booked; 8 - Canceled; 9 - Closed;  
+
+Link: &lt;link> 
+
+Address:  
+
+Cost:  
+
+Body:  
+
+</code></pre>
+
+<h5 id="sort-sequence">Sort Sequence</h5>
+
+<p>I ended up sorting the Collection by <code>Seq + Title</code>. I used the first digit of the <code>Seq</code> field to indicate the day of the month, with the second digit indicating the type of activity, using the following key. I used <code>99</code> in the first position to group possible activities that were not definitely scheduled. </p><table>
+<tr>
+<th>
+ Seq </th>
+<th>
+ Category </th>
+ </tr>
+<tr>
+<td>
+ x.1 </td>
+<td>
+ Air Travel </td>
+</tr>
+<tr>
+<td>
+ x.2 </td>
+<td>
+ Ground Travel </td>
+</tr>
+<tr>
+<td>
+ x.3 </td>
+<td>
+ Lodging </td>
+</tr>
+<tr>
+<td>
+ x.4 </td>
+<td>
+ Breakfast </td>
+</tr>
+<tr>
+<td>
+ x.5 </td>
+<td>
+ Recreation and Entertainment </td>
+</tr>
+<tr>
+<td>
+ x.6 </td>
+<td>
+ Lunch / Dinner </td>
+</tr>
+</table>
+
+<h5 id="epub-metadata">EPUB Metadata</h5>
+
+<p>At the back of the &#8216;book&#8217; I created a Note titled <code>EPUB Metadata</code>, with the following body: </p>
+
+<pre><code>
+{:metadata}
+	&lt;dc:identifier id="pub-identifier">hbowie.net/Santa Fe Trip Book&lt;/dc:identifier>
+	&lt;dc:title id="pub-title">Santa Fe Trip Book&lt;/dc:title>
+	&lt;dc:creator id="author">Herb Bowie&lt;/dc:creator>
+	&lt;dc:language id="pub-language">en&lt;/dc:language>
+	&lt;meta property="dcterms:modified">=$today&amp;yyyy-MM-dd'T'HH:mm:ss'Z'$=&lt;/meta>
+</code></pre>
+
+<p>You should modify the identifier, the title and the author fields to reflect your personal usage. But the EPUB format requires entries like these, so be sure not to omit them! </p>
+
+<p>Note that the <code>modified</code> date is automatically set to the date and time of the EPUB generation, so that each publication will be recognized by Apple Books as a new edition (rather than another copy of the same edition that should be ignored to avoid duplicates). </p>
+
+<h5 id="export-to-epub">Export to EPUB</h5>
+
+<p>When you&#8217;re ready to generate your EPUB, just use the Export function and choose an Output Format of <code>Web Book as EPUB</code>. Then double-click, or drag and drop to Apple Books to review your finished product. </p>
+
+<h5 id="revisions">Revisions</h5>
+
+<p>If you revise and republish via another export to EPUB, then you and other users will probably want to delete the earlier version(s) before adding the latest version to Apple Books. </p>
+
+<h5 id="sample-collection">Sample Collection</h5>
+
+<p>You can download a sample collection from <a href="https://notenik.app/samples/trip-book-sample.zip" class="ext-link" target="_blank" rel="noopener">notenik.app/samples/trip-book-sample.zip</a>. </p>
+
+<h5 id="bottom-line">Bottom Line</h5>
+
+<p>I hope this information proves useful to you. Let me know if any questions or suggestions for improvement, or if this example inspires you to come up with yet another variation of how Notenik can be put to use! </p>
+
+<hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/knowledgebaseoverview" class="nav-link">Knowledge Base Overview</a></p></div>
+<p>Next: <a href="https://ntnk.app/reference" class="nav-link">Reference</a></p></div>
 
 
 </main>

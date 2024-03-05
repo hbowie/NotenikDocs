@@ -1,0 +1,19 @@
+Title:  Version 14.1.0
+
+Timestamp: 20240304203613
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added a Duration Field Type
+
+Added a new field type of [[Duration]].
+
+##### Added Export to iCal option
+
+Added a function to [[Export to iCal]]. 
