@@ -56,5 +56,15 @@ You can use the [[Dates to Calendar]] function, found beneath the Query menu, to
 
 ##### 6. Export to iCal
 
-You can use the [[Export to iCal]] function to get your events loaded onto your Apple calendar. This function will create an `.ics` file that you can share with others as well. 
+You can use the [[Export to iCal]] function to get your events loaded onto your Apple calendar. This function will create an `.ics` file that you can share with others as well.
+
+##### 7. Generate EPUB
+
+You can also use the [[Export as Web Book]] function and select the EPUB output option in order to create an EPUB document that you can open and sync using Apple Books. This is also a format that can be easily shared with others. 
+
+Before exercising this option, you should be sure to [[Supply EPUB Metadata]] for your Collection. 
+
+##### 8. Publish EPUB Revisions
+
+If you revise and republish via another export to EPUB, then you and other users will probably want to delete the earlier version(s) before adding the latest version to Apple Books. 
 
