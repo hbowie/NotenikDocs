@@ -1,10 +1,16 @@
 Title:  Version 14.1.0
 
+Tags:   levels-outline.16 Version History.1 Version 1410
+
 Timestamp: 20240304203613
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-03-10
 
 Level:  3 - Section
+
+Teaser: Added a Duration field type; added an Export to iCal option; Updated the Putting It All Together write-up to include these new features; fixed an include bug.
 
 Class:  version
 
@@ -24,4 +30,4 @@ Updated [[Using Notenik as a Travel Planner]] to reflect addition of the Duratio
 
 ##### Fixed an Include Bug
 
-Fixed a bug in the [[Include a Note or File]] logic when it was being used to include a quote. 
+Fixed a bug in the [[Include a Note or File]] logic when it was being used to include a quote.

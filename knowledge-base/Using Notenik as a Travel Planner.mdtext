@@ -1,5 +1,7 @@
 Title:  Using Notenik as a Travel Planner
 
+Tags:   levels-outline.14 Putting It All Together.9 Using Notenik as a Travel Planner
+
 Timestamp: 20240304232533
 
 Seq:    14.9
@@ -66,5 +68,4 @@ Before exercising this option, you should be sure to [[Supply EPUB Metadata]] fo
 
 ##### 8. Publish EPUB Revisions
 
-If you revise and republish via another export to EPUB, then you and other users will probably want to delete the earlier version(s) before adding the latest version to Apple Books. 
-
+If you revise and republish via another export to EPUB, then you and other users will probably want to delete the earlier version(s) before adding the latest version to Apple Books.

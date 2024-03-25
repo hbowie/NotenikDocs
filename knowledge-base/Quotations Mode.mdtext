@@ -1,0 +1,19 @@
+Title:  Quotations Mode
+
+Timestamp: 20240322221218
+
+Seq:    5.4.5
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+When you [[Tailor Collection Settings]], or select from the Display Mode submenu beneath the Collection menu, you will have the option to set the Display Mode to Quotations. 
+
+Quotations mode limits the fields displayed, and moves author and work info below the body. 
+
+At the bottom of the display, you will see an option to advance to the Next Note in the Collection, or to select another one at Random. 
+
+When viewing quotations in this mode, you will typically also want to use CMD-Y to toggle the display of the List/Tabs views to the left of the Display.

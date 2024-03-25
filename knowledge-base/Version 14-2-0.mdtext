@@ -1,0 +1,27 @@
+Title:  Version 14.2.0
+
+Timestamp: 20240321161940
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Display Mode for Quotations
+
+A new [[Quotations Mode]] has been added to the list of possible Display modes. The Collection menu has been modified to allow the user to select any of the now four Display modes directly from a submenu beneath the Collection menu. This new submenu replaces the previous options to toggle Streamlined Reading and Presentation modes. The user may also select a Display mode when they [[Tailor the Collection Settings]].
+
+##### New Custom URL Options for Random Quotes
+
+Added a couple of new parameters to the [[Custom URL Scheme]]. When requesting an `open`, the user may now request the selection of a Note at random, and may also request selection of the Quotations Display mode. 
+
+##### Added Recipe to See A Daily Quote
+
+Added an entry to the [[Putting It All Together]] section to explain how to [[See a Daily Quote]].
+
+##### Added Markdown Parsing to Query Builder
+
+When using the [[Query Builder]] and including a body field, or a teaser, or another field of type longtext, the Markdown text was not being parsed into HTML. This has been corrected.
