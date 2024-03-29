@@ -1,5 +1,7 @@
 Title:  See a Daily Quote
 
+Tags:   levels-outline.14 Putting It All Together.10 See a Daily Quote
+
 Timestamp: 20240323213653
 
 Seq:    14.10
@@ -62,7 +64,4 @@ Finally, add [[Launch at Startup Tags]] to your Project Launcher entry.
 
 Now every day when I start or restart my Mac, and then launch Notenik, Notenik will automatically show me a random quotation from my Commonplace book. 
 
-Of course, this depends on you having permissions to access your Commonplace book. But if you open it daily it should stay in your Open Recent list, and so should retain your permissions. 
- 
-
-
+Of course, this depends on you having permissions to access your Commonplace book. But if you open it daily it should stay in your Open Recent list, and so should retain your permissions.

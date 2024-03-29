@@ -34,7 +34,7 @@ Adding a Link to a Note doesn't necessarily reduce the Note to a simple Bookmark
 
 Note that if you use a Link to point to a local folder containing another Notenik Collection, then Launching that Link will result in opening the linked Collection within Notenik (so long as you have given Notenik permission to access that folder).
 
-You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting 'file:///' style of URL will then replace any value previously stored in the Link field for the current Note. (Also see the [[File Links]] page.)
+You may use the Set Local Link command under the Note menu to choose a file or folder to be linked; the resulting path string will then replace any value previously stored in the Link field for the current Note. (Also see the [[File Links]] page.)
 
 You may use the Wikipedia Link command under the Note menu to populate the first (or only) Link field for a Note with the Note's title, converted to a link to that subject on Wikipedia. This command may be invoked while in Edit mode, or in Display mode. This conversion will not always result in a link to a valid Wikipedia page, so you should test the Link for accuracy and relevance after using this command. 
 

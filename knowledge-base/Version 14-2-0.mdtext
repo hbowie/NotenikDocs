@@ -1,14 +1,24 @@
 Title:  Version 14.2.0
 
+Tags:   levels-outline.16 Version History.1 Version 1420
+
 Timestamp: 20240321161940
 
 Seq:    16.1
 
+Date:   2024-03-29
+
 Level:  3 - Section
+
+Teaser: Internal file links are now created as relative links (relative to the location of the Collection folder); added a new Display Mode specifically for Quotations; added new Custom URL options to show a random quote, in the new Quotations mode; added a Putting It All Together section to explain how to see a daily quote; fixed a problem that prevented parsing of Markdown text in queries built using the Query Builder. 
 
 Class:  version
 
 Body:
+
+##### Internal File Links Are Now Relative
+
+When a user creates [[File Links]], any links to files within the Collection folder will now be stored as relative paths, using the Collection folder as the base from which the relative path is calculated. The intent is to make these internal Collection file links more robust, so that the entire Collection can be moved without causing these links to break. 
 
 ##### Added Display Mode for Quotations
 
