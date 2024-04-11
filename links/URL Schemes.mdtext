@@ -1,0 +1,18 @@
+Title:  URL Schemes
+
+Seq:    1.1
+
+Level:  3
+
+Body:
+
+A URL must always start with a scheme, which is generally specified with lowercase letters. The scheme is followed by a colon. 
+
+Following are some examples of valid schemes:
+
++ [http:](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
++ [https:](https://en.wikipedia.org/wiki/HTTP_Secure)
++ [mailto:](https://en.wikipedia.org/wiki/Mailto)
++ message:
++ [file:](https://en.wikipedia.org/wiki/File_URI_scheme):
++ notenik:

@@ -4,13 +4,13 @@ Tags:   levels-outline.16 Version History.1 Version 1420
 
 Timestamp: 20240321161940
 
-Seq:    16.1
+Seq:    16.3
 
 Date:   2024-03-29
 
 Level:  3 - Section
 
-Teaser: Internal file links are now created as relative links (relative to the location of the Collection folder); added a new Display Mode specifically for Quotations; added new Custom URL options to show a random quote, in the new Quotations mode; added a Putting It All Together section to explain how to see a daily quote; fixed a problem that prevented parsing of Markdown text in queries built using the Query Builder. 
+Teaser: Internal file links are now created as relative links (relative to the location of the Collection folder); added a new Display Mode specifically for Quotations; added new Custom URL options to show a random quote, in the new Quotations mode; added a Putting It All Together section to explain how to see a daily quote; fixed a problem that prevented parsing of Markdown text in queries built using the Query Builder.
 
 Class:  version
 
