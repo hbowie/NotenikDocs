@@ -12,4 +12,8 @@ Body:
 
 ##### Added Support for Sub-Folders
 
-Sub-Folders are now supported through use of the new [[Folder]] field. 
+Sub-Folders are now supported through use of the new [[Folder]] field. Two new Collection sort options have been added: `Folder + TItle` and `Folder + Date + Title`.
+
+##### Added Derived Variable for Note Identifiers
+
+A derived variable of [[Unique ID for Note]] can now be used within a [[Merge Template]] in order to fill in the unique identifier for a Note, even when the Title by itself is not unique. 
