@@ -1,0 +1,17 @@
+Title:  YAML Fields Issue
+
+Tags:   oddballs
+
+Category: 02 - minor enhancement
+
+Link:   https://discourse.notenik.app/t/yaml-fields-issue/313/9?u=hbowie
+
+Initiation Date: 2024-04-17
+
+Status: 0 - Idea
+
+Seq:    999
+
+Body:
+
+Here I’ll point out a specific issue regarding YAML metadata parsing in Notenik. I have a folder in Notenik where I autmatically add my Kindle annotations. For this purpose I use kindle plugin for Obsidian. This plugin has a customizable template for a great control over added YAML metadata. My current issue is the plugin autmatically insert some other metadata for proper syncing between the Kindle and the designated folder.

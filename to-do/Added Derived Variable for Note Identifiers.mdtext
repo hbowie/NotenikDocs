@@ -1,0 +1,15 @@
+Title:  Added Derived Variable for Note Identifiers
+
+Tags:   rkp135
+
+Category: 01 - bug
+
+Initiation Date: 2024-04-13
+
+Status: 7 - FollowUp
+
+Seq:    14.2.5
+
+Body:
+
+A derived variable of Unique ID for Note can now be used within a Merge Template in order to fill in the unique identifier for a Note, even when the Title by itself is not unique.
