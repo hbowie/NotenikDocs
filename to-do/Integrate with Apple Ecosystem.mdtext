@@ -1,0 +1,19 @@
+Title:  Integrate with Apple Ecosystem
+
+Tags:   Malcolm
+
+Seq:    115
+
+Category: 03 - significant enhancement
+
+Link:   https://discourse.notenik.app/t/notenik-next-steps/432/4?u=hbowie
+
+Initiation Date: 2024-03-15
+
+Body:
+
+ntegrate more tightly with the eco-system. The UI could offer tools, such as an boolean check box, to push to the appropriate SQLite db. Or to pull from those DBs into Notenik.
+
++ Events ↔ Calendar.
++ To-dos ↔ Reminders.
++ Contacts ↔ Contacts.

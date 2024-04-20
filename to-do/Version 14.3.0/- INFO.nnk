@@ -1,4 +1,4 @@
-Title: Notenik To Do List
+Title: Notenik To Do List / 
 
 Title Set by User: true
 
@@ -11,8 +11,6 @@ Sort Descending: false
 Sort Blank Dates Last: true
 
 Other Fields Allowed: false
-
-Last Index Selected: 3
 
 Mirror Auto Index: false
 
@@ -37,8 +35,6 @@ Scrolling Sync: false
 Note File Format: nnk
 
 Hash Tags: false
-
-Window Numbers: 166.0;172.0;1071.0;898.0;500.0;
 
 Column Widths: title: 200, 403, 1500; date: 80, 120, 1500; tags: 50, 100, 1200; dateadded: 100, 180, 250; datemod: 100, 180, 250; x: 12, 20, 50; statusdigit: 20, 30, 50; klass: 60, 135, 1500; author: 100, 200, 1000; rank: 50, 80, 250; seq: 30, 80, 1500; 
 

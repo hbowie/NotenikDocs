@@ -1,0 +1,25 @@
+Title:  Editing Experience
+
+Tags:   long
+
+Seq:    110
+
+Category: 03 - significant enhancement
+
+Link:   https://discourse.notenik.app/t/initial-impressions-and-feedback-on-notenik/457
+
+Initiation Date: 2024-04-16
+
+Status: 0 - Idea
+
+Body:
+
+I’ve reviewed the opinions on the forum and your explanations regarding this matter. It seems you advocate for using external editors for writing. However, I wrote this piece using Notenik’s default editing interface.
+
+The GUI interface for metadata seems to occupy almost half of the space. If it could automatically hide or collapse after filling out the metadata, leaving the interface entirely for the body text, the editing experience would greatly improve.
+
+I have a preliminary idea: after completing the metadata, could two buttons be provided for users to choose:
+
++ The first button, selecting the default editing interface, automatically collapses the GUI portion of the metadata.
++ The second button, opting for a custom third-party editor.
+Of course, there might be better solutions.
