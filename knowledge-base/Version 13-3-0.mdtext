@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.12 Version 1330
 
 Timestamp: 20231019215209
 
-Seq:    16.12
+Seq:    16.13
 
 Date:   2023-10-28
 
 Level:  3 - Section
 
-Teaser: Added a new field type of Person, that can be used to store the various pieces of an individual's name, in a semi-structured fashion; Improved the vCard import function; Added an option to sort various things last-name-first, instead of first-name-first.
+Teaser:
+
+Added a new field type of Person, that can be used to store the various pieces of an individual's name, in a semi-structured fashion; Improved the vCard import function; Added an option to sort various things last-name-first, instead of first-name-first.
 
 Class:  version
 

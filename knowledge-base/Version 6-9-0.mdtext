@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.88 Version 690
 
 Timestamp: 20210806000011
 
-Seq:    16.88
+Seq:    16.89
 
 Date:   2021-08-12
 
 Level:  3 - Section
 
-Teaser: Added several new options to better support outlining: OPML Import and improved OPML Export, ability to add a new Child to an existing Note, plus ability to drag and drop within a sequenced list; fixed list scrolling so that the Note highlighted and visible on the left will generally match the Note currently selected on the right.
+Teaser:
+
+Added several new options to better support outlining: OPML Import and improved OPML Export, ability to add a new Child to an existing Note, plus ability to drag and drop within a sequenced list; fixed list scrolling so that the Note highlighted and visible on the left will generally match the Note currently selected on the right.
 
 Class:  version
 

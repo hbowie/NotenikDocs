@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.9 Version 1360
 
 Timestamp: 20231203185752
 
-Seq:    16.9
+Seq:    16.10
 
 Date:   2023-12-18
 
 Level:  3 - Section
 
-Teaser: Added a Field Renamer Utility; fixed a Variable Modifier bug; fixed a Date-Time formatting bug; Fixed a couple of lingering problems with Dynamic Task Lists.
+Teaser:
+
+Added a Field Renamer Utility; fixed a Variable Modifier bug; fixed a Date-Time formatting bug; Fixed a couple of lingering problems with Dynamic Task Lists.
 
 Class:  version
 

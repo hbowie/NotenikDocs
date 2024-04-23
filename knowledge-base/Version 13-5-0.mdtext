@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.10 Version 1350
 
 Timestamp: 20231123181114
 
-Seq:    16.10
+Seq:    16.11
 
 Date:   2023-11-30
 
 Level:  3 - Section
 
-Teaser: Expanded Collection Table of Contents command to work when collection is sorted by Date + Seq; Added a starter pack to use as a Travel Planner; Added a starter pack containing code snippets to use with Notenik; Fixed a couple of bugs affecting note file parsing, and table generation when lines end with two or more spaces; Added some much-needed documentation for use of the Scripter window.
+Teaser:
+
+Expanded Collection Table of Contents command to work when collection is sorted by Date + Seq; Added a starter pack to use as a Travel Planner; Added a starter pack containing code snippets to use with Notenik; Fixed a couple of bugs affecting note file parsing, and table generation when lines end with two or more spaces; Added some much-needed documentation for use of the Scripter window.
 
 Class:  version
 

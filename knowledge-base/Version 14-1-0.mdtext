@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.4 Version 1410
 
 Timestamp: 20240304203613
 
-Seq:    16.4
+Seq:    16.5
 
 Date:   2024-03-10
 
 Level:  3 - Section
 
-Teaser: Added a Duration field type; added an Export to iCal option; Updated the Putting It All Together write-up to include these new features; fixed an include bug.
+Teaser:
+
+Added a Duration field type; added an Export to iCal option; Updated the Putting It All Together write-up to include these new features; fixed an include bug.
 
 Class:  version
 

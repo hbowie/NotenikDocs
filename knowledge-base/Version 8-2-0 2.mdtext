@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.70 Version 820 2
 
 Timestamp: 20211116184349
 
-Seq:    16.70
+Seq:    16.71
 
 Date:   2022-01-28
 
 Level:  3 - Section
 
-Teaser: Added Markdown support for the creation of tables, using pipes and dashes; added a new command beneath the File menu to Open the current Collection's Folder in the macOS FInder;
+Teaser:
+
+Added Markdown support for the creation of tables, using pipes and dashes; added a new command beneath the File menu to Open the current Collection's Folder in the macOS FInder;
 improved editing of Index fields; added new command to Clean a Link, removing common tracking parameters; improved the readability of the Keyboard Shortcuts Reference page in the Knowledge Base; added a new Markdown Cheat Sheet. 
 
 

@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.51 Version 950
 
 Timestamp: 20211116184349
 
-Seq:    16.51
+Seq:    16.52
 
 Date:   2022-06-14
 
 Level:  3 - Section
 
-Teaser: Added Note Selector option to format a Markdown command to include the selected Note; improved the working of the display teasers command; corrected a bug that occurred when adjusting edit font size.
+Teaser:
+
+Added Note Selector option to format a Markdown command to include the selected Note; improved the working of the display teasers command; corrected a bug that occurred when adjusting edit font size.
 
 Class:  version
 

@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.13 Version 1320
 
 Timestamp: 20231016183009
 
-Seq:    16.13
+Seq:    16.14
 
 Date:   2023-10-18
 
 Level:  3 - Section
 
-Teaser: Fixed a bug affecting the use of a `display.html` template file; adding some limited support to import vCards into Notenik; added a new function to assign a specified tag to a set of search results.
+Teaser:
+
+Fixed a bug affecting the use of a `display.html` template file; adding some limited support to import vCards into Notenik; added a new function to assign a specified tag to a set of search results.
 
 Class:  version
 

@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.7 Version 1380
 
 Timestamp: 20240118195846
 
-Seq:    16.7
+Seq:    16.8
 
 Date:   2024-01-22
 
 Level:  3 - Section
 
-Teaser: - Changed the default font for the List tab to use a macOS system font with monospaced digits (but proportionally spaced letters).
+Teaser:
+
+- Changed the default font for the List tab to use a macOS system font with monospaced digits (but proportionally spaced letters).
 
 - Added an option to change the font settings for the List tab.
 

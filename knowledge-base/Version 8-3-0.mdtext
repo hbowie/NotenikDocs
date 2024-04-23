@@ -4,13 +4,15 @@ Tags:   levels-outline.16 Version History.67 Version 830
 
 Timestamp: 20211116184349
 
-Seq:    16.67
+Seq:    16.68
 
 Date:   2022-02-10
 
 Level:  3 - Section
 
-Teaser: Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported; plus a couple of small fixes for Mathjax usage.
+Teaser:
+
+Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported; plus a couple of small fixes for Mathjax usage.
 
 Class:  version
 
