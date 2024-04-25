@@ -12,4 +12,12 @@ Body:
 
 ##### Improved YAML Parsing
 
-Handling of YAML in [[Existing Text Files]] has been improved so that one level of children can be accommodated beneath a parent label. 
+Handling of YAML in [[Existing Text Files]] has been improved so that one level of children can be accommodated beneath a parent label.
+
+##### Added Another Folder Sort Option
+
+Added an option to change a Collection [[Sort Sequence]] to  `Folder + Seq + Title`. 
+
+##### Created New Page Style Field Type
+
+The new [[Page Style]] field can be used to specify CSS to be used to modify the Display for a single Note. 
