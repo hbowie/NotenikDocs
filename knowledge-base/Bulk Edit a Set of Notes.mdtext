@@ -1,0 +1,17 @@
+Title:  Bulk Edit a Set of Notes
+
+Timestamp: 20240427212826
+
+Seq:    6.11
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+In order to make a single change to a set of Notes, select the Notes to be modified on the List tab, using CMD-Click to select one Note after another, or Shift-Click to select a range of Notes, then view the contextual menu (by right-clicking on the List) and select 'Bulk Edit...'. 
+
+You will then see a window that allows you to select the field you wish to update, and enter the value you wish to enter into that field, on each of the selected Notes. When you click OK, Notenik will proceed to make your requested updates. 
+
+
