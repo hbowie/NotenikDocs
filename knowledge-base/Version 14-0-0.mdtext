@@ -1,10 +1,10 @@
 Title:  Version 14.0.0
 
-Tags:   levels-outline.16 Version History.5 Version 1400
+Tags:   levels-outline.16 Version History.6 Version 1400
 
 Timestamp: 20240215213227
 
-Seq:    16.6
+Seq:    16.7
 
 Date:   2024-02-26
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added Note ID configuration options (to allow duplicate titles within a collection); added Markdown support for strikethroughs, subscripts and superscripts; fixed a couple of bugs.
+
 
 Class:  version
 

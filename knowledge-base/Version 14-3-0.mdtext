@@ -1,10 +1,10 @@
 Title:  Version 14.3.0
 
-Tags:   levels-outline.16 Version History.1 Version 1430
+Tags:   levels-outline.16 Version History.2 Version 1430
 
 Timestamp: 20240411181422
 
-Seq:    16.2
+Seq:    16.3
 
 Date:   2024-04-19
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added support for sub-folders; Added derived variable for note identifiers (including compound keys).
+
 
 Class:  version
 

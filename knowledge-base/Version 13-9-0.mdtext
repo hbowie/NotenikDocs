@@ -1,10 +1,10 @@
 Title:  Version 13.9.0
 
-Tags:   levels-outline.16 Version History.6 Version 1390
+Tags:   levels-outline.16 Version History.7 Version 1390
 
 Timestamp: 20240124004953
 
-Seq:    16.7
+Seq:    16.8
 
 Date:   2024-02-01
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added Search Scope Options; Export Web Book Refinements; Documentation Improvements; Fixed a Problem with Image Names.
+
 
 Class:  version
 

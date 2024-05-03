@@ -1,5 +1,7 @@
 Title:  Page Style
 
+Tags:   levels-outline.9 Field Labels and Types.9 Fields to Modify a Notes Display.1 Page Style
+
 Timestamp: 20240424185850
 
 Seq:    9.9.1
@@ -10,4 +12,4 @@ Body:
 
 `Page Style` can be used as both a field label and a field type. 
 
-A `page-style` field type can be used to contain special CSS command to be applied only to the current Note, after any other CSS commands. 
+A `page-style` field type can be used to contain special CSS command to be applied only to the current Note, after any other CSS commands.

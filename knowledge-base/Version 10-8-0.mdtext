@@ -1,10 +1,10 @@
 Title:  Version 10.8.0
 
-Tags:   levels-outline.16 Version History.37 Version 1080
+Tags:   levels-outline.16 Version History.38 Version 1080
 
 Timestamp: 20211116184349
 
-Seq:    16.38
+Seq:    16.39
 
 Date:   2022-11-16
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Added Knowledge Base documentation describing the available Collection Types that can be used to initialize a New Colection; added a new starting Collection Type to create a website, including sample merge templates and a sample script; added two new Collection Sort options to allow sorting by Class; added a Notenik Master Class to the Help menu, to assist in learning some of Notenik's more advanced features; added ability to convert back links fields to HTML.
+
 
 Class:  version
 

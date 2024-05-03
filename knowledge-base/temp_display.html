@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Version 14.4.0</title>
+<title>Version 14.5.0</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -392,23 +392,19 @@ window.MathJax = {
 </nav>
 
 <main>
-<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version-14.4.0">16.1 Version 14.4.0</h3>
-<h5 id="improved-yaml-parsing">Improved YAML Parsing</h5>
+<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version-14.5.0">16.1 Version 14.5.0</h3>
+<h5 id="iso-8601-date-formatting-fix">ISO 8601 Date Formatting Fix</h5>
 
-<p>Handling of YAML in <a href="https://ntnk.app/existingtextfiles" class="wiki-link">Existing Text Files</a> has been improved so that one level of children can be accommodated beneath a parent label. </p>
+<p>When using a <a href="https://ntnk.app/formattingstring" class="wiki-link">Formatting String</a> to format a date in a <a href="https://ntnk.app/mergetemplates" class="wiki-link">Merge Template</a>, <a href="https://en.wikipedia.org/wiki/ISO_8601" class="ext-link" target="_blank" rel="noopener">ISO 8601</a> style date formatting (with a &#8216;T&#8217; separating the date from the time) was not working. This has been corrected by using the <a href="https://developer.apple.com/documentation/foundation/iso8601dateformatter" class="ext-link" target="_blank" rel="noopener">ISO 8601 Date Formatter</a> for date formats containing the telltale &#8216;T&#8217;. </p>
 
-<h5 id="added-another-folder-sort-option">Added Another Folder Sort Option</h5>
+<h5 id="file-extension-extraction-provided">File Extension Extraction Provided	</h5>
 
-<p>Added an option to change a Collection <a href="https://ntnk.app/changethesortsequenceforyourcollection" class="wiki-link">Sort Sequence</a> to  <code>Folder + Seq + Title</code>. </p>
-
-<h5 id="created-new-page-style-field-type">Created New Page Style Field Type</h5>
-
-<p>The new <a href="https://ntnk.app/pagestyle" class="wiki-link">Page Style</a> field can be used to specify CSS to be used to modify the Display for a single Note. </p>
+<p>The new <a href="https://ntnk.app/extractpartofavariablecaret" class="wiki-link">Extract Part of a Variable - Caret</a> merge template variable modifier can be used to extract the file extension from a file name or path string. </p>
 
 <hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/version1430" class="nav-link">Version 14.3.0</a></p></div>
+<p>Next: <a href="https://ntnk.app/version1440" class="nav-link">Version 14.4.0</a></p></div>
 
 
 </main>

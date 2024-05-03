@@ -38,7 +38,7 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 281.0;278.0;1156.0;932.0;518.0;
+Window Numbers: 318.0;388.0;1156.0;932.0;518.0;
 
-Column Widths: seq: 30, 80, 250; author: 100, 200, 1000; dateadded: 100, 180, 250; tags: 50, 100, 1200; datemod: 100, 180, 250; x: 12, 20, 50; klass: 60, 80, 150; rank: 50, 80, 250; title: 200, 421, 1500; date: 80, 120, 500; statusdigit: 20, 30, 50; 
+Column Widths: klass: 60, 80, 150; title: 200, 421, 1500; rank: 50, 80, 250; seq: 30, 80, 250; author: 100, 200, 1000; dateadded: 100, 180, 250; date: 80, 120, 500; tags: 50, 100, 1200; statusdigit: 20, 30, 50; x: 12, 20, 50; datemod: 100, 180, 250; 
 

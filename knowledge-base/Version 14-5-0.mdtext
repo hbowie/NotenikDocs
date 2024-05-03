@@ -1,0 +1,22 @@
+Title:  Version 14.5.0
+
+Timestamp: 20240503162856
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### ISO 8601 Date Formatting Fix
+
+When using a [[Formatting String]] to format a date in a [[Merge Template]], [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) style date formatting (with a 'T' separating the date from the time) was not working. This has been corrected by using the [ISO 8601 Date Formatter](https://developer.apple.com/documentation/foundation/iso8601dateformatter) for date formats containing the telltale 'T'. 
+
+##### File Extension Extraction Provided	
+
+The new [[Extract Part of a Variable - Caret]] merge template variable modifier can be used to extract the file extension from a file name or path string. 
+
+
+

@@ -1,10 +1,10 @@
 Title:  Version 7.8.0
 
-Tags:   levels-outline.16 Version History.75 Version 780
+Tags:   levels-outline.16 Version History.76 Version 780
 
 Timestamp: 20211116184349
 
-Seq:    16.76
+Seq:    16.77
 
 Date:   2021-12-13
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Created a new Intro to Notenik, with screenshots; improved Web Book publishing to enable a header line to be added at the top of every page; added a new field to include how (or if) to include children on a Note's display, in Streamlined Reading mode; added another sort Option, to sort by Date without respect to Status.
+
 
 Class:  version
 
