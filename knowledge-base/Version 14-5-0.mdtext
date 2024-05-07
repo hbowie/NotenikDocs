@@ -16,7 +16,12 @@ When using a [[Formatting String]] to format a date in a [[Merge Template]], [IS
 
 ##### File Extension Extraction Provided	
 
-The new [[Extract Part of a Variable - Caret]] merge template variable modifier can be used to extract the file extension from a file name or path string. 
+The new [[Extract Part of a Variable - Caret]] merge template variable modifier can be used to extract the file extension from a file name or path string.
 
+##### Improved Index Extract
 
+Added a Page Status field to the extract format used when specifying a [[Scripting Module]] [[Input Module Parameter]] of `notenik-index`. 
 
+##### Improved Export to iCal
+
+Made several improvements to the [[Export to iCal]] function. 
