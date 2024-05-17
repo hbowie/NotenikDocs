@@ -1,5 +1,7 @@
 Title:  Extract Part of a Variable - Caret
 
+Tags:   levels-outline.12 Merge Templates.3 Variable Modifiers.5 Extract Part of a Variable - Caret
+
 Timestamp: 20240503163119
 
 Seq:    12.3.5
@@ -12,4 +14,4 @@ Body:
 
 The caret symbol ('`^`') can be used to indicate that a portion of the variable string is to be extracted. The following character indicates what sort of extraction is to be performed. 
 
-- `x` - An `x` indicates that the file extension should be extracted from a filename or path string. 
+- `x` - An `x` indicates that the file extension should be extracted from a filename or path string.
