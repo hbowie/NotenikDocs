@@ -14,7 +14,7 @@ Class:  non-version
 
 Body:
 
-The [[Query Builder]] sends its output to an internal Notenik window. The [[Dates to Calendar]] function also sends its output to this same window (although with a suitably differentiated title). And the[[Favorites to HTML]] function also sends its output to this same window. 
+The [[Query Builder]] sends its output to an internal Notenik window. The [[Dates to Calendar]] function also sends its output to this same window (although with a suitably differentiated title). And the [[Favorites to HTML]] function also sends its output to this same window. 
 
 In all cases, this window now has a pull-down button, titled `Web Page` in the lower right corner, from which any of the following actions can be selected:
 
