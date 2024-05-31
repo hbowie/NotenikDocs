@@ -30,6 +30,10 @@ These options allow apply to all Collections -- they are not Collection-specific
 
 + `Adjust Edit Fonts` -- This option, available starting with [[Version 9.6.0]], will display the `Edit Font Settings` window, which will allow you to fine-tune the appearance of the Edit tab. 
 
++ `Increase Body Edit Space` -- Increase the Minimum Body Edit Height in Lines by an increment of 5 lines, up to a maximum of 60. This value can also be adjusted, and be viewed, when you [[Tailor Collection Settings]]. 
+
++ `Decrease Body Edit Space` -- Decrease the Minimum Body Edit Height in Lines by a decrement of 5 lines, down to a minimum of 5. This value can also be adjusted, and be viewed, when you [[Tailor Collection Settings]]. 
+
 ##### Adjust Edit Fonts via Edit Font Settings
 
 The `Edit Font Settings` window includes controls with the following labels. 

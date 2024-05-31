@@ -23,3 +23,5 @@ I have a preliminary idea: after completing the metadata, could two buttons be p
 + The first button, selecting the default editing interface, automatically collapses the GUI portion of the metadata.
 + The second button, opting for a custom third-party editor.
 Of course, there might be better solutions.
+
+For possible implementation help, see [Organize Your User Interface with a Stack View](https://developer.apple.com/documentation/appkit/views_and_controls/organize_your_user_interface_with_a_stack_view).

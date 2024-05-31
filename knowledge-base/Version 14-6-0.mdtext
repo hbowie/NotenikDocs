@@ -26,4 +26,8 @@ When [[Generating Reports]], a few improvements have been made:
 
 ##### Improved Reports Menu
 
-The [[Generating Reports|reports menu]] will now show all script files and all template files found in the reports folder. Previously, if any scripts were found, no templates were shown. 
+The [[Generating Reports|reports menu]] will now show all script files and all template files found in the reports folder. Previously, if any scripts were found, no templates were shown.
+
+##### Adjustable Minimum Body Edit Height
+
+When you [[Tailor Collection Settings]], you will now find an option to adjust the Minimum Body Edit Height in Lines. This defaults to 5 lines, but can be set as high as 60 lines. This value can also be adjusted up or down, in increments of 5 lines, by using new menu items beneath the View menu. Adjusting this value upwards can be useful if you have a Collection with lots of metadata fields, and you are finding that the Edit tab is sometimes devoting too little space to the actual body of the Note. 

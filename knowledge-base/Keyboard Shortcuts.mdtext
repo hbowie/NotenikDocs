@@ -72,6 +72,8 @@ Following are the keyboard shortcuts available within the app.
 |      | Shift |     | Cmd | \]  | Random Note
 |      |       |     | Cmd |  =  | Increase Edit Font Size
 |      |       |     | Cmd |  -  | Decrease Edit Font Size
+|      |       |  Opt | Cmd |  =  | Increase Minimum Body Edit Space
+|      |       |  Opt | Cmd |  -  | Decrease Minimum Body Edit Space
 |      |       |     | Cmd |  ,  | Display Application Settings
 |      |       |     | Cmd |  ;  | Display Collection Settings
 |      |       |     | Cmd |  '  | Toggle Status
