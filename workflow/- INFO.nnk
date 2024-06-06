@@ -12,11 +12,13 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 15
+Last Index Selected: 16
 
 Mirror Auto Index: false
 
 Display Body Label: true
+
+Minimum Body Edit View Height: 5.0
 
 Title Display Option: p bold
 
@@ -38,7 +40,7 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 173.0;48.0;992.0;736.0;518.0;
+Window Numbers: 354.0;619.0;992.0;736.0;518.0;
 
-Column Widths: klass: 60, 80, 150; seq: 30, 80, 250; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; tags: 50, 100, 1200; author: 100, 200, 1000; datemod: 100, 180, 250; x: 12, 20, 50; title: 200, 421, 1500; date: 80, 120, 500; rank: 50, 80, 250; 
+Column Widths: klass: 60, 80, 150; title: 200, 421, 1500; statusdigit: 20, 30, 50; rank: 50, 80, 250; author: 100, 200, 1000; seq: 30, 80, 250; tags: 50, 100, 1200; datemod: 100, 180, 250; dateadded: 100, 180, 250; date: 80, 120, 500; x: 12, 20, 50; 
 

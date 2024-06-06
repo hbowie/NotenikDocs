@@ -14,7 +14,7 @@ Class:  non-version
 
 Body:
 
-For certain types of Imports -- currently only for CSV and Tab-delimited files -- Notenik will allow the user to adjust a couple of important Import Settings. 
+For certain types of Imports -- currently only for CSV and Tab-delimited files, and Notenik Collections -- Notenik will allow the user to adjust a few useful Import Settings. 
 
 ##### Additional Fields
 
@@ -32,6 +32,10 @@ This setting tells Notenik how to handle the rows (potential Notes) found in the
 
 + Add -- All rows in the import file are added, becoming new Notes. 
 
-+ Match and Add -- Before adding a new Note, Notenik will first look for a match for each imported row and, if an existing Note with a matching Title field is found, then any data found on the imported row will replace the data for the corresponding fields in the existing Note. Imported rows that do not match existing Notes will be added as new Notes. 
++ Match and Add -- Before adding a new Note, Notenik will first look for a match for each imported row and, if an existing Note with a matching [[Note Identifier]] is found, then any data found on the imported row will replace the data for the corresponding fields in the existing Note. Imported rows that do not match existing Notes will be added as new Notes. 
 
 + Match Only -- Similar to *Match and Add*, but non-matching rows will be dropped, and no new Notes will be created.
+
+##### Consolidate Lookups
+
+This setting is only meaningful when importing from another Notenik Collection that uses one or more [[Lookup]] fields. If this box is checked, then Notenik will attempt to convert the looked up fields into fields embedded directly within the current Collection. 

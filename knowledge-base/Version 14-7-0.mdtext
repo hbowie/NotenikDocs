@@ -1,0 +1,15 @@
+Title:  Version 14.7.0
+
+Timestamp: 20240606201027
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Notenik Import Now Uses Import Settings
+
+The useful [[Import Settings]] can now be applied when importing from another Notenik Collection. And these settings now include an option to consolidate lookup data. 

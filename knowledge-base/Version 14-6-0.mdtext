@@ -1,10 +1,19 @@
 Title:  Version 14.6.0
 
+Tags:   levels-outline.16 Version History.1 Version 1460
+
 Timestamp: 20240521222431
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-06-01
 
 Level:  3 - Section
+
+Teaser:
+
+Increased maximum body edit height; Improved report generation; Improved reports menu; Added Collection setting for minimum body edit view height, to allow user to ensure that a predetermined amount of space is allocated to the edit view for the body field. 
+
 
 Class:  version
 
@@ -30,4 +39,4 @@ The [[Generating Reports|reports menu]] will now show all script files and all t
 
 ##### Adjustable Minimum Body Edit Height
 
-When you [[Tailor Collection Settings]], you will now find an option to adjust the Minimum Body Edit Height in Lines. This defaults to 5 lines, but can be set as high as 60 lines. This value can also be adjusted up or down, in increments of 5 lines, by using new menu items beneath the View menu. Adjusting this value upwards can be useful if you have a Collection with lots of metadata fields, and you are finding that the Edit tab is sometimes devoting too little space to the actual body of the Note. 
+When you [[Tailor Collection Settings]], you will now find an option to adjust the Minimum Body Edit Height in Lines. This defaults to 5 lines, but can be set as high as 60 lines. This value can also be adjusted up or down, in increments of 5 lines, by using new menu items beneath the View menu. Adjusting this value upwards can be useful if you have a Collection with lots of metadata fields, and you are finding that the Edit tab is sometimes devoting too little space to the actual body of the Note.
