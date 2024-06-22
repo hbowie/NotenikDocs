@@ -16,7 +16,7 @@ Mirror Auto Index: false
 
 Display Body Label: true
 
-Edit Section Disclosures: false
+Minimum Body Edit View Height: 5.0
 
 Title Display Option: p bold
 
@@ -38,5 +38,5 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Column Widths: date: 80, 120, 1500; klass: 60, 135, 1500; tags: 50, 100, 1200; x: 12, 20, 50; author: 100, 200, 1000; rank: 50, 80, 250; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; title: 200, 368, 1500; seq: 30, 80, 1500; datemod: 100, 180, 250; 
+Column Widths: statusdigit: 20, 30, 50; rank: 50, 80, 250; title: 200, 368, 1500; author: 100, 200, 1000; datemod: 100, 180, 250; x: 12, 20, 50; date: 80, 120, 1500; tags: 50, 100, 1200; seq: 30, 80, 1500; dateadded: 100, 180, 250; klass: 60, 135, 1500; 
 

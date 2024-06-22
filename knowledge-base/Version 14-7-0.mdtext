@@ -12,4 +12,13 @@ Body:
 
 ##### Notenik Import Now Uses Import Settings
 
-The useful [[Import Settings]] can now be applied when importing from another Notenik Collection. And these settings now include an option to consolidate lookup data. 
+The useful [[Import Settings]] can now be applied when importing from another Notenik Collection. And these settings now include an option to consolidate lookup data.
+
+##### Concatenated Markdown Can Now Include a Collection ToC
+
+When [[Import and Export Your Notes|exporting your Notes]] using the concatenated Markdown option, the [[Generate a Collection Table of Contents]] command will be expanded into a series of lines using ordinary Markdown syntax for lists and links.
+
+##### Default Value Now Available When Adding a Field
+
+When using the option to [[Rename a Field|Rename, Add or Remove a Field]], and when adding a new field, a default value for the new field may now be specified. 
+

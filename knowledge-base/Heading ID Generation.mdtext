@@ -22,4 +22,6 @@ Thus a line like the following...
 ## Heading ID Generation
 ```
 
-... would generate an ID of '`heading-id-generation`'. 
+... would generate an ID of '`heading-id-generation`'.
+
+ID formation may vary when outputting Markdown, in order to better conform to the apparent MultiMarkdown standard. 
