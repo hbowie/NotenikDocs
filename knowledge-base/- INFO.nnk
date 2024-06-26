@@ -48,7 +48,7 @@ Hash Tags: false
 
 Window Numbers: 1171.0;0.0;1389.0;1368.0;434.0;
 
-Column Widths: klass: 60, 80, 150; dateadded: 100, 180, 250; datemod: 100, 180, 250; title: 200, 322, 1500; seq: 30, 80, 250; date: 80, 120, 500; author: 100, 200, 1000; statusdigit: 20, 30, 50; x: 12, 20, 50; rank: 50, 80, 250; tags: 50, 100, 1200; 
+Column Widths: title: 200, 322, 1500; rank: 50, 80, 250; tags: 50, 100, 1200; datemod: 100, 180, 250; seq: 30, 80, 250; x: 12, 20, 50; dateadded: 100, 180, 250; author: 100, 200, 1000; date: 80, 120, 500; statusdigit: 20, 30, 50; klass: 60, 80, 150; 
 
 footer Note ID: footerpage
 

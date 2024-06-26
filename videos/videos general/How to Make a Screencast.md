@@ -14,6 +14,7 @@ There's an online course I've purchased at udemy.com.
 2. Write a script. 
 3. Rehearse. 
 4. Tidy up the computer to be used. 
-5. 1600 x 900 - 16:9
-5. Record your screen. 
-6. Edit out mistakes.
+5. 1600 x 900 - 16:9 Screen Resolution
+6. 1920 x 1080 canvas
+7. Record your screen. 
+8. Edit out mistakes.
