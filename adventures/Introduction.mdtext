@@ -1,12 +1,17 @@
-Title:  Adventures with Notenik
+Title:  Introduction
 
 Tags:   developer, intro, origins
 
-Status: 4 - In Work
+Status: 6 - Completed
 
-Date:   2024-06-22
+Date:   2024-06-26
 
 Author: Herb Bowie
+
+Teaser:
+
+A brief intro to some of my adventures with Notenik, and with software development more generally, as well as a summary of expectations for this blog. 
+
 
 Body:
 
@@ -16,11 +21,11 @@ My copy of the *New Oxford American Dictionary* offers this definition:
 
 > *adventure*: daring and exciting activity calling for enterprise and enthusiasm
 
-I started my career in software development by answering a classified ad in the Sunday *Los Angeles Times*, taking an aptitute test provided by IBM, learning the job of computer operator, teaching myself COBOL from a few training texts lying around the computer room,  then writing a couple of useful programs.
+I started my career in software development by answering a classified ad in the Sunday *Los Angeles Times*, taking an aptitute test provided by IBM, learning the job of computer operator, teaching myself COBOL from a few training books lying around the computer room,  then writing a couple of useful programs.
 
 When I responded to the ad and showed up in Century City for my interview, I was armed with a Bachelor's degree in English and a handgun. (Actually I left the gun in the glovebox of my car; out of desperation, I had just started a job as a security guard, and an insurance company required me to carry a gun while manning my post.)
 
-If none of this sounds like an adventure, then your understanding of the term must be different from mine! 
+If this isn't yet sounding like an adventure to you, then your understanding of the term must be different from mine! 
 
 Some of my favorite books growing up were from the [Tom Swift](https://en.wikipedia.org/wiki/Tom_Swift) series, so it's always been natural for me to associate invention with adventure. 
 
@@ -43,9 +48,9 @@ But rather than develop an app that was purely a [static site generator](https:/
 + Maintain and organizing a [digital commonplace book](https://www.nytimes.com/2021/02/10/technology/personaltech/make-digital-commonplace-book.html), containing ideas and quotations from others;
 + Store info in a custom set of fields, uniquely tailored for each different collection of notes;
 + Allow users to write using [Markdown](https://daringfireball.net/projects/markdown/), and then convert to HTML as needed;
-+ Import. export, sort, filter and format almost any type of information, for almost any purpose. 
++ Import. export, sort, filter and format almost any type of personal information, for almost any purpose. 
 
-So exploring all of these possiblities has been an adventure of its own, and one that is still continuing!
+So exploring these many possiblities has been an adventure of its own, and one that is still ongoing!
 
 But Notenik is also intended to foster a sense of adventure *for its users*. Because it's such a flexible tool, with such an extensive (and still evolving) set of features, Notenik users also get to be inventors, first imagining what they might want to do with Notenik, and then assembling the relevant pieces in order to turn their dreams into reality.   
 
@@ -56,5 +61,7 @@ I envision these posts as being inspiring and suggestive, but not necessarily be
 So here's our first post for the blog. 
 
 I look forward to writing more, and also to see what others come up with!
+
+(BTW, *Adventures with Notenik* now replaces both the *News* and *Usage* sections of the website that were there before, if you're keeping track.)
 
 

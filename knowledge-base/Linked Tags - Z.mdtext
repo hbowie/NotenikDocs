@@ -43,3 +43,5 @@ When the tempate is generated, it would result in the following HTML:
 	<a href='topics.html#tags.god' rel='tag'>god</a>, <a href='topics.html#tags.religion' rel='tag'>religion</a>
 
 Then, when the tags are clicked within the resulting web page, the links will take the user to the appropriate section for each tag within the '`topics.html`' page.
+
+Note that if the prefix contains the Notenik [[Custom URL Scheme]], then periods in nested tags will be left as-is; otherwise, they will be converted to dashes.  

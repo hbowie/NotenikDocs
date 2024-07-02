@@ -1,0 +1,41 @@
+Title:  Adding a Web Feed to Your Site
+
+Tags:   datacount, feed, rss, scripting
+
+Status: 6 - Completed
+
+Date:   2024-06-30
+
+Author: Herb Bowie
+
+Teaser:
+
+If you have a website to which you regularly add content, then at some point you will probably want to add a web feed to your site. You can use a combination of Notenik's Script files and Merge templates to easily generate such web feeds, in any or all of the major formats. It's always been possible to do this sort of counting with Notenik, but a system variable called `datacount` now makes this easier than ever. 
+
+Timestamp: 20240630185735
+
+Body:
+
+If you have a website to which you regularly add content, then at some point you will probably want to add a [web feed](https://en.wikipedia.org/wiki/Web_feed) to your site. 
+
+You can use a combination of Notenik's [Script files](https://notenik.app/kb/script-files.html) and [Merge templates](https://notenik.app/kb/merge-templates.html) to easily generate such web feeds, in any or all of the major formats.
+
+Such feeds will typically have one entry for each recent post, starting with the latest, and then proceeding backwards. 
+
+You don't want to include all your site's content in your feed, though, going back to the beginning of time. 
+
+So typically you pick some reasonable number and cut off your feed generation once you reach that point. 
+
+Exactly what constitutes a reasonable number may vary somewhat depending on the nature of your site, and how often it is updated. 
+
+In general, though, 20 seems like a good place to start. 
+
+It's always been possible to do this sort of counting with Notenik, but a new feature in [Version 14.8.0](https://notenik.app/kb/version-14.8.0.html) makes this even easier and more straightforward. 
+
+Now you can simply add a [filter rule](https://notenik.app/kb/filter-module-parameters.html) that compares the new system variable `datacount` to the maximum number you have chosen. 
+
+Here's what this would look like in your script file (with tabs separating the columns):
+
+```
+filter	add	le	datacount	20
+```

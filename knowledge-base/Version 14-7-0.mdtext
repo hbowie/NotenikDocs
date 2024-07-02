@@ -1,10 +1,10 @@
 Title:  Version 14.7.0
 
-Tags:   levels-outline.16 Version History.1 Version 1470
+Tags:   levels-outline.16 Version History.2 Version 1470
 
 Timestamp: 20240606201027
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2024-06-22
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Notenik import now allows control over match/merge options, and consolidation of lookup fields; concatenated Markdown exports can now include a Collection Table of Contents; a default value can now be specified when adding a new field; plus a few bugs were sorted. 
+
 
 Class:  version
 

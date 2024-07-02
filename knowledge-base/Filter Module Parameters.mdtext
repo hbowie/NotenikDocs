@@ -22,7 +22,15 @@ Clears any filter parameters that might have previously been set, so that new on
 
 #### Add
 
-Adds a new filter rule. The object would name the field to be compared as part of the filter. The value field would specify a value to which the object will be compared. And the modifier field specifies the nature of the comparison. 
+Adds a new filter rule. 
+
+The object would name the field to be compared as part of the filter. In addition to your input data's columns/fields, you may reference the following special system variable:
+
++ `datacount` - The count of input records/notes/rows, starting with a value of 1 for the first. This can be used, for example, to limit the number of rows to some specified upper limit for use in a blog. If such a filter rule is specifieed in combination with others, then this rule should probably follow the others, so that rows excluded by other rules are not included in this count. 
+
+The value field would specify a value to which the object will be compared. 
+
+And the modifier field specifies the nature of the comparison. 
 
 The following modifiers are valid (with all of the different forms on a line producing identical results).
 

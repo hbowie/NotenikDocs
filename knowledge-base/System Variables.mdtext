@@ -14,8 +14,14 @@ Body:
 
 The following special variables are predefined and available for substitution, no matter what data source is being used.
 
+datacount
+: The count of data records/notes being input. This starts at 1 for the first record/note, and is incremented by 1 for each successive input row. 
+
 datafilename
 : The name of the data source being used.
+
+datamax
+: The total number of input notes/records/rows. 
 
 dataparent
 : The path to the enclosing folder for the current data file. This can be used as part of an output command to specify an output file in the same folder as the data file.
@@ -25,6 +31,9 @@ displaycss
 
 exportpath
 : When the script is being run from the Export menu, this variable will contain the path to the folder selected by the user. See [[Export Using Script]] for additional details. 
+
+includefailure
+: Set to `false` if the last [[include command]] found and included a file; set to `true` if the last include command failed. 
 
 nobr
 : Placing the variable 'nobr' anywhere on a line will cause that line to be written out without a trailing line break. The nobr variable itself will be removed from the line, without being replaced.
