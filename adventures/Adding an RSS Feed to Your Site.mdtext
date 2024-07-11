@@ -1,10 +1,12 @@
 Title:  Adding an RSS Feed to Your Site
 
-Tags:   feed, rss
+Tags:   feed, rss, xml
 
 Status: 6 - Completed
 
-Date:   2024-07-01
+Seq:    3
+
+Date:   2024-07-05
 
 Author: Herb Bowie
 
@@ -12,7 +14,12 @@ Teaser:
 
 An RSS feed is one kind of web feed that you can use on your site. This is the oldest of the various feed formats, and is XML-based. 
 
+
 Timestamp: 20240701174542
+
+Date Added: 2024-07-02 13:46:58 -0700
+
+Date Modified: 2024-07-06 08:16:12 -0700
 
 Body:
 
@@ -45,7 +52,7 @@ Here is an example of a [Merge Template](https://notenik.app/kb/merge-templates.
 
 Notice the use of the [XML - X variable modifier](https://notenik.app/kb/xml-x.html) in several places to make sure that your variable values are suitably encoded for use within XML. 
 
-One would then want to include a line such as the following within the `head` section of your HTML.
+One would then want to include a line such as the following within the `head` section of the HTML pages on your site.
 
 ```
     <link rel="alternate" type="application/rss+xml" title="RSS feed for Adventures with Notenik" href="rss.xml" />

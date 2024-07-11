@@ -44,7 +44,7 @@ The following controls are available and can be used to modify/augment the appea
 
 + Include Explicit Body field label for Note? -- This is checked by default, but you can uncheck it if you'd prefer to see your Notes displayed without a leading 'Body:' label.  
 
-+ Display Mode -- This allows the user to select from four options: normal, [[Streamlined Reading]], [[Presentation Mode]], or [[Quotations Mode]], with normal being the default. 
++ Display Mode -- This allows the user to select from five options: normal, [[Streamlined Reading]], [[Presentation Mode]],  [[Quotations Mode]], or custom. If a custom display template is found for a Collection, then this value will default to custom; otherwise, it will default to normal. 
 
 + Rerun Mirror Indexing with every Update? -- See the [[Mirror your Notes]] page for more info. 
 

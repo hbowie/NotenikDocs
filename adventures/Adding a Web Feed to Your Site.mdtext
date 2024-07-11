@@ -4,15 +4,22 @@ Tags:   datacount, feed, rss, scripting
 
 Status: 6 - Completed
 
-Date:   2024-06-30
+Seq:    2
+
+Date:   2024-07-04
 
 Author: Herb Bowie
 
 Teaser:
 
-If you have a website to which you regularly add content, then at some point you will probably want to add a web feed to your site. You can use a combination of Notenik's Script files and Merge templates to easily generate such web feeds, in any or all of the major formats. It's always been possible to do this sort of counting with Notenik, but a system variable called `datacount` now makes this easier than ever. 
+If you have a website to which you regularly add content, then at some point you will probably want to add a web feed to your site. You can use a combination of Notenik's Script files and Merge templates to easily generate such web feeds, in any or all of the major formats. It's always been possible to do this sort of counting with Notenik, but a system variable called datacount now makes this easier than ever. 
+
 
 Timestamp: 20240630185735
+
+Date Added: 2024-07-02 13:56:41 -0700
+
+Date Modified: 2024-07-04 09:17:09 -0700
 
 Body:
 

@@ -1,0 +1,23 @@
+Title:  Three Types of Merge Templates
+
+Tags:   merge-templates
+
+Status: 4 - In Work
+
+Seq:    11
+
+Author: Herb Bowie
+
+Timestamp: 20240710230143
+
+Date Added: 2024-07-10 16:01:43 -0700
+
+Date Modified: 2024-07-10 21:09:33 -0700
+
+Body:
+
+Notenik supports essentially three different types of [Merge Templates](https://notenik.app/kb/merge-templates.html).
+
+And these three types are distinguished by the varying placements of the [nextrec command](https://notenik.app/kb/nextrec-command.html) and the [output command](https://notenik.app/kb/output-command.html).
+
+The first type is used to customize the display of notes within Notenik itself, as they appear on the Display tab. In this case the merge template file must be named `

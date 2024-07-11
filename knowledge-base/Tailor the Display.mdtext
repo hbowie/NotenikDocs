@@ -54,6 +54,8 @@ The Collection Settings contain a couple of options for changing the way a Note 
 
 + [[Note Title Display]] - Choose the styling you would like to see for Note titles as they appear on the Display tab. 
 
+##### Custom Display Files
+
 The layout and appearance of the Display tab for a particular Collection can be further customized by the addition of either of the following special files to the folder containing a Collection's notes. 
 
 + `display.css` -- Enter whatever custom CSS you would like to alter the appearance of a Note on the Display tab. 

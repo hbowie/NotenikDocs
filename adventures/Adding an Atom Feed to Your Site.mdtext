@@ -1,0 +1,73 @@
+Title:  Adding an Atom Feed to Your Site
+
+Tags:   feed, rss, xml
+
+Status: 6 - Completed
+
+Seq:    4
+
+Date:   2024-07-06
+
+Author: Herb Bowie
+
+Teaser:
+
+An Atom feed is another kind of web feed that you can use on your site. This is newer than RSS, and is also XML-based. 
+
+
+Timestamp: 20240702175019
+
+Date Added: 2024-07-02 13:46:40 -0700
+
+Date Modified: 2024-07-06 08:16:22 -0700
+
+Body:
+
+An [Atom feed](https://en.wikipedia.org/wiki/Atom_(web_standard)) is another kind of [web feed](https://en.wikipedia.org/wiki/Web_feed) that you can use on your site. This is newer than RSS, and is also XML-based. 
+
+Here is an example of a [Merge Template](https://notenik.app/kb/merge-templates.html) one might use to generate an Atom feed. 
+
+```
+<?output "../atom.xml"?>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Adventures with Notenik</title>
+  <subtitle>The Latest Adventures with the Notenik Mac App</subtitle>
+  <link href="https://notenik.app/atom.xml" type="application/atom+xml" rel="self" />
+  <link href="https://notenik.app/" type="text/html" rel="alternate"  />
+  <updated>=$today&yyyy-MM-dd$=T09:00:00Z</updated>
+  <rights>Copyright © =$today&yyyy$=, Herb Bowie</rights>
+  <author>
+	<name>Herb Bowie and the Notenik Community</name>
+  </author>
+  <id>https://hbowie.net/atom.xml</id>
+<?nextrec?>
+	<entry>
+	  <title>=$title&x$=</title>
+	  <link rel="related" type="text/html" href="https://notenik.app/adventures/=$date&yyyy-MM-dd$=-=$title&f$=.html"/>
+	  <id>https://notenik.app/adventures/=$date&yyyy-MM-dd$=-=$title&f$=.html</id>
+	  <published>=$date&yyyy-MM-dd$=T09:00:00Z</published>
+	  <updated>=$datemodified&yyyy-MM-ddTHH:mm:ssz$=</updated>
+	  <author>
+		<name>=$author$=</name>
+	  </author>
+	  <summary>
+		  =$teaser&xo-$=
+	  </summary>
+	  <content type="html">
+		  <![CDATA[
+		  =$body&xo$=
+		  ]]>
+	  </content>
+	</entry>
+<?loop?>
+</feed>
+```
+
+Notice the use of the [XML - X variable modifier](https://notenik.app/kb/xml-x.html) in several places to make sure that your variable values are suitably encoded for use within XML. 
+
+One would then want to include a line such as the following within the `head` section of the HTML pages on your site.
+
+```
+    <link rel="alternate" type="application/atom+xml" title="Atom feed for Adventures with Notenik" href="atom.xml" />
+```

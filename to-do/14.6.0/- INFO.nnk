@@ -22,6 +22,8 @@ Title Display Option: p bold
 
 Display Mode: normal
 
+Override Custom Display: false
+
 MathJax: false
 
 Local Images: false
@@ -38,5 +40,5 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Column Widths: statusdigit: 20, 30, 50; rank: 50, 80, 250; title: 200, 368, 1500; author: 100, 200, 1000; datemod: 100, 180, 250; x: 12, 20, 50; date: 80, 120, 1500; tags: 50, 100, 1200; seq: 30, 80, 1500; dateadded: 100, 180, 250; klass: 60, 135, 1500; 
+Column Widths: author: 100, 200, 1000; tags: 50, 100, 1200; dateadded: 100, 180, 250; datemod: 100, 180, 250; x: 12, 20, 50; rank: 50, 80, 250; seq: 30, 80, 1500; date: 80, 120, 1500; statusdigit: 20, 30, 50; klass: 60, 135, 1500; title: 200, 368, 1500; 
 

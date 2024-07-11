@@ -1,0 +1,35 @@
+Title:  Thinking Outside the Doc Box
+
+Tags:   design
+
+Status: 4 - In Work
+
+Date:   2024-07-02
+
+Author: Herb Bowie
+
+Timestamp: 20240702180747
+
+Date Added: 2024-07-02 12:25:26 -0700
+
+Date Modified: 2024-07-07 09:59:59 -0700
+
+Body:
+
+As Apple languages and APIs have evolved, they have tended to steer app developers along one of two paths:
+
++ the Document model, in which a window represents a single document, and that document is stored within a single file (or a package, that is intentionally cloaked to appear as a file); or...
+
++ the Database model, in which a window represents a view into a structured database table with well defined columns. 
+
+As I began to write Notenik in Swift, though, I realized that neither of these was really a good fit for Notenik, since:
+
+1. I wanted the main window to focus on a Collection as a whole -- not just on a single Note file within that Collection; 
+
+2. I wanted each of the individual Notes within a Collection to be stored as its own text file, and to be easily visible and accessible to users, and available for editing by other apps;
+
+3. I wanted to support fields (aka columns) as in a database, but I wanted the user to be able to vary the field labels and types from one Collection to another, without being bound by a fixed schema.  
+
+And so I decided to venture outside of the well-defined paths provdided by Apple, in order to create something which was neither doc nor database, but something [different](https://en.wikipedia.org/wiki/Think_different). 
+
+As with most Notenik adventures, I tend to think it's worked out pretty well.

@@ -1,0 +1,89 @@
+Title:  How To Build A Website
+
+Tags:   website
+
+Status: 6 - Completed
+
+Seq:    8
+
+Date:   2024-07-10
+
+Author: Herb Bowie
+
+Teaser:
+
+I've used Notenik to build several different websites. Here's the general workflow that I use. 
+
+Timestamp: 20240709182337
+
+Date Added: 2024-07-09 11:23:37 -0700
+
+Date Modified: 2024-07-09 13:47:40 -0700
+
+Body:
+
+I 've used Notenik to build several websites. Here are a few examples:
+
++ [Reason to Rock](https://reasontorock.com)
++ [Software Development Big Ideas](https://softdevbigideas.com)
++ [The Practical Utopian](https://practopian.org)
++ [Lexicon of Song](https://lexiconofsong.com)
++ [H. Bowie](https://hbowie.net)
+
+And here's a general workflow for building such sites, with indications of where Notenik can be used. 
+
+### 1. Identify Types of Content
+
+For any website, you will have one or more types of content. For a simple blog, for example, you will have blog posts. Where Notenik excels, though, is in building sites with more complex content types, and with multiple types. But you need to start out by identifying these. 
+
+### 2. Identify Organizational Schemes
+
+How will you present your content to site visitors? A blog typically shows the latest post, followed by more recent ones, plus some sort of archive access. Depending on your content type(s), different means of filtering and ordering your content may be appropriate. Figure out what makes the most sense for your site. 
+
+### 3. Identify Fields for each Content Type
+
+What information do you want to present? What sorts of data may benefit from separate handling? What fields will you need for filtering and sorting, based on your organizational schemes? 
+
+### 4. Figure Out Where to Store Everything
+
+When building a website, I typically don't use the default location of the iCloud Notenik folder, because I end up with many different folders that I need to access in a variety of ways. The Sites folder within your home folder (as a peer to your Documents folder) is the traditional location for website stuff. If it doesn't already exist, then create it, and then create a subfolder for your site, and everything related to it. Then create a `content` folder.
+
+### 5. Build Your Notenik Collections
+
+Now it's time to build the Notenik Collections that will house your content. Typically you would want a separate Collection for each content type although, in some cases, it might be beneficial to house them all in one Collection, with a different [Class](https://notenik.app/kb/class.html) value for each different content type. If in doubt, though, start with a separate Collection for each content type. Place all of these Collections within the `content` folder you created above. 
+
+### 6. Implement Version Control
+
+I would typically use Git, and use Tower as my Git client. But once you start creating files within your site's folder, you probably want to use some sort of version control, and start checking stuff in regularly. 
+
+### 7. Identify Your Web Page Layouts
+
+These would typically include:
+
++ A page for each content type, showing one Note within that Collection
++ One or more index pages listing multiple instances of a particular content type
++ A home page for your site, with navigational links leading to the other pages
+
+Figure out what you want each page to look like.
+
+### 8. Create Notenik Merge Templates
+
+Now create a [Merge Template](https://notenik.app/kb/merge-templates.html) for each page layout. These would contain HTML tags, as well as your Merge Commands and Merge Variables. You would create these with your trusty text editor. Typically I would place these in a folder named `templates`, within a folder named `factory`, which would be a peer to the `content` folder you created earlier. It is the templates that specify the names and location of the actual web pages being created. Typically I would put these in a folder called `web`, that would be a peer to my `content` and `factory` folders. 
+
+### 9. Create and Run Notenik Scripts
+
+Finally create and run your [Script Files](https://notenik.app/kb/script-files.html). Your script files pull everything together, reading from your Collections, sorting and filtering those Notes, and then using your templates to generate actual web pages. I would put these into a `scripts` folder that would be a peer to your `templates` folder, and also within the `factory` folder. Your script files will typically contain many steps. I often use Notenik to create the first step, and then go back to my trusty text editor to create others, copying and pasting and tweaking as I go. 
+
+### 10. Test and Tweak
+
+In this phase you run your scripts and tweak your content and templates until you are happy with the results. 
+
+### 11. Upload to a Web Server
+
+When everything looks the way you would like, you will want to upload the web pages to your actual site that is resident on an actual web server. I use Transmit as my FTP client, and use A2 Hosting for my web server, but there are many other choices available. 
+
+### 12. Maintain and Enhance
+
+At any point after initial publication, can can add new content to your Collections, and tweak your templates, then rerun your scripts, then upload changes to your web server. Each time you run your scripts your entire site will be rebuilt. However script execution should happen in only a few seconds. 
+
+

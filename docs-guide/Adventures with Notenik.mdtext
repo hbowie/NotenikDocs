@@ -1,0 +1,20 @@
+Title:  Adventures with Notenik
+
+Seq:    3
+
+Body:
+
+The `adventures` folder contains all the posts for the Notenik blog, titled *Adventures with Notenik*.
+
+The blog is published on the [notenik.app](https://notenik.app) website. 
+
+New blog entries are cross-posted to [@notenik@mastodon.social](https://mastodon.social/@notenik).
+
+I intially tried to use micro.blog for cross-posting, but wasn't happy with the results. 
+
+I'm now trying [IFTTT](https://ifttt.com) as the cross-posting mechanism. 
+
+Here are a couple of useful guides to setting this up.
+
++ [Syndicating Posts from Your Personal Website to Twitter and Mastodon](https://matthiasott.com/notes/syndicating-posts-personal-website-twitter-mastodon)
++ [How to Post to Mastodon From Anything Using IFTTT](https://hyperborea.org/journal/2017/12/mastodon-ifttt/)

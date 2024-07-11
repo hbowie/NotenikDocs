@@ -1,0 +1,31 @@
+Title:  Use Merge Templates to Format Output
+
+Tags:   merge-templates
+
+Status: 4 - In Work
+
+Seq:    10
+
+Author: Herb Bowie
+
+Timestamp: 20240710230249
+
+Date Added: 2024-07-10 16:02:49 -0700
+
+Date Modified: 2024-07-10 16:13:53 -0700
+
+Body:
+
+Notenik uses [Merge Templates](https://notenik.app/kb/merge-templates.html) to generate output text files (such as web pages using HTML and web feeds using RSS or JSON). 
+
+They are called Merge Templates because they merge field values from Note(s)s into some sort of structure provided by a template. 
+
+Each Merge Template contains essentially three sorts of things:
+
++ Output Structure – This depends entirely on what the output is to be used for. 
++ Field Labels – Drawing on fields available from the input. 
++ Merge Commands -- These provide guidance on how the input data should be processed. 
+
+In addition, the template can specify one or more modifiers to be applied to each field value, in order to ensure the data is formatted appropriately. 
+
+Merge Templates are one of Notenik's most powerful features, because they allow you to easily format the data in your Notes into any output format that can be expressed within a text file.  HTML, XML, JSON, CSV, tab-delimited and plain text files can all be generated easily, whenever you like. 
