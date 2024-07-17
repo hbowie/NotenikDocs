@@ -1,0 +1,41 @@
+Title:  Mac Menus
+
+Tags:   keyboard shortcuts, menus
+
+Status: 6 - Completed
+
+Seq:    12
+
+Date:   2024-07-16
+
+Author: Herb Bowie
+
+Teaser:
+
+There are some nice side benefits to Notenik's use of traditional Mac menus.
+
+Timestamp: 20240716201127
+
+Date Added: 2024-07-16 13:11:27 -0700
+
+Date Modified: 2024-07-16 13:21:30 -0700
+
+Body:
+
+Notenik is written in Swift using AppKit (aka Cocoa) which means that in general it has a very traditional Mac user interface. 
+
+One of the elements of a traditional Mac app that Notenik is happy to leverage is its menuing system. 
+
+Many of Notenik's advanced features are available from its main menu, always available at the top of the screen when Notenik is active.
+
+There are two particular features of Mac menus that I want to highlight today. 
+
+The first are keyboard shortcuts. You can find a [list of these](https://notenik.app/kb/keyboard-shortcuts.html) in the Knowledge Base. 
+
+Even more conveniently, though, you can see these right alongside, and just to the right, of the menu items to which they provide access.  So for actions that you use often, it's good to look for an assigned keyboard shortcut, and then try to memorize it so that you can use it next time, without having to use your pointing device to find and select the item from the top of the screen. 
+
+The other handy main menu feature I'd like to highlight today is the `Search` box right at the top of the Help menu. If you're not sure where to find a particular menu item, you can enter a search word or phrase here, and immediately see a list of menu items containing that search term. Enter additional text to further refine your search. Hover over a line in the search results to see where it can be found in the menu structure, and to see its keyboard shortcut, if there is one. Click on one of those items to select it. 
+
+This menu search feature offers another handy way to explore and leverage Notenik's extensive main menu structure. 
+
+Keyboard shortcuts and menu search -- two helpful macOS functions that are always available within Notenik when you need them. 

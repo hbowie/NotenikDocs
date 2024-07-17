@@ -1,23 +1,35 @@
 Title:  Three Types of Merge Templates
 
-Tags:   merge-templates
+Tags:   display, merge-templates, website
 
-Status: 4 - In Work
+Status: 6 - Completed
 
 Seq:    11
 
+Date:   2024-07-15
+
 Author: Herb Bowie
+
+Teaser:
+
+Notenik supports essentially three different types of merge templates. Learn what each one is used for, and how they differ from one another.
 
 Timestamp: 20240710230143
 
 Date Added: 2024-07-10 16:01:43 -0700
 
-Date Modified: 2024-07-10 21:09:33 -0700
+Date Modified: 2024-07-15 09:57:01 -0700
 
 Body:
 
 Notenik supports essentially three different types of [Merge Templates](https://notenik.app/kb/merge-templates.html).
 
-And these three types are distinguished by the varying placements of the [nextrec command](https://notenik.app/kb/nextrec-command.html) and the [output command](https://notenik.app/kb/output-command.html).
+And these three types are distinguished by the varying placements of the [output command](https://notenik.app/kb/output-command.html).
 
-The first type is used to customize the display of notes within Notenik itself, as they appear on the Display tab. In this case the merge template file must be named `
+The first type is used to [tailor the display](https://notenik.app/kb/tailor-the-display.html) of notes within Notenik itself, as they appear on the Display tab. In this case the merge template file must be named `display.html` and placed in the same folder as the Notes themselves. For this type of merge template, there should be no `output` command at all, since the output will be routed by Notenik to its own internal Display tab. 
+
+The second type of merge template is used to produce a list or index containing multiple occurrences of Notes. For this type, the `output` command is typically placed at the very beginning of the template file, and specifies a static output directory and file name. 
+
+The third type of merge template is used to produce one output file per input Note. For this type, the `output` command is placed after the [nextrec command](https://notenik.app/kb/nextrec-command.html), and the `output` file name contains one or more variable fields, so that each Note's information will be placed in its own file. 
+
+The second and third types are typically both used when creating a website. 

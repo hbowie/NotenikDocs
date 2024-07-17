@@ -4,7 +4,7 @@ Title Set by User: true
 
 Link: /Users/hbowie/Xcode/NotenikDocs/adventures
 
-Sort Parm: 1
+Sort Parm: 3
 
 Sort Descending: false
 
@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 11
+Last Index Selected: 13
 
 Mirror Auto Index: false
 
@@ -42,7 +42,7 @@ Note File Format: nnk
 
 Hash Tags: false
 
-Window Numbers: 1028.0;0.0;1329.0;1193.0;496.5;
+Window Numbers: 188.0;371.0;1219.0;1022.0;496.5;
 
-Column Widths: statusdigit: 20, 30, 50; author: 100, 200, 1000; x: 12, 20, 1500; dateadded: 100, 180, 250; date: 80, 157, 300; seq: 30, 80, 1500; tags: 50, 100, 1200; datemod: 100, 180, 250; rank: 50, 80, 250; klass: 60, 80, 150; title: 200, 399, 1500; 
+Column Widths: date: 80, 157, 300; author: 100, 200, 1000; dateadded: 100, 180, 250; seq: 30, 80, 1500; statusdigit: 20, 30, 50; x: 12, 20, 1500; title: 200, 399, 1500; klass: 60, 80, 150; tags: 50, 100, 1200; rank: 50, 80, 250; datemod: 100, 180, 250; 
 

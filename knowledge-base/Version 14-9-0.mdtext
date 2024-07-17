@@ -1,10 +1,18 @@
 Title:  Version 14.9.0
 
+Tags:   levels-outline.16 Version History.1 Version 1490
+
 Timestamp: 20240706180439
 
 Seq:    16.1
 
+Date:   2024-07-16
+
 Level:  3 - Section
+
+Teaser:
+
+This new version includes improved JSON preparation, remembrance of the last attachment folder when selecting another file to be attached, and a new way to override the use of a custom display template, when one is found. 
 
 Class:  version
 
@@ -20,6 +28,4 @@ Notenik will now remember the last folder from which a file attachment was selec
 
 ##### Added Custom Display Template Override
 
-The Display Mode menu now includes an option of `Custom`, meaning that a custom display template should be used to format the Display tab. When a custom display template is found for a Collection, then this new mode will be set automatically. However, if the user later wishes to see things in an alternate display mode (such as `Normal`), then they may override the custom display by choosing another display mode. When they are ready to once again see things using the custom display template, then they may return to this mode by manually selecting `Custom`.  
-
-
+The Display Mode menu now includes an option of `Custom`, meaning that a custom display template should be used to format the Display tab. When a custom display template is found for a Collection, then this new mode will be set automatically. However, if the user later wishes to see things in an alternate display mode (such as `Normal`), then they may override the custom display by choosing another display mode. When they are ready to once again see things using the custom display template, then they may return to this mode by manually selecting `Custom`.

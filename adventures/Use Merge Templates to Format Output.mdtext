@@ -1,18 +1,25 @@
 Title:  Use Merge Templates to Format Output
 
-Tags:   merge-templates
+Tags:   display tab, merge-templates
 
-Status: 4 - In Work
+Status: 6 - Completed
 
 Seq:    10
 
+Date:   2024-07-12
+
 Author: Herb Bowie
+
+Teaser:
+
+Merge Templates are one of Notenik's most powerful features, because they allow you to easily format the data in your Notes into any output format that can be expressed within a text file.  HTML, XML, JSON, CSV, tab-delimited and plain text files can all be generated easily, whenever you like.
+
 
 Timestamp: 20240710230249
 
 Date Added: 2024-07-10 16:02:49 -0700
 
-Date Modified: 2024-07-10 16:13:53 -0700
+Date Modified: 2024-07-16 15:51:26 -0700
 
 Body:
 
@@ -28,4 +35,4 @@ Each Merge Template contains essentially three sorts of things:
 
 In addition, the template can specify one or more modifiers to be applied to each field value, in order to ensure the data is formatted appropriately. 
 
-Merge Templates are one of Notenik's most powerful features, because they allow you to easily format the data in your Notes into any output format that can be expressed within a text file.  HTML, XML, JSON, CSV, tab-delimited and plain text files can all be generated easily, whenever you like. 
+Merge Templates are one of Notenik's most powerful features, because they allow you to easily format the data in your Notes into any output format that can be expressed within a text file.  HTML, XML, JSON, CSV, tab-delimited and plain text files can all be generated easily, whenever you like.
