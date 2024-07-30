@@ -1,0 +1,38 @@
+Title:  Commonplace Data
+
+Tags:   commonplace, fields, lookup
+
+Status: 9 - Closed
+
+Seq:    18
+
+Date:   2024-07-29
+
+Author: Herb Bowie
+
+Teaser:
+
+Once you've committed to starting a commonplace book, and then decided to store your book in plain text files formatted with Markdown, then the next question is: what data do you want to collect as part of each entry?
+
+Timestamp: 20240729145550
+
+Date Added: 2024-07-29 07:55:50 -0700
+
+Date Modified: 2024-07-29 08:22:41 -0700
+
+Body:
+
+Once you've [committed to starting a commonplace book](https://notenik.app/adventures/2024-07-27-commonplacing-with-notenik.html), and then decided to store your book in [plain text files formatted with Markdown](https://notenik.app/adventures/2024-07-28-storage-medium-for-a-commonplace-book.html), then the next question is: what data do you want to collect as part of each entry?
+
+Many sites only provide a quotation along with an author. But then, many sites seem to make things up, or repeat things that have been heard elsewhere, even if they [have no basis in fact](https://www.snopes.com/collections/albert-einstein-collection/).
+
+So I generally like to capture the year in which the quotation was first published or recorded, along with its original source. [Wikiquote](https://en.wikiquote.org/wiki/Main_Page) is often a good source for this information. But of course, if you're capturing an entry as part of your own reading of a source, that additional data is already readily available. 
+
+And then, of course, you can try to categorize each entry as it is made. I've found this to be a very useful exercise, partially because it helps me to think more deeply about the import of each quotation. In Notenik, the [Tags](https://notenik.app/kb/tags.html) field can be used for this purpose. Notenik allows multiple tags to be assigned to each entry, and also supports nested tags. You probably don't want to go overboard with tagging, but I would certainly recommend some level as a way to make your growing collection both more interesting and more useful. 
+
+One additional consideration is whether you want your commonplace to be stored in a single collection, or in a series of related collections. For example, Notenik allows the user to create a [Commonplace with Lookups](https://notenik.app/kb/commonplace-with-lookups.html), in which both Authors and their Works are stored in separate collections. The advantage of this sort of setup — especially if you want to collect additional info about authors, and about their works — is that such data then only needs to be entered once, and can then simply be referenced if you have multiple entries from the same author,  and/or from the same work.
+
+Notenik offers a [number of different field types](https://notenik.app/kb/fields-useful-for-reviews-citations-and-quotations.html) that can be used as part of a commonplace book, whether you use lookups [or not](https://notenik.app/kb/commonplace-book.html). 
+
+But then, what can you do with this additional data, once you start collecting it? Well, that will be the subject of our next post. 
+

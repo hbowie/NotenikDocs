@@ -1,0 +1,54 @@
+Title:  Let's Talk Metadata
+
+Tags:   MultiMarkdown, YAML, fields, metadata
+
+Status: 6 - Completed
+
+Seq:    14
+
+Date:   2024-07-18
+
+Author: Herb Bowie
+
+Teaser:
+
+Let's talk metadata for a minute. You might call it front matter. But Notenik has supported such fields for over ten years, and has a rich set of functionality to make use of this info. 
+
+
+Timestamp: 20240717185244
+
+Date Added: 2024-07-17 11:52:44 -0700
+
+Date Modified: 2024-07-18 09:31:17 -0700
+
+Body:
+
+Let's talk metadata for a minute. 
+
+In the beginning there was HTML. 
+
+And HTML begat Markdown. 
+
+And Markdown begat MultiMarkdown.
+
+And MultiMarkdown made explicit provision for [metadata](https://github.com/fletcher/MultiMarkdown/blob/master/Documentation/MultiMarkdown%20User%27s%20Guide.md#metadata): additional fields carrying information about a Markdown document. 
+
+And then [YAML front matter](https://jekyllrb.com/docs/front-matter/) came along, which was another way of specifying metadata for a Markdown document. 
+
+But Notenik has been supporting Markdown metadata for at least ten years, going back to the original version, written in Java. 
+
+In Notenik, we just call them [fields](https://notenik.app/kb/field-labels-and-types.html). 
+
+All of these formats -- MultiMarkdown, YAML front matter, and Notenik -- are slightly different, and Notenik supports all three. But basically these are just three different, but very similar, ways of supporting [name-value pairs](https://en.wikipedia.org/wiki/Name–value_pair) within text files that also contain Markdown.
+
+But there is a difference between Notenik's use of metadata vs. the way this info is used in other apps. 
+
+In all cases, metadata supplies variables that can be used when formatting a Markdown document. 
+
+But with Notenik:
+
+1. Each different collection of text files, stored in its own folder,  can have its own specific definition of the types and names of fields to be found within that collection; 
+
+2. The metadata is used, not just to format and identify documents, but as a means of *organizing* the files within a collection, so that the collection itself becomes an entity with its own characteristics. Add a date field, and then you can sort by date. Add an author field, and you can sort by author. Add a status field, and you can separate completed items from ones still in work. 
+
+Metadata is the basis of many of Notenik's most powerful functions, so it's good to get a handle on what it is and how it can be used.

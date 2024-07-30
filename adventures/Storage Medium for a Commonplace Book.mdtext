@@ -1,0 +1,55 @@
+Title:  Storage Medium for a Commonplace Book
+
+Tags:   Markdown, commonplace, plain text, text files
+
+Status: 6 - Completed
+
+Seq:    17
+
+Date:   2024-07-28
+
+Author: Herb Bowie
+
+Teaser:
+
+Once you've committed to starting a commonplace book, your first question will be: how should I store it? I think there's really only one good answer here. 
+
+Timestamp: 20240728172904
+
+Date Added: 2024-07-28 10:29:04 -0700
+
+Date Modified: 2024-07-28 10:55:54 -0700
+
+Body:
+
+Once you've committed to starting a commonplace book, your first question will be: how should I store it?
+
+Upon first consideration, this may seem like an easy answer, since there are all sorts of available document formats and apps available that will hold words for you. 
+
+But consider that this is a collection of words that you may well want to continue growing for not just months, or years, but for decades — without ever having to lose everything and start over. 
+
+So you don't want to store it using some sort of service or app that might suddenly go out of business, or decide to terminate the particular offering you are using. 
+
+You probably don't want to use some format that will require a subscription that has to be paid regularly in order for you to continue to have access to your commonplace book. 
+
+And you probably don't want to trust your collection to some esoteric data format that is not well supported by a number of different apps. 
+
+You do want a format that can be easily backed up. 
+
+You do want to be able to preserve the original formatting of each entry, along with any associated data that may be important to you (more on that later). 
+
+And, ideally, you want each individual entry to be separately addressable, so that it's easily available for later reference and use, and so that your commonplace collection can be easily categorized, sorted and filtered in different ways. 
+
+And you want to be able to easily extract and make use of individual entries, and integrate them into other works, which may be in a variety of formats. 
+
+Once you take all of these points into consideration, I think the only rational way to store your commonplace book is:
+
++ In [plain text](https://en.wikipedia.org/wiki/Plain_text), with the quotes formatted using [Markdown](https://en.wikipedia.org/wiki/Markdown);
+
++ With each entry stored in its own [text file](https://en.wikipedia.org/wiki/Text_file).
+
+And, of course, this is exactly how Notenik will store your commonplace book. 
+
+
+
+

@@ -4,7 +4,7 @@ Tags:   levels-outline.16 Version History.1 Version 1490
 
 Timestamp: 20240706180439
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2024-07-16
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 This new version includes improved JSON preparation, remembrance of the last attachment folder when selecting another file to be attached, and a new way to override the use of a custom display template, when one is found. 
+
 
 Class:  version
 
