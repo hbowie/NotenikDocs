@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Version 14.9.0</title>
+<title>Version 15.0.0</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -94,6 +94,21 @@ blockquote {
   border-left: 0.4em solid #999;
   margin-left: 0;
   padding-left: 1em;
+}
+.quote-from {
+    margin-block-start: 0.1rem;
+    margin-block-end: 0.5rem;
+    margin: 0.1rem 0 0.5rem 0;
+    padding: 0.25rem 2.4em;
+    line-height: 1.45;
+    position: relative;
+}
+.quote-from:before {
+    display: block;
+    padding-left: 1.4em;
+    content: "\2014";
+    position: absolute;
+    left: 0;
 }
 figure {
   margin-left: 0.2em;
@@ -396,23 +411,27 @@ window.MathJax = {
 </nav>
 
 <main>
-<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version14.9.0">16.2 Version 14.9.0</h3>
-<p>Date: 16 Jul 2024 - Tuesday</p><h5 id="improved-json-preparation">Improved JSON Preparation</h5>
+<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version15.0.0">16.1 Version 15.0.0</h3>
+<h5 id="another-rule-for-field-labels">Another Rule for Field Labels</h5>
 
-<p>Improved the  <a href="https://ntnk.app/prepforjson" class="wiki-link">Prep for JSON</a> processing to provide greater compliance with a wider range of inputs. </p>
+<p>When we we explain <a href="https://ntnk.app/whatwemeanbylabelandtype" class="wiki-link">What We Mean by Label and Type</a>, a third rule has been added to aid with distinction between field labels, vs. field values that happen to contain a colon. The new rule is: a field label may not contain more than six spaces – meaning no more than seven words separated by spaces. </p>
 
-<h5 id="remembering-last-attachment-folder">Remembering last Attachment Folder</h5>
+<h5 id="minutes-to-read-fixed">Minutes to Read Fixed</h5>
 
-<p>Notenik will now remember the last folder from which a file attachment was selected, and use that folder as the default location for adding the next attachment. Note that this &#8220;memory&#8221; only persists within a Notenik session, and is saved for the particular Collection being used (so it might vary from one Collection to another, if more than one is open). </p>
+<p>When a <a href="https://ntnk.app/minutestoread" class="wiki-link">Minutes to Read</a> field is called out as a <a href="https://ntnk.app/mergevariables" class="wiki-link">Merge Variable</a>, Notenik will now take steps to ensure the value is non-blank (assuming the presence of a body field value). </p>
 
-<h5 id="added-custom-display-template-override">Added Custom Display Template Override</h5>
+<h5 id="added-quote-from-command">Added Quote-From Command</h5>
 
-<p>The Display Mode menu now includes an option of <code>Custom</code>, meaning that a custom display template should be used to format the Display tab. When a custom display template is found for a Collection, then this new mode will be set automatically. However, if the user later wishes to see things in an alternate display mode (such as <code>Normal</code>), then they may override the custom display by choosing another display mode. When they are ready to once again see things using the custom display template, then they may return to this mode by manually selecting <code>Custom</code>. </p>
+<p>Added a new Markdown command to nicely <a href="https://ntnk.app/formataquotecitation" class="wiki-link">Format a Quote Citation</a>. </p>
+
+<h5 id="added-new-share-with-options-format">Added New Share with Options Format</h5>
+
+<p>The <a href="https://ntnk.app/sharewithoptions" class="wiki-link">Share with Options</a> window now offers an option to format using <code>Markdown with quote-from</code>, which will make use of the new command to <a href="https://ntnk.app/formataquotecitation" class="wiki-link">Format a Quote Citation</a>. </p>
 
 <hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/version1480" class="nav-link">Version 14.8.0</a></p></div>
+<p>Next: <a href="https://ntnk.app/version1490" class="nav-link">Version 14.9.0</a></p></div>
 
 
 </main>

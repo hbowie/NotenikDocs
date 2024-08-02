@@ -32,6 +32,7 @@ Note also that these commands are further categorized based on their relationshi
 | `{:nav}` | *[[Supply Page Navigation]]* |
 | `{:outline-bullets}` | *[[Generate Outline Based on Unordered List Items]]* |
 | `{:outline-headings:1}` | *[[Generate Outline Based on Headings]]* |
+|`{:quote-from:parms}` | *[[Format a Quote Citation]]* |
 | `{:random}` | *[[Go To Random Note]]* | 
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:sort-table:table-id}` | *[[Make a Table Sortable]]* |

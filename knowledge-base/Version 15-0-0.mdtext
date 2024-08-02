@@ -16,4 +16,12 @@ When we we explain [[What We Mean by Label and Type]], a third rule has been add
 
 ##### Minutes to Read Fixed
 
-When a [[Minutes to Read]] field is called out as a [[Merge Variable]], Notenik will now take steps to ensure the value is non-blank (assuming the presence of a body field value). 
+When a [[Minutes to Read]] field is called out as a [[Merge Variable]], Notenik will now take steps to ensure the value is non-blank (assuming the presence of a body field value).
+
+##### Added Quote-From Command
+
+Added a new Markdown command to nicely [[Format a Quote Citation]].
+
+##### Added New Share with Options Format
+
+The [[Share with Options]] window now offers an option to format using `Markdown with quote-from`, which will make use of the new command to [[Format a Quote Citation]].
