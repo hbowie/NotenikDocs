@@ -1,0 +1,72 @@
+Title:  Formatting a Quote Attribution with Notenik 15.0.0
+
+Tags:   Markdown, citations, commonplace, quotations
+
+Status: 6 - Completed
+
+Seq:    20
+
+Date:   2024-08-04
+
+Author: Herb Bowie
+
+Teaser:
+
+This latest release of Notenik now provides a handy new Markdown extension that can be used to nicely format an attribution line following a blockquote. 
+
+Timestamp: 20240804171118
+
+Date Added: 2024-08-04 10:11:18 -0700
+
+Date Modified: 2024-08-04 11:57:10 -0700
+
+Body:
+
+The basic [syntax of Markdown](https://daringfireball.net/projects/markdown/syntax) is easy to learn and invariant across many parsers -- which explains the popularity of this writing tool in a nutshell. 
+
+At the same time, many people have created [extensions](https://www.markdownguide.org/extended-syntax/) to the original tool as a means of solving many common problems, and many of these extensions have also been implemented consistently across a number of popular parsers. 
+
+And, of course, Notenik implements almost all of this. 
+
+But Notenik version 15.0.0 has just been released and, in addition to fixing a few bugs, this new release adds a new Markdown extension to solve a recurring problem that still seems to be outstanding. 
+
+Here's the problem. 
+
+HTML offers the [blockquote](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote) tag to allow a quotation to be distinguished from surrounding text, and this tag can be easily styled with CSS. 
+
+And standard Markdown implements a [handy convention for generating blockquotes](https://www.markdownguide.org/basic-syntax/#blockquotes-1), so all is well here. 
+
+The problem arises when an author wants to provide a nicely formatted attribution line following the quotation, indicating its source. 
+
+Because here there is no special HTML tag nor any Markdown syntax to provide any help. 
+
+Nor is there any overall consensus on the best way to format such a commonly seen line, even when dropping down out of Markdown into HTML. 
+
+I like to include quotations in my writing on a regular basis, so I've been working aound this issue for some time now. 
+
+But I've finally created a new Markdown extension to help address this problem. 
+
+Here's the simplest form of such an attribution:
+
+```
+{:quote-from:George Bernard Shaw}
+```
+
+And here's the way it would look, when expanded by Notenik, following the appropriate quotation. 
+
+> You see things; and you say, 'Why?' But I dream things that never were; and I say, 'Why not?'
+
+{:quote-from:George Bernard Shaw|1921|Play|Back to Methuselah|https://en.wikipedia.org/wiki/George_Bernard_Shaw|}
+
+Note that, in this case, I've included other information, in addition to the author's name, so that the full Markdown would look like this:
+
+```
+{:quote-from:George Bernard Shaw|1921|Play|Back to Methuselah|https://en.wikipedia.org/wiki/George_Bernard_Shaw|}
+```
+
+All the details can be found in the [Knowledge Base](https://notenik.app/kb/format-a-quote-citation.html).
+
+Notenik also provides some default CSS styling for both the `blockquote` tag, and for the `quote-from` class that is applied to the paragraph element enclosing the citation text, to make everything line up nicely, and to provide the leading em dash. But of course this can be overridden by the user for their particular application. 
+
+I hope others make use of this as much as I know I will!
+

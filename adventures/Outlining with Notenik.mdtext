@@ -1,0 +1,50 @@
+Title:  Outlining with Notenik
+
+Tags:   outlines
+
+Status: 6 - Completed
+
+Seq:    21
+
+Date:   2024-08-12
+
+Author: Herb Bowie
+
+Teaser:
+
+Notenik has two special metadata fields — Seq and Level — that can easily be used to structure a collection of notes into an outline. 
+
+Timestamp: 20240812173105
+
+Date Added: 2024-08-12 10:31:05 -0700
+
+Date Modified: 2024-08-12 12:25:59 -0700
+
+Body:
+
+As I've mentioned previously, Notenik supports [metadata](https://notenik.app/adventures/2024-07-18-lets-talk-metadata.html). And different sorts of fields can be used for different purposes. 
+
+In many cases, you will want to sort the Notes in a Collection by some [field](https://notenik.app/kb/field-labels-and-types.html) that contains data about the Note — something like Title or Author or Date, let's say. 
+
+In other cases, though, you will want to impose some organizational sequence on a Collection of Notes based on the relationship between the Notes, or on some logical sequence that is not apparent from any of the metadata about the Note. 
+
+This is when you would want to use the [Seq](https://notenik.app/kb/seq.html) field. 
+
+A Seq field contains artificial values — values that you assign simply to get your Notes into whatever sequence is meaningful to you. 
+
+As you're assigning such values, you will want to change the Sort sequences for your Collection to `Seq + Title`, or some other sort sequence making use of the Seq field, so you can see your Notes in the sequence you have assigned to them. 
+
+And then, to refine this approach a bit more, you can use the [Level](https://notenik.app/kb/level.html) field to organize some Notes as being subordinate to others. 
+
+By combining these two fields — Seq and Level — you can structure your Notes into a hierarchy usually referred to as an [outline](https://en.wikipedia.org/wiki/Outline_(list)).
+
+When fashioning an outline, you will generally want your Seq values to reflect your outline structure. That is, you will want your top level Notes to be numbered consecutively and then, within each parent item, you will want your children numbered consecutively, with a period (aka *dot* or *full stop*) separating each parent number from the numbering of its children. This numbering can be done recursively, to as many levels as you would like. 
+
+You'll note that the [Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html) is structured in this fashion, using an outline. The Knowledge Base is one of several Notenik Collections stored within the `NotenikDocs` repo on GitHub. You can always download the repo from [GitHub](https://github.com/hbowie/NotenikDocs) if you'd like to inspect a working example of such an outline. 
+
+As it happens, Notenik seems to support Seq numbering in conformance with [ISO 2145](https://en.wikipedia.org/wiki/ISO_2145).
+
+Oh and by the way, feel free to use upper- or lower-case letters [a..z] instead of numbers, if you would like. 
+
+I'll share more Notenik outlining tips in future Adventures, but this should be enough to whet your appetite. 
+

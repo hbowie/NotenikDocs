@@ -1,5 +1,7 @@
 Title:  Format a Quote Citation
 
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
+
 AKA:    quote-from
 
 Timestamp: 20240802213642
@@ -50,5 +52,4 @@ As the example illustrates, the `quote-from` command has six positional paramete
 
 Any of these parameters may be left blank, if unavailable. 
 
-As you can see, Notenik applies the `quote-from` class to the `<p>`  tag, so that the appearance of the citation line can be easily modified by supplying your own `display.css` file when you [[Tailor the Display]]. 
-
+As you can see, Notenik applies the `quote-from` class to the `<p>`  tag, so that the appearance of the citation line can be easily modified by supplying your own `display.css` file when you [[Tailor the Display]].

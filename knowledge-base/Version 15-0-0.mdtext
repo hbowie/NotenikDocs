@@ -1,10 +1,19 @@
 Title:  Version 15.0.0
 
+Tags:   levels-outline.16 Version History.1 Version 1500
+
 Timestamp: 20240730194420
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-08-03
 
 Level:  3 - Section
+
+Teaser:
+
+Small improvements in several spots; added a new quote-from command as a Markdown extension. 
+
 
 Class:  version
 
@@ -25,3 +34,15 @@ Added a new Markdown command to nicely [[Format a Quote Citation]].
 ##### Added New Share with Options Format
 
 The [[Share with Options]] window now offers an option to format using `Markdown with quote-from`, which will make use of the new command to [[Format a Quote Citation]].
+
+##### Note Selector Arrow Keys Selection Fixed
+
+When using the the [[Note Selector]], and when using the arrow keys to move through a list of Notes, Notenik was previously allowing the selection to stray beyond the bounds of the visible Notes. This has been corrected.
+
+##### Image Name Editing Fixed
+
+When adding multiple image [[File Attachments]] to a Note, and when using an [[Image Name]] field, Notenik was not properly updating the list of available image files on the Edit tab. This has been corrected.
+
+##### Improved Outline Starter Pack
+
+Made a few improvements to the [[Outline]] starting collection type.
