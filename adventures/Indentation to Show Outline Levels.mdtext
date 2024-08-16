@@ -1,0 +1,36 @@
+Title:  Indentation to Show Outline Levels
+
+Tags:   outlines
+
+Status: 9 - Closed
+
+Seq:    25
+
+Date:   2024-08-15
+
+Author: Herb Bowie
+
+Teaser:
+
+When you sort by Seq + Title, Notenik will automatically pad the Title field display on the List tab to create indentation reflective of your overall outline structure. 
+
+Timestamp: 20240815173135
+
+Date Added: 2024-08-15 10:31:35 -0700
+
+Date Modified: 2024-08-15 10:44:46 -0700
+
+Body:
+
+This post is part of an evolving series that can somewhat usefully be read in order.
+
+1. [[Outlining with Notenik]]
+2. [[Automatically Incrementing Sequence Numbers]] 
+3. [[Incrementing an Existing Sequence Number]] 
+4. Indentation to Show Outline Levels (this post)
+
+----
+
+As you create your outline, you will probably want your Collection sorted by `Seq + Title`. The List tab will then show two columns, one for Seq and one for Title. The Seq field will display first, without any modification. But then the Title values will be padded on the left to reflect your outline structure — making it easier to see the structure of your outline at a glance. The effect will be to create indentation, with each successive level indented a bit further to the right. 
+
+And here's a tip: you can increase or decrease the amount of padding added per level through a setting in the Notenik Application settings (available beneath the Notenik menu). 

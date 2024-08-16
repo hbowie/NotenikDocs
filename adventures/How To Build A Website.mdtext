@@ -14,11 +14,12 @@ Teaser:
 
 I've used Notenik to build several different websites. Here's the general workflow that I use. 
 
+
 Timestamp: 20240709182337
 
 Date Added: 2024-07-09 11:23:37 -0700
 
-Date Modified: 2024-07-09 13:47:40 -0700
+Date Modified: 2024-08-13 14:29:28 -0700
 
 Body:
 
@@ -84,6 +85,4 @@ When everything looks the way you would like, you will want to upload the web pa
 
 ### 12. Maintain and Enhance
 
-At any point after initial publication, can can add new content to your Collections, and tweak your templates, then rerun your scripts, then upload changes to your web server. Each time you run your scripts your entire site will be rebuilt. However script execution should happen in only a few seconds. 
-
-
+At any point after initial publication, can can add new content to your Collections, and tweak your templates, then rerun your scripts, then upload changes to your web server. Each time you run your scripts your entire site will be rebuilt. However script execution should happen in only a few seconds.

@@ -1,0 +1,48 @@
+Title:  Automatically Incrementing Sequence Numbers
+
+Tags:   fields.seq, outlines
+
+Status: 9 - Closed
+
+Seq:    22
+
+Date:   2024-08-13
+
+Author: Herb Bowie
+
+Teaser:
+
+Notenik offers three slightly different approaches to adding Notes in sequence, such that Notenik will automatically increment your Seq values as you go. 
+
+
+Timestamp: 20240813171149
+
+Date Added: 2024-08-13 10:11:49 -0700
+
+Date Modified: 2024-08-15 10:45:32 -0700
+
+Body:
+
+This post is part of an evolving series that can somewhat usefully be read in order.
+
+1. [[Outlining with Notenik]]
+2. Automatically Incrementing Sequence Numbers (this post)
+3. [[Incrementing an Existing Sequence Number]]
+4. [[Indentation to Show Outline Levels]]
+----
+
+Upon first consideration, having to manually wrangle sequence and level numbers in order to create an outline might seem unnecessarily difficult. 
+
+And so it would be, were it not for a number of convenient features that Notenik supplies specifically for working with outlines. 
+
+The first group of these helps by automatically incrementing sequence numbers. 
+
+This can work in three somewhat distinct ways. 
+
+First, if you position the current Note selection (using any of the views on the left of the Collection Window), and then request the addition of a New Note (which can be done most readily with the keyboard shortcut of CMD-N), you will see that your Seq value has been automatically incremented for you, and the Level value set to match the preceding Note — the one you initially selected. And so you can easily continue adding Notes to an outline without having to worry about Seq and Level numbers. Nifty!
+
+Second, if you instead use the `New Note w/Options` item (just beneath the `New Note` item described above, towards the top of the `Note` menu, and easily accessible with a keyboard shortcut of OPT-CMD-N), you will see a little window allowing you to enter several fields at once. You can enter the Title of the Note, along with the Level and Seq fields. But here you will also see `+` and `-` keys that can be used to increment/decrement the Level value and — as you do so — the Seq field will be automatically adjusted to fit into the appropriate numbering sequence for the chosen Level! This can be super handy when you are adding Notes in sequence, but they are not all at the same level of indention. Click `OK` when you are done, and then your values will be pre-populated on the Edit tab for you. 
+
+And then, third, as a minor variation of the second option, if you click on the `Again` button instead of the `OK` button, you can skip the Edit tab, have Notenik add the Note for you —with just the fields you have entered in the `New Note with Options` window — and then immediately return to the `New Note with Options` window to add the next Note. This can be especially handy when you are trying to quickly capture the bare bones of an outline, with just Title fields and positions, leaving the possibility of fleshing out additional details later. 
+
+So there you have it! Three ways to have Notenik automatically increment your Seq values, without you having to manually enter any value other than the first!

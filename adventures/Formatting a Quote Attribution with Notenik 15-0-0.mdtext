@@ -14,11 +14,12 @@ Teaser:
 
 This latest release of Notenik now provides a handy new Markdown extension that can be used to nicely format an attribution line following a blockquote. 
 
+
 Timestamp: 20240804171118
 
 Date Added: 2024-08-04 10:11:18 -0700
 
-Date Modified: 2024-08-04 11:57:10 -0700
+Date Modified: 2024-08-13 14:29:28 -0700
 
 Body:
 
@@ -69,4 +70,3 @@ All the details can be found in the [Knowledge Base](https://notenik.app/kb/form
 Notenik also provides some default CSS styling for both the `blockquote` tag, and for the `quote-from` class that is applied to the paragraph element enclosing the citation text, to make everything line up nicely, and to provide the leading em dash. But of course this can be overridden by the user for their particular application. 
 
 I hope others make use of this as much as I know I will!
-

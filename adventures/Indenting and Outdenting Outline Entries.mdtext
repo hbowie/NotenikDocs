@@ -1,0 +1,34 @@
+Title:  Indenting and Outdenting Outline Entries
+
+Tags:   outlines
+
+Status: 9 - Closed
+
+Seq:    26
+
+Date:   2024-08-16
+
+Author: Herb Bowie
+
+Teaser:
+
+Notenik makes it easy to indent or outdent a single note or a range of notes. 
+
+Timestamp: 20240815172934
+
+Date Added: 2024-08-15 10:29:34 -0700
+
+Date Modified: 2024-08-16 09:54:26 -0700
+
+Body:
+
+Any attempt to build an outline will soon run into the following issue:
+
+You've already created a note at a given level, but now want to demote it to a lower level (higher numeric value); this function is generally referred to as *indenting*, since it typically indents the line below its parent. 
+
+And then, if you can indent, you might well also wish at times to be able to *outdent*: to promote a note to a higher level (lower numeric value). 
+
+Notenik provides these two commands beneath the Note menu, along with handy keyboard shortcuts. 
+
++ `OPT-CMD-]` will indent the selected note(s);
++ `OPT-CMD-[` will outdent the selected note(s).

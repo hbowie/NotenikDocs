@@ -14,11 +14,12 @@ Teaser:
 
 Notenik supports essentially three different types of merge templates. Learn what each one is used for, and how they differ from one another.
 
+
 Timestamp: 20240710230143
 
 Date Added: 2024-07-10 16:01:43 -0700
 
-Date Modified: 2024-07-15 09:57:01 -0700
+Date Modified: 2024-08-13 14:29:28 -0700
 
 Body:
 
@@ -32,4 +33,4 @@ The second type of merge template is used to produce a list or index containing 
 
 The third type of merge template is used to produce one output file per input Note. For this type, the `output` command is placed after the [nextrec command](https://notenik.app/kb/nextrec-command.html), and the `output` file name contains one or more variable fields, so that each Note's information will be placed in its own file. 
 
-The second and third types are typically both used when creating a website. 
+The second and third types are typically both used when creating a website.

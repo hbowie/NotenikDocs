@@ -14,15 +14,25 @@ Teaser:
 
 Notenik has two special metadata fields — Seq and Level — that can easily be used to structure a collection of notes into an outline. 
 
+
 Timestamp: 20240812173105
 
 Date Added: 2024-08-12 10:31:05 -0700
 
-Date Modified: 2024-08-12 12:25:59 -0700
+Date Modified: 2024-08-15 10:45:22 -0700
 
 Body:
 
-As I've mentioned previously, Notenik supports [metadata](https://notenik.app/adventures/2024-07-18-lets-talk-metadata.html). And different sorts of fields can be used for different purposes. 
+This post is part of an evolving series that can somewhat usefully be read in order.
+
+1. Outlining with Notenik (this post)
+2. [[Automatically Incrementing Sequence Numbers]] 
+3. [[Incrementing an Existing Sequence Number]]
+4. [[Indentation to Show Outline Levels]]
+
+----
+
+As I've mentioned previously, Notenik supports [[Let's Talk Metadata|metadata]]. And different sorts of fields can be used for different purposes. 
 
 In many cases, you will want to sort the Notes in a Collection by some [field](https://notenik.app/kb/field-labels-and-types.html) that contains data about the Note — something like Title or Author or Date, let's say. 
 
@@ -46,5 +56,4 @@ As it happens, Notenik seems to support Seq numbering in conformance with [ISO 2
 
 Oh and by the way, feel free to use upper- or lower-case letters [a..z] instead of numbers, if you would like. 
 
-I'll share more Notenik outlining tips in future Adventures, but this should be enough to whet your appetite. 
-
+I'll share more Notenik outlining tips in future Adventures, but this should be enough to whet your appetite.

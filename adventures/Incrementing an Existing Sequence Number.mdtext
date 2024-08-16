@@ -1,0 +1,41 @@
+Title:  Incrementing an Existing Sequence Number
+
+Tags:   fields.seq, keyboard shortcuts.CMD-I, main menu.Note.Increment, outlines
+
+Status: 9 - Closed
+
+Seq:    24
+
+Date:   2024-08-14
+
+Author: Herb Bowie
+
+Teaser:
+
+I've talked previously about Automatically Incrementing Sequence Numbers for new notes, using any of several different methods. But what if you want to insert something new in the middle somewhere? Here's the answer to that problem. 
+
+
+Timestamp: 20240814193645
+
+Date Added: 2024-08-14 12:36:45 -0700
+
+Date Modified: 2024-08-15 10:45:43 -0700
+
+Body:
+
+This post is part of an evolving series that can somewhat usefully be read in order.
+
+1. [[Outlining with Notenik]]
+2. [[Automatically Incrementing Sequence Numbers]] 
+3. Incrementing an Existing Sequence Number (this post)
+4. [[Indentation to Show Outline Levels]]
+----
+In a recent post I talked about [[Automatically Incrementing Sequence Numbers]], using any of several different methods. The use case for all of these is the user's intent to add a new note following an existing note, and keeping the new note in sequence with the preceding one(s). This works well when you are adding on to the end of an outline. 
+
+But what if you want to insert something new in the middle somewhere?
+
+In this case, you will first want to select the note currently occupying the position at which you wish to insert the new note, then use the `Increment` command beneatht the `Note` menu (or just use the CMD-I keyboard shortcut). The effect of this Increment action will be to increment the Seq value of the selected note — *plus all following notes that would otherwise collide* -- conveniently making room for the new note.
+
+Once you've incremented the Seq values for the existing notes, you can apply any of the methods described in the prior post to add the new note, first selecting the existing note that is to become the new note's predecessor. 
+
+I find this to be an invaluable tool when I'm building an outline, and one that I use all the time.
