@@ -219,6 +219,10 @@ Notenik provides lots of options for getting your outline into alternate formats
 + Export as Concatenated Markdown
 + Export as a Web Book
 
+## Outline Tab
+
+You may also wish to use the [[Outline Tab]], which adds disclosure triangles to your outline, so that you can selectively reveal and collapse sections of your outline. 
+
 ## In Summary
 
 Whew... that's a lot of functionality available for maintaining a Collection of Notes as an outline!

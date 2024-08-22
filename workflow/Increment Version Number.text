@@ -1,8 +1,10 @@
 Title:  Increment Version Number
 
-Seq:    18
+Tags:   levels-outline.20 Increment Version Number
 
-Body: 
+Seq:    20
+
+Body:
 
 1. Select new version number. 
 2. Update in Xcode on the General tab for the Notenik application.

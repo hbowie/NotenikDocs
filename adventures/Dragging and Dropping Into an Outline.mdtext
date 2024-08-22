@@ -1,0 +1,33 @@
+Title:  Dragging and Dropping Into an Outline
+
+Tags:   outlines
+
+Status: 9 - Closed
+
+Seq:    27
+
+Date:   2024-08-18
+
+Author: Herb Bowie
+
+Teaser:
+
+Notenik supports drag and drop in many situations, and two of them are especially suited for use with outlining. 
+
+Timestamp: 20240818163507
+
+Date Added: 2024-08-18 09:35:07 -0700
+
+Date Modified: 2024-08-18 09:41:52 -0700
+
+Body:
+
+The ability to select an item from one location, then drag it to another, and drop it into a desired new location — what we call [drag and drop](https://support.apple.com/guide/mac-help/drag-and-drop-items-mh35852/mac) on a Mac — is a powerfully convenient feature of macOS. 
+
+Notenik supports drag and drop in many situations, and two of them are especially suited for use with outlining. 
+
+The first involves dragging a note from within an outline to a new location within the same outline. Notenik will conveniently adjust the seq value of the dropped item to fit into its new location, based on the note above that location, and then will move the note from its original location to its new location. 
+
+The second involves dragging a note from another collection into a collection that is sorted by seq. In this case Notenik will helpfully adjust/add both seq and level fields to fit the new note into its new location before copying the note to the outline.
+
+I've found both of these techniques to be helpful in different circumstances, and hopefully you will as well. 

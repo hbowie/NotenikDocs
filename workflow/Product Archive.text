@@ -1,10 +1,12 @@
 Title:  Product Archive
 
-Seq:    15
+Tags:   levels-outline.17 Product Archive
+
+Seq:    17
 
 Link:   https://codewithchris.com/submit-your-app-to-the-app-store/
 
-Body: 
+Body:
 
 In Xcode, go to Product >> Archive and let it bundle your app.
 
