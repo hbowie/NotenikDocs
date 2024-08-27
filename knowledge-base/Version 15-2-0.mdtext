@@ -1,0 +1,19 @@
+Title:  Version 15.2.0
+
+Timestamp: 20240824001425
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Increased Respect for Existing File Names
+
+In some cases Notenik was reading a Note from one file name, but then writing out modifications to a second file name. This has been fixed. Also, Notenik was sometimes not matching attachments with their associated Notes due to minor variations in file names. This too has been fixed.
+
+##### Added Tags Handling Option for Inline Hashtags
+
+The [[Collection Settings]] now include a popup menu for [[Tags Handling]]. The menu allows three different choices. The third option is new, and allows for Inline hashtags within the Body field. 

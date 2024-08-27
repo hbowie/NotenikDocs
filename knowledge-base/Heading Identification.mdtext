@@ -37,3 +37,5 @@ For example:
 But...
 
 #Number 7 is a good bet in the next race.
+
+Also see the [[Tags Handling]] option for a potential modification to the handling of a leading hash character without a following space. 
