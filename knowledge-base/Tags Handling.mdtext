@@ -40,5 +40,4 @@ With this option, Notenik will parse the [[Body]] of each Note looking for inlin
 
 8. Even though hashtag values will not be stored as a separate field, the Collection must still have a Tags field defined as a valid field. 
 
-9. When converting the body to HTML, each hash symbol indicating a hashtag will be enclosed within a span element with a class specification of `hashtag`. Notenik will not supply any default definition for this class, but user's CSS may call it out, if desired, in order to highlight each hashtag in some way. 
-
+9. When converting the body to HTML, each hashtag will be made into a link, with a class specification of `hashtag`. When clicked the link will expand that tag on the Tags tab. 

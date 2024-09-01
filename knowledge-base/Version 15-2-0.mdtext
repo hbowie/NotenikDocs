@@ -16,4 +16,8 @@ In some cases Notenik was reading a Note from one file name, but then writing ou
 
 ##### Added Tags Handling Option for Inline Hashtags
 
-The [[Collection Settings]] now include a popup menu for [[Tags Handling]]. The menu allows three different choices. The third option is new, and allows for Inline hashtags within the Body field. 
+The [[Collection Settings]] now include a popup menu for [[Tags Handling]]. The menu allows three different choices. The third option is new, and allows for Inline hashtags within the Body field.
+
+##### Grouping of Untagged Notes
+
+Notes lacking any [[Tags]] values will now appear on the Tags tab under a pseudo-tag named '`- untagged`'. This keeps them visible -- for those who want to see Notes that might need tags -- but keeps them from overwhelming and hiding the Notes with real tags. The dash leading the tag name should generally place the `untagged` tag at the top of the list.

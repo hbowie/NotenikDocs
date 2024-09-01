@@ -1,0 +1,37 @@
+Title:  Notenik's Split Personality
+
+Tags:   design
+
+Status: 6 - Completed
+
+Seq:    29
+
+Date:   2024-08-30
+
+Author: Herb Bowie
+
+Teaser:
+
+Is it yet another "just a bunch of text files" app? Or is it a personal database system for the Mac? Well, a bit of both, to be honest. 
+
+Timestamp: 20240830174339
+
+Date Added: 2024-08-30 10:43:39 -0700
+
+Date Modified: 2024-08-30 10:49:03 -0700
+
+Body:
+
+I must confess that my Notenik Mac app has a bit of a split personality. 
+
+On the one hand, it stores all of its data in text files and supports Markdown. So it's one of many apps designed to maintain folders full of notes written in Markdown and stored as plain text files. So we might call this the "just a bunch of text files" personality. 
+
+On the other hand, notes can have fields, and the fields can have different labels and types, and different folders can have different sets of fields, and each folder of notes also has a special template text file that provides something like a schema definition for that particular folder. So we might call this the "personal database" personality. 
+
+So why can't Notenik make up its mind, and just be one thing or the other? 
+
+Well, because straddling this divide offers so many interesting opportunities, both for development and for use. On the one hand, all of Notenik's data is easily accessible, and can be read (and edited!) with any text editor, and many Markdown editors, and many other "just a bunch of text files" organizers. On the other hand, all sorts of useful information can be maintained and tracked, and sorted in different ways, and exported to a spreadsheet for further manipulation whenever needed. 
+
+This is one reason why Notenik continues to evolve, with a new release every couple of weeks, and with an [active user community](https://discourse.notenik.app). 
+
+And this split personality is one of the main attributes that makes Notenik such a uniquely useful Mac app. 
