@@ -1,10 +1,19 @@
 Title:  Version 15.2.0
 
+Tags:   levels-outline.16 Version History.1 Version 1520
+
 Timestamp: 20240824001425
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-09-04
 
 Level:  3 - Section
+
+Teaser:
+
+Increased Respect for Existing File Names; Added Tags Handling Option for Inline Hashtags; Grouping of Untagged Notes; Adding a Byline Formatting Command; Added Dark Image Option; Fixed Collection Table of Contents Bugs.
+
 
 Class:  version
 
@@ -21,3 +30,15 @@ The [[Collection Settings]] now include a popup menu for [[Tags Handling]]. The 
 ##### Grouping of Untagged Notes
 
 Notes lacking any [[Tags]] values will now appear on the Tags tab under a pseudo-tag named '`- untagged`'. This keeps them visible -- for those who want to see Notes that might need tags -- but keeps them from overwhelming and hiding the Notes with real tags. The dash leading the tag name should generally place the `untagged` tag at the top of the list.
+
+##### Adding a Byline Formatting Command
+
+Added a Markdown command to [[Format a Byline]].
+
+##### Added Dark Image Option
+
+Added an option for supplying an alternate [[Image Name]] field to be used when operating with a dark system appearance.
+
+##### Fixed Collection ToC Bugs
+
+I found a couple of problems when using the Markdown command to [[Generate a Collection Table of Contents]]. Interestingly, the two problems somewhat counteracted each other, making the issue difficult to see. Both issues have now been fixed.

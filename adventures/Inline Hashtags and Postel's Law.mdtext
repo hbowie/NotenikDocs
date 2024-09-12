@@ -1,0 +1,52 @@
+Title:  Inline Hashtags and Postel's Law
+
+Tags:   tags
+
+Status: 6 - Completed
+
+Seq:    30
+
+Date:   2024-09-04
+
+Author: Herb Bowie
+
+Teaser:
+
+How do we tag our notes? Let me count the ways....
+
+Timestamp: 20240904154840
+
+Date Added: 2024-09-04 08:48:40 -0700
+
+Date Modified: 2024-09-04 09:37:38 -0700
+
+Body:
+
+Notenik 15.2.0 has just hit the streets, and is now available in the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984). 
+
+It's got quite a few nice improvements but for today...
+
+Let's talk about tags and Postel's Law. 
+
+My *New Oxford American Dictionary* defines *tag* as "a label attached to someone or something for the purpose of identification or to give other information."
+
+Tagging is a well-nigh universal practice for organizing a bunch of notes, and Notenik has always had robust support for tagging. You can find the details [in the Knowledge Base](https://notenik.app/kb/tags.html), if you're interested. 
+
+But there are different systems for associating a tag with a text-based note, and Notenik has gradually expanded its support in this department.  
+
+Notenik's original approach — which is still the default — is to expect the tags to be entered into, and saved as, their own field. Which has always seemed just fine to me. 
+
+But many Notenik adventures transpire as the result of an encounter with someone else who does things differently. 
+
+And I've always tried to have Notenik adhere to [Postel's Law](https://en.wikipedia.org/wiki/Robustness_principle), which states:
+
+> Be conservative in what you do, be liberal in what you accept from others. 
+
+So another way of entering tags is to make them hashtags, by prepending a hash symbol ('#') to each tag. [Evan Travers](https://evantravers.com/articles/2022/02/28/notenik/) originally let me know about this, and so Notenik was modified to recognize and preserve hashtags. 
+
+And now, I've had a couple of users [request a third way](https://discourse.notenik.app/t/inline-tags-as-possible-new-feature/543) of associating tags with a note, by entering hashtags directly into the body of a note. 
+
+And so now, with the latest release, Notenik now supports this third approach as well, via a new [Tags Handling](https://notenik.app/kb/tags-handling.html) option. 
+
+The goal, as always, is to maximize interoperability between Notenik and other apps and note-taking systems out there. 
+

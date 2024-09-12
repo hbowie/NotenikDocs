@@ -1,0 +1,27 @@
+Title:  Version 15.3.0
+
+Timestamp: 20240911182329
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed MultiMarkdown Downshift
+
+When a user chose a Preferred File Format of YAML, Notenik was *downshifting* the format to MultiMarkdown, if it could find no notes in the Collection that were actually using any of the YAML syntactical features not also found in MultiMarkdown. This has been fixed. 
+
+##### Fixed Problems with Coding for XML Ellipsis
+
+Notenik had been using an HTML character entity to represent an ellipsis in XML, rather than the numeric code valid for XML. This has been corrected.
+
+##### Fixed a Merge Template Problem
+
+When converting the body of a Note from Markdown to HTML, Notenik was sometimes ignoring other variable modifiers. This has been corrected.
+
+##### Fixed a File Renaming Problem
+
+When renaming a note, sometimes the old note and new note were still on disk. This has been corrected. 

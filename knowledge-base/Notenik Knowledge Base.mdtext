@@ -12,6 +12,5 @@ Class:  title-page
 
 Body:
 
-
-
-
+{:outline-bullets}
+{:collection-toc:2-3}

@@ -1,0 +1,33 @@
+Title:  The Evolution of Note File Formats
+
+Status: 4 - In Work
+
+Seq:    33
+
+Timestamp: 20240911173326
+
+Date Added: 2024-09-11 10:33:26 -0700
+
+Date Modified: 2024-09-11 11:56:33 -0700
+
+Body:
+
+Let me present a little outline of the evolution of text file formats used for notes. I'll present this in roughly chronological sequence, but also in terms of increasing capabilities. 
+
+## 1. Simple ASCII text files 
+
+In this primordial format the title of each note was derived from its file name, and the file simply consisted of each note's ASCII text. 
+
+## 2. Markdown 
+
+Markdown formatting is used, and the file contents begins with a level 1 heading. The value for this heading is used as the note's title. The second line may optionally contain tags for the Note, identified by a hash mark in the first position of the line, immediately followed by tag(s), with no intervening spaces.
+
+## 3. MultiMarkdown 
+
+This format introduces explicit [metadata](https://fletcher.github.io/MultiMarkdown-4/metadata.html), using [key-value pairs](https://en.wikipedia.org/wiki/Name–value_pair). A blank line indicates the end of the metadata, and the beginning of the body text. Three dashes may optionally be used before and after the metadata block to serve as visual fencing of the different types of content. The metadata values are intended for use when printing or otherwise formatting the Notenik document. Each such document is still treated as a standalone entity. 
+
+## 4. YAML frontmatter
+
+
+
+

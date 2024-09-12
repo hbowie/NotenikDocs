@@ -1,0 +1,54 @@
+Title:  Why Notenik is Shrouded in Perpetual Obscurity
+
+Tags:   popularity
+
+Status: 6 - Completed
+
+Seq:    32
+
+Date:   2024-09-09
+
+Author: Herb Bowie
+
+Teaser:
+
+When people finally stumble across Notenik, they often ask "How have I never heard of this before?" Well, here's where I provide a definitive answer to that question. 
+
+Timestamp: 20240909184801
+
+Date Added: 2024-09-09 11:48:01 -0700
+
+Date Modified: 2024-09-09 12:50:57 -0700
+
+Body:
+
+I've had more than one user stumble across Notenik, try it out, and then ask "How have I not come across this before?"
+
+Well, it's not because I'm *trying* to keep it a secret. 
+
+But Notenik does have a sort of "perfect storm" of attributes that seem to keep it from becoming a household word. 
+
+1. *It's only available for the Mac.* Availability on multiple platforms — at least on multiple devices throughout the Apple ecosystem — seems to constitute table stakes for a lot of people these days, including those who write about tech.  
+
+2. *It's nowhere near the bleeding edge.* Notenik is written in Swift and AppKit, technologies that are well supported by Apple. But it doesn't run on Apple Vision Pro, or on the Apple Watch, or even on the iPad or iPhone. And it doesn't make use of SwiftUI or any of Apple's latest technologies. So it's not part of, or adjacent to, any other hot topics for tech writers. 
+
+3. *Positive reviews don't get much traction.* I'm proud to say that Notenik was very well reviewed in what turned out to be the absolute last print issues of *MacFormat* and *MacLife* magazines. And also proud to say that Notenik has an average rating of 4.8 stars in the Mac App Store, with 68 ratings, and reviews that say things like "A hidden powerhouse." But these sorts of positive reviews don't actually seem to attract much attention. 
+
+4. *Open source but not Unix.* Because Notenik is open source software, there's no money for advertising. But most of the open source community is focused on command line tools that run on any Unix platform — including, but not limited to, the Mac. So Notenik does not hit the open source sweet spot. 
+
+5. *Independent but not Indie.* I'm an independent developer, and I'm the developer for Notenik. But when people talk about *indie developers,* they are mostly talking about developers who are independently making a living by selling their software and, increasingly, about game developers. Also, I'm not using any independent distribution channels for Notenik, so my indie status is compromised by virtue of distribution through the App Store.  
+
+6. *Not popular enough for the productivity gurus.* There seems to be a whole group of writers about productivity tools and techniques these days. These people seemingly make some sort of living writing about how constantly switching from one tool/technique to another, and then back again, makes them more productive — as measured, I suppose, by their ability to churn out more and more of these pieces faster and faster. But perhaps because Notenik is already so well documented, it has not attracted much attention from these sorts of folks. 
+
+7. *No plugins.* Some tools gain popularity because they allow development of plugins that can be dynamically loaded by their apps. Notenik doesn't work like that. So there's no room for incidental add-on development and discussion. 
+
+So, when a recent user discovered Notenik and wondered why he'd never heard of it before, I was only half-joking when I responded:
+
+> Shhh... it's a well kept secret. Only the cognoscenti are allowed to know about it. Welcome to the club!
+
+In all seriousness, though, feel free to tell your friends and neighbors about Notenik. As I said, I'm not *trying* to keep it a secret. 
+
+It's just sort of worked out that way. 
+
+
+

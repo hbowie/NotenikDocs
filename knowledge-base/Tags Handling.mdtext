@@ -1,5 +1,7 @@
 Title:  Tags Handling
 
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.4 Tailor Collection Settings.6 Tags Handling
+
 Timestamp: 20240826200836
 
 Seq:    5.4.6
@@ -40,4 +42,4 @@ With this option, Notenik will parse the [[Body]] of each Note looking for inlin
 
 8. Even though hashtag values will not be stored as a separate field, the Collection must still have a Tags field defined as a valid field. 
 
-9. When converting the body to HTML, each hashtag will be made into a link, with a class specification of `hashtag`. When clicked the link will expand that tag on the Tags tab. 
+9. When converting the body to HTML, each hashtag will be made into a link, with a class specification of `hashtag`. When clicked the link will expand that tag on the Tags tab.

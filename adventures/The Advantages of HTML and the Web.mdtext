@@ -1,0 +1,89 @@
+Title:  The Advantages of HTML and the Web
+
+Status: 4 - In Work
+
+Seq:    99
+
+Timestamp: 20240908181419
+
+Date Added: 2024-09-08 11:14:19 -0700
+
+Date Modified: 2024-09-11 10:32:14 -0700
+
+Body:
+
+It was Carl Sagan who referred to the [written word](https://hbowie.net/tags/written-word.html) as "[the great invention](https://hbowie.net/quotes/books-are-key-to-understanding-the-world.html)."
+
+But use of the written word has in fact advanced by means of other inventions along the way, most notably perhaps the printing press. 
+
+By the time HTML came along (I personally got on board during [the days of HTML 3](https://contentsnare.com/html-history/)), we of course already had personal computers, word processing software and some networking capabilities. 
+
+But HTML, in conjunction with the World Wide Web, brought several new possibilities to the party, and advanced the cause of the written word even further. 
+
+{:toc}
+
+## 1. Improved Accessibility
+
+With a web page, the reader can easily adjust the size of their viewing window and the size of their text, or use screen readers. They can use online translators to convert from one language to another. And content posted on the web can be viewed by anyone anywhere in the world (so long as they have internet access and some kind of computing device). 
+
+## 2. Level Playing Field
+
+Past technologies always divided up the players into authors, designers, technologists, publishers and readers. But with HTML it was fairly easy for anyone with a little money and a little ambition to cross all of these lines and play all of these roles. This made the whole field much more fluid and malleable and fun — attributes that can enhance creativity and contribute to rapid innovation.
+
+## 3. Transparent Technology
+
+The written word was designed for transparency. No one who has ever learned to read can say that they had no idea how to write the same letters and words they were reading. But typewriters and printing presses and most other related technologies introduced mysteries that could not be readily inspected or understood, let alone mastered, by the average reader. And word processing software, with its WYSIWYG approach, while making things easier in some respectes, introduced further mysteries in terms of how documents were structured internally and stored on disk. 
+
+HTML on the other hand was entirely text-based. And any web browser could show you, not only the appearance of a formatted HTML document, but the source code that produced that appeparance. And anyone with a personal computer could write their own HTML documents, using those same codes, that could be read and formatted by any web browser. 
+
+## 4. Interoperable Technology
+
+Any web page could be written with any text editor running on any platform. Any page could be served from any platform. Any web page could be read by any web browser on any platform. And pretty much any web page ever written could still be formatted and presented by the latest browser. 
+
+## 5. Separation of Content from Formatting
+
+HTML, when combined with CSS, allows the structure of a work to be completely separated from the stylesheet(s) specifying its appearance. Even when the same creator is responsible for both content and style, it is tremendously helpful to enable an author to focus on content first, style later. 
+
+## 6. Stable Document Identifiers
+
+The print publishing world uses ISBNs and ISSNs to uniquely identify books and magazines. But then the world of academic citations uses a completely different scheme of author names, work titles and dates of publication to identify referenced works. And neither of these mechanisms are readily available to the average reader and perhaps casual writer. And neither allows an unambiguous and easily accessed reference to a specific page number. 
+
+On the other hand, domain names and web hosting providers are relatively accessible, and the combination of a domain name, a folder path and a file name provides a unique indentifier for any chunk of content — down to the page level — ever hosted anywhere on the web. Which in turn means that anyone anywhere can unambigously reference that content, and pass along that reference to anyone else, and produce their own content using this same scheme. 
+
+## 7. Ease of Revision
+
+With the printed word, once a piece of text went to press, there was no way to revise it without publishing an entirely new edition. But with HTML and the web, any page of content can be easily revised by its creator. 
+
+## 8. Purpose-Driven Document Identifiers
+
+I mentioned above that a web page is identified by its domain name, its folder path and its file name. But unlike the arbitrary serial numbers, dates and page numbers previously used to identify a chunk of content, all of these new identifiers can be named in ways that are meaningful to humans. 
+
+Even more profoundly, these identifiers need not, and should not, change so long as they still reflect the purpose of the content. So useful revisions can be incorporated into the content without breaking any references to that content. 
+
+## 9. Hyperlinking
+
+And then, with HTML, you can not only reference another piece of content, you can allow your readers to immediately access that other content. This means that the reading experience need not be exclusively linear, but can jump around from one text to other related texts, depending on the reader's interests and levels of knowledge and understanding. 
+
+## 10. Flexible Content Organization
+
+All written text in the past was organized in a very linear fashion. Sometimes there would be a table of contents at the front of a work, and some sort of index at the back, but the primary consumption mode was meant to be linear. 
+
+But hypertext links can be — and actually are — used not just to jump from one piece of content to another, but to navigate an entire work (some set of related content pages), including any number of index pages that can usefully help the user with navigation to some precise page of interest.
+
+## 11. Dynamic Responsive Search
+
+Then there's also the ability to search for content of interest to the reader, based on the reader's own input. 
+
+## 12. Tool Availability
+
+There are all sorts of tools to help with creation of web pages, including editors and version control tools, and the user is free to choose from a large palette when doing any kind of content creation using HTML.
+
+## Summary
+
+Many of these attributes, even individually, would provide compelling reason to prefer HTML and the Web over older technologies used for the authoring, formatting, organization, publication and consumption of text. 
+
+Taken together, though, the advantages of these newer technologies are overwhelming. 
+
+Now examples of the modern web where these attributes are used to the advantage of creators and readers can sometimes be dauntingly hard to find. Instead, we tend to find — and be led to — sites where the technology is being used purely (and often ill-advisedly) for primarily commercial purposes. 
+
+Nonetheless, let us try to separate these helpful uses of the technologies from the debased examples unfortunately littering great swaths of the modern web.

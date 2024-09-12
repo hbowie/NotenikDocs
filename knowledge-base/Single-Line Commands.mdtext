@@ -22,6 +22,7 @@ Note also that these commands are further categorized based on their relationshi
 | --------- | ------------ |
 | `{:attachments}` | *[[Generate a List of Attachments]]* |
 | `{:biblio}` | *[[Generate a Bibliography]]* |
+| `{:byline}` | *[[Format a Byline]]* |
 | `{:calendar}` | *[[Generate a Collection Calendar]]* |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
 | `{:footer}` | *[[Supply a Page Footer]]* |

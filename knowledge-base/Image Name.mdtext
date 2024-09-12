@@ -30,3 +30,11 @@ The following additional, related field labels may be specified to supply image 
 This metadata will be used when you [[Generate a Web Book]], or may be employed when creating [[Merge Templates]].
 
 Image Name is presented to the user on the Edit tab as a drop-down list including all of the Note's currently recognized file attachments. An assigned image name will not be preserved if the underlying file attachment is removed or renamed.
+
+Note that an alternate image can be optionally supplied for use with a dark system appearance through use of a second `image-name` field having the word `dark` in its label. See the following for an example of what this might look like in the Collection's template file. 
+
+```
+Image Name: <imagename>
+
+Image Name Dark: <imagename>
+```
