@@ -24,4 +24,8 @@ When converting the body of a Note from Markdown to HTML, Notenik was sometimes 
 
 ##### Fixed a File Renaming Problem
 
-When renaming a note, sometimes the old note and new note were still on disk. This has been corrected. 
+When renaming a note, sometimes the old note and new note were still on disk. This has been corrected.
+
+##### Fixed a Problem with Changing the Edit Font
+
+When making a change to the edit font settings, Notenik was sometimes managing to lose some data. This has been corrected. 
