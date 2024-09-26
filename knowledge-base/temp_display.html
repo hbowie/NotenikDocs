@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Version 15.3.0</title>
+<title>Back Links</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -415,27 +415,35 @@ window.MathJax = {
 </nav>
 
 <main>
-<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version15.3.0">16.1 Version 15.3.0</h3>
-<h5 id="fixed-multimarkdown-downshift">Fixed MultiMarkdown Downshift</h5>
+<p>9.5 <a href="https://ntnk.app/fieldstoassistwithnotelinking" class="nav-link">Fields to Assist with Note Linking</a>&#160;&#8593;</p><h4 id="backlinks">9.5.2 Back Links</h4>
+<p>If you use <a href="https://ntnk.app/wikistylelinks" class="wiki-link">Wiki Style Links</a> to link from one Note to others, then we can think of these as forward links: they allow you to move forward from one Note to another following a chain of wiki style links. </p>
 
-<p>When a user chose a Preferred File Format of YAML, Notenik was <em>downshifting</em> the format to MultiMarkdown, if it could find no notes in the Collection that were actually using any of the YAML syntactical features not also found in MultiMarkdown. This has been fixed. </p>
+<p>But we can also think about traveling backwards through this chain of links &#8211; not just backwards to the Note from which you just came, but backwards to any Note that links to the one you are currently viewing. </p>
 
-<h5 id="fixed-problems-with-coding-for-xml-ellipsis">Fixed Problems with Coding for XML Ellipsis</h5>
+<p>We can think of these as <em>backlinks</em>. </p>
 
-<p>Notenik had been using an HTML character entity to represent an ellipsis in XML, rather than the numeric code valid for XML. This has been corrected. </p>
+<p>If Notenik stored your notes in a database, then establishing this bidirectional linkage &#8211; linking in both directions &#8211; would be fairly trivial, and would be done behind the scenes, so to speak. </p>
 
-<h5 id="fixed-a-merge-template-problem">Fixed a Merge Template Problem</h5>
+<p>But because Notenik stores all of your Notes in text files, the mechanism for providing backlinks is a little tricky, and is also more visible to you, the user. </p>
 
-<p>When converting the body of a Note from Markdown to HTML, Notenik was sometimes ignoring other variable modifiers. This has been corrected. </p>
+<p>The first step in making backlinks visible is to select <code>Backlinks</code> as a selected field for your Collection when you <a href="https://ntnk.app/tailorcollectionsettings" class="wiki-link">Tailor Collection Settings</a>. When you select the <code>Backlinks</code> field, you will also automatically enable the <a href="https://ntnk.app/wikilinks" class="wiki-link">Wiki Links</a> field. Neither of these fields are user-editable; in fact, these two fields will not show up on the Edit tab at all. Instead, they will be automatically maintained by Notenik. They will be visible as normal Notenik fields if you use a text editor to view the files for Notes with such links. </p>
 
-<h5 id="fixed-a-file-renaming-problem">Fixed a File Renaming Problem</h5>
+<p>These fields will be visible on the Display tab. If you click on the disclosure triangle preceding the field label, then the related links will appear, and you may click on any of them in order to proceed to the linked Note. </p>
 
-<p>When renaming a note, sometimes the old note and new note were still on disk. This has been corrected. </p>
+<p>If you&#8217;re enabling the <code>Backlinks</code> field for an existing Collection that already has Wiki Style Links, then your next step should be to select <code>Generate Backlinks</code> beneath the <code>Collection</code> menu. Notenik will then traverse your entire Collection, generating Backlinks entries for all Notes that have such links. </p>
+
+<p>Once the initial generation has been completed, then automatic maintenance should keep everything up-to-date from that point on. </p>
+
+<p>Note that a configuration setting of &#8216;<code>reveal</code>&#8217; will cause the backlinks to be immediately visible, rather than having to be first revealed through a click on the disclosure triangle. This can be set with a line like the following in <a href="https://ntnk.app/collectiontemplatefile" class="wiki-link">the Collection Template File</a>: </p>
+
+<pre><code>Backlinks: &lt;backlinks: reveal>
+</code></pre>
+
 
 <hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/version1520" class="nav-link">Version 15.2.0</a></p></div>
+<p>Next: <a href="https://ntnk.app/wikilinks" class="nav-link">Wiki Links</a></p></div>
 
 
 </main>

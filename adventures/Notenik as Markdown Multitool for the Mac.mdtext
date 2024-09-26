@@ -1,0 +1,36 @@
+Title:  Notenik as Markdown Multitool for the Mac
+
+Status: 4 - In Work
+
+Seq:    29
+
+Author: Herb Bowie
+
+Timestamp: 20240919172701
+
+Date Added: 2024-09-19 10:27:01 -0700
+
+Date Modified: 2024-09-19 11:25:36 -0700
+
+Body:
+
+Per the [Introduction at Daring Fireball](https://daringfireball.net/projects/markdown/):
+
+> Markdown is a text-to-HTML conversion tool for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML).
+
+Notenik always stays close to this basic function, of allowing a user to write using a simple text-based syntax, and then convert it to HTML as needed, but then tries to extend this basic function in as many useful ways as possible. In particular, Notenik provides functionality for working with an entire collection of notes, and with multiple collections (aka folders) of text-based notes containing Markdown. 
+
+Just as examples, here are ten additional "multitool" functions offered by Notenik. 
+
+1. Wiki-style links between notes. 
+
+2. Fields of different types that can be attached to notes, and then used for flexible sorting and filtering. 
+
+3. Generation of an entire static website from a collection of notes (or from multiple collections). 
+
+4. The ability to relate collections together, and display related information from another collection. 
+
+
+
+
+

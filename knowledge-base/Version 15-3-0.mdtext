@@ -1,10 +1,19 @@
 Title:  Version 15.3.0
 
+Tags:   levels-outline.16 Version History.1 Version 1530
+
 Timestamp: 20240911182329
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-09-15
 
 Level:  3 - Section
+
+Teaser:
+
+Several bug fixes: fixed MultiMarkdown "downshift"; fixed coding for an XML ellipsis; fixed merge template problems with conversion of body to HTML; fixed a file renaming issues; fixed a problem that occurred when changing the edit font settings. 
+
 
 Class:  version
 
@@ -28,4 +37,4 @@ When renaming a note, sometimes the old note and new note were still on disk. Th
 
 ##### Fixed a Problem with Changing the Edit Font
 
-When making a change to the edit font settings, Notenik was sometimes managing to lose some data. This has been corrected. 
+When making a change to the edit font settings, Notenik was sometimes managing to lose some data. This has been corrected.

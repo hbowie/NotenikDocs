@@ -1,20 +1,28 @@
 Title:  Why Is the Notenik File Format Different?
 
-Status: 4 - In Work
+Tags:   MultiMarkdown, YAML, file format
+
+Status: 6 - Completed
 
 Seq:    33
 
+Date:   2024-09-23
+
 Author: Herb Bowie
+
+Teaser:
+
+Notenik supports MultiMarkdown metadata and YAML frontmatter, but has a preference for its own file format. If this seems a bit of a mystery to you, then read on. 
 
 Timestamp: 20240911195822
 
 Date Added: 2024-09-11 12:58:22 -0700
 
-Date Modified: 2024-09-11 12:59:30 -0700
+Date Modified: 2024-09-23 09:07:18 -0700
 
 Body:
 
-Notenik recognizes and supports several different file formats, including MultiMarkdown and Markdown with YAML frontmatter. 
+Notenik recognizes and supports several different file formats, including MultiMarkdown with its metadata,  as well as Markdown with YAML frontmatter. 
 
 But Notenik has its own file format, which is slightly different from these others. 
 
@@ -28,6 +36,8 @@ There are a number of reasons.
 
 3. Maximum field flexibility. Notenik allows the use of multiple Markdown fields within a note. A second Markdown field, for example, might be used as a teaser or preview for a blog post. So rather than structure a Notenik file as a single Markdown document with some optional metadata in front, I chose to structure it so that Markdown (and a variety of other data types) could be accomodated in other fields. 
 
-4. Preference for readability over bare-boned data entry. Because every field has a field title, and because blank lines are used to separate fields, a Notenik file is highly readable by anyone opening it using a text editor. And Notenik expects to take that formatting off of your hands when creating new notes. On the other hand, for users who create text-based notes using nothing but a text editor, the Notenik format requires a few more keystrokes. 
+4. Preference for readability over bare-bones data entry. Because every field has a field title, and because blank lines are used to separate fields, a Notenik file is highly readable by anyone opening it using a text editor. And Notenik expects to take that formatting off of your hands when creating new notes. On the other hand, for users who create text-based notes using nothing but a text editor, the Notenik format requires a few additional keystrokes.
 
+So while I try to maintain maximum interoperability with these other formats, Notenik continues to prefer its own -- slightly different, slightly quirky, but very straightforward -- format. 
 
+See the [Notenik Knowledge Base](https://notenik.app/kb/note-file-format.html) for a complete description of the Notenik file format. 

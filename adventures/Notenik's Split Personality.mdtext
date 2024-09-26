@@ -1,6 +1,6 @@
 Title:  Notenik's Split Personality
 
-Tags:   design
+Tags:   database, design
 
 Status: 6 - Completed
 
@@ -14,11 +14,12 @@ Teaser:
 
 Is it yet another "just a bunch of text files" app? Or is it a personal database system for the Mac? Well, a bit of both, to be honest. 
 
+
 Timestamp: 20240830174339
 
 Date Added: 2024-08-30 10:43:39 -0700
 
-Date Modified: 2024-08-30 10:49:03 -0700
+Date Modified: 2024-09-23 08:49:35 -0700
 
 Body:
 
@@ -34,4 +35,4 @@ Well, because straddling this divide offers so many interesting opportunities, b
 
 This is one reason why Notenik continues to evolve, with a new release every couple of weeks, and with an [active user community](https://discourse.notenik.app). 
 
-And this split personality is one of the main attributes that makes Notenik such a uniquely useful Mac app. 
+And this split personality is one of the main attributes that makes Notenik such a uniquely useful Mac app.
