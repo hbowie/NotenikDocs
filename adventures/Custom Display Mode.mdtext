@@ -19,7 +19,7 @@ Timestamp: 20240716222135
 
 Date Added: 2024-07-16 15:21:35 -0700
 
-Date Modified: 2024-08-13 14:29:28 -0700
+Date Modified: 2024-09-30 12:35:47 -0700
 
 Body:
 
@@ -38,3 +38,6 @@ And then I received a request to support an [Optional Display Switch](https://di
 And then... rather than adding yet another display switching mechanism, I simply added a Display mode of `Custom` that would be automatically set on the detection of a `display.html` merge template, but which would then allow the user to select the `Normal` display mode, and then re-select `Custom` whenever they wanted to return to their custom display. 
 
 It gives me great satisfaction to continue to address new enhancement opportunities, and find ways to gracefully integrate them into the code base and into the user experience.
+
+{{include:Commonplacing Series}}
+

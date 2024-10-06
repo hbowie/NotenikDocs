@@ -19,11 +19,11 @@ Timestamp: 20240729145550
 
 Date Added: 2024-07-29 07:55:50 -0700
 
-Date Modified: 2024-08-13 14:29:28 -0700
+Date Modified: 2024-09-30 12:34:53 -0700
 
 Body:
 
-Once you've [committed to starting a commonplace book](https://notenik.app/adventures/2024-07-27-commonplacing-with-notenik.html), and then decided to store your book in [plain text files formatted with Markdown](https://notenik.app/adventures/2024-07-28-storage-medium-for-a-commonplace-book.html), then the next question is: what data do you want to collect as part of each entry?
+Once you've [[Commonplacing with Notenik|committed to starting a commonplace book]], and then decided to store your book in [[Storage Medium for a Commonplace Book|plain text files formatted with Markdown]], then the next question is: what data do you want to collect as part of each entry?
 
 Many sites only provide a quotation along with an author. But then, many sites seem to make things up, or repeat things that have been heard elsewhere, even if they [have no basis in fact](https://www.snopes.com/collections/albert-einstein-collection/).
 
@@ -35,4 +35,6 @@ One additional consideration is whether you want your commonplace to be stored i
 
 Notenik offers a [number of different field types](https://notenik.app/kb/fields-useful-for-reviews-citations-and-quotations.html) that can be used as part of a commonplace book, whether you use lookups [or not](https://notenik.app/kb/commonplace-book.html). 
 
-But then, what can you do with this additional data, once you start collecting it? Well, that will be the subject of our next post.
+But then, what can you do with this additional data, once you start collecting it? Well, that will be the subject of our [[Leveraging Commonplace Entries|next post]].
+
+{{include:Commonplacing Series}}

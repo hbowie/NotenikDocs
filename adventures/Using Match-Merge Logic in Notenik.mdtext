@@ -19,7 +19,7 @@ Timestamp: 20240708163920
 
 Date Added: 2024-07-08 09:39:20 -0700
 
-Date Modified: 2024-08-13 14:29:28 -0700
+Date Modified: 2024-09-30 12:37:11 -0700
 
 Body:
 
@@ -54,3 +54,6 @@ I have one Collection I update on a monthly basis with the latest info available
 Something else I tried recently was importing my [Commonplace with Lookups](https://notenik.app/kb/commonplace-with-lookups.html) collection of quotations into a new Collection that did not rely on Lookups (making it more portable). In this case I just created a new Collection of [Basic Notes](https://notenik.app/kb/basic-notes.html), and then performed the import, asking to add additional fields, to match and add the additional rows, and to consolidate lookups.  This one quick import then magically transformed my basic notes collection into a fully-populated Commonplace book without any dependencies on other Collections referenced via lookup fields. Pretty powerful!
 
 One warning: since this operation modifies both the structure and content of an existing Collection, it's probably good to make sure you have some kind of backup available before doing this, in case the results are not exactly what you expected.
+
+{{include:Commonplacing Series}}
+

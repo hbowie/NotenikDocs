@@ -1,0 +1,39 @@
+Title:  Notenik's Interoperability Dimensions
+
+Seq:    34
+
+Timestamp: 20240929172023
+
+Date Added: 2024-09-29 10:20:23 -0700
+
+Date Modified: 2024-09-29 10:37:15 -0700
+
+Body:
+
+One of Notenik's first principles is interoperability, but this word gets tossed around a lot, with only infrequent investigations of what the term means in a particular context. 
+
+So let me count the many dimensions along which Notenik is interoperable wtih other software systems. 
+
+1. Text Files
+
+	Notenik stores all of its information in text files that can be opened using any text editor. 
+
+2. File Extensions
+
+	Notenik doesn't insist on use of some special file extension, but instead allows you to choose from any of several file extensions used to denote text and/or Markdown content. 
+
+3. HTML
+
+	Notenik converts Markdown, and Markdown metadata, into standard HTML that can be viewed using any web browser. 
+
+4. Markdown
+
+	Markdown has become its own standard that can be viewed and edited using any of a growing number of dedicated tools, as well as by use of any text editor. Notenik supports three different Markdown parsers written in Swift, and its own parser religiously follows the [basic Markdown syntax](https://daringfireball.net/projects/markdown/syntax), as well as the [most used syntax for common Markdown extensions](https://daringfireball.net/projects/markdown/syntax). 
+
+5. Metadata
+
+	Many users wish to associated additional fields with their Markdown text, and Notenik supports all the popular ways of doing this, via MultiMarkdown metadata, YAML frontmatter, and inline tagging, as well as through use of Notenik's own highly-readable native format for additional fields. 
+
+6. Import/Export Formats
+
+	Notenik also supports additional formats that can be used to import data into the app, and to export data from it, such as tab-delimited, CSV, XML, JSON, OPML and so on. 

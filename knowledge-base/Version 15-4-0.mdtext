@@ -4,7 +4,7 @@ Tags:   levels-outline.16 Version History.1 Version 1540
 
 Timestamp: 20240917175131
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2024-09-29
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 This release includes improvements to left view visibility, improvements to table sorting, improvements to task list interoperability, a fix for the date added field, new optional initial visibility for backlinks and wikilinks, and a new ability to import a quotation from WikiQuote.org. 
+
 
 Class:  version
 

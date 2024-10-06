@@ -1,0 +1,16 @@
+Title:  Version 15.5.0
+
+Timestamp: 20241004200330
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Stashing Special Notenik Files
+
+Added a new command to [[Stash Notenik's Special Files]], in order to hide these away in a subfolder. This may improve interoperability with some other Markdown wranglers. 
+ 
