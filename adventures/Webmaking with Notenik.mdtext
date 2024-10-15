@@ -1,0 +1,40 @@
+Title:  Webmaking with Notenik
+
+Tags:   website
+
+Status: 6 - Completed
+
+Seq:    36
+
+Date:   2024-10-13
+
+Author: Herb Bowie
+
+Teaser:
+
+In which I announce a couple of recent improvements that should make it easier for new users to create their own websites with Notenik. 
+
+Timestamp: 20241013181307
+
+Date Added: 2024-10-13 11:13:07 -0700
+
+Date Modified: 2024-10-13 11:20:04 -0700
+
+Body:
+
+My original personal — and still most important — Notenik use case is website creation. 
+
+And yet I know that Notenik users have struggled over the years trying to figure out how to fashion their own sites using Notenik. 
+
+But it's not that I'm *trying* to make things difficult. It's just that I've been doing this for so long that I tend to take a lot of knowledge for granted. 
+
+And so, based on [recent feedback](https://discourse.notenik.app/t/the-image-slug-variable-isnt-producing-any-output/591/3?u=hbowie), I've taken a couple of additional steps to make things a bit easier for those who might be trying to use Notenik as a static site generator. 
+
+The first is publication of a [more complete tutorial](https://notenik.app/web-guide/index.html) on the subject, always available from the [Docs page](https://notenik.app/docs.html) of the Notenik.app website. 
+
+The second consists of some improvements to Notenik itself, and to the [Website starter pack](https://notenik.app/kb/website.html), just released in [Notenik 15.5.0](https://notenik.app/kb/version-15.5.0.html). 
+
+Hopefully this will prove helpful for those Mac users trying to create their own websites. If there's other stuff that's tripping you up, or that you think could be improved, I would encourage you to post something on the [Notenik Discourse Forum](https://discourse.notenik.app). It's a friendly, helpful group that hangs out there, and I respond quickly to any new posts. 
+
+
+

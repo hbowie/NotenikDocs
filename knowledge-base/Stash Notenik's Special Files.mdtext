@@ -1,5 +1,7 @@
 Title:  Stash Notenik's Special Files
 
+Tags:   levels-outline.8 Files and Folders.6 Stash Noteniks Special Files
+
 Timestamp: 20241004211427
 
 Seq:    8.6
@@ -25,5 +27,4 @@ This stashing operation can be accomplished via the 'Stash Notenik Files in Subf
 
 Notenik will then access these files within the new subfolder from that point on. 
 
-Note that users may of course create this subfolder themselves, and move the aforementioned files into there using the macOS Finder. This will have the exact same effect, so long as this Finder actvity occurs while the Collection is closed within Notenik. 
-
+Note that users may of course create this subfolder themselves, and move the aforementioned files into there using the macOS Finder. This will have the exact same effect, so long as this Finder actvity occurs while the Collection is closed within Notenik.

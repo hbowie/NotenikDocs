@@ -16,6 +16,8 @@ Body:
 
 This is a starter pack meant to be used for authoring and publishing a website of some kind. See the enclosed `README.md` file for further info. 
 
+Also see the [Guide to Creating a Website Using Notenik](https://notenik.app/web-guide/index.html).
+
 With some editing and customizing of template files and generation scripts you are able to simply generate an entire website. Sample site contains
 
 * Homepage (index) with welcome text and last dated posts as teasers

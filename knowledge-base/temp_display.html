@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Stash Notenik&apos;s Special Files</title>
+<title>Version 15.5.0</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -98,7 +98,7 @@ blockquote {
     margin-block-start: 0.1rem;
     margin-block-end: 0.5rem;
     margin: 0.1rem 0 0.5rem 0;
-    padding: 0.25rem 2.4em;
+    padding: 0.25rem 2.6em;
     line-height: 1.45;
     position: relative;
 }
@@ -415,29 +415,31 @@ window.MathJax = {
 </nav>
 
 <main>
-<p>8. <a href="https://ntnk.app/filesandfolders" class="nav-link">Files and Folders</a>&#160;&#8593;</p><h3 id="stashnoteniksspecialfiles">8.6 Stash Notenik&apos;s Special Files</h3>
-<p>In addition to Notenik&#8217;s actual Note files, Notenik can create a number of additional files that it uses for its own purposes. These are spelled out above, as on the <a href="https://ntnk.app/otherfilesandsubfolders" class="wiki-link">Other Files and Subfolders</a> page. </p>
+<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version15.5.0">16.1 Version 15.5.0</h3>
+<p>Date: 12 Oct 2024 - Saturday</p><h5 id="stashing-special-notenik-files">Stashing Special Notenik Files</h5>
 
-<p>For various reasons, possibly including interoperability with other Text/Markdown editors/organizers, users may wish to stash these special files away into a subfolder, to avoid recklessly comingling them with the actual note files. </p>
+<p>Added a new command to <a href="https://ntnk.app/stashnoteniksspecialfiles" class="wiki-link">Stash Notenik&#8217;s Special Files</a>, in order to hide these away in a subfolder. This may improve interoperability with some other Markdown wranglers. </p>
 
-<p>This stashing operation can be accomplished via the &#8216;Stash Notenik Files in Subfolder&#8217; command lurking beneath the Transform menu. This command will then create a Collection subfolder named &#8216;<code>- notenik_files</code>&#8217; and in it place the following files. </p>
-<ul>
-<li>The template file, named <code>template.xxx</code>, where <code>xxx</code> is your preferred file extension for your Note files </li>
-<li>The &#8216;<code>- README.txt</code>&#8217; file </li>
-<li>The &#8216;<code>- INFO.nnk</code>&#8217; file </li>
-<li>The &#8216;<code>alias.txt</code>&#8217; file (should one exist) </li>
-<li>The &#8216;<code>display.css</code>&#8217; and/or &#8216;<code>display.html</code>&#8217; files (should they exist) </li>
-<li>The &#8216;<code>temp_display.html</code>&#8217; file, should one exist </li>
-</ul>
+<h5 id="adding-a-new-quotebiblio-include-style">Adding a New Quotebiblio Include Style</h5>
 
-<p>Notenik will then access these files within the new subfolder from that point on. </p>
+<p>Added a new style value that can be used with the <a href="https://ntnk.app/includeanoteorfile" class="wiki-link">Include a Note or File</a> Markdown command. A style of <code>quotebiblio</code> will produce a block quote with a following citation, and will attempt to pull author and work information from the quotation&#8217;s parent Notes. </p>
 
-<p>Note that users may of course create this subfolder themselves, and move the aforementioned files into there using the macOS Finder. This will have the exact same effect, so long as this Finder actvity occurs while the Collection is closed within Notenik. </p>
+<h5 id="modified-note-pasting-logic">Modified Note Pasting Logic</h5>
+
+<p>When pasting a Note from another Collection, Notenik will now attempt to do flexible field assignment, so that field labels need not exactly match in all cases. </p>
+
+<h5 id="improved-copyfile-logic">Improved Copyfile Logic</h5>
+
+<p>Modified the <a href="https://ntnk.app/copyfilecommand" class="wiki-link">copyfile command</a> so that, if a from file name is specified, but not available, then the command will be aborted (rather than copying the entire contents of the input folder). </p>
+
+<h5 id="improved-website-starter-pack">Improved Website Starter Pack</h5>
+
+<p>Made several improvements to the <a href="https://ntnk.app/website" class="wiki-link">Website</a> starting Collection type. </p>
 
 <hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/notenikicloudcontainer" class="nav-link">The Notenik iCloud Container</a></p></div>
+<p>Next: <a href="https://ntnk.app/version1540" class="nav-link">Version 15.4.0</a></p></div>
 
 
 </main>
