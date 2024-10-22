@@ -18,8 +18,10 @@ This is an extension documented in the [Markdown Guide](https://www.markdownguid
 
 A code fence will consist of a line consisting of only a repeated number of special characters. 
 
-The character used may be either a backtick (\`) or a tilde (`~`). 
-
 The character must be repeated three or more times. 
 
 The ending code fence must contain the same number of repetitions as the line that started the code block, using the same special character.
+
+The character used may be either a backtick (\`)  or a tilde  (`~`). 
+
+Beginning with [[Version 15.6.0]], Notenik will allow (but ignore) the naming of a language immediately following the opening repeated characters, on the same line, following the [Syntax Highlighting](https://www.markdownguide.org/extended-syntax/#syntax-highlighting) convention. Note that, while Notenik tolerates the language specification, in order to support interoperability with other Markdown tools, Notenik itself does not provide syntax highlighting.

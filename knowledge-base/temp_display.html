@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Version 15.5.0</title>
+<title>Version 15.6.0</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -415,31 +415,27 @@ window.MathJax = {
 </nav>
 
 <main>
-<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version15.5.0">16.1 Version 15.5.0</h3>
-<p>Date: 12 Oct 2024 - Saturday</p><h5 id="stashing-special-notenik-files">Stashing Special Notenik Files</h5>
+<p>16. <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a>&#160;&#8593;</p><h3 id="version15.6.0">16.1 Version 15.6.0</h3>
+<h5 id="teaser-share-added">Teaser Share Added</h5>
 
-<p>Added a new command to <a href="https://ntnk.app/stashnoteniksspecialfiles" class="wiki-link">Stash Notenik&#8217;s Special Files</a>, in order to hide these away in a subfolder. This may improve interoperability with some other Markdown wranglers. </p>
+<p>The <a href="https://ntnk.app/sharewithoptions" class="wiki-link">Share with Options</a> window has been expanded to allow the user to share only the Note&#8217;s Teaser field. </p>
 
-<h5 id="adding-a-new-quotebiblio-include-style">Adding a New Quotebiblio Include Style</h5>
+<h5 id="repeat-variable-modifier-added">Repeat Variable Modifier Added</h5>
 
-<p>Added a new style value that can be used with the <a href="https://ntnk.app/includeanoteorfile" class="wiki-link">Include a Note or File</a> Markdown command. A style of <code>quotebiblio</code> will produce a block quote with a following citation, and will attempt to pull author and work information from the quotation&#8217;s parent Notes. </p>
+<p>Added a new <a href="https://ntnk.app/repeatr" class="wiki-link">Repeat - ^R</a> variable modifier that can be used to repeat a string x number of times, where the value of x is supplied by the variable itself. This can be useful when trying to indent following content based on the level value. </p>
 
-<h5 id="modified-note-pasting-logic">Modified Note Pasting Logic</h5>
+<h5 id="code-fencing-now-allows-language-name">Code Fencing Now Allows Language Name</h5>
 
-<p>When pasting a Note from another Collection, Notenik will now attempt to do flexible field assignment, so that field labels need not exactly match in all cases. </p>
+<p>When creating <a href="https://ntnk.app/fencedcodeblocks" class="wiki-link">Fenced Code Blocks</a>, Notenik now allows (but ignores) the name of a language after the opening backticks, specified on the same line. </p>
 
-<h5 id="improved-copyfile-logic">Improved Copyfile Logic</h5>
+<h5 id="temp-display.html-file-now-unstashed">temp_display.html file now unstashed</h5>
 
-<p>Modified the <a href="https://ntnk.app/copyfilecommand" class="wiki-link">copyfile command</a> so that, if a from file name is specified, but not available, then the command will be aborted (rather than copying the entire contents of the input folder). </p>
-
-<h5 id="improved-website-starter-pack">Improved Website Starter Pack</h5>
-
-<p>Made several improvements to the <a href="https://ntnk.app/website" class="wiki-link">Website</a> starting Collection type. </p>
+<p>The &#8216;<code>temp_display.html</code>&#8217; file is no longer relocated from the Collection folder when you choose to <a href="https://ntnk.app/stashnoteniksspecialfiles" class="wiki-link">Stash Notenik&#8217;s Special Files</a> in a subfolder, since the relocation of this file was causing local image references to break. </p>
 
 <hr />
 <div>
 
-<p>Next: <a href="https://ntnk.app/version1540" class="nav-link">Version 15.4.0</a></p></div>
+<p>Next: <a href="https://ntnk.app/version1550" class="nav-link">Version 15.5.0</a></p></div>
 
 
 </main>

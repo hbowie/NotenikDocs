@@ -23,7 +23,6 @@ This stashing operation can be accomplished via the 'Stash Notenik Files in Subf
 + The '`- INFO.nnk`' file
 + The '`alias.txt`' file (should one exist)
 + The '`display.css`' and/or '`display.html`' files (should they exist)
-+ The '`temp_display.html`' file, should one exist
 
 Notenik will then access these files within the new subfolder from that point on. 
 
