@@ -4,7 +4,13 @@ Timestamp: 20241015222146
 
 Seq:    16.1
 
+Date:   2024-10-26
+
 Level:  3 - Section
+
+Teaser:
+
+Teaser Share added; Repeat Variable Modifier added; Code fencing now allows language name; temp_display.html file now unstashed; fixed a problem with stashed Notes. 
 
 Class:  version
 
@@ -24,5 +30,8 @@ When creating [[Fenced Code Blocks]], Notenik now allows (but ignores) the name 
 
 ##### temp_display.html file now unstashed
 
-The '`temp_display.html`' file is no longer relocated from the Collection folder when you choose to [[Stash Notenik's Special Files]] in a subfolder, since the relocation of this file was causing local image references to break. 
+The '`temp_display.html`' file is no longer relocated from the Collection folder when you choose to [[Stash Notenik's Special Files]] in a subfolder, since the relocation of this file was causing local image references to break.
 
+##### Fixed Some Problems with Stashed Notes Folder
+
+Fixed some problems with the stashed Notes folder described in [[Other Files and Subfolders]].
