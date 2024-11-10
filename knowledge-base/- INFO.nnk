@@ -52,7 +52,7 @@ Hash Tags: notenik-field
 
 Window Numbers: 268.0;114.0;1199.0;1234.0;434.0;
 
-Column Widths: rank: 50, 80, 250; klass: 60, 80, 150; dateadded: 100, 180, 250; author: 100, 200, 1000; seq: 30, 80, 250; datemod: 100, 180, 250; title: 200, 322, 1500; x: 12, 20, 50; date: 80, 120, 500; statusdigit: 20, 30, 50; tags: 50, 100, 1200; 
+Column Widths: statusdigit: 20, 30, 50; datemod: 100, 180, 250; title: 200, 322, 1500; dateadded: 100, 180, 250; rank: 50, 80, 250; seq: 30, 80, 250; klass: 60, 80, 150; x: 12, 20, 50; author: 100, 200, 1000; tags: 50, 100, 1200; date: 80, 120, 500; 
 
 footer Note ID: footerpage
 

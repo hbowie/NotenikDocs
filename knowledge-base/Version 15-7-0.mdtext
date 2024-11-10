@@ -1,0 +1,23 @@
+Title:  Version 15.7.0
+
+Timestamp: 20241109193316
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Another Code Fencing Fix
+
+Code fencing was sometimes being triggered inappropriately. This has been corrected. 
+
+##### Date-Time Formatting Fix
+
+Fixed a problem that occurred when trying to apply date and time formatting to a date field that did not contain any time values.
+
+##### Improved Attachment Renaming
+
+When referencing [[File Attachments]] from Markdown code within the Body field, a change to a Note's title will also result in a change to the Body field to update the reference(s) to the attached files 

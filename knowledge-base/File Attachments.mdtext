@@ -24,7 +24,7 @@ After you supply the requested information, Notenik will move or copy the indica
 
 Once a Note has attachments, you may open one of them by selecting it from the same Attachments menu in the Toolbar. The request will then be passed on to the operating system, and the attachment will be opened in whatever application is assigned to files of that type. 
 
-If you change the Title of a Note, then any files attached to the Note will be automaticallly renamed to match the new Title for the Note. 
+If you change the Title of a Note, then any files attached to the Note will be automaticallly renamed to match the new Title for the Note. Additionally, if your [[Body]] field contains any references to those files, then those references will also be updated to reflect the new Note title. 
 
 If you delete a Note, then its attachments (if any) will be deleted as well. 
 

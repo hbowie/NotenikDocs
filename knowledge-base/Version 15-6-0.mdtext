@@ -1,8 +1,10 @@
 Title:  Version 15.6.0
 
+Tags:   levels-outline.16 Version History.1 Version 1560
+
 Timestamp: 20241015222146
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2024-10-26
 
@@ -11,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Teaser Share added; Repeat Variable Modifier added; Code fencing now allows language name; temp_display.html file now unstashed; fixed a problem with stashed Notes. 
+
 
 Class:  version
 

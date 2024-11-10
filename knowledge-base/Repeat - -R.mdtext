@@ -1,5 +1,7 @@
 Title:  Repeat - ^R
 
+Tags:   levels-outline.12 Merge Templates.3 Variable Modifiers.41 Repeat - R
+
 Timestamp: 20241015224744
 
 Seq:    12.3.41
@@ -35,4 +37,3 @@ The first integer supplied is '-1', which means that a value of 1 will be subtra
 The second integer supplied is '2', which means that the adjusted level field will be multiplied by two. 
 
 The effect will be to indent the following content based on the depth of the level field, with a level of 1 producing no indentation, and with two non-breaking spaces being used for indentation for each higher level value.
-
