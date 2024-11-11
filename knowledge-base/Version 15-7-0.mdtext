@@ -20,4 +20,9 @@ Fixed a problem that occurred when trying to apply date and time formatting to a
 
 ##### Improved Attachment Renaming
 
-When referencing [[File Attachments]] from Markdown code within the Body field, a change to a Note's title will also result in a change to the Body field to update the reference(s) to the attached files 
+When referencing [[File Attachments]] from Markdown code within the Body field, a change to a Note's title will also result in a change to the Body field to update the reference(s) to the attached files.
+
+##### Fixed Skip To with Alternate ID Configured
+
+When using [[Streamlined Reading]] mode in combination with [[Change Note ID Configuration]], the "Skip To" link was not always working. This has been fixed. 
+
