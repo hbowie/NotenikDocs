@@ -1,0 +1,37 @@
+Title:  Zero to internet: your first website
+
+Seq:    1
+
+Level:  2
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/zero-to-internet-your-first-website/).
+
+Now let's see how Notenik can help you build your first website. 
+
+#### Create a new Notenik Project
+
+Fire up Notenik and select *New Collection...* beneath the *File* menu. 
+
+On the first pane that appears, select *A location of your choosing*. 
+
+Next select the parent folder in which your website project will be created. This would typically be a folder named `Sites` that would exist immediately below your user home folder, and would be a peer to other top-level folders such as `Documents`.
+
+Next specify a name for your new Collection. This will become a folder name. For this tutorial we can call it `my-notenik-project` or anything else you'd like. 
+
+Next select the sort of Collection you would like. For this tutorial, select *16 - HTML is for People*.
+
+#### Create an Index note
+
+To create your first web page in Notenik, hit the plus sign in the toolbar, or type CMD-N, or select *New Note* beneath the *Note* menu. 
+
+Type `Index` as the title of your first Note. 
+
+Then tab down to the Body of your first Note, and write a sentence or two about yourself. Here's mine, for example. 
+
+```
+My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
+```
+
+

@@ -1,10 +1,19 @@
 Title:  Version 15.7.0
 
+Tags:   levels-outline.16 Version History.1 Version 1570
+
 Timestamp: 20241109193316
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2024-11-12
 
 Level:  3 - Section
+
+Teaser:
+
+Another code fencing fix; a date-time formatting fix; improved attachment renaming; fixed the streamlined reading 'skip to' link when using an alternate ID configuration; added an identifier for a user's designated essential collection. 
+
 
 Class:  version
 
@@ -24,5 +33,8 @@ When referencing [[File Attachments]] from Markdown code within the Body field, 
 
 ##### Fixed Skip To with Alternate ID Configured
 
-When using [[Streamlined Reading]] mode in combination with [[Change Note ID Configuration]], the "Skip To" link was not always working. This has been fixed. 
+When using [[Streamlined Reading]] mode in combination with [[Change Note ID Configuration]], the "Skip To" link was not always working. This has been fixed.
 
+##### Added Essential Collection Identifier
+
+As documented on the [[Collection Folders]] page, the Essential Collection will be visually identifiable by the appearance of the value '(E)' after the Collection title as it appears at the top of the Collection window.

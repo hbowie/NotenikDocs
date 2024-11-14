@@ -1,0 +1,19 @@
+Title:  Version 15.8.0
+
+Timestamp: 20241114230455
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Adding HTML for People Demo
+
+Added a new starter pack available when creating a *New Collection* — an *HTML for People demo*.
+
+##### Added Text Files to Parent Realm
+
+When opening a Parent Realm folder, text files located at the top level will now be visible, and can be opened with a double-click. These would typically be README files and License files. To be recognized as text files, they must have one of the following file extenstions: `.txt`, `.text`, `.md`, `.mdtext`, or `.mkdown`.
