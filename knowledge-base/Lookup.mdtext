@@ -26,7 +26,7 @@ Author: <lookup: authors>
 
 The identifier for the Collection to be referenced must be specified following the colon. In the example above, 'authors' is the identifier for the second Collection.
 
-One must be mindful of [[Disk Access Permissions]] when using a field with type `lookup`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open the primary Collection (the one that does the referencing). 
+One must be mindful of [[Disk Access Permissions]] when using a field with type `lookup`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Project Folder]] command to first open the parent, and then from there open the primary Collection (the one that does the referencing). 
 
 When viewing a `lookup` field on the Display tab, you will notice a couple of special features. 
 

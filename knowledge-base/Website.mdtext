@@ -24,7 +24,7 @@ With some editing and customizing of template files and generation scripts you a
 * Some blog-like posts as dated publish posts with simple navigation
 * About page as page example for standalone pages for your website
 
-The top-level folder created is designed to be opened by Notenik as a [[parent realm]].
+The top-level folder created is designed to be opened by Notenik as a [[project folder]].
 
 The top-level folder will contain the following subfolders.
 

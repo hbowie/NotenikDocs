@@ -43,6 +43,12 @@ The text values may be modified by placing a series of integer + label pairs in 
 
 	Status: 1 - Idea; 4 - In Work; 9 - Published;
 
+A default value for the Status field may be specified by placing an asterisk after the desired value,. as in the following example:
+
+	Status: 1 - Idea; 4 - In Work*; 9 - Published;
+
+##### Associated Commands
+
 See these commands beneath the Note menu. Note that these are designed to be used in Display mode, not in Edit mode. 
 
 * Toggle Status - Switches from least complete to most, and back again. 

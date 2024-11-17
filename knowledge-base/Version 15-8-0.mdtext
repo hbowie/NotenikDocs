@@ -16,4 +16,12 @@ Added a new starter pack available when creating a *New Collection* — an *HTML
 
 ##### Added Text Files to Parent Realm
 
-When opening a Parent Realm folder, text files located at the top level will now be visible, and can be opened with a double-click. These would typically be README files and License files. To be recognized as text files, they must have one of the following file extenstions: `.txt`, `.text`, `.md`, `.mdtext`, or `.mkdown`.
+When opening a Parent Realm folder, text files located at the top level will now be visible, and can be opened with a double-click. These would typically be README files and License files. To be recognized as text files, they must have one of the following file extenstions: `.txt`, `.text`, `.md`, `.mdtext`, or `.mkdown`. Additionally, their contents will be displayed as the note's body field. 
+
+##### Adding Default Values for Class, Status fields
+
+The Collection template file can now specify a default value for the [[Class]] and [[Status]] fields, by placing an asterisk immediately following the desired default. 
+
+##### Renaming 'Parent Realm' to 'Project Folder' 
+
+Renaming the quite esoteric term of 'Parent Realm' to the less mystifying 'Project Folder'.

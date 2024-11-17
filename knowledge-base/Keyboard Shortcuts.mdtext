@@ -37,7 +37,7 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd |  N  | [[New Note]]
 |      |       | Opt | Cmd |  N  | [[New Note with Options]]
 |      |       |     | Cmd |  O  | Open a Collection ([Mac Standard][mkeys])
-|      |       | Opt | Cmd |  O  | Open a Parent Realm
+|      |       | Opt | Cmd |  O  | Open a Project Folder
 |      | Shift | Opt | Cmd |  O  | Open Collection Folder in the Finder
 |      | Shift |     | Cmd |  P  | Grant Permissions to Folder
 | Ctrl |       |     |     |  P  | Toggle [[Presentation Mode]]

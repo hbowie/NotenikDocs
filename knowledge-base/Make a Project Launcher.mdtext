@@ -78,33 +78,33 @@ Notenik, as well as many other Mac apps, have what are known as *Custom URL Sche
 
 Once you've created a new note, and while you're still on the **Edit** tab, you can use **Set Local Link** beneath the **Note** menu to pick a local file that you wish to be opened by the new note. For example, selecting an Xcode project file will cause that Xcode project to be opened when the Link is launched. 
 
-##### 9. Notenik Parent Realms
+##### 9. Notenik Project Folders
 
-A *Parent Realm* in Notenik is simply an ordinary folder containing, possibly within subfolders, one or more resources that Notenik might be interested in, including:
+A *Project Folder* in Notenik is simply an ordinary folder containing, possibly within subfolders, one or more resources that Notenik might be interested in, including:
 
 + Notenik collections;
 + Notenik scripts;
 + [BBEdit project files](https://bbedit-guide.netlify.app/02-projects/index.html).
 
-So, within the context of this project launcher discussion, a parent realm is a neat way to further organize your projects. 
+So, within the context of this project launcher discussion, a project folder is a neat way to further organize your projects. 
 
-To create a launcher Note for a parent realm, start by using the **Open Parent Realm** command beneath the **File** menu, and then specify a folder containing one or more of the types of items identified above. You will then see the folder open as a sort of pseudo-collection, in its own window. From there you can invoke **Copy Note for Collection**, just as we described above for an ordinary collection, and then paste the resulting **Link** into a new note within your project launcher. 
+To create a launcher Note for a project folder, start by using the **Open Project Folder** command beneath the **File** menu, and then specify a folder containing one or more of the types of items identified above. You will then see the folder open as a sort of pseudo-collection, in its own window. From there you can invoke **Copy Note for Collection**, just as we described above for an ordinary collection, and then paste the resulting **Link** into a new note within your project launcher. 
 
-In my case, many of my projects are websites that I've created, with each folder containing the generated HTML, as well as Notenik collections, scripts and merge templates. So I store each website project folder as a separate item to be launched within my project launcher. Then, once I've opened the parent realm for a project, I can proceed to open items within that parent realm. 
+In my case, many of my projects are websites that I've created, with each folder containing the generated HTML, as well as Notenik collections, scripts and merge templates. So I store each website project folder as a separate item to be launched within my project launcher. Then, once I've opened the project folder for a project, I can proceed to open items within that project folder. 
 
 ##### 10. BBEdit Project Files
 
-I mentioned above that Notenik will help you open BBEdit project files found within a parent realm. 
+I mentioned above that Notenik will help you open BBEdit project files found within a project folder. 
 
 Here's the way I use this. 
 
-For each of my major projects (ones that I will be launching as parent realms), I use BBEdit to create a new project file, save it at the top level of my parent realm folder, then drag and drop my project folder onto the left side of the BBEdit project window.
+For each of my major projects (ones that I will be launching as project folders), I use BBEdit to create a new project file, save it at the top level of my project folder, then drag and drop my project folder onto the left side of the BBEdit project window.
 
-Now when I open a parent realm from my launcher I'll see a BBEdit project file listed, and can double-click on that to open  the entire project folder in BBEdit. Then, if I later request from Notenik to **Text Edit** a note or a collection template file, that file will open within the BBEdit project window. 
+Now when I open a project folder from my launcher I'll see a BBEdit project file listed, and can double-click on that to open  the entire project folder in BBEdit. Then, if I later request from Notenik to **Text Edit** a note or a collection template file, that file will open within the BBEdit project window. 
 
 ##### 11. Opening Folders in the Finder
 
-It's also worth mentioning that, once you have opened a parent realm (or a simple collection, for that matter), you can ask Notenik to open the corresponding folder in the macOS Finder by using **Open Folder in Finder** beneath the **File** menu. 
+It's also worth mentioning that, once you have opened a project folder (or a simple collection, for that matter), you can ask Notenik to open the corresponding folder in the macOS Finder by using **Open Folder in Finder** beneath the **File** menu. 
 
 ##### 12. Putting It All Together
 
@@ -114,9 +114,9 @@ When I launch Notenik, it automatically requests appropriate disk access, and I 
 
 Notenik then automatically opens my project launcher and positions it in the upper left corner of my screen. I then leave it there for the rest of the day, and come back to it each time I'm switching projects. 
 
-My project launcher lists all the things I might want to work on, with each note generally pointing to a parent realm (aka project folder) for that project. 
+My project launcher lists all the things I might want to work on, with each note generally pointing to a project folder for that project. 
 
-When I switch my attention from one project to another, I close the windows I've opened for the old project, and then open the parent realm window for the new project. That window then usually sits with its upper left corner just below and to the right of the upper left corner for my project launcher. 
+When I switch my attention from one project to another, I close the windows I've opened for the old project, and then open the project folder window for the new project. That window then usually sits with its upper left corner just below and to the right of the upper left corner for my project launcher. 
 
 From there I can open Notenik collections, run scripts, open the folder in BBEdit and the Finder. 
 

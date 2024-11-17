@@ -32,7 +32,7 @@ The identifier for the Collection to be referenced must be specified following t
 
 Note that a lookback field is similar to a [[Back Links]] field, with the difference that Backlinks are used for [[Wiki Links Between Collections]], while lookbacks are used for lookups within Collections. 
 
-One must be mindful of [[Disk Access Permissions]] when using a field with type `lookback`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Parent Realm]] command to first open the parent, and then from there open either of the Collections. 
+One must be mindful of [[Disk Access Permissions]] when using a field with type `lookback`. This can probably best be handled by putting the second Collection alongside of the first, within the same parent folder. You can then use the [[Open Project Folder]] command to first open the parent, and then from there open either of the Collections. 
 
 Note that lookback values are calculated dynamically when a Collection is opened, and so no lookback values are stored within a Note's disk file. 
 

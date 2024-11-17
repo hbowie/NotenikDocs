@@ -12,7 +12,7 @@ Body:
 
 The Scripter window allows the user to record or play a script file. It does not allow editing of an existing script file, which must be done using your trusty text editor. 
 
-The Scripter window will open automatically when you play a script file, as when you double-click a script file found when opening a [[Parent Realm]].
+The Scripter window will open automatically when you play a script file, as when you double-click a script file found when opening a [[Project Folder]].
 
 To record a new script, use the menu item beneath the Window menu. 
 

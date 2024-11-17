@@ -8,7 +8,7 @@ Seq:    5.4.1
 
 Level:  4 - Subsection
 
-Index:  collection titles; parent realm; nav board; 
+Index:  collection titles; parent realm; nav board; project folder; 
 
 Class:  non-version
 
@@ -52,9 +52,9 @@ The Collection Window Title, displayed at the top of the window, should reliably
 
 (Also, BTW, control-clicking or right-clicking on the Collection Window Title will show you the folder name, followed by a list of all its parent folders.) 
 
-##### Parent Realm
+##### Project Folder
 
-When you use the **File** menu to [[Open Parent Realm]] (or open a parent realm by any other means), you will see a read-only Collection Window showing you all of the Collections contained within the Parent Realm folder. 
+When you use the *File* menu to [[Open Project Folder]] (or open a project folder by any other means), you will see a read-only Collection Window showing you all of the Collections contained within the Project folder. 
 
 The Title of each Collection, as shown in this window, will be each Collection's Title, as set by its Collection Settings. 
 

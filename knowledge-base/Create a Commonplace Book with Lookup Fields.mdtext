@@ -31,7 +31,7 @@ First, we need to understand that our Commonplace book consists of three differe
 
 So now let's look at each Collection in turn, starting at the bottom. We'll look at [[the Collection Template File]] for each Collection, since this is where the fields are defined, as well as the relationships between Collections. 
 
-You may find it handy to use the [[Open Parent Realm]] command on the top folder of your new Commonplace book, since this will give you a convenient way to open each of the three Collections in turn. 
+You may find it handy to use the [[Open Project Folder]] command on the top folder of your new Commonplace book, since this will give you a convenient way to open each of the three Collections in turn. 
 
 ##### Author Notes
 

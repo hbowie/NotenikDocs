@@ -42,5 +42,5 @@ Here is more info on the actions performed by each button.
 + Delete Selected -- Delete the selected Collection. 
 + Reveal Selected -- Reveal the selected Collection in the Finder. 
 + Open Other - If the desired Collection is not available within the outline, then click on this button so that you can select your Collection from your local file system. 
-+ Open Parent -- Allows you to perform the [[Open Parent Realm]] action from the Nav Board. 
++ Open Parent -- Allows you to perform the [[Open Project Folder]] action from the Nav Board. 
 + Quit -- Quit the Notenik application.
