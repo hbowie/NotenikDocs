@@ -16,7 +16,7 @@ The following actions are allowed.
 
 #### Include
 
-The value field should specify the name of the file to be included. It must be in the same directory as the script being executed, and its file extension must be '`.tcz`'. The file extension may be omitted. 
+The value field should specify the name of the file to be included. It must be in the same directory as the script being executed. If the file extension is omitted, then it will be assumed to have have the same extension as the including file. 
 
 Note that one include may not be nested within another.
 

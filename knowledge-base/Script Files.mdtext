@@ -16,6 +16,8 @@ Notenik supports script files that can be used for executing a series of command
 
 The file extension for a script file should be '.tcz', short for 'TDF Czar', which was a predecessor to PSTextMerge, which was in turn a predecessor to Notenik.
 
-A script file is a tab-delimited -- or comma-separated (csv) -- file containing five columns. 
+A script file is either a [tab-separated values](https://en.wikipedia.org/wiki/Tab-separated_values) file, or a [comma-separated values](https://en.wikipedia.org/wiki/Comma-separated_values) file,  containing five columns. 
 
 As with other Notenik files, it can be edited using a text editor.
+
+Starting with [[Version 15.8.0]],  a file residing in a folder named `scripts`, and having a file extension of `.tsv`, for *tab-separated values*, will also be recognized as a script file. A file extension of `.tsv` should make it easier to open and edit script files using apps such as Numbers and Excel, which work better than a text editor when viewing a tab-delimited file.

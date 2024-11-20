@@ -14,11 +14,15 @@ Now let's see how Notenik can help you build your first website.
 
 Notenik can assist you in creating and maintaining a website by acting as a [static site generator](https://en.wikipedia.org/wiki/Static_site_generator).
 
-This means that, instead of coding your HTML pages directly, you will be creating notes within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view a note using your trusty text editor. 
+![diagram showing static site generation](images/static-flow.png)
+
+This means that, instead of coding your HTML pages directly, you will be creating notes within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view each note using your trusty text editor. 
 
 Notenik uses the term *collection* to refer to a folder full of notes. You will be working with a `content` collection that will contain all of the content you wish to see on your website. 
 
 All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  
+
+BTW, all of the details about Notenik can be found in the Notenik Knowledge Base, which can be found either [on the web](https://notenik.app/kb/notenik-knowledge-base.html), or [within Notenik](notenik://help). From time to time I'll provide links to relevant sections within the web version of this document, in case you want more details on any particular topic discussed here. 
 
 I think that's enough introduction for now... let's start creating!
 
@@ -42,6 +46,8 @@ Next double-click the `content` row. Your content collection window will then op
 
 To create your first web page in Notenik, hit the plus sign in the toolbar, or type CMD-N, or select *New Note* beneath the *Note* menu. 
 
+You will see that the `content` collection offers multiple fields for each Note. For now, you can ignore all of them except for the *Title* and *Body* fields. 
+
 Type `Index` as the title of your first Note. 
 
 Then tab down to the Body of your first Note, and write a sentence or two about yourself. Here's mine, for example. 
@@ -52,6 +58,83 @@ My name is Herb. I enjoy making websites, and making software to make it easier 
 
 Now save this note, by hitting *Display*, or by selecting *Save Note* beneath the *Note* menu.
 
+Once you've saved your first note, you can delete the starting note for the collection, titled `Throwaway Note`. 
+
 #### Step 2.5 Run the Notenik Build Script
 
-Now go back to you overall project window, where you will see a row that's titled '*scripts / build script - chapter 01.tcz*', and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script. 
+Now go back to your overall project window, where you will see a row that's titled '*scripts / build script - chapter 01.tsv*', and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script.
+
+#### Step 3. Preview your website
+
+You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as teh body of your `Index` note. 
+
+#### Step 3.5 Review the Merge Template
+
+Now let's take a look at a couple of Notenik files that were invoked when you double-clicked on your build script. 
+
+These files can be opened using the same text editor you used to view the `index.html` file.
+
+Let's look first at the [merge template](https://notenik.app/kb/merge-templates.html) file named `page template - chapter 01.html`, which you will find within the `factory/templates` folder. 
+
+Here's what you should see.
+
+```
+<?nextrec?>
+<?output "../../web/=$title&f$=.html"?>
+=$body$=
+<?loop?>
+```
+
+Let's take these lines one at a time. 
+
+##### `<?nextrec?>`
+
+This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the `Index` page but, as we add other pages, they would take advantage of this same code. 
+
+##### `<?output "../../web/=$title&f$=.html"?>`
+
+This line tells Notenik to open a new output file into which the following lines will be copied. Because this line follows the `nextrec` command, it will be repeated for each input note. 
+
+Following the name of the command we find the output path and filename for the file to be created. Each `../` takes Notenik up a level in the folder structure, starting from the location of the template file, until we get to the project folder itself, and then we direct the output into the `web` folder. What follows is the file name, which will be formed from the `title` field of the input note. 
+
+The `&f` is a [Merge Variable Modifier](https://notenik.app/kb/variable-modifiers.html) telling Notenik to make all letters lowercase, and to replace spaces with dashes, to create a universally readable filename to be accessed from the web. 
+
+Then finally the `.html` specifies the file extension to be used for the output file. 
+
+##### `=$body$=`
+
+This [merge variable](https://notenik.app/kb/merge-variables.html) tells Notenik to place the entire body of the input note into the resulting web page. 
+
+##### `<?loop?>`
+
+This command tells Notenik that it has reached the end of the lines to be repeated for each input note. So, in this case, the only contents of the output `index.html` file will be the body of the note.
+
+So that's it for the merge template, for now. Pretty simple, right?
+
+#### Step 3.6 Review the Script File
+
+Now let's look at the [script file](https://notenik.app/kb/script-files.html) we used. 
+
+You'll find this in the `factory/scripts` folder. 
+
+Again, you can open it using any text editor. However a Notenik script file is in tab-delimited format, with its data in columns, so it may be easier to view when opened with a spreadsheet editor, such as Apple's Numbers app. 
+
+Here's what the script file looks like when viewed in Numbers. 
+
+![Chapter 1 Script File](images/ch-01-script.png)
+
+The first row contains column headings. These are always the same. 
+
+The second row opens the `content` folder as input. 
+
+The third row opens the template file we just reviewed. 
+
+And the fourth line tells Notenik to merge the input data into the template, producing whatever output is specified within the template. 
+
+So now you've seen everything used to produce our starting web page! 
+
+#### Step 4. Publish your website
+
+These instructions are the same. The only difference with Notenik is that only the contents of the `web` folder — and not the entire project — need to be uploaded to your web server. 
+
+And that's a wrap for Chapter 1!

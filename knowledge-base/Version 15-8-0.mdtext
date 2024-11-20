@@ -25,3 +25,7 @@ The Collection template file can now specify a default value for the [[Class]] a
 ##### Renaming 'Parent Realm' to 'Project Folder' 
 
 Renaming the quite esoteric term of 'Parent Realm' to the less mystifying 'Project Folder'.
+
+##### A New Option for Naming Script Files
+
+A file residing in a folder named `scripts`, and having a file extension of `.tsv` (for *tab-separated values*), will now be recognized as a [[Script File]]. A file extension of `.tsv` should make it easier to open and edit script files using apps such as Numbers and Excel, which work better than a text editor when viewing a tab-delimited file.

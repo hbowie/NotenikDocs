@@ -1,0 +1,78 @@
+Title:  Add content to your website
+
+Seq:    2
+
+Level:  2
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/add-content-to-your-website/).
+
+#### Step 1. Add a Heading
+
+With Notenik you can code HTML tags if you want to, but you may also use the [Markdown syntax](https://daringfireball.net/projects/markdown/syntax), which is a sort of shorthand for coding many HTML tags. 
+
+So here's how we would add a heading using Notenik, replacing the body field with the following:
+
+```
+# Herb's Homepage
+
+My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
+```
+
+Notice that all we had to do to create a heading was to add a hash character at the beginning of the heading text, and then leave a blank line between the heading and the following paragraph. No need for paragraph tags at all, and no need for a closing '`</h1>`' tag. 
+
+And then, when you click on the *Display* tab, Notenik will show you how your web page is looking so far — no need to load anything in your web browsser just yet. 
+
+#### Step 2. Linking to other websites 
+
+Again, we can use the Markdown syntax to add links to our text. 
+
+Just add the following to your *body* text. 
+
+```
+Check out these cool app reviews from [Lou Plummer's AppAddict page](https://apps.louplummer.lol/). 
+```
+
+Do you see what we've done? We've added a new paragraph (just by virtue of inserting a blank line before the addtional text), and the text to serve as the visible link is placed within square brackets, and then followed immediately by the *href* value within parentheses. 
+
+Now hit the *Display* tab again and you can preview your work, again right within Notenik. 
+
+#### Step 3. Lists of things
+
+As you might have guessed, Markdown also has a shorthand syntax for lists. 
+
+Here's an example of an *unordered list* you can add to your home page. 
+
+```
+## Favorite Movies
+
++ It's A Wonderful Life
++ The Long Goodbye
++ The Thin Man
+```
+
+Notice we used two leading hash marks to indicate a level 2 heading, and started each list item with a plus sign. 
+
+And to make an ordered list?
+
+Just number your items as in the following example. 
+
+```
+## How to make a website
+
+1. Create some content
+2. Create a merge template
+3. Create a script
+4. Run the script
+5. Open the output with your web browser
+
+Note that, even if the numbers are not in sequence (because of an insertion, for example), the resulting numbered list will still be numbered consecutively, starting at 1. 
+
+```
+
+#### Step 4. Add images to your website
+
+
+
+

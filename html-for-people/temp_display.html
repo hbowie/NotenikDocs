@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Zero to internet: your first website</title>
+<title>Add content to your website</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -392,55 +392,70 @@ h6 {
 <body>
 
 <main>
-<p><a href="https://ntnk.app/htmlisforpeoplethenotenikcompanion" class="nav-link">HTML is for People — the Notenik Companion</a>&#160;&#8593;</p><h3 id="zerotointernetyourfirstwebsite">1 Zero to internet: your first website</h3>
-<p>Start by reading the corresponding <a href="https://www.htmlforpeople.com/zero-to-internet-your-first-website/" class="ext-link" target="_blank" rel="noopener">HTML for people chapter</a>. </p>
+<p><a href="https://ntnk.app/htmlisforpeoplethenotenikcompanion" class="nav-link">HTML is for People — the Notenik Companion</a>&#160;&#8593;</p><h3 id="addcontenttoyourwebsite">2. Add content to your website</h3>
+<p>Start by reading the corresponding <a href="https://www.htmlforpeople.com/add-content-to-your-website/" class="ext-link" target="_blank" rel="noopener">HTML for people chapter</a>. </p>
 
-<p>Now let&#8217;s see how Notenik can help you build your first website. </p>
+<h4 id="step-1-add-a-heading">Step 1. Add a Heading</h4>
 
-<h4 id="step-0-terms-and-concepts">Step 0. Terms and Concepts</h4>
+<p>With Notenik you can code HTML tags if you want to, but you may also use the <a href="https://daringfireball.net/projects/markdown/syntax" class="ext-link" target="_blank" rel="noopener">Markdown syntax</a>, which is a sort of shorthand for coding many HTML tags. </p>
 
-<p>Notenik can assist you in creating and maintaining a website by acting as a <a href="https://en.wikipedia.org/wiki/Static_site_generator" class="ext-link" target="_blank" rel="noopener">static site generator</a>. </p>
+<p>So here&#8217;s how we would add a heading using Notenik, replacing the body field with the following: </p>
 
-<p>This means that, instead of coding your HTML pages directly, you will be creating notes within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view a note using your trusty text editor. </p>
+<pre><code># Herb's Homepage
 
-<p>Notenik uses the term <em>collection</em> to refer to a folder full of notes. You will be working with a <code>content</code> collection that will contain all of the content you wish to see on your website. </p>
-
-<p>All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a <em>build</em> step.  </p>
-
-<p>I think that&#8217;s enough introduction for now&#8230; let&#8217;s start creating! </p>
-
-<h4 id="step-1-create-a-new-notenik-project">Step 1. Create a new Notenik Project</h4>
-
-<p>Fire up Notenik and select <em>New Collection&#8230;</em> beneath the <em>File</em> menu. </p>
-
-<p>On the first pane that appears, select <em>A location of your choosing</em>. </p>
-
-<p>Next select the parent folder in which your website project will be created. This would typically be a folder named <code>Sites</code> that would exist immediately below your user home folder, and would be a peer to other top-level folders such as <code>Documents</code>. </p>
-
-<p>Next specify a name for your new Collection. This will become a folder name. For this tutorial we can call it <code>my-notenik-project</code> or anything else you&#8217;d like. </p>
-
-<p>Next select the sort of Collection you would like. For this tutorial, select &#8216;<em>16 - HTML is for People</em>&#8217;. </p>
-
-<p>Next you will see a Notenik project window for your new project. Click on the <code>README.md</code> row to see the README file for the project. </p>
-
-<p>Next double-click the <code>content</code> row. Your content collection window will then open. </p>
-
-<h4 id="step-2-create-an-index-note">Step 2. Create an Index note</h4>
-
-<p>To create your first web page in Notenik, hit the plus sign in the toolbar, or type CMD-N, or select <em>New Note</em> beneath the <em>Note</em> menu. </p>
-
-<p>Type <code>Index</code> as the title of your first Note. </p>
-
-<p>Then tab down to the Body of your first Note, and write a sentence or two about yourself. Here&#8217;s mine, for example. </p>
-
-<pre><code>My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
+My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
 </code></pre>
 
-<p>Now save this note, by hitting <em>Display</em>, or by selecting <em>Save Note</em> beneath the <em>Note</em> menu. </p>
+<p>Notice that all we had to do to create a heading was to add a hash character at the beginning of the heading text, and then leave a blank line between the heading and the following paragraph. No need for paragraph tags at all, and no need for a closing &#8216;<code>&lt;/h1&gt;</code>&#8217; tag. </p>
 
-<h4 id="step-2.5-run-the-notenik-build-script">Step 2.5 Run the Notenik Build Script</h4>
+<p>And then, when you click on the <em>Display</em> tab, Notenik will show you how your web page is looking so far — no need to load anything in your web browsser just yet. </p>
 
-<p>Now go back to you overall project window, where you will see a row that&#8217;s titled &#8216;<em>scripts / build script - chapter 01.tcz</em>&#8217;, and double-click on this row on the List tab. This will open the <em>Scripter</em> window. Hit the <em>Go</em> button to run the script. </p>
+<h4 id="step-2-linking-to-other-websites">Step 2. Linking to other websites </h4>
+
+<p>Again, we can use the Markdown syntax to add links to our text. </p>
+
+<p>Just add the following to your <em>body</em> text. </p>
+
+<pre><code>Check out these cool app reviews from [Lou Plummer's AppAddict page](https://apps.louplummer.lol/). 
+</code></pre>
+
+<p>Do you see what we&#8217;ve done? We&#8217;ve added a new paragraph (just by virtue of inserting a blank line before the addtional text), and the text to serve as the visible link is placed within square brackets, and then followed immediately by the <em>href</em> value within parentheses. </p>
+
+<p>Now hit the <em>Display</em> tab again and you can preview your work, again right within Notenik. </p>
+
+<h4 id="step-3-lists-of-things">Step 3. Lists of things</h4>
+
+<p>As you might have guessed, Markdown also has a shorthand syntax for lists. </p>
+
+<p>Here&#8217;s an example of an <em>unordered list</em> you can add to your home page. </p>
+
+<pre><code>## Favorite Movies
+
++ It's A Wonderful Life
++ The Long Goodbye
++ The Thin Man
+</code></pre>
+
+<p>Notice we used two leading hash marks to indicate a level 2 heading, and started each list item with a plus sign. </p>
+
+<p>And to make an ordered list? </p>
+
+<p>Just number your items as in the following example. </p>
+
+<pre><code>## How to make a website
+
+1. Create some content
+2. Create a merge template
+3. Create a script
+4. Run the script
+5. Open the output with your web browser
+
+Note that, even if the numbers are not in sequence (because of an insertion, for example), the resulting numbered list will still be numbered consecutively, starting at 1. 
+
+</code></pre>
+
+<h4 id="step-4-add-images-to-your-website">Step 4. Add images to your website</h4>
+
 
 <hr />
 <p>Back to Top: <a href="https://ntnk.app/htmlisforpeoplethenotenikcompanion" class="nav-link">HTML is for People — the Notenik Companion</a></p>

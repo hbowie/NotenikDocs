@@ -25,7 +25,7 @@ Notenik will then construct a pseudo-Collection from these items, and present it
 The following types of items will be listed in a Project Folder Pseudo-Collection:
 
 + Notenik [[Collection Folders]]
-+ Notenik [[Script Files]] (with file extensions of `.tcz`)
++ Notenik [[Script Files]] 
 + [BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html)
 + [Web Location Files](https://fileinfo.com/extension/webloc)
 + Text Files, at the top level only
