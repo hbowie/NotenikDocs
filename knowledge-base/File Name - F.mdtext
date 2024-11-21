@@ -18,3 +18,12 @@ Body:
 
 Converts a string to a conventional, universal file name, changing spaces to dashes, removing any odd characters, making all letters lower-case, and converting white space to hyphens.
 
+However if this variable is specified before the [[Markdown to HTML - O]] modifier, then this logic will be applied, not to the entire field, but to any local image references found within the Markdown-formatted field (such as the body). This logic can work in tandem with the [[copyimages command]] to convert file names both within the generated HTML, and as the output for the *copyimages* command. 
+
+See the following example for how this might be used within a merge template. 
+
+```
+=$body&fo$=
+<?copyimages?>
+```
+

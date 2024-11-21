@@ -24,5 +24,4 @@ This will copy the image file for each Note to a corresponding output folder whe
 
 If the first and second operands specify folders, without any variables meant to represent file names, then the entire contents of the *from* folder will be copied to the *to* folder. 
 
-On the other hand if a variable meant to represent a specific file (such as `imagename`) could not be found for a particular Note, then the copyfile command will be aborted, and nothing will be copied. 
-
+On the other hand if a variable meant to represent a specific file (such as `imagename`) could not be found for a particular Note, then the copyfile command will be aborted, and nothing will be copied.

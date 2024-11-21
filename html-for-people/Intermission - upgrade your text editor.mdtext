@@ -1,0 +1,30 @@
+Title:  Intermission: upgrade your text editor
+
+Seq:    3
+
+Level:  2
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/intermission-upgrade-your-text-editor/).
+
+There are many good text editors for the Mac. 
+
+I tend to use [BBEdit](https://www.barebones.com/products/bbedit/) or [Nova](https://nova.app/).
+
+BBEdit allows you to create a project file that you can use to view one or more folders in your sidebar. When found in a Notenik project folder, Notenik allows you to open a BBEdit project right from within Notenik. 
+
+With Nova, simply add your project folder to its Launcher by dragging and dropping. 
+
+This is what our starting demo project looks like when opened within Nova. 
+
+![Screenshot of Nova App](images/nova-screenshot.jpg)
+
+Both BBEdit and Nova help with HTML formatting and viewing. 
+
+VSCode is also available for the Mac, and is used by many. 
+
+[CotEditor](https://coteditor.com/) is another option. It's free and open-source and made exclusively for the Mac. 
+
+
+

@@ -73,6 +73,84 @@ Note that, even if the numbers are not in sequence (because of an insertion, for
 
 #### Step 4. Add images to your website
 
+Once you have an image file that you'd like to use, drop it into a new folder named `images` that you will create within your `content` folder. 
+
+You can then add the image to your `Index` content with a line like the following:
+
+```
+![Photograph of space with stars and stardust.](images/space.jpg)
+```
+
+There is no Markdown syntax for specifying the size of the image, but later we will be able to do this with CSS styling, if we would like. 
+
+#### Step 5. Add notes to your code
+
+There is no special Markdown syntax for comments, but you can use normal HTML comments freely within the body of a note, without having them show up in the output. 
+
+##### Step 6. Give your website a head and a body
+
+Here we are going to use the same HTML offered by Blake, but place it in our *template file*, instead of our content. 
+
+#### Step 6.1 Run the Notenik Build Script
+
+Now go back to your overall project window, where you will see a row that's titled '*scripts / build script - chapter 02.tsv*', and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script.
+
+#### Step 7. Preview your website
+
+You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as teh body of your `Index` note. 
+
+#### Step 7.1 Review the Merge Template
+
+Use your trusty text editor to look first at the updated  [merge template](https://notenik.app/kb/merge-templates.html) file named `page template - chapter 02.html`, which you will find within the `factory/templates` folder. 
+
+Here's what you should see.
+
+```
+<?nextrec?>
+<?output "../../web/=$title&f$=.html"?>
+<!doctype html>
+<html>
+  <head>
+  	<meta charset="utf-8">
+	<title>Herb's Website</title>
+  </head>
+  <body>
+=$body&fo$=
+<?copyimages?>
+  </body>
+</html>
+<?loop?>
+```
+
+Notice that the *nextrec* and *loop* lines are unchanged, as is the *output* command on line 2. 
+
+Following that you should see HTML tags much like the ones described by Blake. 
+
+We can still see the `=$body$=` variable, but now we've added a couple of useful variable modifiers with the embedded string '`&fo`'.  Here the ampersand indicates that one or more variable modifiers will be following, the '`o`' requests that the body text be converted from Markdown to HTML, and the '`f`' requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
+
+And then we have the addition of the *copyimages* command, which will copy any referenced local image files from the content folder to the web folder. 
+
+One important thing to remember is that *commands*, such as '`<?nextrec?>`' and '`<?copyimages?>`' must always start in the first column of a new line, and be on a line by themselves. Merge variables such as '`=$body$=`', on the other hand, can appear anywhere. 
+
+So that's it for the merge template.
+
+#### Step 7.2 Review the Script File
+
+We also have an updated script file for chapter 02, but you will see that there are only two differences from the one we used in chapter 01. 
+
+The first change is simply to pull in the chapter 02 template, rather than the one from chapter 01. 
+
+The second change is a little more interesting. We've added a *template webroot* script command to tell Notenik where we expect to find the top level of the website we are building. In this case, we're pointing to the `web` folder. This will help Notenik figure out the correct destination for the image files to be copied. 
+
+#### Step 7.3 Review the new index.html file
+
+Now use your text editor to open the new `index.html` file in the `web` folder. The file you find there should look very much like the one fashioned by hand in the *HTML for People* chapter. 
+
+#### Step 8. Update your live website
+
+You can do this in the same fashion described by Blake. 
+
+And that's a wrap for Chapter 2!
 
 
 
