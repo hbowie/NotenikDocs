@@ -6,4 +6,70 @@ Level:  2
 
 Body:
 
-Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/a-website-with-style/).
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/a-website-with-style/)
+
+All of Blake's comments about the use of CSS are relevant to Notenik as well.
+
+#### Notenik's Default CSS
+
+Notenik uses a combination of HTML and CSS to format each note for viewing on its *Display* tab. 
+
+Notenik provides its own default CSS, in case you don't wish to be bothered with providing any. It's not very fancy, though. 
+
+#### CSS Frameworks
+
+You can use any of the classless CSS frameworks that Blake mentions within Notenik as well. 
+
+Start by creating a folder named `css` within your `content` folder. 
+
+Download the CSS file you wish to use and move or copy it into the `css` folder you just created. If you'd like to try more than one, then download as many as you would like, and place them in the same folder. 
+
+Now open your `content` folder within Notenik and view your *Collection Settings*, found beneath the *Collection* menu. 
+
+There you will see a dropdown menu labeled *css file*. Use the dropdown to pick whichever css file you would like to try, then click the *OK* button in the lower right. 
+
+#### Tweaking Notenik's Default CSS
+
+Notenik also allows you to tweak the default CSS that it uses. 
+
+First, make sure that you don't have any of the special CSS files selected for your collection. 
+
+Next, open the *Display Appearance* item beneath the *Notenik* menu. 
+
+Here you'll find a number of options. 
+
+You can center heading for any sequence of levels. 
+
+You can modify the fonts used for body text and/or for headings and/or for the *List* tab. 
+
+You can choose from a short list of common fonts, or elect to choose from the full list of fonts installed on your system. 
+
+And you can also modify font sizes. 
+
+All of this can be done without learning any CSS syntax. You can see the CSS being generated for you, though, and you can see what effect your updates will have. 
+
+Once your done making your adjustments, just hit *OK* to put them into effect. 
+
+Note that changes made here will affect the display of *all* of your collections — not just the one currently open.
+
+#### The `display.css` file
+
+Yet another option for adjusting the CSS used within Notenik is to place a file named `display.css` within your `content` folder. This css will then be used in place of Notenik's default css for that collection. 
+
+#### The `copycss` Merge Template Command
+
+Whichever option you choose, you can elect to copy that css into an output file, so that it can be used by your website. 
+
+Use your text editor to open your merge template for chapter 04. You'll see two new lines.
+
+```
+<?copycss?>
+```
+
+```
+<link rel="stylesheet" href="css/styles.css">
+```
+
+The Notenik command of *copycss* will copy whatever css you are using for your collection into a file named `styles.css`, within a folder named `css`. Note that this command is placed before the *nextrec* command, since it only needs to be done once, not once for every note/page. 
+
+The HTML *link* tag is very similar to the one provided by Blake, and ensures that each HTML page created will reference that same set of styles. 

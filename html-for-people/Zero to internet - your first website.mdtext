@@ -16,11 +16,11 @@ Notenik can assist you in creating and maintaining a website by acting as a [sta
 
 ![diagram showing static site generation](images/static-flow.png)
 
-This means that, instead of coding your HTML pages directly, you will be creating notes within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view each note using your trusty text editor. 
+This means that, instead of coding your HTML pages directly, you will be creating content within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view each note using your trusty text editor. 
 
 Notenik uses the term *collection* to refer to a folder full of notes. You will be working with a `content` collection that will contain all of the content you wish to see on your website. 
 
-All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  
+All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  Notenik's build step consists of running a special script using Notenik's script runner. 
 
 BTW, all of the details about Notenik can be found in the Notenik Knowledge Base, which can be found either [on the web](https://notenik.app/kb/notenik-knowledge-base.html), or [within Notenik](notenik://help). From time to time I'll provide links to relevant sections within the web version of this document, in case you want more details on any particular topic discussed here. 
 
@@ -66,7 +66,7 @@ Now go back to your overall project window, where you will see a row that's titl
 
 #### Step 3. Preview your website
 
-You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as teh body of your `Index` note. 
+You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as the body of your `Index` note. 
 
 #### Step 3.5 Review the Merge Template
 

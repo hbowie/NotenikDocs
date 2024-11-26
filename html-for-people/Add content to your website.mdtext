@@ -66,10 +66,9 @@ Just number your items as in the following example.
 3. Create a script
 4. Run the script
 5. Open the output with your web browser
+```
 
 Note that, even if the numbers are not in sequence (because of an insertion, for example), the resulting numbered list will still be numbered consecutively, starting at 1. 
-
-```
 
 #### Step 4. Add images to your website
 
@@ -78,7 +77,7 @@ Once you have an image file that you'd like to use, drop it into a new folder na
 You can then add the image to your `Index` content with a line like the following:
 
 ```
-![Photograph of space with stars and stardust.](images/space.jpg)
+![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
 ```
 
 There is no Markdown syntax for specifying the size of the image, but later we will be able to do this with CSS styling, if we would like. 
@@ -97,7 +96,7 @@ Now go back to your overall project window, where you will see a row that's titl
 
 #### Step 7. Preview your website
 
-You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as teh body of your `Index` note. 
+You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file, and it should open in your default browser, and it should contain the same text you typed earlier as the body of your `Index` note. 
 
 #### Step 7.1 Review the Merge Template
 
@@ -151,6 +150,3 @@ Now use your text editor to open the new `index.html` file in the `web` folder. 
 You can do this in the same fashion described by Blake. 
 
 And that's a wrap for Chapter 2!
-
-
-

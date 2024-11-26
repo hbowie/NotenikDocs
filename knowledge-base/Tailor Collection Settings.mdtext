@@ -46,6 +46,8 @@ The following controls are available and can be used to modify/augment the appea
 
 + Display Mode -- This allows the user to select from five options: normal, [[Streamlined Reading]], [[Presentation Mode]],  [[Quotations Mode]], or custom. If a custom display template is found for a Collection, then this value will default to custom; otherwise, it will default to normal. 
 
++ css file -- This allows the selection of a Cascading Style Sheets (aka CSS) file to be used to display the Collection within Notenik. The file to be used may be selected from the CSS files found in the `css` folder within the Collection's folder. To be recognized and used, files must be within the `css` folder and have the `.css` file extension. This will override any other styling options set globally, or via a `display.css` file. 
+
 + Rerun Mirror Indexing with every Update? -- See the [[Mirror your Notes]] page for more info. 
 
 + Enable Mathjax V3? -- Check this box to load the Mathjax javascript package, so that math symbols and equations will display properly. This is off by default. See the [[Mathjax Support]] page for more info. 
