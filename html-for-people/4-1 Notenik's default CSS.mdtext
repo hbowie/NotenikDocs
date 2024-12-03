@@ -1,0 +1,13 @@
+Title:  Notenik's default CSS
+
+Seq:    4.1
+
+Level:  3 - section
+
+Body:
+
+#### Notenik's Default CSS
+
+Notenik uses a combination of HTML and CSS to format each note for viewing on its *Display* tab. 
+
+Notenik provides its own default CSS, in case you don't wish to be bothered with providing any. It's not particularly fancy, though.

@@ -4,7 +4,7 @@ Tags:   levels-outline.16 Version History.1 Version 1580
 
 Timestamp: 20241114230455
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2024-11-25
 
@@ -13,6 +13,7 @@ Level:  3 - Section
 Teaser:
 
 Renamed Parent Realm to Project Folder; made text files visible within the Project Folder; added default values for class and status fields; created a new option for naming script files; added new merge commands to copy images and copy css; expanded the usage for the file name variable modifier, to apply it to image file names; multiple css files may now be stored in a css folder, and the collection settings will allow the user to switch between them.
+
 
 Class:  version
 
@@ -52,4 +53,4 @@ The new [[copycss command]] merge template command will copy the css code being 
 
 ##### Adding HTML for People Demo
 
-Added a new starter pack available when creating a *New Collection* — an *HTML for People demo*. This is a work in progress, and is not yet complete. 
+Added a new starter pack available when creating a *New Collection* — an *HTML for People demo*. This is a work in progress, and is not yet complete.

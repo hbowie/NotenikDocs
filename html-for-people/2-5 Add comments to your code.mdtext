@@ -1,0 +1,11 @@
+Title:  Add comments to your code
+
+Seq:    2.5
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+There is no special Markdown syntax for comments, but you can use normal HTML comments freely within the body of a note, without having them show up in the output. 

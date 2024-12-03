@@ -1,0 +1,18 @@
+Title:  Build and Review
+
+Seq:    4.6
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Now go back to your overall project window, where you will see a row that's titled '*scripts / build script - chapter 04.tsv*', and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script.
+
+Now use your text editor to open the new `index.html` file in the `web` folder. The file you find there should look very much like the one fashioned by hand in the *HTML for People* chapter. 
+
+You can then upload your folders and files from your `web` folder to the live website in the same fashion described by Blake. 
+
+And that's a wrap for Chapter 4!
+

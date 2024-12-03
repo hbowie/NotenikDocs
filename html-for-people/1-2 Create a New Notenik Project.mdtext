@@ -1,0 +1,23 @@
+Title:  Create a New Notenik Project
+
+Seq:    1.2
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Fire up Notenik and select *New Collection...* beneath the *File* menu. 
+
+On the first pane that appears, select *A location of your choosing*. 
+
+Next select the parent folder in which your website project will be created. This would typically be a folder named `Sites` that would exist immediately below your user home folder, and would be a peer to other top-level folders such as `Documents`.
+
+Next specify a name for your new Collection. This will become a folder name. For this tutorial we can call it `my-notenik-project`, or anything else you'd like. 
+
+Next select the sort of Collection you would like. For this tutorial, select '*16 - HTML is for People*'.
+
+Next you will see a Notenik project window for your new project. Click on the `README.md` row to see the README file for the project. 
+
+Next double-click the `content` row. Your content collection window will then open.

@@ -70,6 +70,8 @@ And will still display as desired:
 
 Leading pipes are required, however. Each table line must start with a pipe character.
 
+Also, empty cells must be blank cells: that is, they must contain at least one space, in order not to run afoul of the MultiMarkdown convention mentioned below.
+
 Pipe characters may be escaped in order to include them as part of the contents of a cell, rather than having them mark the end of the column. 
 
 Per the [MultiMarkdown](https://fletcher.github.io/MultiMarkdown-5/tables.html) convention, you can indicate that a cell should span multiple columns by simply adding additional pipes (|) at the end of the cell. The number of pipes equals the number of columns the cell should span.

@@ -1,0 +1,21 @@
+Title:  Version 15.9.0
+
+Timestamp: 20241203190416
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed a Table Formatting Problem
+
+Fixed a problem with formatting [[Tables]] that contained consecutive pipes. 
+
+##### Initial Selection of README files
+
+When a Project Folder is opened, and the top level contains a README file, then that file will receive the initial selection.
+
+ 

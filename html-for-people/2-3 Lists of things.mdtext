@@ -1,0 +1,41 @@
+Title:  Lists of things
+
+Seq:    2.3
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+As you might have guessed, Markdown also has a shorthand syntax for lists. 
+
+Here's an example of an *unordered list* you can add to your home page. 
+
+This example also introduces the Markdown syntax for headings, using one or more hash marks at the beginning of a line to indicate a heading. 
+
+```
+## Favorite Movies
+
++ It's A Wonderful Life
++ The Long Goodbye
++ The Thin Man
+```
+
+Notice we used two leading hash marks to indicate a level 2 heading, and started each list item with a plus sign. 
+
+And to make an ordered list?
+
+Just number your items as in the following example. 
+
+```
+## How to make a website
+
+1. Create some content
+2. Create a merge template
+3. Create a script
+4. Run the script
+5. Open the output with your web browser
+```
+
+Note that, even if the numbers are not in sequence (because of an insertion, for example), the resulting numbered list will still be numbered consecutively, starting at 1.

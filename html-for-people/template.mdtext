@@ -2,11 +2,11 @@ Title: <title>
 
 Tags: <tags>
 
-Seq: <seq: n.|n. >
+Seq: <seq: n.|n.>
 
-Level: <level: >
+Level: <level: 1 - book, 2 - chapter, 3 - section >
 
-Class: <class: , intro, title-page >
+Class: <class: , intro, text, title-page >
 
 Body: 
 

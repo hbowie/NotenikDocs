@@ -2,7 +2,7 @@ Title:  Introduction
 
 Seq:    0.1
 
-Level:  2
+Level:  2 - chapter
 
 Class:  intro
 
@@ -20,18 +20,14 @@ This companion is aimed at the same audience as Blake's, with the caveat that on
 
 You need a Mac with internet access, and a copy of [Notenik](https://apps.apple.com/us/app/notenik/id1465997984) downloaded and installed on your Mac. 
 
-If this is your first experience with Notenik, then it may help to orient yourself to the app's operation by viewing the [Notenik 101 video](https://youtu.be/JR0kpAUXM5E?si=rIkuQHWtj4YbCOd6), which only takes ten minutes. 
+If this is your first experience with Notenik, then it may help to orient yourself to the app's operation by viewing the [Notenik 101 video](https://youtu.be/JR0kpAUXM5E?si=rIkuQHWtj4YbCOd6), which will only take you ten minutes. 
 
 #### How to proceed
 
-Note that there are two ways to use this companion document. 
+Note that there are two ways to use the [HTML for People](https://htmlforpeople.com) book while working your way through this companion document. 
 
-1. Read each chapter of Blake's book, gaining growing understanding of how HTML works, then read the corresponding chapter of this companion document, and work through the actions described herein. 
+1. Read each chapter of Blake's book as it is referenced, gaining a growing understanding of how HTML works, then read the corresponding chapter of this companion document, and work through the actions described herein. 
 
 2. Actually work through the instructions given in both Blake's book and this companion document. In this case, you will be building two separate websites, in two separate folders. 
 
 I think either of these approaches can work. Your choice!
-
-#### Table of Contents
-
-{:collection-toc:2-2}

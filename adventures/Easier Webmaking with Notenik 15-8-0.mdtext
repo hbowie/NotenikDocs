@@ -1,0 +1,63 @@
+Title:  Easier Webmaking with Notenik 15.8.0
+
+Tags:   website
+
+Status: 6 - Completed
+
+Seq:    38
+
+Date:   2024-11-26
+
+Author: Herb Bowie
+
+Teaser:
+
+The web book *HTML for People* made me realize that webmaking with Notenik was harder than it needed to be. So now, it's a little bit easier. 
+
+Timestamp: 20241126182715
+
+Date Added: 2024-11-26 10:27:15 -0800
+
+Date Modified: 2024-11-26 11:10:37 -0800
+
+Body:
+
+A Notenik user recently turned me on to a great web book, *[HTML for People](https://www.htmlforpeople.com/)*, authored by Blake Watson. 
+
+Blake's book takes the reader through a quick and painless introduction to Hypertext Markup Language, and makes the point (near and dear to my own heart) that HTML is not just for technologists, but is a document format meant to be accessible to everyone. 
+
+Blake's how-to gave me the idea of trying to write a companion document that would walk a user through the same steps of simple website creation, but using Notenik, rather than straight HTML. 
+
+That companion document is still in work, but a funny thing happened along the way. 
+
+I discovered that some of the Notenik steps I was trying to describe were actually harder than they needed to be. 
+
+And so, I fashioned some enhancements to make things a bit easier. 
+
+First, I realized (finally, I guess) that what I've been calling a *parent realm* in Notenik for so long has actually evolved into something that might as well be called a *project folder*.  So I made that nomenclature change, which seemed a valuable step towards making Notenik a little more straightforward, and a little less esoteric. 
+
+And then, once I had made that change (in my own thinking, as well as in the software and documentation), I wondered why in the world simple text files (such as README and LICENSE files) were not visible within Notenik when they appeared at the top level of a project folder. 
+
+And so, now they are. 
+
+And then, I wanted to make Class and Status fields visible within a content collection, without the user having to worry about them initially, but both fields looked a bit awkward with empty values, so I wondered why Notenik didn't have a way to specify default values for those fields. 
+
+And so now it does. 
+
+And then, when I was describing how a script file could be viewed and edited, I realized that the long-time file extension of '`.tcz`' that I had been using — even though it made it easy for Notenik to recognize those files — made it difficult for other apps to recognize what was basically a tab-delimited file format. And so, I thought, why not allow script files to have file extensions of '`.tsv`' (for *tab-separated values*), so long as they are stored in a folder named `scripts`? 
+
+And so now it's much easier to open and edit a script file using Numbers or Excel or even [Modern CSV](https://www.moderncsv.com/).
+
+And then Blake suggested the user download one or more classless CSS frameworks and try those out, and I realized that sounded pretty cool, but there was no way to easily download one of those things and apply it within Notenik. 
+
+And so now there is. 
+
+And then I realized that, while it was easy to apply CSS and load image files within Notenik, there was no easy way to transfer those things to a website being built from a Notenik collection. 
+
+And so now there is. 
+
+And I'm still not done going through all of Blake's book! So no doubt there will be more to come.
+
+But that already seemed like quite a lot, and I was getting close to two weeks without a Notenik release, so I've bundled up all these enhancements and released them into the wild as Notenik 15.8.0. 
+
+Available now from the Mac App Store. 

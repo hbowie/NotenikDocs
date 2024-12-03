@@ -1,0 +1,25 @@
+Title:  Create an Index Note
+
+Seq:    1.3
+
+Level:  3
+
+Class:  text
+
+Body:
+
+To create your first web page in Notenik, hit the plus sign in the toolbar, or type CMD-N, or select *New Note* beneath the *Note* menu. 
+
+You will see that the `content` collection offers multiple fields for each Note. For now, you can ignore all of them except for the *Title* and *Body* fields. 
+
+Type `Index` as the title of your first Note. 
+
+Then tab down to the Body of your first Note, and write a sentence or two about yourself. Here's mine, for example. 
+
+```
+My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
+```
+
+Now save this note, by hitting *Display*, or by selecting *Save Note* beneath the *Note* menu.
+
+Once you've saved your first note, you can delete the starting note for the collection, titled `Throwaway Note`. 

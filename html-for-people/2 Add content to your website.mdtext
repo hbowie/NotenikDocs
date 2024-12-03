@@ -1,0 +1,12 @@
+Title:  Add content to your website
+
+Seq:    2
+
+Level:  2 - chapter
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/add-content-to-your-website/).
+
+Notenik allows you to preview your entries right within the app, by viewing the Display tab, so we won't be running our build script, and regenerating our `index.html` file, until we are done adding all of the new content for this chapter. 
+

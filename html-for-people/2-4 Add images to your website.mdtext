@@ -1,0 +1,19 @@
+Title:  Add images to your website
+
+Seq:    2.4
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Once you have an image file that you'd like to use, go to the Finder and drop it into a new folder named `images` that you will create within your `content` folder. 
+
+Back in Notenik, you can then add the image to your `Index` content with a line like the following:
+
+```
+![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
+```
+
+There is no Markdown syntax for specifying the size of the image, but later we will be able to do this with CSS styling, if we would like.

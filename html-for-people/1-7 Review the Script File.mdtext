@@ -1,0 +1,31 @@
+Title:  Review the Script File
+
+Seq:    1.7
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Now let's look at the [script file](https://notenik.app/kb/script-files.html) we used. 
+
+You'll find this in the `factory/scripts` folder. 
+
+Again, you can open it using any text editor. However a Notenik script file is in tab-delimited format, with its data in columns, so it may be easier to view when opened with a spreadsheet editor, such as Apple's Numbers app. 
+
+Here's what the script file looks like when viewed in Numbers. 
+
+![Chapter 1 Script File](images/ch-01-script.png)
+
+The first row contains column headings. These are always the same. 
+
+The second row opens the `content` folder as input. 
+
+The third row opens the template file we just reviewed. 
+
+And the fourth line tells Notenik to merge the input data into the template, producing whatever output is specified within the template. 
+
+(Note that the `#PATH#` constant tells Notenik to interpret what follows as a relative path, starting from the location of the script file.)
+
+So now you've seen everything used to produce our starting web page!

@@ -1,0 +1,27 @@
+Title:  Review the merge template
+
+Seq:    4.5
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Whichever CSS option you choose, you can elect to copy that CSS into an output file, so that it can be used by your website. 
+
+Use your text editor to open your merge template for chapter 04. You'll see two new lines related to CSS.
+
+```
+<?copycss?>
+```
+
+```
+<link rel="stylesheet" href="css/styles.css">
+```
+
+The Notenik command of *copycss* will copy whatever CSS you are using for your collection into a file named `styles.css`, within a folder named `css`. Note that this command is placed before the *nextrec* command, since it only needs to be done once, not once for every note/page. 
+
+The HTML *link* tag is very similar to the one provided by Blake, and ensures that each HTML page created will reference that same set of styles.
+
+You'll also see that we've added *header*, *main* and *footer* tags, per Blake's suggestions. 

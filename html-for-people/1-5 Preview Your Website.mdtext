@@ -1,0 +1,12 @@
+Title:  Preview your website
+
+Seq:    1.5
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+You will find a file named `index.html` inside of the `web` folder within your project folder. Double-click this file in the Finder, and it should open in your default browser, and it should contain the same text you typed earlier as the body of your `Index` note. 
+

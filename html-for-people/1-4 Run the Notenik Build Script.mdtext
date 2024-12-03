@@ -1,0 +1,12 @@
+Title:  Run the Notenik build script
+
+Seq:    1.4
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+Now go back to your overall project window, where you will see a row that's titled '*scripts / build script - chapter 01.tsv*', and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script.
+
