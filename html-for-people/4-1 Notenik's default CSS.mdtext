@@ -11,3 +11,5 @@ Body:
 Notenik uses a combination of HTML and CSS to format each note for viewing on its *Display* tab. 
 
 Notenik provides its own default CSS, in case you don't wish to be bothered with providing any. It's not particularly fancy, though.
+
+This is the styling you've been seeing so far within Notenik. 

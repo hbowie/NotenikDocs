@@ -10,10 +10,12 @@ Body:
 
 You can use any of the classless CSS frameworks that Blake mentions within Notenik as well. 
 
-Start by creating a folder named `css` within your `content` folder. 
+Start by creating a folder named `css` within your pages folder. 
 
-Download the CSS file you wish to use and move or copy it into the `css` folder you just created. If you'd like to try more than one, then download as many as you would like, and place them in the same folder. 
+Download the CSS file you wish to use and move or copy it into the css folder you just created. If you'd like to try more than one, then download as many as you would like, and place them in the same folder. 
 
-Now open your `content` folder within Notenik and view your *Collection Settings*, found beneath the *Collection* menu. 
+Now open your posts collection within Notenik and view your Collection Settings, found beneath the Collection menu. 
 
-There you will see a dropdown menu labeled *css file*. Use the dropdown to pick whichever css file you would like to try, then click the *OK* button in the lower right. 
+There you will see a dropdown menu labeled *css file*. Use the dropdown to pick whichever css file you would like to try, then click the OK button in the lower right.
+
+You should now see your starting Index note displayed using the css file you have selected. 

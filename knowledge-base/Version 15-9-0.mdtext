@@ -18,4 +18,8 @@ Fixed a problem with formatting [[Tables]] that contained consecutive pipes.
 
 When a Project Folder is opened, and the top level contains a README file, then that file will receive the initial selection.
 
- 
+##### Added Escape Characters in Merge Templates
+
+Characters used to form [[Merge Delimiters]] may now be escaped, by preceding each character with a backslash, so that they may escape processing on a first pass through the merge processor, in order to be processed on a second pass. 
+
+

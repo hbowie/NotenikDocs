@@ -10,23 +10,3 @@ Start by reading the corresponding [HTML for people chapter](https://www.htmlfor
 
 All of Blake's comments about the use of CSS are relevant to Notenik as well.
 
-
-
-
-#### The `copycss` Merge Template Command
-
-Whichever option you choose, you can elect to copy that css into an output file, so that it can be used by your website. 
-
-Use your text editor to open your merge template for chapter 04. You'll see two new lines.
-
-```
-<?copycss?>
-```
-
-```
-<link rel="stylesheet" href="css/styles.css">
-```
-
-The Notenik command of *copycss* will copy whatever css you are using for your collection into a file named `styles.css`, within a folder named `css`. Note that this command is placed before the *nextrec* command, since it only needs to be done once, not once for every note/page. 
-
-The HTML *link* tag is very similar to the one provided by Blake, and ensures that each HTML page created will reference that same set of styles.

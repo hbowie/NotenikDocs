@@ -24,3 +24,5 @@ Notenik will recognize either of two sets of command and variable delimiters aut
 <tr><td>End of Variable</td><td>&gt;&gt;</td><td>$=</td></tr>
 <tr><td>Start of Variable Modifiers</td><td>&amp;</td><td>&amp;</td></tr>
 </table>
+
+Beginning with [[Version 15.9.0]], any of the command/variable delimiters may be escaped by preceding each character with a backslash. Such coding can allow merge variables to have variable names that are constructed in one pass, preserving the escaped characters for processing in a second pass (as with a generated include file). 

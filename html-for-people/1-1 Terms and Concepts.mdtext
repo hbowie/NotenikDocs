@@ -2,7 +2,7 @@ Title:  Terms and Concepts
 
 Seq:    1.1
 
-Level:  3
+Level:  3 - section
 
 Class:  text
 
@@ -14,7 +14,7 @@ Notenik can assist you in creating and maintaining a website by acting as a [sta
 
 This means that, instead of coding your HTML pages directly, you will be creating content within Notenik, with each note eventually becoming a web page or a post. Each note is saved as an ordinary text file, and you can always open and view each note using your trusty text editor. 
 
-Notenik uses the term *collection* to refer to a folder full of notes. You will be working with a `content` collection that will contain all of the content you wish to see on your website. 
+Notenik uses the term *collection* to refer to a folder full of notes. You will be working with a couple of collections within your `content` folder: one for *pages* that are relatively static, and one for *posts* that you will be creating as you continue to maintian your site.  
 
 All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  Notenik's build step consists of running a special script using Notenik's script runner. 
 

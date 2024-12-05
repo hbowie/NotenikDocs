@@ -16,22 +16,29 @@ Here's what you should see.
 
 ```
 <?nextrec?>
+<?if "=$aka$=" ?>
+<?output "../../web/=$aka&f$=.html"?>
+<?else?>
 <?output "../../web/=$title&f$=.html"?>
+<?endif?>
 <!doctype html>
 <html>
   <head>
   	<meta charset="utf-8">
-	<title>Herb's Website</title>
+	<title>=$title$=</title>
   </head>
   <body>
-=$body&fo$=
+    <h1>=$title$=</h1>
+    =$body&fo$=
 <?copyimages?>
   </body>
 </html>
 <?loop?>
 ```
 
-Notice that the *nextrec* and *loop* lines are unchanged, as is the *output* command on line 2. 
+Notice that the *nextrec* and *loop* lines are unchanged. 
+
+The five lines following the *nextrec* command tell Notenik to form the output file name from the contents of the *AKA* field, if it exists, but to otherwise fashion the file name from the *title* field. 
 
 Following that you should see HTML tags much like the ones described by Blake. 
 

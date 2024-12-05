@@ -8,7 +8,7 @@ Class:  text
 
 Body:
 
-Once you have an image file that you'd like to use, go to the Finder and drop it into a new folder named `images` that you will create within your `content` folder. 
+Once you have an image file that you'd like to use, go to the Finder and drop it into a new folder named `images` that you will create within your `content/pages` folder. 
 
 Back in Notenik, you can then add the image to your `Index` content with a line like the following:
 

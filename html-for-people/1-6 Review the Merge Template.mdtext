@@ -27,13 +27,13 @@ Let's take these lines one at a time.
 
 ##### `<?nextrec?>`
 
-This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the `Index` page but, as we add other pages, they would take advantage of this same code. 
+This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the Index page but, as we add other pages, they would take advantage of this same code. 
 
 ##### `<?output "../../web/=$title&f$=.html"?>`
 
 This line tells Notenik to open a new output file into which the following lines will be copied. Because this line follows the `nextrec` command, it will be repeated for each input note. 
 
-Following the name of the command we find the output path and filename for the file to be created. Each `../` takes Notenik up a level in the folder structure, starting from the location of the template file, until we get to the project folder itself, and then we direct the output into the `web` folder. What follows is the file name, which will be formed from the `title` field of the input note. 
+Following the name of the command we find the output path and filename for the file to be created. Each `../` takes Notenik up a level in the folder structure, starting from the location of the template file, until we get to the project folder itself, and then we direct the output into the `web` folder. What follows is the file name, which will be formed from the title field of the input note. 
 
 The `&f` is a [Merge Variable Modifier](https://notenik.app/kb/variable-modifiers.html) telling Notenik to make all letters lowercase, and to replace spaces with dashes, to create a universally readable filename to be accessed from the web. 
 

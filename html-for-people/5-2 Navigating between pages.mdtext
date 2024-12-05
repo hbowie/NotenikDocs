@@ -1,0 +1,17 @@
+Title:  Navigating between pages
+
+Seq:    5.2
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+So now I'm going to show you how to automatically generate the `nav` menu for your site. 
+
+So now, for Chapter 5, we are going to see two template files, and three separate script files. 
+
+The first template file will generate our nav menu. 
+
+

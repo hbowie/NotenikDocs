@@ -10,13 +10,13 @@ Notenik also allows you to tweak the default CSS that it uses.
 
 First, make sure that you don't have any of the special CSS files selected for your collection. 
 
-Next, open the *Display Appearance* item beneath the *Notenik* menu. 
+Next, open the Display Appearance item beneath the Notenik menu. 
 
 Here you'll find a number of options. 
 
-You can center heading for any sequence of levels. 
+You can center headings for any sequence of levels. 
 
-You can modify the fonts used for body text and/or for headings and/or for the *List* tab. 
+You can modify the fonts used for body text and/or for headings and/or for the List tab. 
 
 You can choose from a short list of common fonts, or elect to choose from the full list of fonts installed on your system. 
 
@@ -24,7 +24,8 @@ And you can also modify font sizes.
 
 All of this can be done without learning any CSS syntax. You can see the CSS being generated for you, though, and you can see what effect your updates will have. 
 
-Once your done making your adjustments, just hit *OK* to put them into effect. 
+Once you're done making your adjustments, just hit OK to put them into effect. 
 
 Note that changes made here will affect the display of *all* of your collections — not just the one currently open.
 
+Also, assuming you are interested in publishing your site to the web, be sure and choose [web safe fonts](https://www.dreamhost.com/blog/web-safe-fonts/). Implementation of custom fonts is beyond the scope of this tutorial, and you must understand that, just because a particular font is available on your Mac doesn't mean that it will be available to your readers when they access your site from the web. 
