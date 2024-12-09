@@ -12,7 +12,7 @@ Now let's look at the [script file](https://notenik.app/kb/script-files.html) we
 
 You'll find this in the `factory/scripts` folder. 
 
-Again, you can open it using any text editor. However a Notenik script file is in tab-delimited format, with its data in columns, so it may be easier to view when opened with a spreadsheet editor, such as Apple's Numbers app. 
+Again, you can open it using any text editor. However a Notenik script file is in [tab-delimited](https://en.wikipedia.org/wiki/Tab-separated_values) format, with its data in columns, so it may be easier to view when opened with a spreadsheet editor, such as Apple's Numbers app. 
 
 Here's what the script file looks like when viewed in Numbers. 
 

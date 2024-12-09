@@ -1,4 +1,4 @@
-Title:  The `display.css` file
+Title:  The display.css file
 
 Seq:    4.4
 
@@ -8,4 +8,5 @@ Class:  text
 
 Body:
 
-Yet another option for adjusting the CSS used within Notenik is to place a file named `display.css` within your `content` folder. This css will then be used in place of Notenik's default css for that collection. 
+Yet another option for adjusting the CSS used within Notenik is to place a file named `display.css` within your collection folder. This css will then be used in place of Notenik's default css for that collection. 
+

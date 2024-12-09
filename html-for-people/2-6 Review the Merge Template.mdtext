@@ -10,17 +10,13 @@ Body:
 
 Here we are going to use the same HTML offered by Blake, but place it in our *template file*, instead of our content. 
 
-Use your trusty text editor to look at the updated  [merge template](https://notenik.app/kb/merge-templates.html) file named `page template - chapter 02.html`, which you will find within the `factory/templates` folder. 
+Use your trusty text editor to look at the updated  [merge template](https://notenik.app/kb/merge-templates.html) file named `chapter 02 - page template.html`, which you will find within the `factory/templates` folder. 
 
 Here's what you should see.
 
 ```
 <?nextrec?>
-<?if "=$aka$=" ?>
 <?output "../../web/=$aka&f$=.html"?>
-<?else?>
-<?output "../../web/=$title&f$=.html"?>
-<?endif?>
 <!doctype html>
 <html>
   <head>
@@ -36,16 +32,16 @@ Here's what you should see.
 <?loop?>
 ```
 
-Notice that the *nextrec* and *loop* lines are unchanged. 
+Notice that the `nextrec` and `loop` lines are unchanged. 
 
-The five lines following the *nextrec* command tell Notenik to form the output file name from the contents of the *AKA* field, if it exists, but to otherwise fashion the file name from the *title* field. 
+The output file name is now being formed from the contents of the AKA field, rather than the title field. 
 
 Following that you should see HTML tags much like the ones described by Blake. 
 
-We can still see the `=$body$=` variable, but now we've added a couple of useful variable modifiers with the embedded string '`&fo`'.  Here the ampersand indicates that one or more variable modifiers will be following, the '`o`' requests that the body text be converted from Markdown to HTML, and the '`f`' requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
+We can still see the `=$body$=` variable, but now we've added a couple of useful variable modifiers with the embedded string `&fo`.  Here the ampersand indicates that one or more variable modifiers will be following, the `o` requests that the body text be converted from Markdown to HTML, and the `f` requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
 
-And then we have the addition of the *copyimages* command, which will copy any referenced local image files from the content folder to the web folder. 
+And then we have the addition of the `copyimages` command, which will copy any referenced local image files from the content folder to the web folder. 
 
-One important thing to remember is that merge *commands*, such as '`<?nextrec?>`' and '`<?copyimages?>`', must always start in the first column of a new line, and be on a line by themselves. Merge variables such as '`=$body$=`', on the other hand, can appear anywhere. 
+One important thing to remember is that merge *commands*, such as `<?nextrec?>` and `<?copyimages?>`, must always start in the first column of a new line, and be on a line by themselves. Merge variables such as `=$body$=`, on the other hand, can appear anywhere. 
 
 So that's it for the merge template.

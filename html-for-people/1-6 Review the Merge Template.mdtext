@@ -12,7 +12,7 @@ Now let's take a look at a couple of Notenik files that were invoked when you do
 
 These files can be opened using the same text editor you used to view the `index.html` file.
 
-Let's look first at the [merge template](https://notenik.app/kb/merge-templates.html) file named `page template - chapter 01.html`, which you will find within the `factory/templates` folder. 
+Let's look first at the [merge template](https://notenik.app/kb/merge-templates.html) file named `chapter 01 - page template.html`, which you will find within the `factory/templates` folder. 
 
 Here's what you should see.
 
@@ -25,11 +25,11 @@ Here's what you should see.
 
 Let's take these lines one at a time. 
 
-##### `<?nextrec?>`
+`<?nextrec?>`
 
 This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the Index page but, as we add other pages, they would take advantage of this same code. 
 
-##### `<?output "../../web/=$title&f$=.html"?>`
+`<?output "../../web/=$title&f$=.html"?>`
 
 This line tells Notenik to open a new output file into which the following lines will be copied. Because this line follows the `nextrec` command, it will be repeated for each input note. 
 
@@ -39,11 +39,11 @@ The `&f` is a [Merge Variable Modifier](https://notenik.app/kb/variable-modifier
 
 Then finally the `.html` specifies the file extension to be used for the output file. 
 
-##### `=$body$=`
+`=$body$=`
 
 This [merge variable](https://notenik.app/kb/merge-variables.html) tells Notenik to place the entire body of the input note into the resulting web page. 
 
-##### `<?loop?>`
+`<?loop?>`
 
 This command tells Notenik that it has reached the end of the lines to be repeated for each input note. So, in this case, the only contents of the output `index.html` file will be the body of the note.
 

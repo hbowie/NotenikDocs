@@ -16,7 +16,9 @@ This means that, instead of coding your HTML pages directly, you will be creatin
 
 Notenik uses the term *collection* to refer to a folder full of notes. You will be working with a couple of collections within your `content` folder: one for *pages* that are relatively static, and one for *posts* that you will be creating as you continue to maintian your site.  
 
-All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  Notenik's build step consists of running a special script using Notenik's script runner. 
+All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors, and making changes easier. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  Notenik's build step consists of running a special script using Notenik's script runner. 
+
+As we work through this tutorial, there will be actions to be taken within Notenik, others within your text editor, and still others to be taken with the macOS Finder. I'll try to clearly identify which steps are to be taken with which tool. 
 
 BTW, all of the details about Notenik can be found in the Notenik Knowledge Base, which can be found either [on the web](https://notenik.app/kb/notenik-knowledge-base.html), or [within Notenik](notenik://help). From time to time I'll provide links to relevant sections within the web version of this document, in case you want more details on any particular topic discussed here. 
 

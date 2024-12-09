@@ -10,8 +10,4 @@ Body:
 
 So now I'm going to show you how to automatically generate the `nav` menu for your site. 
 
-So now, for Chapter 5, we are going to see two template files, and three separate script files. 
-
-The first template file will generate our nav menu. 
-
-
+So now, for Chapter 5, we are going to see two template files, each with its own script file.

@@ -2,7 +2,7 @@ Title:  Version 15.9.0
 
 Timestamp: 20241203190416
 
-Seq:    16.1
+Seq:    17.1
 
 Level:  3 - Section
 
@@ -20,6 +20,16 @@ When a Project Folder is opened, and the top level contains a README file, then 
 
 ##### Added Escape Characters in Merge Templates
 
-Characters used to form [[Merge Delimiters]] may now be escaped, by preceding each character with a backslash, so that they may escape processing on a first pass through the merge processor, in order to be processed on a second pass. 
+Characters used to form [[Merge Delimiters]] may now be escaped, by preceding each character with a backslash, so that they may escape processing on a first pass through the merge processor, in order to be processed on a second pass.
 
+##### Fixed a Double Seq Problem
 
+When a collection was configured to use Seq + Title as its ID, and when in Streamlined Reading mode, the Seq field would sometimes appear twice. This has been corrected.
+
+##### Improved Code Display
+
+The default css for code displays has been improved to make it more readable. 
+
+##### Added a clearglobals command
+
+Added a new [[clearglobals command]] merge command that can be used to clear the values of all [[Global Variables]]. 

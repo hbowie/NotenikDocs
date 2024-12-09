@@ -4,7 +4,7 @@ Tags:   levels-outline.12 Merge Templates.4 Merge Commands
 
 Timestamp: 20210616221125
 
-Seq:    12.4
+Seq:    13.4
 
 Level:  3 - Section
 
@@ -21,6 +21,7 @@ The following commands are recognized. They are presented in the typical sequenc
 <div class="pnobr">
 <p>&lt;?delims new delimiters?&gt;</p>
 <p>&lt;?output "filename.ext"?&gt;</p>
+<p>&lt;?clearglobals?&gt;</p>
 <p>&lt;?set global = 0?&gt;</p>
 <p>&lt;?nextrec?&gt;</p>
 <p>&lt;?include "filename.ext" ?&gt;</p>

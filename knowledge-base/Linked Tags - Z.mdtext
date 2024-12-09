@@ -4,7 +4,7 @@ Tags:   levels-outline.12 Merge Templates.3 Variable Modifiers.37 Linked Tags - 
 
 Timestamp: 20220904231122
 
-Seq:    12.3.37
+Seq:    13.3.37
 
 Level:  4 - Subsection
 
@@ -44,4 +44,4 @@ When the tempate is generated, it would result in the following HTML:
 
 Then, when the tags are clicked within the resulting web page, the links will take the user to the appropriate section for each tag within the '`topics.html`' page.
 
-Note that if the prefix contains the Notenik [[Custom URL Scheme]], then periods in nested tags will be left as-is; otherwise, they will be converted to dashes.  
+Note that if the prefix contains the Notenik [[Custom URL Scheme]], then periods in nested tags will be left as-is; otherwise, they will be converted to dashes.
