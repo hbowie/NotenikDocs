@@ -1,8 +1,10 @@
 Title:  Global Variables
 
+Tags:   levels-outline.12 Merge Templates.2 Merge Variables.1 Global Variables
+
 Timestamp: 20241209223702
 
-Seq:    13.2.1
+Seq:    12.2.1
 
 Level:  4 - Subsection
 
@@ -12,5 +14,4 @@ Body:
 
 Global variables are ones whose values are set via the [[set command]], and cleared via the [[clearglobals command]].
 
-Note that global variables are not automatically cleared when a [[nextrec command]] is processed, nor when a [[loop command]] is encountered. 
-
+Note that global variables are not automatically cleared when a [[nextrec command]] is processed, nor when a [[loop command]] is encountered.

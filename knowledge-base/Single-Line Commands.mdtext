@@ -24,7 +24,10 @@ Note also that these commands are further categorized based on their relationshi
 | `{:biblio}` | *[[Generate a Bibliography]]* |
 | `{:byline}` | *[[Format a Byline]]* |
 | `{:calendar}` | *[[Generate a Collection Calendar]]* |
+| `{:caption}` | *[[Start a Figure Caption]]* |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
+| `{:endfigure}` | *[[End a Figure]]* |
+| `{:figure}` | *[[Start a Figure]]* |
 | `{:footer}` | *[[Supply a Page Footer]]* |
 | `{:header}` | *[[Supply a Page Header]]* |
 | `{:include:another-file.txt}` | *[[Include a Note or File]]* |
@@ -33,6 +36,7 @@ Note also that these commands are further categorized based on their relationshi
 | `{:nav}` | *[[Supply Page Navigation]]* |
 | `{:outline-bullets}` | *[[Generate Outline Based on Unordered List Items]]* |
 | `{:outline-headings:1}` | *[[Generate Outline Based on Headings]]* |
+| `{:p-class:class}` | *[[Specify a Paragraph Class]]* |
 |`{:quote-from:parms}` | *[[Format a Quote Citation]]* |
 | `{:random}` | *[[Go To Random Note]]* | 
 | `{:search}` | *[[Generate a Collection Search Page]]* |

@@ -1,0 +1,41 @@
+Title:  Homepage cleanup
+
+Seq:    5.3
+
+Level:  3 - section
+
+Body:
+
+Let's go ahead and make the sorts of changes to our Index note that Blake recommends. We'll do this within Notenik. 
+
+Here's how we can create a figure with a caption using Notenik's Markdown parser. 
+
+```
+{:figure}
+![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
+{:caption}
+An autumn Seattle Skyline at sunset. [Photo source](https://www.istockphoto.com/photo/seattle-fall-skyline-gm1183468338-332764260)
+{:endfigure}
+```
+
+We use the Notenik Markdown `{:figure}` command to start the figure. 
+
+Then we use standard Markdown to generate the code for the figure itself. 
+
+Then we use the Notenik Markdown `{:caption}` command to indicate the start of a caption. 
+
+Then, again, we use standard Markdown to generate the code for the caption. 
+
+And finally we close everything up with the Notenik Markdown `{:endfigure}` command.
+
+And here's how we would create the notice within Notenik. 
+
+```
+{:p-class:notice}
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+```
+
+The `p-class` command can be used to specify a class value for the following paragraph. Here we use it to specify a class of `notice`, to take advantage of the `simple.css` styling. 
+
+

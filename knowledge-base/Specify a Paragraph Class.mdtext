@@ -1,0 +1,30 @@
+Title:  Specify a Paragraph Class
+
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
+
+Timestamp: 20241210183940
+
+Seq:    7.3.7.6
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+The `p-class` command can be used to specify an HTML [class](https://www.w3schools.com/html/html_classes.asp) value for the following paragraph. 
+
+Here's an example of the sort of code you might use. 
+
+```
+{:p-class:notice}
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+```
+And here's the way it might appear (depending on CSS styling). 
+
+{:p-class:notice}
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+
+Notiice that standard Markdown syntax can be freely employed within the following paragraph, and that the specified class value is only applied to a single paragraph.

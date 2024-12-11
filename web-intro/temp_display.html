@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Homepage cleanup</title>
+<title>Intro to Website Creation using Notenik</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -21,7 +21,9 @@
     --preformatted-color: #444;
     --accent-bg: #f5f7ff;
     --border: #898EA4;
-    --highlight-color: Gainsboro
+    --highlight-color: Gainsboro;
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
 }
 a.ext-link::after {
     content: "";
@@ -47,7 +49,9 @@ a.ext-link::after {
     --code-color: #f06292;
     --preformatted-color: #ccc;
     --accent-bg: #2b2b2b;
-    --highlight-color: DimGray
+    --highlight-color: DimGray;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
   }
     a.ext-link::after {
         content: "";
@@ -390,6 +394,15 @@ pre code {
   margin: 0;
   padding: 0;
 }
+
+/* Classes for notices */
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
 /* Generated CSS for headings follows. */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Equity A", Helvetica, Arial, sans-serif;
@@ -428,11 +441,41 @@ h6 {
 <body>
 
 <main>
-<p>5.2. <a href="https://ntnk.app/52navigatingbetweenpages" class="nav-link">Navigating between pages</a>&#160;&#8593;</p><h5 id="homepagecleanup">5.2.3 Homepage cleanup</h5>
+<h2 id="introtowebsitecreationusingnotenik">Intro to Website Creation using Notenik</h2>
+<p><img src="images/notenik-on-mbair.png" alt="Notenik running on a MacBook Air" /> </p>
 
+<p>I&#8217;m <a href="https://hbowie.net" class="ext-link" target="_blank" rel="noopener">Herb Bowie</a>, a web author and developer of the Mac app <a href="https://notenik.app" class="ext-link" target="_blank" rel="noopener">Notenik</a>. </p>
+
+<p>Notenik can be used to help an individual create their own website, but many people are put off by the idea of getting anywhere close to HTML, believing it to be too difficult a topic for ordinary people working outside of the tech industry. </p>
+
+<p>Blake Watson&#8217;s web book <em><a href="https://www.htmlforpeople.com/" class="ext-link" target="_blank" rel="noopener">HTML for People</a></em> goes a long way towards solving this problem, providing a gentle and fun introduction to the whole process of building a website using <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="ext-link" target="_blank" rel="noopener">HyperText Markup Language</a>. </p>
+
+<p>Blake&#8217;s site made me wonder if I could leverage his work by providing a companion document that would allow readers to quickly see, at every step of the way, how comparable tasks can be accomplished using Notenik. </p>
+
+<p>And so this document is the result. If you&#8217;re wondering how Notenik can be used by anyone to create their own website, then I suggest you work your way through the pages that follow, referencing relevant chapters of Blake&#8217;s book as you go. </p>
+
+<p>I&#8217;ll be looking forward to hearing feedback about how this might work for people. </p>
+
+<p>Thanks for reading! </p>
 
 <hr />
-<p>Back to Top: <a href="https://ntnk.app/htmlforpeoplethenotenikcompanion" class="nav-link">HTML for People — the Notenik Companion</a></p>
+<h4>Contents</h4>
+<ul class="notenik-toc">
+<li><a href="https://ntnk.app/01introduction" class="nav-link">Introduction</a></li>
+<li>1. <a href="https://ntnk.app/1zerotointernetyourfirstwebsite" class="nav-link">Zero to internet: your first website</a></li>
+<li>2. <a href="https://ntnk.app/2addcontenttoyourwebsite" class="nav-link">Add content to your website</a></li>
+<li>3. <a href="https://ntnk.app/3intermissionupgradeyourtexteditor" class="nav-link">Intermission: upgrade your text editor</a></li>
+<li>4. <a href="https://ntnk.app/4awebsitewithstyle" class="nav-link">A website with style</a></li>
+<li>5. <a href="https://ntnk.app/5addinganaboutpage" class="nav-link">Adding an about page</a></li>
+<li>99. <a href="https://ntnk.app/99tobecontinued" class="nav-link">To be continued</a></li>
+</ul>
+
+<hr />
+
+<div>
+
+<p>Next: <a href="https://ntnk.app/01introduction" class="nav-link">Introduction</a></p></div>
+
 
 </main>
 </body>

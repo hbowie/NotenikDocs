@@ -1,0 +1,13 @@
+Title:  Build and Review
+
+Seq:    5.4
+
+Level:  3 - section
+
+Body:
+
+You can go ahead and run the chapter 05 build scripts again, and then review your output files. 
+
+Notice, however, that Notenik allows you to review the generated HTML content within Notenik, and allows you to navigate between pages, so there is no strong need to rerun the build scripts at this point, just to review your updated content. 
+
+And that's a wrap for Chapter 5!
