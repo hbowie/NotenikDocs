@@ -1,0 +1,32 @@
+Title:  Version 16.0.0
+
+Timestamp: 20241212232446
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Markdown Segment Command
+
+A new Markdown command to [[Start a Segment]], and another to [[End a Segment]], have been added. A segment might be something like a div or an aside.
+
+##### Better Handling of Sync Conflicts
+
+When a file name for a Collection configuration file (an `INFO` file) contains the word "conflict", it will now be recognized as a conflicted copy. 
+
+##### Better Handling of the Essential Collection
+
+Improved handling of the [[Essential Collection]], including the ability to specify a [[project folder]] as the Essential Collection. 
+
+##### Added Command to Reset App Settings to their Defaults
+
+Added a new command to [[Reset to Defaults]].
+
+##### CSS for Asides
+
+Added default CSS to provide some styling for the HTML [aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside) element. 
+
