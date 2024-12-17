@@ -1,0 +1,21 @@
+Title:  Block quotes
+
+Seq:    6.3
+
+Level:  3 - section
+
+Body:
+
+Using Markdown, we can create a [blockquote](https://daringfireball.net/projects/markdown/syntax#blockquote) by prefixing the quoted lines with `>` characters. 
+
+Here's how you would code it. 
+
+```
+> "HTML is **elementary** my dear Watson."  
+> -- Whiskers, probably
+```
+
+And here's what it would look like. 
+
+> "HTML is **elementary** my dear Watson."  
+> -- Whiskers, probably

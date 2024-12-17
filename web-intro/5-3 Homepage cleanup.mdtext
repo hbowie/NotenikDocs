@@ -12,7 +12,7 @@ Here's how we can create a figure with a caption using Notenik's Markdown parser
 
 ```
 {:figure}
-![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
+![Photograph of Seattle at dusk](images/seattle-at-dusk.jpg)
 {:caption}
 An autumn Seattle Skyline at sunset. [Photo source](https://www.istockphoto.com/photo/seattle-fall-skyline-gm1183468338-332764260)
 {:endfigure}
@@ -33,9 +33,7 @@ And here's how we would create the notice within Notenik.
 ```
 {:p-class:notice}
 **Want to learn how to make a website like this?**   
-Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the [Notenik Companion](https://notenik.app/web-intro/). It's made for everyone and teaches you how to make a website in a friendly, approachable way.
 ```
 
-The `p-class` command can be used to specify a class value for the following paragraph. Here we use it to specify a class of `notice`, to take advantage of the `simple.css` styling. 
-
-
+The `p-class` command can be used to specify a class value for the following paragraph. Here we use it to specify a class of `notice`, to take advantage of the `simple.css` styling.

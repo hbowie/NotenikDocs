@@ -16,15 +16,16 @@ Here's what it should look like (omitting any comment lines).
 <?output "../includes-gen/nav-bar.html" ?>
  		<nav>
 <?nextrec?>
-<?set link-text = "=$aka$=" ?>
-<?if "=$aka$=" eq "Index" ?>
+<?set link-text = "=$title$=" ?>
+<?if "=$title$=" eq "Index" ?>
 <?set link-text = "Home" ?>
 <?endif?>
-			<a href="=$aka&f$=.html" aria-current="\=\$=$aka&f$=-aria-current\$\=">
+			<a href="=$title&f$=.html" aria-current="\=\$=$title&f$=-aria-current\$\=">
 				=$link-text$=
 			</a>
 <?loop?>
 		</nav>
+
 ```
 
 Let's walk through this. 
@@ -35,11 +36,11 @@ The next line starts the `nav` menu.
 
 Then we have the `nextrec` command, which signals the start of the code to be repeated for each note/page. 
 
-The next four lines create a new variable named `link-text` and set that to the value of the AKA field, with one exception: the `Index` file will be called `Home`.  
+The next four lines create a new variable named `link-text` and set that to the value of the Title field, with one exception: the `Index` file will be called `Home`.  
 
-And then we have the code for the link on the next three lines. Here we're using variables instead of literals: `=$aka&f$=.html` for the `href` value, and `=$linktext$=` for the text to be displayed to the user. 
+And then we have the code for the link on the next three lines. Here we're using variables instead of literals: `=$title&f$=.html` for the `href` value, and `=$linktext$=` for the text to be displayed to the user. 
 
-For the `aria-current` value, we're using the AKA value to name a new variable, with the new variable not being replaced until the generated include file is actually used in a later template.
+For the `aria-current` value, we're using the Title value to name a new variable, with the new variable not being replaced until the generated include file is actually used in a later template.
 
 Then we end the loop, and provide a closing `</nav>` tag. 
 

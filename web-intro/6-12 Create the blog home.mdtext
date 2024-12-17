@@ -1,0 +1,23 @@
+Title:  Create the blog home
+
+Seq:    6.12
+
+Level:  3 - section
+
+Body:
+
+Let's go back to our `pages` collection in Notenik.
+
+Let's add a new note. 
+
+Give it a Title of `Herb's Blog` (replacing my name with yours). 
+
+Enter an AKA value of `Blog`. 
+
+Enter a Seq value of `2`. 
+
+Now save your new note. 
+
+Now go back to the "About" note and change its Seq value to `3`, so that it will appear to the right of the Blog button in the Nav bar. 
+
+

@@ -1,0 +1,51 @@
+Title:  Breaking up content
+
+Seq:    6.5
+
+Level:  3 - section
+
+Body:
+
+You can create a line break in Markdown by ending a line with two (or more) spaces. 
+
+Notenik also supports the alternate syntax of placing a space and a backslash at the end of a line, in order to request a line break. Some writers prefer this syntax because it is easier to see.
+
+Here's an example of the standard syntax. 
+
+```
+ A timeless red orb  
+ floats lazy in the ether  
+ unimpressed by war.
+```
+
+And here's the alternate syntax. 
+
+```
+ A timeless red orb \
+ floats lazy in the ether \
+ unimpressed by war.
+```
+
+Both should render in the same way. 
+
+ A timeless red orb  
+ floats lazy in the ether  
+ unimpressed by war.
+
+You can insert a horizontal rule with a line containing three or more hyphens. 
+
+Here's an example of the Markdown syntax. 
+
+```
+---
+```
+
+And here's how it renders. 
+
+---
+
+And that's the end of our section on breaking up content!
+
+
+
+

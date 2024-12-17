@@ -1,0 +1,51 @@
+Title:  Review the post template
+
+Seq:    6.10
+
+Level:  3 - section
+
+Body:
+
+Let's review the `templates` file named `chapter 06 - post template.html`. 
+
+This template will create the full post page for each note in the `posts` collection. 
+
+Here's what it should look like. 
+
+```
+<?nextrec?>
+<?output "../../web/posts/=$date&yyyy-MM-dd$=-=$title&f$=.html"?>
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>=$title$=</title>
+	<link rel="stylesheet" href="=$relative$=css/styles.css">
+  </head>
+  <body>
+	<header>
+<?clearglobals?>
+<?set blog-aria-current = true ?>
+<?include "../includes-gen/nav-bar.html" ?>
+	  <h1>=$title$=</h1>
+	  <p><time datetime="=$date&yyyy-MM-dd$=">=$date&MMM d, yyyy$=</time></p>
+	</header>
+	<main>
+	  =$body&fo$=
+	  
+	  <a href="=$relative$=blog.html" class="button">&larr; Back to the blog</a>
+	</main>
+<?copyimages?>
+	<footer>
+	  <p>&copy; 2024 - 2025 Herb Bowie</p>
+	</footer>
+  </body>
+</html>
+<?loop?>
+```
+
+By now you should be able to work your way through this template and understand what's going on. 
+
+Note that the post entries are going into a folder named `posts`. The files are being named using a combination of Date and Title, as suggested by Blake. 
+
+One new element you might notice is the Notenik Merge Template [System Variable](https://notenik.app/kb/system-variables.html) of `=$relative$=`. This variable will be replaced with zero or more occurrences of `../`, with the number depending on the level of the generated file relative to the webroot folder. In essence, what this means is that you can specify a path to a file starting from the top of your website, rather than from the location of the current file. We're using this trick to get us back to the `css/styles.css` file, and to the blog index page. 

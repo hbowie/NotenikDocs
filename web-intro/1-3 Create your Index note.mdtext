@@ -8,7 +8,7 @@ Class:  text
 
 Body:
 
-Make sure you have the `content/pages` window frontmost within Notenik.
+Make sure you have the `content / pages` window frontmost within Notenik.
 
 You should see an existing note with a title of `Index`, with the following body value. 
 
@@ -18,6 +18,12 @@ My name is Herb. I enjoy making websites, and making software to make it easier 
 
 Go ahead and edit this note, changing the body to reflect your name and a little bit about yourself. 
 
-You will see that the `pages` collection offers multiple fields for each note. For now, you can ignore all of them except for the *Title* and *Body* fields. 
+You will see that the `pages` collection offers multiple fields for each note. 
+
+Change the Header line to enter the text you wish to see at the top of your website's homepage.  
+
+You can leave the Sub-Header field blank. 
+
+Make sure the Seq field is set to a value of `1`. 
 
 Now save this note, by hitting *Display*, or by selecting *Note  > Save Note*.

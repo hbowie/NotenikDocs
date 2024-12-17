@@ -1,0 +1,67 @@
+Title:  Recap: headings and lists
+
+Seq:    6.4
+
+Level:  3 - section
+
+Body:
+
+You can create headings at any level by placing that number of `#` characters at the beginning of a line. 
+
+For example, this would produce a level 3 heading. 
+
+```
+### Level 3 Heading
+```
+
+And here's our sample unordered list. 
+
+```
++ Bread
++ Sugar
++ Hole
+```
+
+And here's what this would look like. 
+
++ Bread
++ Sugar
++ Hole
+
+And here's an ordered list, first in code, and then rendered as HTML. 
+
+```
+1. **Portable Happiness:** Donuts are the perfect grab-and-go food. You can take them anywhere: to work, to the park, or on a road trip. They’re like little circles of happiness that fit in your hand.
+2. **Instant Mood Boost:** Feeling down? Have a donut. It’s scientifically proven\* that donuts can turn a frown upside down. (\*Not actually proven, but we all know it’s true.)
+3. **Endless Creativity:** Donut shops are constantly coming up with new and exciting flavors. From maple bacon to matcha green tea, the possibilities are endless. It’s like a delicious adventure every time you visit.
+```
+
+1. **Portable Happiness:** Donuts are the perfect grab-and-go food. You can take them anywhere: to work, to the park, or on a road trip. They’re like little circles of happiness that fit in your hand.
+2. **Instant Mood Boost:** Feeling down? Have a donut. It’s scientifically proven\* that donuts can turn a frown upside down. (\*Not actually proven, but we all know it’s true.)
+3. **Endless Creativity:** Donut shops are constantly coming up with new and exciting flavors. From maple bacon to matcha green tea, the possibilities are endless. It’s like a delicious adventure every time you visit.
+
+One thing to point out here is that we had to use a  backslash before each asterisk in the second item to prevent those asterisks from being interpreted as part of our Markdown syntax. This is called a [backslash escape](https://daringfireball.net/projects/markdown/syntax#backslash).
+
+Markdown also allows you to nest one list within another, simply by indenting the lower-level list with four leading spaces, or one leading tab character. 
+
+Here's an example in code. 
+
+```
++ First main point
+	+ Sub point
+	+ Another sub-point
++ Second main point
+	+ Sub point
+	+ Another sub-point
+```
+
+And here's how it will render. 
+
++ First main point
+	+ Sub point
+	+ Another sub-point
++ Second main point
+	+ Sub point
+	+ Another sub-point
+
+

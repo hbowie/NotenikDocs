@@ -10,13 +10,13 @@ Use your trusty text editor to open the `chapter 05 - page template.html` file. 
 
 ```
 <?clearglobals?>
-<?set =$aka&f$=-aria-current = page ?>
+<?set =$title&f$=-aria-current = page ?>
 <?include "../includes-gen/nav-bar.html" ?>
 ```
 
 The first of these lines clears the value of all global variables, to ensure we don't have anything lingering from a previous execution of the loop. 
 
-The next line sets a global variable to the value of `page`, with the name of the variable being set varying based on the AKA value of the current note. 
+The next line sets a global variable to the value of `page`, with the name of the variable being set varying based on the Title value of the current note. 
 
 And then the third line pulls in the `nav-bar.html` file we generated earlier. 
 
@@ -35,6 +35,6 @@ Recall that this include file contained this code.
 
 So the `aria-current` value for each nav bar item will be set to the value of a variable with a name corresponding to that item, and only one of these variable values — the one corresponding to the page currently being generated — will be set to `page`. 
 
-Go ahead and run the script named `chapter 05 - page script.tsv` within Notenik, then double-click on one of the resulting pages in the Finder. You should see a nice navigational menu at the top of each page, with the item for the current page being suitably highlighted (assuming you're using `Simple.css`). 
+Go ahead and run the script named `chapter 05 - page script.tsv` within Notenik, then double-click on one of the resulting pages in the Finder. You should see a nice navigational menu at the top of each page, with the item for the current page being suitably highlighted. 
 
 Now, as we add additional pages, they will automatically be included in the menu for every page!

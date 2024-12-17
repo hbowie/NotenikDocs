@@ -27,6 +27,7 @@ The following types of items will be listed in a Project Folder Pseudo-Collectio
 + Notenik [[Collection Folders]]
 + Notenik [[Script Files]] 
 + [BBEdit Project Files](https://www.barebones.com/products/bbedit/benefitscommand.html)
++ [Open in Nova](https://help.panic.com/nova/url-schemes/) items, which will be generated if the corresponding [[General Setting]] has been turned On 
 + [Web Location Files](https://fileinfo.com/extension/webloc)
 + Text Files, at the top level only
 
@@ -34,4 +35,4 @@ Note that the Tags tab will organize these Collections and Scripts by folder, an
 
 Note also that Notenik will store a file in the project folder named '`- project-INFO.nnk`', in order to preserve metadata about the pseudo-collection.
 
-And finally, note that a project folder may be specified as the user's [[essential collection]]. 
+And finally, note that a project folder may be specified as the user's [[essential collection]].

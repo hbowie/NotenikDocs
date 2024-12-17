@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Intro to Website Creation using Notenik</title>
+<title>Homepage cleanup</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -104,12 +104,35 @@ p {
     margin-top: 0.2em;
     margin-bottom: 0.7em;
 }
+body > footer {
+    margin-top: 4rem;
+    text-align: center;
+}
 /* Consolidate box styling */
 aside, pre, progress {
   background-color: var(--accent-bg);
   border: 1px solid var(--border);
   border-radius: var(--standard-border-radius);
   margin-bottom: 1rem;
+}
+aside {
+  font-size: 1rem;
+  width: 30%;
+  padding: 0 15px;
+  margin-inline-start: 15px;
+  float: right;
+}
+*[dir="rtl"] aside {
+  float: left;
+}
+
+/* Make aside full-width on mobile */
+@media only screen and (max-width: 720px) {
+  aside {
+    width: 100%;
+    float: none;
+    margin-inline-start: 0;
+  }
 }
 blockquote {
   border-left: 0.4em solid #999;
@@ -265,6 +288,7 @@ header {
     text-align: center;
 }
 
+/*
 nav {
     float: right;
     font-style: italic;
@@ -282,6 +306,7 @@ nav ul li a {
     text-decoration: none;
     border-bottom: none;
 }
+*/
 
 nav ul li a.wiki-link {
     text-decoration: none;
@@ -403,6 +428,86 @@ pre code {
   padding: 1.5rem;
   margin: 2rem 0;
 }
+
+/* Make the header bg full width, but the content inline with body */
+body > header {
+  background-color: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  padding: 0 0.5rem 2rem 0.5rem;
+  grid-column: 1 / -1;
+}
+
+body > header > *:only-child {
+  margin-block-start: 2rem;
+}
+
+body > header h1 {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+body > header p {
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
+/* Format navigation */
+header > nav {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 1rem 0 0 0;
+}
+
+/* Use flexbox to allow items to wrap, as needed */
+header > nav ul,
+header > nav ol {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items are inline elements, make them behave more like blocks */
+header > nav ul li,
+header > nav ol li {
+  display: inline-block;
+}
+
+header > nav a,
+header > nav a:visited {
+  margin: 0 0.5rem 1rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  color: var(--text);
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  text-decoration: none;
+}
+
+header > nav a:hover,
+header > nav a.current,
+header > nav a[aria-current="page"],
+header > nav a[aria-current="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+  header > nav a {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+  }
+}
 /* Generated CSS for headings follows. */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Heliotrope 4", Helvetica, Arial, sans-serif;
@@ -412,11 +517,11 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 h1 {
-    text-align: left;
+    text-align: center;
     font-size: 2.0em;
 }
 h2 {
-    text-align: left;
+    text-align: center;
     font-size: 1.8em;
 }
 h3 {
@@ -441,40 +546,41 @@ h6 {
 <body>
 
 <main>
-<h2 id="introtowebsitecreationusingnotenik">Intro to Website Creation using Notenik</h2>
-<p><img src="images/notenik-on-mbair.png" alt="Notenik running on a MacBook Air" /> </p>
+<p>5. <a href="https://ntnk.app/5addinganaboutpage" class="nav-link">Adding an about page</a>&#160;&#8593;</p><h4 id="homepagecleanup">5.3. Homepage cleanup</h4>
+<p>Let&#8217;s go ahead and make the sorts of changes to our Index note that Blake recommends. We&#8217;ll do this within Notenik. </p>
 
-<p>I&#8217;m <a href="https://hbowie.net" class="ext-link" target="_blank" rel="noopener">Herb Bowie</a>, a web author and developer of the Mac app <a href="https://notenik.app" class="ext-link" target="_blank" rel="noopener">Notenik</a>. </p>
+<p>Here&#8217;s how we can create a figure with a caption using Notenik&#8217;s Markdown parser. </p>
 
-<p>Notenik can be used to help an individual create their own website, but many people are put off by the idea of getting anywhere close to HTML, believing it to be too difficult a topic for ordinary people working outside of the tech industry. </p>
+<pre><code>{:figure}
+![Photograph of Seattle at dusk](images/seattle-at-dusk.jpg)
+{:caption}
+An autumn Seattle Skyline at sunset. [Photo source](https://www.istockphoto.com/photo/seattle-fall-skyline-gm1183468338-332764260)
+{:endfigure}
+</code></pre>
 
-<p>Blake Watson&#8217;s web book <em><a href="https://www.htmlforpeople.com/" class="ext-link" target="_blank" rel="noopener">HTML for People</a></em> goes a long way towards solving this problem, providing a gentle and fun introduction to the whole process of building a website using <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="ext-link" target="_blank" rel="noopener">HyperText Markup Language</a>. </p>
+<p>We use the Notenik Markdown <code>{:figure}</code> command to start the figure. </p>
 
-<p>Blake&#8217;s site made me wonder if I could leverage his work by providing a companion document that would allow readers to quickly see, at every step of the way, how comparable tasks can be accomplished using Notenik. </p>
+<p>Then we use standard Markdown to generate the code for the figure itself. </p>
 
-<p>And so this document is the result. If you&#8217;re wondering how Notenik can be used by anyone to create their own website, then I suggest you work your way through the pages that follow, referencing relevant chapters of Blake&#8217;s book as you go. </p>
+<p>Then we use the Notenik Markdown <code>{:caption}</code> command to indicate the start of a caption. </p>
 
-<p>I&#8217;ll be looking forward to hearing feedback about how this might work for people. </p>
+<p>Then, again, we use standard Markdown to generate the code for the caption. </p>
 
-<p>Thanks for reading! </p>
+<p>And finally we close everything up with the Notenik Markdown <code>{:endfigure}</code> command. </p>
+
+<p>And here&#8217;s how we would create the notice within Notenik. </p>
+
+<pre><code>{:p-class:notice}
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the [Notenik Companion](https://notenik.app/web-intro/). It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+</code></pre>
+
+<p>The <code>p-class</code> command can be used to specify a class value for the following paragraph. Here we use it to specify a class of <code>notice</code>, to take advantage of the <code>simple.css</code> styling. </p>
 
 <hr />
-<h4>Contents</h4>
-<ul class="notenik-toc">
-<li><a href="https://ntnk.app/01introduction" class="nav-link">Introduction</a></li>
-<li>1. <a href="https://ntnk.app/1zerotointernetyourfirstwebsite" class="nav-link">Zero to internet: your first website</a></li>
-<li>2. <a href="https://ntnk.app/2addcontenttoyourwebsite" class="nav-link">Add content to your website</a></li>
-<li>3. <a href="https://ntnk.app/3intermissionupgradeyourtexteditor" class="nav-link">Intermission: upgrade your text editor</a></li>
-<li>4. <a href="https://ntnk.app/4awebsitewithstyle" class="nav-link">A website with style</a></li>
-<li>5. <a href="https://ntnk.app/5addinganaboutpage" class="nav-link">Adding an about page</a></li>
-<li>99. <a href="https://ntnk.app/99tobecontinued" class="nav-link">To be continued</a></li>
-</ul>
-
-<hr />
-
 <div>
 
-<p>Next: <a href="https://ntnk.app/01introduction" class="nav-link">Introduction</a></p></div>
+<p>Next: 5.4. <a href="https://ntnk.app/54buildandreview" class="nav-link">Build and Review</a></p></div>
 
 
 </main>

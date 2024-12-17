@@ -1,4 +1,4 @@
-Title:  Review the Merge Template
+Title:  Review the merge template
 
 Seq:    2.6
 
@@ -16,15 +16,15 @@ Here's what you should see.
 
 ```
 <?nextrec?>
-<?output "../../web/=$aka&f$=.html"?>
+<?output "../../web/=$title&f$=.html"?>
 <!doctype html>
 <html>
   <head>
   	<meta charset="utf-8">
-	<title>=$title$=</title>
+	<title>=$header$=</title>
   </head>
   <body>
-    <h1>=$title$=</h1>
+    <h1>=$header$=</h1>
     =$body&fo$=
 <?copyimages?>
   </body>
@@ -32,11 +32,11 @@ Here's what you should see.
 <?loop?>
 ```
 
-Notice that the `nextrec` and `loop` lines are unchanged. 
+Notice that the `nextrec`, `output` and `loop` lines are unchanged. 
 
-The output file name is now being formed from the contents of the AKA field, rather than the title field. 
+Following the `nextrec` and `output` lines you should see HTML tags much like the ones described by Blake. 
 
-Following that you should see HTML tags much like the ones described by Blake. 
+The `=$header$=` variable is being used for the web page's title and for its first heading. 
 
 We can still see the `=$body$=` variable, but now we've added a couple of useful variable modifiers with the embedded string `&fo`.  Here the ampersand indicates that one or more variable modifiers will be following, the `o` requests that the body text be converted from Markdown to HTML, and the `f` requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
 

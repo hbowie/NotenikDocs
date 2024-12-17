@@ -16,8 +16,8 @@ Next select the parent folder in which your website project will be created. Thi
 
 Next specify a name for your new Collection. This will become a folder name. For this tutorial we can call it `my-notenik-project`, or anything else you'd like. 
 
-Next select the sort of Collection you would like. For this tutorial, select *16 - HTML is for People*.
+Next select the sort of Collection you would like. For this tutorial, select *16 - HTML for People demo*.
 
 Next you will see a Notenik project window for your new project. Click on the `README.md` row to see the README file for the project. 
 
-Next double-click the `pages` row. Your first content collection window will then open.
+Next double-click the `content / pages` row. Your first content collection window will then open.

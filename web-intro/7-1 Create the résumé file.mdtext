@@ -1,0 +1,27 @@
+Title:  Create the résumé file
+
+Seq:    7.1
+
+Level:  3 - section
+
+Body:
+
+We'll add our résumé as a fourth note in our `pages` collection. 
+
+Let's give it a title of `Résumé for Herb Bowie` (replacing my name with your own, of course). 
+
+For the AKA value, we can use the word `resume`, or even `cv`. (I tend to prefer `cv` both because it's shorter and because it avoids the whole issue of the accented `e`'s.) 
+
+Let's give it a Seq value of `4`, so that it will appear to the right of the `About` page in the nav menu. 
+
+And now for the fun part -- let's build out the Body!
+
+Let's start with a line providing our general area of expertise. 
+
+In my case, I'll start with the following. 
+
+```
+## Software Development Manager
+```
+
+

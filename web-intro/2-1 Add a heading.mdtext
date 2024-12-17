@@ -10,16 +10,13 @@ Body:
 
 Go back to your Index note within your `pages` collection, and click on the *Edit* tab again. 
 
-Let's now change the title of your first note to the possessive form of your name, followed by "Homepage."
+Make sure the Header field of your first note contains the possessive form of your name, followed by "Homepage."
 
-For example, I would change mine to `Herb's Homepage`. 
-
-Then move down to the AKA field, and enter `Index` in that field. 
-
-(*AKA* stands for "also known as", and we'll be using this field for a short form of the note's title that will also be used to fashion the file name for the corresponding web page.)
+For example, mine would read `Herb's Homepage`. 
 
 Now save your edits by clicking on the *Display* tab. 
 
-Now you should see the title you entered in an emphasized font and separated from your body text. 
+Now you'll see your page heading entered into your Header field. 
 
-So now you have a page heading!
+Now let's edit your Body field to add some additional content. 
+

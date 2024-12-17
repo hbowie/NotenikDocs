@@ -12,13 +12,13 @@ We're going to create a second content page.
 
 And we're going to do this within Notenik. 
 
-Start by selecting your home page, then right-click on the row in the *List* tab, then select *duplicate*.
+Start by selecting your home (aka *Index*) page, then right-click on the row in the *List* tab, then select *duplicate*.
 
 This will create a copy of your first note, ready for modification. 
 
-Go ahead and change the *Title* to `About _____` (with your name replacing the underscores). I'll enter `About Herb` for mine.  
+Go ahead and change the Title to `About`. 
 
-Then enter `About` in the AKA field. 
+Change the Header to `About _____` (with your name replacing the underscores). I'll enter `About Herb` for mine.  
 
 Then enter `2` in the Seq field. 
 

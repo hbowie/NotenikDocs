@@ -1,0 +1,33 @@
+Title:  Review the blog template
+
+Seq:    6.9
+
+Level:  3 - section
+
+Body:
+
+Let's review the `templates` file named `chapter 06 - blog template.html`. 
+
+This will generate an include file to be pulled in later. This is what the template looks like. 
+
+```
+<?output "../includes-gen/blog.html" ?>
+<?nextrec?>
+      <article>
+        <h2>
+          <a href="posts/=$date&yyyy-MM-dd$=-=$title&f$=.html">
+            =$title$=
+          </a>
+        </h2>
+        <p><time datetime="=$date&yyyy-MM-dd$=">=$date&MMM d, yyyy$=</time></p>
+        =$teaser&o$=
+    </article>
+<?loop?>
+```
+
+You should be able to see that this looks very much like Blake's [index page](https://www.htmlforpeople.com/adding-a-blog/#fill-out-our-blog-index-page), except that we're using variables rather than actual literal values. 
+
+You may notice we're using the merge variable [formatting string](https://notenik.app/kb/formatting-string.html) of `&yyyy-MM-dd$` to format the date field into a year-month-day format, and then using a different string, `&MMM d, yyyy`, to format it into a more readable format, with the month first, and spelled out using a 3-letter abbreviation. 
+
+You can also see that we're displaying the Teaser field here, to give readers some idea of what each post is about, and are using the `&o` merge variable modifier, which will apply Markdown parsing to the field. 
+

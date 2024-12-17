@@ -1,0 +1,64 @@
+Title:  Review the page template
+
+Seq:    6.11
+
+Level:  3 - section
+
+Body:
+
+Let's review the `templates` file named `chapter 06 - page template.html`. 
+
+This template will create a web page for each note in the `pages` collection. 
+
+Here's what it should look like. 
+
+```
+<?copycss?>
+<?nextrec?>
+<?output "../../web/=$aka&f$=.html"?>
+<!doctype html>
+<html>
+  <head>
+	<meta charset="utf-8">
+	<title>=$title$=</title>
+	<link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+	<header>
+<?clearglobals?>
+<?set =$aka&f$=-aria-current = page ?>
+<?include "../includes-gen/nav-bar.html" ?>
+	  <h1>=$title$=</h1>
+	</header>
+	<main>
+<?if "=$AKA$=" eq "Blog" ?>
+<?include "../includes-gen/blog.html" ?>
+<?else?>
+	  =$body&fo$=
+<?endif?>
+	</main>
+<?copyimages?>
+	<footer>
+	  <p>Made with ❤️ and ☕️ by Herb Bowie.</p>
+	</footer>
+  </body>
+</html>
+<?loop?>
+```
+
+Most of this should look pretty familiar, as we've seen many of these lines in prior versions of the page template. 
+
+But here we've introduced something new. 
+
+```
+<?if "=$AKA$=" eq "Blog" ?>
+<?include "../includes-gen/blog.html" ?>
+<?else?>
+	  =$body&fo$=
+<?endif?>
+```
+
+Do you see what we're doing? If this is the blog page, then we're pulling in the blog include we generated earlier, instead of using the Body text for the note. 
+
+So now, perhaps, we can see what we need to do next. 
+

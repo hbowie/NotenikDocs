@@ -1,0 +1,22 @@
+Title:  Text formatting
+
+Seq:    6.2
+
+Level:  3 - section
+
+Body:
+
+Markdown has some [shorthand for emphasizing strings of text](https://daringfireball.net/projects/markdown/syntax#em), using bold and/or italics. 
+
+Here's an example of the code. 
+
+```
+After just three days, **Whiskers can now create web pages** better than *I* can. 
+```
+
+And this is what it looks like. 
+
+> After just three days, **Whiskers can now create web pages** better than *I* can. 
+
+Notice you surround your text with a pair of asterisks on each end to create **bold**, and with single asterisks for *italics*. 
+

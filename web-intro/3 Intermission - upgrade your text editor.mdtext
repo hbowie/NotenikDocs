@@ -14,7 +14,7 @@ I tend to use [BBEdit](https://www.barebones.com/products/bbedit/) or [Nova](htt
 
 BBEdit allows you to create a project file that you can use to view one or more folders in your sidebar. When found in a Notenik project folder, Notenik allows you to open a BBEdit project right from within Notenik. 
 
-With Nova, simply add your project folder to its Launcher by dragging and dropping. 
+If you're using Nova, then modify the Notenik General Settings to turn *On* the option to *Gen Open in Nova Items*, which will cause Notenik to generate an item titled "Open in Nova" for every project folder. 
 
 This is what an early version of our demo project looks like when opened within Nova. 
 

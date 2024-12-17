@@ -1,0 +1,37 @@
+Title:  Create some posts
+
+Seq:    6.1
+
+Level:  3 - section
+
+Body:
+
+Go back to your overall Notenik project window. You should see a row named `posts`. Double-click to open the collection that will contain your blog posts. 
+
+You should see one note here named `Notenik`. Go ahead and hit the *Edit* tab to start editing this note. 
+
+You should see the following fields. 
+
+----
+
+Title
+: This should contain a brief title for your post. 
+
+Tags
+: This field can be used to organize your posts. We'll leave this field alone for now. 
+
+Date
+: This should contain the date of the blog post. Note you can click on the *Today* button to set the value of the field to today's date. 
+
+Teaser
+: Use this for a brief, one-sentence summary of your post. This will be shown on the index page, to give readers some idea of what the post is about before they click to see the entire thing. 
+
+Body
+: This will contain the full body of your blog post, formatted (again) using Markdown. 
+
+----
+
+Go ahead and change the title of this first, starting note to something else, to whatever you'd like to write about. Then go ahead and fill in some of the other fields. 
+
+You can add a few more posts as well, just to give us a few to play with. Give them each different dates, and different titles, if possible. 
+
