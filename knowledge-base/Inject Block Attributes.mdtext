@@ -1,8 +1,8 @@
-Title:  Specify a Paragraph Class
+Title:  Inject Block Attributes
 
 Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
 
-Timestamp: 20241210183940
+Timestamp: 20241217232002
 
 Seq:    7.3.7.6
 
@@ -12,18 +12,21 @@ Class:  non-version
 
 Body:
 
-The `p-class` command can be used to specify an HTML [class](https://www.w3schools.com/html/html_classes.asp) value for the following paragraph. 
+The `inject` command can be used to specify an HTML [class](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class) value for the following block level element, such as a paragraph or an unordered list. 
 
 Here's an example of the sort of code you might use. 
 
 ```
-{:p-class:notice}
+{:inject: p | notice }
 **Want to learn how to make a website like this?**   
 Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
 ```
+
+The first parameter, the `p`, indicates that the block level element to be modified is a paragraph. The second parameter, the `notice`, specifies the desired class value to be injected into the HTML. 
+
 And here's the way it might appear (depending on CSS styling). 
 
-{:p-class:notice}
+{:inject: p | notice }
 **Want to learn how to make a website like this?**   
 Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
 

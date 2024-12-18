@@ -32,4 +32,13 @@ Added default CSS to provide some styling for the HTML [aside](https://developer
 
 ##### Open in Nova Now Possible
 
-A Notenik [[General Setting]] has been added to *Gen Open in Nova Items*, and when this is enabled, a [[project folder]] will have an item added titled "Open in Nova" and with a Link field containing a [Nova URL] (https://help.panic.com/nova/url-schemes/) to open the project folder within the [Nova app](https://nova.app/). 
+A Notenik [[General Setting]] has been added to *Gen Open in Nova Items*, and when this is enabled, a [[project folder]] will have an item added titled "Open in Nova" and with a Link field containing a [Nova URL] (https://help.panic.com/nova/url-schemes/) to open the project folder within the [Nova app](https://nova.app/).
+
+##### Added Markdown Inject Command
+
+Replaced the single-purpose `p-class` command introduced in [[Version 15.9.0]] with the more general [[Inject Block Attributes]] command.
+
+##### Added Support for Markdown Highlighting
+
+The Markdown extension to [[Highlight]] a span of text is now supported. 
+

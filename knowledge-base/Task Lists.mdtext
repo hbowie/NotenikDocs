@@ -4,7 +4,7 @@ Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.3 Common Markdown Ex
 
 Timestamp: 20220225215811
 
-Seq:    7.3.3.7
+Seq:    7.3.3.8
 
 Level:  5 - Details
 
@@ -36,5 +36,4 @@ The rendered output will appear as follows on the Display tab.
 
 Starting with [[Version 13.0.0]], Notenik's checklists are dynamic and functional on the Display tab, meaning that you can check and uncheck these boxes on the Display tab, and Notenik will record your changes within the Body of the Note. Note that this will only work within the [[Body]] field, and not within other fields of type [[Teaser]] or [[longtext]].
 
-Starting with [[Version 15.4.0]], Notenik will use a lowercase 'x' rather than an uppercase 'X' to indicate a completed task, to increase interoperability with other Markdown tools. 
-
+Starting with [[Version 15.4.0]], Notenik will use a lowercase 'x' rather than an uppercase 'X' to indicate a completed task, to increase interoperability with other Markdown tools.

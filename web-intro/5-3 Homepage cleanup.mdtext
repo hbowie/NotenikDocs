@@ -31,9 +31,10 @@ And finally we close everything up with the Notenik Markdown `{:endfigure}` comm
 And here's how we would create the notice within Notenik. 
 
 ```
-{:p-class:notice}
+{:inject: p | notice }
 **Want to learn how to make a website like this?**   
 Check out the free web book [HTML for People](https://htmlforpeople.com), along with the [Notenik Companion](https://notenik.app/web-intro/). It's made for everyone and teaches you how to make a website in a friendly, approachable way.
 ```
 
-The `p-class` command can be used to specify a class value for the following paragraph. Here we use it to specify a class of `notice`, to take advantage of the `simple.css` styling.
+The `inject` command can be used to specify a class value for the following paragraph. Here we supply a parameter of `p` to indicate we want to inject the class into the following paragraph, and then supply a parameter of `notice` to supply the desired `class` value for the paragraph. 
+

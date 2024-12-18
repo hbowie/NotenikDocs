@@ -22,6 +22,5 @@ And then as rendered into HTML.
 
 By the end of day one, he was familiar with basic tags like `<html>`, `<head>`, and `<body>`. On day two, he was creating paragraphs and lists. By day three, he had moved on to creating stunning layouts with `<article>` and `<section>`.
 
-You can display multiple lines of code by indenting each line with a tab, or four spaces; a common Markdown extension also allows a block of code to be indicated using [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks), preceding and concluding the block with three backticks isolated on lines by themselves. 
-
+You can display multiple lines of code by indenting each line with a tab, or four spaces; a common Markdown extension also allows a block of code to be indicated using [fenced code blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks), preceding and concluding the block with three backticks isolated on lines by themselves.
 

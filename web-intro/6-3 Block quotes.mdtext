@@ -19,3 +19,18 @@ And here's what it would look like.
 
 > "HTML is **elementary** my dear Watson."  
 > -- Whiskers, probably
+
+On the other hand, here's a different way to format the citation, using a special [Notenik Markdown command](https://notenik.app/kb/format-a-quote-citation.html). 
+
+> I once addressed, on a Christmas day many years ago, on behalf of the United Nations, an audience of about two thousand school children in London. As on this occasion, I knew in general what I was going to say, but I did not know exactly what I was going to say, and in a moment of abandon I said to them: 'This is how the world goes, you are going to have to make it different, you are going to have to stop listening to your parents. If you go on obeying your parents, the world will never be a better place.' And at that moment twenty newspaper men representing the European press got up from the front row and rushed for the telephone boxes. And by the time I got home one of the more adventurous correspondents from Geneva had actually phoned my daughter, then aged seven, at school in order to ask her whether she was encouraged to disobey her parents at home.
+
+{:quote-from:Jacob Bronowski|1979|Book|The Origins of Knowledge and Imagination||}
+
+The quotation is formatted using the standard Markdown syntax for a blockquote, but then followed by the special Notenik command, looking like this. 
+
+```
+{:quote-from:Jacob Bronowski|1979|Book|The Origins of Knowledge and Imagination||}
+```
+
+Note that there are several optional parameters, separated by `|` characters, that can identify the date and source of the quotation, in addition to the name of the author. 
+
