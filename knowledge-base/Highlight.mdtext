@@ -1,5 +1,7 @@
 Title:  Highlight
 
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.3 Common Markdown Extensions
+
 Timestamp: 20241218230355
 
 Seq:    7.3.3.7
@@ -20,5 +22,4 @@ A is true. ==B is no longer true.== C is also true.
 
 ...would produce the following effect:
 
-A is true. ==B is no longer true.== C is also true. 
-
+A is true. ==B is no longer true.== C is also true.

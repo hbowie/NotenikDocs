@@ -1,5 +1,7 @@
 Title:  Start a Segment
 
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
+
 AKA:    segment command
 
 Timestamp: 20241212235504
@@ -24,6 +26,4 @@ A `segment` command should always be followed at some later point by an [[endsse
 
 Note that a class value and/or an id value can also be specified, in that sequence, using pipes to separate the parameters. 
 
-Also note that `segment` commands may be nested, if the resulting HTML would be valid. 
-
-
+Also note that `segment` commands may be nested, if the resulting HTML would be valid.

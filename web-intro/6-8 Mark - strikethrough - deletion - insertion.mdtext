@@ -1,0 +1,23 @@
+Title:  Mark, strikethrough, deletion, insertion
+
+Seq:    6.8
+
+Level:  3 - section
+
+Body:
+
+Notenik supports special syntax for strikethrough and highligting, as specified in the [Markdown Guide Extended Syntax](https://www.markdownguide.org/extended-syntax/#strikethrough), but has no special syntax for deletion and insertion. 
+
+Here's an example of all four. 
+
+Here's the code.
+
+```
+Let's ==highlight a few words==, and then ~~strike out 
+a phrase~~, and then <ins>insert some text</ins>, 
+and <del>delete some other stuff</del>. 
+```
+
+And here's how it renders. 
+
+Let's ==highlight a few words==, and then ~~strike out a phrase~~, and then <ins>insert some text</ins>, and <del>delete some other stuff</del>. 

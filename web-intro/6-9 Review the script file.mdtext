@@ -1,6 +1,6 @@
 Title:  Review the script file
 
-Seq:    6.8
+Seq:    6.9
 
 Level:  3 - section
 
@@ -22,5 +22,3 @@ Following this we we will open the `pages` collection, and then sort it using th
 
 Now let's look at the merge templates. 
 
-
-Next we use the second merge template to generate an actual page for each post. 

@@ -1,6 +1,6 @@
 Title:  Review the blog template
 
-Seq:    6.9
+Seq:    6.10
 
 Level:  3 - section
 
@@ -29,5 +29,4 @@ You should be able to see that this looks very much like Blake's [index page](ht
 
 You may notice we're using the merge variable [formatting string](https://notenik.app/kb/formatting-string.html) of `&yyyy-MM-dd$` to format the date field into a year-month-day format, and then using a different string, `&MMM d, yyyy`, to format it into a more readable format, with the month first, and spelled out using a 3-letter abbreviation. 
 
-You can also see that we're displaying the Teaser field here, to give readers some idea of what each post is about, and are using the `&o` merge variable modifier, which will apply Markdown parsing to the field. 
-
+You can also see that we're displaying the Teaser field here, to give readers some idea of what each post is about, and are using the `&o` merge variable modifier, which will apply Markdown parsing to the field. (This means that we can use the Markdown syntax in the Teaser field, as well as in the Body field!)

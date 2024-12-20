@@ -1,0 +1,13 @@
+Title:  A document with sections
+
+Seq:    7.1
+
+Level:  3 - section
+
+Body:
+
+The approach we're going to take here is to fill out one note in the `content / cv-sections` collection for each section we want to appear in our CV. 
+
+We'll see later how we pull these together into a single document. 
+
+

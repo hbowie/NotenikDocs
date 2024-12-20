@@ -1,5 +1,7 @@
 Title:  End a Segment
 
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
+
 AKA:    endssegment command
 
 Timestamp: 20241212235601
@@ -18,5 +20,4 @@ The command would be coded as follows.
 
 	{:end-segment}
 
-Note that the command takes no parameters, and will simply close whatever segment element was last started. 
-
+Note that the command takes no parameters, and will simply close whatever segment element was last started.

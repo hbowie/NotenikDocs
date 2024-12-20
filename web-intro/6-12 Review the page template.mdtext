@@ -1,6 +1,6 @@
 Title:  Review the page template
 
-Seq:    6.11
+Seq:    6.12
 
 Level:  3 - section
 
@@ -15,27 +15,26 @@ Here's what it should look like.
 ```
 <?copycss?>
 <?nextrec?>
-<?output "../../web/=$aka&f$=.html"?>
+<?output "../../web/=$title&f$=.html"?>
 <!doctype html>
 <html>
   <head>
 	<meta charset="utf-8">
-	<title>=$title$=</title>
+	<title>=$header$=</title>
 	<link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
 	<header>
 <?clearglobals?>
-<?set =$aka&f$=-aria-current = page ?>
+<?set =$title&f$=-aria-current = page ?>
 <?include "../includes-gen/nav-bar.html" ?>
-	  <h1>=$title$=</h1>
+	  <h1>=$header$=</h1>
 	</header>
 	<main>
-<?if "=$AKA$=" eq "Blog" ?>
+<?if "=$Title$=" eq "Blog" ?>
 <?include "../includes-gen/blog.html" ?>
-<?else?>
-	  =$body&fo$=
 <?endif?>
+	  =$body&fo$=
 	</main>
 <?copyimages?>
 	<footer>
@@ -51,14 +50,11 @@ Most of this should look pretty familiar, as we've seen many of these lines in p
 But here we've introduced something new. 
 
 ```
-<?if "=$AKA$=" eq "Blog" ?>
+<?if "=$Title$=" eq "Blog" ?>
 <?include "../includes-gen/blog.html" ?>
-<?else?>
-	  =$body&fo$=
 <?endif?>
 ```
 
-Do you see what we're doing? If this is the blog page, then we're pulling in the blog include we generated earlier, instead of using the Body text for the note. 
+Do you see what we're doing? If this is the blog page, then we're pulling in the blog include we generated earlier, before we include the body text. 
 
-So now, perhaps, we can see what we need to do next. 
-
+So now, perhaps, we can see what we need to do next.

@@ -1,6 +1,6 @@
 Title:  Build and Review
 
-Seq:    6.13
+Seq:    6.14
 
 Level:  3 - section
 
@@ -8,5 +8,4 @@ Body:
 
 Now run your Chapter 06 build script, and review the results. 
 
-You should see that your new blog now appears, and is integrated into your overall site. 
-
+You should see that your new blog now appears, and is integrated into your overall site.

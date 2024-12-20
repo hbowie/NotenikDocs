@@ -1,6 +1,6 @@
 Title:  Review the post template
 
-Seq:    6.10
+Seq:    6.11
 
 Level:  3 - section
 
@@ -48,4 +48,4 @@ By now you should be able to work your way through this template and understand 
 
 Note that the post entries are going into a folder named `posts`. The files are being named using a combination of Date and Title, as suggested by Blake. 
 
-One new element you might notice is the Notenik Merge Template [System Variable](https://notenik.app/kb/system-variables.html) of `=$relative$=`. This variable will be replaced with zero or more occurrences of `../`, with the number depending on the level of the generated file relative to the webroot folder. In essence, what this means is that you can specify a path to a file starting from the top of your website, rather than from the location of the current file. We're using this trick to get us back to the `css/styles.css` file, and to the blog index page. 
+One new element you might notice is the Notenik Merge Template [System Variable](https://notenik.app/kb/system-variables.html) of `=$relative$=`. This variable will be replaced with zero or more occurrences of `../`, with the number depending on the level of the generated file relative to the webroot folder. In essence, what this means is that you can specify a path to a file starting from the top of your website, rather than from the location of the current file. We're using this trick to get us back to the `css/styles.css` file, and to the blog index page.

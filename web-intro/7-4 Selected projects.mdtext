@@ -1,0 +1,27 @@
+Title:  Selected projects
+
+Seq:    7.4
+
+Level:  3 - section
+
+Body:
+
+Go ahead and add another note titled `Selected Projects`, and give it a Seq of `3`. 
+
+Go ahead and enter the projects you'd like to feature. 
+
+Here's the way I would enter one of mine. 
+
+```
+### Notenik Mac app
+
+This started out as software I developed in Java 
+to help me create and maintain my multiple websites. 
+It gradually evolved into a more generalized app to 
+collect notes, along with metadata fields containing 
+information about the notes. And then, as Apple's 
+support for Java gradually waned, I rewrote the 
+thing in Swift, using AppKit. 
+
+[Notenik.app](https://notenik.app)
+```

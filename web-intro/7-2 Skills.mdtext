@@ -1,0 +1,22 @@
+Title:  Skills
+
+Seq:    7.2
+
+Level:  3 - section
+
+Body:
+
+You should already find a `cv-section` named `Skills`. Leave the Seq value here at 1, and then modify the unordered list provided in the Body to reflect whatever skills you want to highlight. 
+
+If you'd like your skills list to show in two columns, as Blake suggested, then try inserting the following line just before the first item in the list. 
+
+```
+{:inject: ul | | | columns: 2 }
+```
+
+This makes use of the special Notenik Markdown command to [inject attributes](https://notenik.app/kb/inject-block-attributes.html) into an HTML block to follow. In this case, we're injecting a `style` attribute into the upcoming `ul` element. 
+
+
+
+
+
