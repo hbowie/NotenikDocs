@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Education</title>
+<title>Review the template files</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <style>
 /* The following CSS comes from the darkModeAdjustments 
@@ -562,20 +562,45 @@ h6 {
 <body>
 
 <main>
-<p>7. <a href="https://ntnk.app/7addingarésuméorcv" class="nav-link">Adding a résumé (or CV)</a>&#160;&#8593;</p><h4 id="education">7.5. Education</h4>
-<p>This will be our fourth and final note for this collection. </p>
+<p>7. <a href="https://ntnk.app/7addingarésuméorcv" class="nav-link">Adding a résumé (or CV)</a>&#160;&#8593;</p><h4 id="reviewthetemplatefiles">7.8. Review the template files</h4>
+<p>Now use your text editor to review the template file named <code>chapter 07 - cv template.html</code>. </p>
 
-<p>Here&#8217;s a sample entry for me. </p>
+<p>This is what you should expect to find. </p>
 
-<pre><code>**B.A. in English Literature**, 1973 \
-*Ann Arbor, Michigan*
+<pre><code>&lt;?output "../includes-gen/cv.html" ?>
+&lt;?nextrec?>
+      &lt;section>
+        &lt;h2>=$title$=&lt;/h2>
+        =$body&amp;o$=
+      &lt;/section>
+&lt;?loop?>
 </code></pre>
 
+<p>Here&#8217;s what&#8217;s going on. </p>
+<ol>
+<li>We&#8217;re creating a new file in the <code>includes-gen</code> folder, and naming it <code>cv.html</code>; </li>
+<li>For each section in our input content, we&#8217;re generating an HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section" class="ext-link" target="_blank" rel="noopener">section</a> element; </li>
+<li>We&#8217;re creating a second level heading from the section&#8217;s Title field; </li>
+<li>We&#8217;re inserting the Body value after parsing the Markdown to turn it into HTML. </li>
+</ol>
+
+<p>And now let&#8217;s take a look at the file named <code>chapter 07 - page template.html</code>. </p>
+
+<p>And you&#8217;ll see that we&#8217;ve added the following lines. </p>
+
+<pre><code>&lt;?if "=$title$=" eq "CV" ?> 
+&lt;?include "../includes-gen/cv.html" ?>
+&lt;?endif?>
+</code></pre>
+
+<p>So now, when we encounter the <code>CV</code> page, we&#8217;ll pull in the include we just generated. </p>
+
+<p>And that&#8217;s it for changes to our templates! </p>
 
 <hr />
 <div>
 
-<p>Next: 7.6. <a href="https://ntnk.app/76createtherésuméfile" class="nav-link">Create the résumé file</a></p></div>
+<p>Next: 7.9. <a href="https://ntnk.app/79buildandreview" class="nav-link">Build and Review</a></p></div>
 
 
 </main>

@@ -1,0 +1,24 @@
+Title:  Version 16.1.0
+
+Timestamp: 20241222011239
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Added Open in Finder item
+
+The [[project folder]] will now have an "Open in Finder" item generated, which will contain a link requesting the macOS Finder to open the Project Folder. 
+
+##### Changed Title for a BBEdit project file.
+
+When a [[project folder]] has a BBEdit project file at its top level, it will now show with a title of "Open in BBEdit". 
+
+##### Added Ability to Paste CSV -> Table
+
+A Markdown [[Table]] may now be generated from a comma-separated values file. 
+

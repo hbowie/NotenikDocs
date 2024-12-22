@@ -1,0 +1,21 @@
+Title:  Create the CV page
+
+Seq:    7.6
+
+Level:  3 - section
+
+Body:
+
+Now let's add a new page to the `pages` collection. 
+
+Here's what mine looks like:
+
+| Label | Value |
+| :---- | :---- |
+| Title: | CV |
+| Header: | Résumé for Herb Bowie |
+| Seq: | 4 |
+
+You can leave the Body field empty. 
+
+

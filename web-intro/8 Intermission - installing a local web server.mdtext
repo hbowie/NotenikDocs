@@ -1,0 +1,38 @@
+Title:  Intermission: installing a local web server
+
+Seq:    8
+
+Level:  2 - chapter
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/intermission-installing-a-local-web-server/).
+
+Blake's information here is all perfectly applicable to web-building with Notenik. 
+
+I will add another option that I use. 
+
+Each time that macOS undergoes a major upgrade, I pick the right link [on this page](https://discussions.apple.com/docs/DOC-3083) and carefully follow the instructions there. 
+
+The latest one at the time of this writing is titled [Setting up a local web server on macOS 15 "Sequoia"](https://discussions.apple.com/docs/DOC-250008906).
+
+These instructions require use of the Terminal app, plus editing of hidden files. 
+
+If you are uncomfortable with these tasks, then best to stick to Blake's recommendation. 
+
+I will confess that I use BBEdit to make the configuration file edits, rather than vi or nano. 
+
+Also it helps to know that CMD-Shift-dot ( ⌘+⇧+. ) will toggle the display of hidden files in the Finder. 
+
+I think the advantage of this approach is that you can then use `localhost` to view your web work in your browser. 
+
+For example, here's the URL I would use in my browser to view a local copy of [notenik.app](https://notenik.app/). 
+
+```
+browse	open	url		http://localhost/~hbowie/notenik-web/
+
+```
+
+browse	open	url		http://localhost/~hbowie/notenik-web/
+
+

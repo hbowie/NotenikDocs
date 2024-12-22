@@ -6,6 +6,22 @@ Level:  3 - section
 
 Body:
 
-Now add a new note in the `cv-sections` collection and give it a Title of `Experience`. 
+Now add a new note in the `cv-sections` collection and give it a Title of `Experience`, and a Seq of `2`. 
 
+Then go ahead and add some of your professional experience in the Body. 
+
+For example, here's some of mine. 
+
+```
+**Indie Developer** \
+2016 – Present
+
++ Design and development of the Notenik app on the Mac, using Swift and AppKit
+
+**Boeing, Puget Sound Region** \
+2006 – 2016
+
++ Manage a Software Development Improvement Office
++ Manage teams of developers supporting Engineering & Flight Test
+```
 

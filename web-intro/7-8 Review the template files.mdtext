@@ -1,0 +1,43 @@
+Title:  Review the template files
+
+Seq:    7.8
+
+Level:  3 - section
+
+Body:
+
+Now use your text editor to review the template file named `chapter 07 - cv template.html`. 
+
+This is what you should expect to find. 
+
+```
+<?output "../includes-gen/cv.html" ?>
+<?nextrec?>
+      <section>
+        <h2>=$title$=</h2>
+        =$body&o$=
+      </section>
+<?loop?>
+```
+
+Here's what's going on. 
+
+1. We're creating a new file in the `includes-gen` folder, and naming it `cv.html`; 
+2. For each section in our input content, we're generating an HTML [section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) element;
+3. We're creating a second level heading from the section's Title field;
+4. We're inserting the Body value after parsing the Markdown to turn it into HTML. 
+
+And now let's take a look at the file named `chapter 07 - page template.html`. 
+
+And you'll see that we've added the following lines.
+
+```
+<?if "=$title$=" eq "CV" ?> 
+<?include "../includes-gen/cv.html" ?>
+<?endif?>
+```
+
+So now, when we encounter the `CV` page, we'll pull in the include we just generated. 
+
+And that's it for changes to our templates!
+

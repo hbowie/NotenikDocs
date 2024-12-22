@@ -1,0 +1,33 @@
+Title:  Review the script file
+
+Seq:    7.7
+
+Level:  3 - section
+
+Body:
+
+Use your text editor to open `chapter 07 - build script.tsv`. 
+
+You'll see we've added the following lines to the beginning of the script. 
+
+| module | action | modifier        | object | value                           |
+| :----- | :----- | :-------------- | :----- | :------------------------------ |
+| input  | open   | notenik-defined |        | #PATH#../../content/cv-sections |
+| sort   | clear  |                 |        |                                 |
+| sort   | add    | ascending       | Seq    |                                 |
+| sort   | add    | ascending       | Title  |                                 |
+| sort   | set    |                 | params |                                 |
+| template | open |  |  | #PATH#../templates/chapter 07 - cv template.html | 
+| template | generate |    |   |   |
+
+(You might also observe that we're using the [Tables Markdown Extension](https://notenik.app/kb/tables.html) to show you the contentes of the script, nicely aligned into columns, using only Markdown.)
+
+So what are we doing here? 
+
+1. Using the `cv-sections` Notenik collection as input;
+2. Sorting the contents in ascending sequence by Seq; 
+3. Using the template named `chapter 07 - cv template.html` to generate some sort of output. 
+
+The rest of the build script for this chapter remains the same. 
+
+So now let's see what our new template is doing, shall we?
