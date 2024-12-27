@@ -20,5 +20,12 @@ When a [[project folder]] has a BBEdit project file at its top level, it will no
 
 ##### Added Ability to Paste CSV -> Table
 
-A Markdown [[Table]] may now be generated from a comma-separated values file. 
+A Markdown [[Table]] may now be generated from a comma-separated values file.
 
+##### Expanded Max Title Length on Tags Tab
+
+Expanded the maximum Title display length, as it appears on the Tags tab.
+
+##### Added notefilename as new Merge Template Variable
+
+Added a new [[System Variable]] of `notefilename` that can be used in a [[Merge Template]] to pull in the exact filename of the input Note. 

@@ -1,0 +1,20 @@
+Title:  Adding a fun page
+
+Seq:    9
+
+Level:  2 - chapter
+
+Body:
+
+Start by reading the corresponding [HTML for people chapter](https://www.htmlforpeople.com/adding-a-fun-page/).
+
+We'll create our fun page in Notenik in our `pages` collection. 
+
+Start by creating a new note, entering the following values. 
+
+| Label | Value |
+| ----- | ----- |
+| Title: | `Fun` |
+| Header: | `Fun!` |
+| Seq: | `5` |
+| Body: | (leave blank for now)|

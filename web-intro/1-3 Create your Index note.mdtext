@@ -13,7 +13,8 @@ Make sure you have the `content / pages` window frontmost within Notenik.
 You should see an existing note with a title of `Index`, with the following body value. 
 
 ```
-My name is Herb. I enjoy making websites, and making software to make it easier to make websites. 
+My name is Herb. I enjoy making websites, and 
+making software to make it easier to make websites. 
 ```
 
 Go ahead and edit this note, changing the body to reflect your name and a little bit about yourself. 

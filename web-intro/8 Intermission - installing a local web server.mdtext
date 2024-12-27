@@ -24,15 +24,17 @@ I will confess that I use BBEdit to make the configuration file edits, rather th
 
 Also it helps to know that CMD-Shift-dot ( ⌘+⇧+. ) will toggle the display of hidden files in the Finder. 
 
-I think the advantage of this approach is that you can then use `localhost` to view your web work in your browser. 
+I think the advantage of this approach is that you can then use [localhost](https://blog.hubspot.com/website/what-is-localhost) to view your web work in your browser. 
 
-For example, here's the URL I would use in my browser to view a local copy of [notenik.app](https://notenik.app/). 
-
-```
-browse	open	url		http://localhost/~hbowie/notenik-web/
+For example, here's the URL I would use in my browser to view a local copy of `my-notenik-project` (with that folder located within my `Sites` folder).   
 
 ```
+http://localhost/~hbowie/my-notenik-project/web/
+```
 
-browse	open	url		http://localhost/~hbowie/notenik-web/
+And here's a command I could place at the end of my Notenik build script to ask that my site be opened in my web browser. 
 
+| module| action| modifier| object| value | 
+| ---| ---| ---| ---| --- | 
+| browse| open| url| | http://localhost/~hbowie/my-notenik-project/web/ | 
 
