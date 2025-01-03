@@ -1,0 +1,65 @@
+Title:  Using tables for tabletop gaming
+
+Seq:    9.3
+
+Level:  3 - section
+
+Body:
+
+As it happens, Notenik supports a common Markdown extension that provides a shorthand syntax for [defining HTML tables](https://notenik.app/kb/tables.html).
+
+Here's the entire contents of our D&D section. 
+
+```
+## D&D Stuff
+
+Dungeons & Dragons (D&D) is a fun tabletop game 
+where you create characters and go on epic adventures 
+with friends. Guided by a Dungeon Master (DM), you'll 
+roll dice to see what happens next. It's all about creativity, 
+teamwork, and having a blast as you tackle quests, 
+fight monsters, and find awesome treasures.
+
+### Random encounter table
+
+This is a table you can use to randomly decide what enemy 
+or creature the players are going to encounter. Just roll a d8.
+
+| Roll (1d8) | Encounter |
+| --------- | :-------- |
+| 1 | Band of Goblins |
+| 2 | Wandering Merchant |
+| 3 | Group of Bandits |
+| 4 | Pack of Wolves |
+| 5 | Traveling Minstrels |
+| 6 | Lost Child |
+| 7 | Hidden Trap |
+| 8 | Old Hermit |
+```
+
+And here's how the table renders.
+
+| Roll (1d8) | Encounter |
+| --------- | :-------- |
+| 1 | Band of Goblins |
+| 2 | Wandering Merchant |
+| 3 | Group of Bandits |
+| 4 | Pack of Wolves |
+| 5 | Traveling Minstrels |
+| 6 | Lost Child |
+| 7 | Hidden Trap |
+| 8 | Old Hermit |
+
+You'll notice we're using pipe characters to draw the outlines of our columns. 
+
+And then you'll see that we have a special row between the table headings and the table data, in which we place three or more dashes denoting each column. If we start the dashes with a colon, then that indicates that we want that column heading left-justified, instead of the default centering. 
+
+A few additional table-taming tips:
+
++ If you use a monospaced font for your editing, then it's sometimes tempting (and fun!) to insert enough spaces at various places so that the pipe characters line up in your Markdown source. But this is strictly optional, and won't affect the final HTML output. 
+
++ Beneath the Notenik Edit menu we can find an item titled "Paste CSV -> Table," which will take a comma-separated values text block from the System clipboard and reformat it into a Markdown table before pasting it into our note. 
+
++ [TableFlip](https://tableflipapp.com/) is a handy app for working with Markdown tables. 
+
+

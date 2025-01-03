@@ -1,0 +1,73 @@
+Title:  Jokes
+
+Seq:    9.2
+
+Level:  3 - section
+
+Body:
+
+Let's add a level 2 heading to the body of our new note. 
+
+```
+## Jokes
+```
+
+Now within Notenik's version of Markdown, you can make use of the HTML `<details>` and `<summary>` tags in a couple of different ways. 
+
+It's very common to have a series of items using these features, and so Notenik makes it easy to create a sort of outline using bulleted lists. 
+
+Here's the way we might create the jokes content in this manner. 
+
+```
+{:outline-bullets}
++ Why wouldn't the skeleton cross the road?
+
+	It didn't have the guts. 
+
++ Why was the math book sad?
+
+	It had too many problems. 
+
++ Why don't scientists trust atoms?
+
+	Because they make up everything!
+```
+
+And here's the way this renders. 
+
+{:outline-bullets}
++ Why wouldn't the skeleton cross the road?
+
+	It didn't have the guts. 
+
++ Why was the math book sad?
+
+	It had too many problems. 
+
++ Why don't scientists trust atoms?
+
+	Because they make up everything!
+
+The other approach here is to simply embed the HTML tags within the Markdown. 
+
+Here's an example of using this approach. 
+
+```
+<details>
+<summary>Why wouldn't the skeleton cross the road?</summary>
+
+It didn't have the guts. 
+</details>
+```
+
+And here's the way this renders. 
+
+<details>
+<summary>Why wouldn't the skeleton cross the road?</summary>
+
+It didn't have the guts. 
+</details>
+
+You can choose whichever approach you prefer when putting together your Jokes section. 
+
+

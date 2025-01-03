@@ -2,6 +2,8 @@ Title:  Heading ID Generation
 
 Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.3 Common Markdown Extensions
 
+AKA:    Heading IDs
+
 Timestamp: 20210607233153
 
 Seq:    7.3.3.4
@@ -24,4 +26,4 @@ Thus a line like the following...
 
 ... would generate an ID of '`heading-id-generation`'.
 
-ID formation may vary when outputting Markdown, in order to better conform to the apparent MultiMarkdown standard. 
+ID formation may vary when outputting Markdown, in order to better conform to the apparent MultiMarkdown standard.

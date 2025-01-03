@@ -1,0 +1,22 @@
+Title:  Embedded video
+
+Seq:    9.4
+
+Level:  3 - section
+
+Body:
+
+I've made a couple of nice Notenik videos that are both available on YouTube, so let's embed those. 
+
+There is nothing particular to Markdown or Notenik here. We're just going to copy the HTML code provided by YouTube, and all wrapped in an `<iframe>` element, and paste it straight into our Body text. 
+
+Here's the way the code looks. 
+
+```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JR0kpAUXM5E?si=b6oOKKQGSMSweqTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+```
+
+And here's what happens when you embed it in your Body. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JR0kpAUXM5E?si=b6oOKKQGSMSweqTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+

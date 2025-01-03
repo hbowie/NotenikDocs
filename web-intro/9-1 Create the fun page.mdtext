@@ -1,0 +1,22 @@
+Title:  Create the fun page
+
+Seq:    9.1
+
+Level:  3 - section
+
+Body:
+
+We'll create our fun page in Notenik in our `pages` collection. 
+
+Start by creating a new note, entering the following values. 
+
+| Label | Value |
+| ----- | ----- |
+| Title: | `Fun` |
+| Header: | `Fun!` |
+| Seq: | `5` |
+| Body: | `{:section-headings}` |
+
+For now, we'll just add the one line to the Body. This is a Notenik Markdown command that will generate section tags for us, based on the location of the heading tags. This will save us from having to manually enter `<section>` and `</section>` tags for every section of the page. The HTML that gets generated will still have all the recommended `section` tags, but we will be saved from having to enter them, and from having to mix page structure tags with our content. 
+
+Save the note, and then we'll begin to add some fun content.

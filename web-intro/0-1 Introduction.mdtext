@@ -1,5 +1,7 @@
 Title:  Introduction
 
+Tags:   HTML.general
+
 Seq:    0.1
 
 Level:  2 - chapter
@@ -11,6 +13,20 @@ Body:
 Start by reading the [HTML for people Introduction](https://www.htmlforpeople.com/intro/).
 
 I agree entirely with Blake's points about HTML simply being the document format for the web, and something that everyone should have some familiarity with. 
+
+I'll go a little further, though. 
+
+Many of the modern technologies we use are entirely flat and opaque. We are presented with a nice-looking user interface, with no ability at all to peer beneath the surface to see what's going on below, no ability to actually *understand* how something works, no ability to conceptualize how things might be tweaked or rearranged to make them into something new, something better, something more suited to our needs. 
+
+But, thankfully, HTML and the web are different. 
+
+All of the websites we see, all of the digital content we consume, is created using HTML. 
+
+But HTML, as we will see, can be used to create very small, simple (but still satisfying!) things, as well as very complex things,
+
+But the basic building blocks are all the same. 
+
+And so, once we understand some of the basics, it allows us to create our own things, but also empowers us as digital citizens, because we now know a little more about how the things around us are being put together. 
 
 #### Who is this book for?
 

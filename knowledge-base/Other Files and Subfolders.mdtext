@@ -2,6 +2,8 @@ Title:  Other Files and Subfolders
 
 Tags:   levels-outline.8 Files and Folders.5 Other Files and Subfolders
 
+AKA:    add-ins folder
+
 Timestamp: 20210619163946
 
 Seq:    8.5
@@ -36,7 +38,11 @@ In addition to the Note files, the following special files and folders may be fo
 
 * A file named `temp_display.html` will be temporarily created if the Collection Settings `Enable Local Image References` is turned on. 
 
++ An `add-ins` folder may contain any additional `.css` and/or `.js` files to be loaded for the collection's pages. Also see the [[copyaddins command]].
+
 + A `class` folder will contain any [[class]] template files created for the Collection. 
+
++ A `css` folder may contain multiple `.css` files, and the user may select any of them to be used via a [[Collection Setting]].
 
 + An `export` folder will contain any [[Export Scripts]] in use for the Collection.
 
