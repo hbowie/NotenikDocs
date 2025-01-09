@@ -1,0 +1,15 @@
+Title:  Version 16.2.0
+
+Timestamp: 20250109183624
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### First Change
+
+Fixed the [[web book export]] to accurately recall [[collection metadata commands]] when the [[Note Identifiers]] have been changed to something other than the default [[Title]] field identifier. 

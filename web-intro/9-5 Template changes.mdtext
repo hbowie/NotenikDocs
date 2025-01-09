@@ -1,0 +1,34 @@
+Title:  Template changes
+
+Seq:    9.5
+
+Level:  3 - section
+
+Body:
+
+Now let's review the changes we need to make to our merge templates.
+
+The page template is the only one that needs to change, so let's use our text editor to look at `chapter 09 - page template.html`.
+
+We only need to make two changes. 
+
+First, let's add a `copyaddins` command just following the `copycss` command. 
+
+Here's what it will look like. 
+
+```
+<?copyaddins?>
+```
+
+The effect of this command will be to copy our `add-ins` folder to our output `web` folder. 
+
+Then the next change will be to add the following two lines into our `<head>` section. 
+
+```
+<link rel="stylesheet" href="add-ins/lite-yt-embed.min.css">
+<script src="add-ins/lite-yt-embed.min.js"></script>
+```
+
+And those are the only template changes we will need for this chapter!
+
+

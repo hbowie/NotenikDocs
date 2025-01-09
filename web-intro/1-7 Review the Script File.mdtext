@@ -20,7 +20,7 @@ Here's what the script file looks like when viewed in Numbers.
 
 The first row contains column headings. These are always the same. 
 
-The second row opens the pages collection as input. 
+The second row opens the `pages` collection as input. 
 
 The third row opens the template file we just reviewed. 
 

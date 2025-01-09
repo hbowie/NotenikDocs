@@ -1,5 +1,7 @@
 Title:  Generate Sections for Headings
 
+Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.7 Formatting Commands
+
 Timestamp: 20241229234539
 
 Seq:    7.3.7.9
@@ -26,7 +28,4 @@ An alternative is to specify the desired sectioning heading level directly, as i
 
 This command should generally be placed at or near the top of the text field, before the appearance of the first heading. 
 
-The `<section>` tags generated will have `id` attributes supplied, with the literal `section-for-` being prepended to the [[Heading ID]] generated for the triggering heading. 
-
-
-
+The `<section>` tags generated will have `id` attributes supplied, with the literal `section-for-` being prepended to the [[Heading ID]] generated for the triggering heading.

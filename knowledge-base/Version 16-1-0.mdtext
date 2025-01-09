@@ -1,10 +1,19 @@
 Title:  Version 16.1.0
 
+Tags:   levels-outline.16 Version History.1 Version 1610
+
 Timestamp: 20241222011239
 
-Seq:    16.1
+Seq:    16.2
+
+Date:   2025-01-05
 
 Level:  3 - Section
+
+Teaser:
+
+Added 'Open in Finder' item to project folders; Changed Title for a BBEdit project file to 'Open in BBEdit'; Added Ability to Paste CSV -> Table; Added 'notefilename' as new Merge Template Variable; Added a 'section-headings' Markdown command; Provisioned an Optional add-ins folder to make it easy to mix in 3rd party web components; Added a 'copyaddins' Merge Template Command; Fixed Problem that was Allowing the same Project Folder to be open in multiple windows.
+
 
 Class:  version
 
@@ -40,4 +49,4 @@ Added a [[copyaddins command]] to copy files from the new [[add-ins folder]] to 
 
 ##### Fixed Problem Allowing Duplicate Project Folders
 
-Notenik had been mistakenly allowing a [[project folder]] to be opened in a new window, while leaving another window for the same folder still open. This has been corrected, so that the old window will be closed before opening the new one. 
+Notenik had been mistakenly allowing a [[project folder]] to be opened in a new window, while leaving another window for the same folder still open. This has been corrected, so that the old window will be closed before opening the new one.

@@ -1,0 +1,12 @@
+Title:  footer-page
+
+Seq:    99.3
+
+Level:  3 - section
+
+Class:  exclude
+
+Body:
+
+{:footer}
+Authored by Herb Bowie, licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

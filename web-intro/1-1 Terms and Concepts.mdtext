@@ -1,4 +1,4 @@
-Title:  Terms and Concepts
+Title:  Terms and concepts
 
 Seq:    1.1
 
@@ -46,7 +46,7 @@ As we continue on our HTML journey, we will see that some elements of HTML fall 
 
 So some of the HTML that we learn from Blake will go into our template files, to define page and site structure, while other HTML elements will go into our notes, to structure our text into things like paragraphs and lists, and to provide various forms of emphasis, as writers tend to do with things like bold type, italics and underlines. 
 
-And then we will see that much of the HTML going into our content can be more concisely expressed using Markdown. Again, though, the elements we will learn from Blake will be the same — we will just be using a sort of shorthand to make it easier for us to write those elements.  
+And then we will see that much of the HTML going into our content can be more concisely expressed using [Markdown](https://www.markdownguide.org/). Again, though, the elements we will learn from Blake will be the same — we will just be using a sort of shorthand to make it easier for us to write those elements, and easier for us to work with our content.  
 
 All static site generators involve tradeoffs. Their advantage is that they eliminate repetitive HTML coding, saving time and preventing errors, and making changes easier. Their disadvantage is that they add an extra step to website creation, by requiring a *build* step.  Notenik's build step consists of running one or more scripts using Notenik's script runner. 
 

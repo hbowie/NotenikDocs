@@ -1,0 +1,28 @@
+Title:  Review and run the script file
+
+Seq:    9.6
+
+Level:  3 - section
+
+Body:
+
+Now use your text editor to look at the file `chapter 09 - build script.tsv`. 
+
+The first change is simply to update the template file names to the `chapter 09` versions. 
+
+And then the second change is to add the following line at the very end of the file. 
+
+| module| action| modifier| object| value | 
+| ---| ---| ---| ---| --- | 
+| browse| open| url| | http://localhost/~hbowie/my-notenik-project/web/ | 
+
+This assumes that you have a local web browser running. You'll need to change `~hbowie` to your user id. 
+
+And then, if you've named your folder something other than `my-notenik-project`, you'll need to make that change as well. 
+
+Now run your chapter 09 build script, and review the results. You should see your new Fun page, nicely integrated into the rest of your site. 
+
+You can now upload your `web` folder to your actual website, if you would like. 
+
+
+ 

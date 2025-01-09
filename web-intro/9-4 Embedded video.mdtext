@@ -8,7 +8,7 @@ Body:
 
 I've made a couple of nice Notenik videos that are both available on YouTube, so let's embed those. 
 
-There is nothing particular to Markdown or Notenik here. We're just going to copy the HTML code provided by YouTube, and all wrapped in an `<iframe>` element, and paste it straight into our Body text. 
+For our first pass at this, we're just going to copy and embed the HTML  code provided by YouTube, in just the same way that Blake did. There is nothing particular to Markdown or Notenik here.
 
 Here's the way the code looks. 
 
@@ -19,4 +19,41 @@ Here's the way the code looks.
 And here's what happens when you embed it in your Body. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JR0kpAUXM5E?si=b6oOKKQGSMSweqTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+That's the first way to do this, but it has all the same issues that Blake pointed out. 
+
+So now we'll see how to do it the second way. 
+
+##### Custom HTML tags
+
+Let's see how we can make use of the same web component that Blake found, called [Lite YouTube Embed](https://github.com/paulirish/lite-youtube-embed#readme). 
+
+Here's how we'll install it for use within Notenik. 
+
+First, download the same two files:
+
++ JS file: [https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.2/lite-yt-embed.min.js](https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.2/lite-yt-embed.min.js)
++ CSS file: [https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.2/lite-yt-embed.min.css](https://cdnjs.cloudflare.com/ajax/libs/lite-youtube-embed/0.3.2/lite-yt-embed.min.css)
+
+Next, let's create a new folder within the `posts` content folder and call it `add-ins`. 
+
+And then let's drag the two files we downloaded into our new `add-ins` folder. 
+
+Finally, let's reload our collection in Notenik to make sure Notenik is aware of our new add-ins. We can do this with **Collection ▸ Reload Collection** (Opt-Cmd-J). 
+
+Now we're ready to add the new `lite-youtube` tags to the body of our `Fun` note. 
+
+So here's what our Videos section will end up looking like. 
+
+```
+## Notenik Videos
+
+Here are a couple of short (10-minute) videos demonstrating how to use Notenik. 
+
+<lite-youtube videoid="JR0kpAUXM5E"></lite-youtube>
+
+----
+
+<lite-youtube videoid="Qy0hejViBHI"></lite-youtube>
+```
 

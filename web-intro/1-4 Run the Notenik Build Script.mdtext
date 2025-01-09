@@ -8,5 +8,5 @@ Class:  text
 
 Body:
 
-Now go back to your overall project window within Notenik, where you will see a row that's titled `scripts / chapter 01 - build script.tsv`, and double-click on this row on the List tab. This will open the *Scripter* window. Hit the *Go* button to run the script.
+Now go back to your overall project window within Notenik, where you will see a row that's titled `scripts / chapter 01 - build script.tsv`, and double-click on this row on the *List* tab. This will open the *Scripter* window. Click on the *Go* button to run the script.
 

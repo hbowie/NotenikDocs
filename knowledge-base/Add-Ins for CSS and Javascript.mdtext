@@ -1,5 +1,7 @@
 Title:  Add-Ins for CSS and Javascript
 
+Tags:   levels-outline.11 Integration.4 Add-Ins for CSS and Javascript
+
 Timestamp: 20250101000753
 
 Seq:    11.4
@@ -11,3 +13,4 @@ Class:  non-version
 Body:
 
 Starting with [[Version 16.1.0]], a folder named `add-ins` may be placed within a collection folder. The add-ins folder can contain additional CSS and/or javascript files to be loaded. The CSS files must end with file extension `.css`, and the javascript files must end with the file extension `.js`.
+

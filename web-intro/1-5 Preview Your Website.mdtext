@@ -8,5 +8,5 @@ Class:  text
 
 Body:
 
-Using the Finder, you will see a file named `index.html` inside of the `web` folder within your project folder. (Both the folder and the file were just created by the build script.) Double-click this file in the Finder, and it should open in your default browser, and it should contain the same text you typed earlier as the Body of your Index note.
+Using the Finder, you will see a file named `index.html` inside of the `web` folder within your project folder. (Both the folder and the file were just created by the build script.) Double-click this file in the Finder, and it should open in your default browser, and it should contain the same text you typed earlier as the body of your `Index` note.
 

@@ -27,7 +27,7 @@ Let's take these lines one at a time.
 
 `<?nextrec?>`
 
-This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the Index page but, as we add other pages, they would take advantage of this same code. 
+This is a Notenik [Merge Template command](https://notenik.app/kb/merge-commands.html) that tells Notenik to repeat the following lines for each note found in the input. Right now we only have the `Index` page but, as we add other pages, they would take advantage of this same code. 
 
 `<?output "../../web/=$title&f$=.html"?>`
 
