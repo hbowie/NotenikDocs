@@ -15,7 +15,8 @@ We can use the Markdown syntax to add links to our text.
 Just add the following to your body text. 
 
 ```
-Check out these cool app reviews from [Lou Plummer's AppAddict page](https://apps.louplummer.lol/). 
+Check out these cool app reviews from 
+[Lou Plummer's AppAddict page](https://apps.louplummer.lol/). 
 ```
 
 Do you see what we've done? We've added a new paragraph (just by virtue of inserting a blank line before the addtional text), and the text to serve as the visible link is placed within square brackets, and then followed immediately by the `href` value within parentheses. 

@@ -1,26 +1,24 @@
 Title:  Tweaking Notenik's default CSS
 
-Seq:    4.3
+Seq:    11.1.2
 
-Level:  3 - section
+Level:  4 - subsection
 
 Body:
 
-Notenik also allows you to tweak the default CSS that it uses. 
+Notenik allows you to easily tweak the default CSS that it uses, without requiring you to learn any CSS. 
 
-First, make sure that you don't have any of the special CSS files selected for your collection. 
-
-Next, open *Notenik > Display Appearance*. 
+To take this approach, open *Notenik > Display Appearance*. 
 
 Here you'll find a number of options. 
 
-You can center headings for any sequence of levels. 
++ You can center headings for any sequence of levels. 
 
-You can modify the fonts used for body text and/or for headings and/or for the List tab. 
++ You can modify the fonts used for body text and/or for headings and/or for the List tab on the left. 
 
-You can choose from a short list of common fonts, or elect to choose from the full list of fonts installed on your system. 
++ You can choose from a short list of common fonts, or elect to choose from the full list of fonts installed on your system. 
 
-And you can also modify font sizes. 
++ And you can also modify font sizes. 
 
 All of this can be done without learning any CSS syntax. You can see the CSS being generated for you, though, and you can see what effect your updates will have. 
 

@@ -6,7 +6,9 @@ Seq: <seq: n.|n.>
 
 Level: <level: 1 - book; 2 - chapter; 3 - section; 4 - subsection; >
 
-Class: <class: , intro, text, title-page >
+Class: <class: , back, exclude, intro, text, title-page >
+
+Include Children: <includechildren>
 
 Body: 
 

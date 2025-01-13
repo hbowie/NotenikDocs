@@ -58,8 +58,6 @@ A few additional table-taming tips:
 
 + If you use a monospaced font for your editing, then it's sometimes tempting (and fun!) to insert enough spaces at various places so that the pipe characters line up in your Markdown source. But this is strictly optional, and won't affect the final HTML output. 
 
-+ Beneath the Notenik Edit menu we can find an item titled "Paste CSV -> Table," which will take a comma-separated values text block from the System clipboard and reformat it into a Markdown table before pasting it into our note. 
++ Beneath the Notenik Edit menu we can find an item titled *Paste CSV -> Table*, which will take a comma-separated values text block from the System clipboard and reformat it into a Markdown table before pasting it into our note. 
 
-+ [TableFlip](https://tableflipapp.com/) is a handy app for working with Markdown tables. 
-
-
++ [TableFlip](https://tableflipapp.com/) is a handy app for working with Markdown tables.

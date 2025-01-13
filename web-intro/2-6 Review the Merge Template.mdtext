@@ -38,7 +38,7 @@ Following the `nextrec` and `output` lines you should see HTML tags much like th
 
 The `=$header$=` variable is being used for the web page's title and for its first heading. 
 
-We can still see the `=$body$=` variable, but now we've added a couple of useful variable modifiers with the embedded string `&fo`.  Here the ampersand indicates that one or more variable modifiers will be following, the `o` requests that the body text be converted from Markdown to HTML, and the `f` requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
+We can still see the `=$body$=` variable, but now we've added a couple of useful [variable modifiers](https://notenik.app/kb/variable-modifiers.html) with the embedded string `&fo`.  Here the ampersand indicates that one or more variable modifiers will be following, the `o` requests that the body text be converted from Markdown to HTML, and the `f` requests that any local image file names be converted to a web-frienldy format, if they are not already formatted in that way. 
 
 And then we have the addition of the `copyimages` command, which will copy any referenced local image files from the content folder to the web folder. 
 

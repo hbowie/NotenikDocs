@@ -20,4 +20,4 @@ You can also use HTML comments within your template files. Here's a particularly
  -------------------------------------------------------------------->
 ```
 
-The two variables here — `=$template-file-name$=` and `=$parent-folder$=` — will be replaced with the names of the template file and the data file used to generate a resulting bit of HTML. Then, when you are looking at a final web page, you'll see comments reminding you how that particular chunk of HTML was generated.
+The two [variables](https://notenik.app/kb/system-variables.html) here — `=$template-file-name$=` and `=$parent-folder$=` — will be replaced with the names of the template file and the data file used to generate a resulting bit of HTML. Then, when you are looking at a final web page, you'll see comments reminding you how that particular chunk of HTML was generated.

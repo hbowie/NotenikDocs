@@ -10,6 +10,10 @@ Class:  version
 
 Body:
 
-##### First Change
+##### Fix for Web Book Export with Alternate Note IDs
 
-Fixed the [[web book export]] to accurately recall [[collection metadata commands]] when the [[Note Identifiers]] have been changed to something other than the default [[Title]] field identifier. 
+Fixed the [[web book export]] to accurately recall [[collection metadata commands]] when the [[Note Identifiers]] have been changed to something other than the default [[Title]] field identifier.
+
+##### Provide Add-Ins Support for Web Book Export
+
+When performing an [[Export as Web Book]], and when choosing Web Book as Site, Notenik will now copy any [[Add-Ins for CSS and Javascript]] to the output web folder. 

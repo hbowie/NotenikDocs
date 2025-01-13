@@ -16,4 +16,6 @@ Back in Notenik, you can then add the image to your `Index` content with a line 
 ![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
 ```
 
+This is an example of the [Markdown syntax for images](https://www.markdownguide.org/basic-syntax/#images-1) . 
+
 There is no Markdown syntax for specifying the size of the image, but later we will be able to do this with CSS styling, if we would like.

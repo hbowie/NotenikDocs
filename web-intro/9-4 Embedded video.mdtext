@@ -20,7 +20,7 @@ And here's what happens when you embed it in your Body.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JR0kpAUXM5E?si=b6oOKKQGSMSweqTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-That's the first way to do this, but it has all the same issues that Blake pointed out. 
+That's the first way to do this, but it has all the same issues that Blake identified. 
 
 So now we'll see how to do it the second way. 
 
@@ -39,7 +39,7 @@ Next, let's create a new folder within the `posts` content folder and call it `a
 
 And then let's drag the two files we downloaded into our new `add-ins` folder. 
 
-Finally, let's reload our collection in Notenik to make sure Notenik is aware of our new add-ins. We can do this with **Collection ▸ Reload Collection** (Opt-Cmd-J). 
+Finally, let's reload our collection in Notenik to make sure Notenik is aware of our new add-ins. We can do this with *Collection > Reload Collection* (Opt-Cmd-J). 
 
 Now we're ready to add the new `lite-youtube` tags to the body of our `Fun` note. 
 
@@ -57,3 +57,7 @@ Here are a couple of short (10-minute) videos demonstrating how to use Notenik.
 <lite-youtube videoid="Qy0hejViBHI"></lite-youtube>
 ```
 
+And here's the first video, as it will be embedded using `lite-youtube`. 
+
+----
+<lite-youtube videoid="Qy0hejViBHI"></lite-youtube>

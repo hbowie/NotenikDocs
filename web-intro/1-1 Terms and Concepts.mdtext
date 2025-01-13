@@ -40,7 +40,7 @@ Notenik uses the term *collection* to refer to a folder full of notes. Our demo 
 
 Your content will then be poured into templates in order to apply consistent page/site structure to the completed web pages. 
 
-And the scripts will sort and filter your notes, and then pour them into the appropriate templates, in order to create your complete site. 
+And the scripts will sort and filter your notes, and then match up the appropriate content with the corresponding templates, in the correct sequence, in order to create your complete site. 
 
 As we continue on our HTML journey, we will see that some elements of HTML fall more into the page/site structure area, while others tend to fall into the content area. 
 

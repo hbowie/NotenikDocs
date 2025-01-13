@@ -9,3 +9,5 @@ Body:
 Now run your Chapter 06 build script, and review the results. 
 
 You should see that your new blog now appears, and is integrated into your overall site.
+
+Congratulations! You've just created a blog, and you can now add new posts just by adding them to the `posts` collection!
