@@ -1,0 +1,43 @@
+Title:  Resources and links
+
+Seq:    14
+
+Level:  2 - chapter
+
+Class:  text
+
+Body:
+
+Here are a number of useful links to helpful resources, organized by topic. 
+
++ HTML for People
+	+ [Home page](https://www.htmlforpeople.com/) . The starting point for Blake's book. 
+	+ [Blake's resources and links](https://www.htmlforpeople.com/achievement-unlocked-hypertexter#resources-from-this-book). I haven't attempted to duplicate all of these here, so you may well wish to reference Blake's list, in addition to the items on this page. 
+	+ [Blake's Ko-fi donation page](https://ko-fi.com/blakewatson). If you've made it this far, then I encourage you to thank Blake for his work by buying him a virtual coffee. 
+
++ HTML and General Web
+	+ [HTML Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/HTML). This is generally the place to go for definitive information on HTML tags. 
+	+ [Web Safe Fonts](https://www.dreamhost.com/blog/web-safe-fonts/). A list of fonts that are generally available in all browsers, on all platforms. 
+	+ [Butterick's Practical Typography](https://practicaltypography.com/). Like Blake, I'm a fan of Matthew Butterick's work. 
+	+ [EntityCode](https://entitycode.com/). A clear and quick reference to the codes to be used for various HTML entities (copyright symbol, dash variations, and so on). 
+
++ Markdown
+	+ [Markdown syntax](https://daringfireball.net/projects/markdown/syntax). The definitive syntax, as defined by its creator, John Gruber. 
+	+ [Basic Syntax](https://www.markdownguide.org/basic-syntax/). The basic syntax, as explained at the Markdown Guide. 
+	+ [Extended Syntax](https://www.markdownguide.org/extended-syntax/). The common extensions, as defined at the Markdown Guide. 
+	+ [Cheat Sheet](https://www.markdownguide.org/cheat-sheet/). A handy quick reference. 
+	+ [Notenik Markdown Extensions](https://notenik.app/kb/notenik-markdown-parser.html). A list of the Markdown extensions and variations supported by the Notenik Markdown parser, including a number unique to Notenik. 
+
++ Notenik
+	+ [Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html). The definitive reference for all things Notenik. This is also available from the *Help* menu within Notenik itself.
+	+ [Notenik 101 Video](https://youtu.be/JR0kpAUXM5E). A ten-minute video introducing the new user to Notenik. 
+	+ [Notenik 201 Video](https://youtu.be/Qy0hejViBHI). A more advanced video describing ways in which a user can customize a collection for a particular purpose. 
+	+ [Notenik Discourse Forum](https://discourse.notenik.app/). A discussion forum on which users can ask questions, request new features, report bugs, discuss issues and provide general feedback. 
+
++ Text Editors
+	+  [BBEdit](https://www.barebones.com/products/bbedit/). The granddaddy of all Mac text editors, famously (and aptly) described with the pithy tag line: "It doesn't suck." Still great, still evolving, still useful. Notenik provides special support for BBEdit project files. 
+	+ [CotEditor](https://coteditor.com/). It's free and open-source and made exclusively for the Mac.
+	+ [Nova](https://nova.app/). Another great native Mac editor. Notenik also provides special support for Nova projects. 
+
++ CSS
+	+ [CSS Reference from MDN](https://developer.mozilla.org/en-US/docs/Web/CSS). A great reference on CSS syntax.

@@ -1,0 +1,16 @@
+Title:  CSS Bonus
+
+Seq:    11
+
+Level:  2 - chapter
+
+Include Children: details
+
+Body:
+
+Blake's bonus chapters on CSS are both worth reading and reviewing, even though implementing CSS changes in Notenik will proceed on a slightly different path. 
+
++ [Customizing Simple.css](https://www.htmlforpeople.com/customizing-simple-css/)
++ [CSS basics](https://www.htmlforpeople.com/css-basics/)
+
+Notenik offers several different approaches to handling the CSS used to display your content. 

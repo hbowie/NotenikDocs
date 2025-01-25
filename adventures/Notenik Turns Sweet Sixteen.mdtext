@@ -6,11 +6,15 @@ Seq:    40
 
 Date:   2024-12-20
 
+Teaser:
+
+Notenik version 16.0.0 is out, just in time for the holidays! Starting with the big picture, this means Notenik has had roughly 150 significant releases, starting with 1.1.0 on July 15, 2019. This works out to about 1 release every two weeks, over a period of five and a half years! And Notenik today has an average rating of 4.8 stars out of 5 in the Mac App Store, based on every rating ever made, starting with that first release. So this feels like a milestone worth celebrating!
+
 Timestamp: 20241220211839
 
 Date Added: 2024-12-20 13:18:39 -0800
 
-Date Modified: 2024-12-20 16:29:32 -0800
+Date Modified: 2025-01-15 09:57:58 -0800
 
 Body:
 
@@ -24,4 +28,4 @@ And then there's my favorite. I've been using [Nova](https://nova.app/) a lot re
 
 Oh, and I added support for Markdown highlighting, using the syntax found in the [Markdown Guide to Extended Syntax](https://www.markdownguide.org/extended-syntax/#highlight).
 
-And then there were a couple of other changes to improve handling of sync conflicts (when using a third-party sync service), and to allow a project folder to become a user's Essential Collection.  
+And then there were a couple of other changes to improve handling of sync conflicts (when using a third-party sync service), and to allow a project folder to become a user's Essential Collection.

@@ -1,5 +1,7 @@
 Title:  Notenik as Markdown Multitool for the Mac
 
+Tags:   Markdown
+
 Status: 4 - In Work
 
 Seq:    29
@@ -10,7 +12,7 @@ Timestamp: 20240919172701
 
 Date Added: 2024-09-19 10:27:01 -0700
 
-Date Modified: 2024-09-19 11:25:36 -0700
+Date Modified: 2025-01-15 11:05:01 -0800
 
 Body:
 
@@ -28,9 +30,4 @@ Just as examples, here are ten additional "multitool" functions offered by Noten
 
 3. Generation of an entire static website from a collection of notes (or from multiple collections). 
 
-4. The ability to relate collections together, and display related information from another collection. 
-
-
-
-
-
+4. The ability to relate collections together, and display related information from another collection.

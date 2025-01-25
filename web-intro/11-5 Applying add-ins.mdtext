@@ -1,0 +1,13 @@
+Title:  Applying add-ins
+
+Seq:    11.5
+
+Level:  3 - section
+
+Class:  text
+
+Body:
+
+And then the final option for modifying the CSS used by Notenik is to provide one or more `.css` files within the special `add-ins` folder, as described previously in our discussion of [[9.4 Embedded video]].
+
+Note that any CSS "add-ins" will be applied *in addition to* whatever other CSS options you have chosen, through one of the means above, and not *instead of* any of those other options.

@@ -1,0 +1,10 @@
+Title:  Default CSS
+
+Seq:    11.1
+
+Level:  3 - section
+
+Body:
+
+Notenik will happily supply its own CSS by default, if you take no other action. The default CSS provided by Notenik will generally make your content look quite presentable. The default CSS embedded within Notenik is also updated and extended from time to time, through the normal [Notenik update process](https://notenik.app/kb/version-history.html), to make occasional improvements. 
+

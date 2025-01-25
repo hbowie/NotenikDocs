@@ -1,0 +1,47 @@
+Title:  HTML for People Companion Ready for Use
+
+Tags:   website
+
+Status: 6 - Completed
+
+Seq:    41
+
+Date:   2025-01-15
+
+Author: Herb Bowie
+
+Teaser:
+
+The new web book *Intro to Website Creation using Notenik* (at https://notenik.app/web-intro/index.html), is now complete, and ready for review and use. This tutorial makes use of a Notenik starter pack titled *HTML for People demo*, and the complete version of this starter pack has just been released as part of Notenik Version 16.2.0, which is now out in the Mac App Store. 
+
+Timestamp: 20250115181502
+
+Date Added: 2025-01-15 10:15:02 -0800
+
+Date Modified: 2025-01-15 11:03:02 -0800
+
+Body:
+
+After publishing the [Guide to Creating a Website using Notenik](https://notenik.app/web-guide/index.html) in October of last year, one of Notenik's longtime users published [a list of links](https://discourse.notenik.app/t/website-creation-guide/592/4?u=hbowie) that might be helpful to website creators. 
+
+And on that list was a site created by [Blake Watson](https://blakewatson.com), called [HTML for People](https://htmlforpeople.com/). His site is in the form of a web book, offering a tutorial on HTML for those new to webmaking. It walks a new user through the entire process of building a personal website, and makes the entire journey easy and fun. 
+
+I really liked Blake's site, and it made me wonder if I could create a companion web book that would supplement Blake's instructions, following the same trail, but at every step showing how Notenik could be used to perform the same tasks. 
+
+I've been working on this companion book for the last several months, and I'm happy to say that it's now as complete as I can think to make it. 
+
+(That being said, I'm eager to hear feedback from others, and expect to make further improvements to the book as feedback comes in.) 
+
+There are really four somewhat separate achievements here. 
+
+1. I learned a bunch of stuff that I hadn't known before. 
+
+2. I realized that Notenik had numerous shortcomings, and I've tried to rectify all of these that I could identify. You'll find these changes sprinkled through [recent updates](https://notenik.app/kb/version-history.html), starting from Version 15.5.0. The last few of these have just been released, in [Version 16.2.0](https://notenik.app/kb/version-16.2.0.html). 
+
+3. I've finalized (at least for now) and published my companion guide, which I'm calling an [Intro to Website Creation using Notenik](https://notenik.app/web-intro/index.html). 
+
+4. This tutorial makes use of a new Notenik Starter Pack, # 16, titled *HTML for People demo*, providing all of the Notenik folders and files needed to make your way through the tutorial. 
+
+This has been a very rewarding three-month journey, and I'm thankful to Blake Watson for his site, and for the Notenik users active in [the app's Discourse forum](https://discourse.notenik.app/), who are continually finding ways to make Notenik a better, more useful Mac app.  
+
+
