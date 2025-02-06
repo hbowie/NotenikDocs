@@ -1,0 +1,19 @@
+Title:  Version 16.4.0
+
+Timestamp: 20250203200130
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Fixed Cross-Collection WikiLink Bug
+
+There was a problem when clicking on [[Wiki Links Between Collections]]. This has been fixed.
+
+##### Fixed Copyimages Issues
+
+When using the [[copyimages command]] in conjunction with the [[File Name - F]] variable modifier, the `src` attribute for the output [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) element was not correctly referencing the copied image file, in cases where the output HTML was being written to a subfolder within the output website. This has been fixed through the insertion of a relative path up to the top level of the output website, when needed. 

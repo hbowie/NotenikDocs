@@ -1,0 +1,41 @@
+Title:  Notenik Values
+
+Status: 4 - In Work
+
+Seq:    42
+
+Date:   2025-01-25
+
+Author: Herb Bowie
+
+Timestamp: 20250125210821
+
+Date Added: 2025-01-25 13:08:21 -0800
+
+Date Modified: 2025-01-25 13:42:33 -0800
+
+Body:
+
+Notenik development is done around a set of core values, and I think it might perhaps be worthwhile to state these explicitly. 
+
+#### 1. Achievable as a part-time hobby 
+
+This value is in part just a statement of my own personal constraints: I'm working on my own, and I have other stuff I like to do, in addition to software development. 
+
+But it's also reflects a core belief I have about software: ordinary people should be able to create applications for their own use, and for the use of others, without having to put together large teams and, in fact, without even having to become full-time professionals. And they should be able to have fun while they're doing it!
+
+In other words, meaningful and rewarding software development should be available to all of us. 
+
+So Notenik development is an example of this value in action. 
+
+#### 2. For use on the Mac
+
+I've programmed software for use on a variety of platforms, and with a number of languages. And for a while an early version of Notenik was available as a Java app, so that I could "write once" but have it "run anywhere." But when it comes to computers, the Mac was my first love, and is still my favorite device. 
+
+So while I can wish that Notenik ran on iPhones and Windows and Linux machines, I've decided instead to focus my efforts on optimizing Notenik for the Mac, and on continually refining and extending its capabilities on that one platform, rather than taking on the probably impossible task of having it run acceptably on a whole variety of different platforms. 
+
+But also Notenik is meant to be a thinking tool, and while I respect those who might think best while using an iPhone or an iPad or some other device, the Mac, for me, is still the most powerful and efficient "bicycle for our minds" that we have yet come up with. 
+
+#### 3. The persistence of the written word
+
+Something that has been rather frightening for me has been to see the many ways in which computers have treated the written word as being more or less disposable. 

@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 2
+Last Index Selected: 49
 
 Mirror Auto Index: false
 
@@ -30,7 +30,7 @@ Override Custom Display: false
 
 MathJax: false
 
-Local Images: false
+Local Images: true
 
 Missing Targets: false
 
@@ -44,7 +44,7 @@ Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 1008.0;62.0;1163.0;1258.0;500.0;
+Window Numbers: 980.0;331.0;1018.0;775.0;621.5;
 
-Column Widths: dateadded: 100, 180, 250; rank: 50, 80, 250; author: 100, 200, 1000; seq: 30, 80, 1500; title: 200, 399, 1500; date: 80, 157, 300; tags: 50, 100, 1200; x: 12, 20, 1500; statusdigit: 20, 30, 50; datemod: 100, 180, 250; klass: 60, 80, 150; 
+Column Widths: x: 12, 20, 1500; title: 200, 399, 1500; rank: 50, 80, 250; tags: 50, 100, 1200; dateadded: 100, 180, 250; datemod: 100, 180, 250; author: 100, 200, 1000; klass: 60, 80, 150; statusdigit: 20, 30, 50; seq: 30, 80, 1500; date: 80, 157, 300; 
 
