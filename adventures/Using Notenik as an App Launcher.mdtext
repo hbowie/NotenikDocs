@@ -1,0 +1,101 @@
+Title:  Using Notenik as an App Launcher
+
+Tags:   apps catalog, launcher
+
+Status: 6 - Completed
+
+Seq:    43
+
+Date:   2025-02-22
+
+Author: Herb Bowie
+
+Teaser:
+
+With the latest release, Notenik can be used as an app launcher, with some interesting features. Is this a compelling use case? Heck, I don't know. But it's kind of fun!
+
+Timestamp: 20250220204347
+
+Date Added: 2025-02-20 12:43:47 -0800
+
+Date Modified: 2025-02-22 09:51:53 -0800
+
+Body:
+
+The [16.4.0 version of Notenik](https://notenik.app/kb/version-16.4.0.html) makes it a little easier to use Notenik as a Mac application launcher. 
+
+Is this a good idea?
+
+Heck, I don't know. 
+
+There are certainly many other ways to launch an app on your Mac, including software designed specifically for this purpose. 
+
+But you be the judge. 
+
+Let me show you how you can use Notenik in this way, and then you decide if this use case makes any sense. 
+
+### Step 1: Create an Apps Catalog
+
+This is pretty easy to do. [Create a new Collection](https://notenik.app/kb/creating-and-tailoring-a-collection-of-notes.html) somewhere handy, such as the Notenik Folder within iCloud Drive. You can just pick *Basic Notes* as your starting point. Call it whatever makes sense to you, such as `Apps Catalog`. 
+
+### Step 2: Import your Applications Metadata
+
+Now it's time to [Import your Apps Folder](https://notenik.app/kb/import-apps-folder.html) by selecting *File > Import > Apps Catalog*. 
+
+You'll then see the [Import Settings](https://notenik.app/kb/import-settings.html) window. Make sure *Additional Fields* is set to *Add*, and *Rows (aka Notes)* is set to *Match and Add*. 
+
+Now pick your primary *Applications* folder as the import source, and click *OK*. 
+
+Notenik will then import the names of those applications, along with a few metadata fields, into your Apps Catalog. 
+
+Note that this step can be repeated later as changes are made to your *Applications* folder. New applications will be added, and any firm metadata changes will be updated. 
+
+### Step 3: Add Any Useful Info
+
+In particular, you can use the [Tags](https://notenik.app/kb/tags.html) field to categorize your apps in any way that is meaningful to you. For example, I've assigned `markdown` to the various apps that can be used as Markdown editors/parsers. Note that, although the Tags field may be initially populated with an app's *Application Category*, it will not be overridden by a later import if the field has been user-modified. 
+
+### Step 4: Set a Keyboard Shortcut
+
+Start by using the *Collection > Copy Notenik URL for Collection* item to get a [Notenik Custom URL](https://notenik.app/kb/custom-url-scheme.html) into your system clipboard. 
+
+Here's what this might look like, when you paste it into an empty document using your text editor. 
+
+```
+notenik://open?path=/Users/hbowie/Library/Mobile%20Documents/iCloud~com~powersurgepub~notenik~shared/Documents/Apps%20Catalog
+```
+
+Now add `&select=action` to the end of this string, with no intervening spaces or punctuation, so that the result looks something like this. 
+
+```
+notenik://open?path=/Users/hbowie/Library/Mobile%20Documents/iCloud~com~powersurgepub~notenik~shared/Documents/Apps%20Catalog&select=action
+```
+
+Now assign this URL to an available keyboard shortcut, using whatever app/tool you prefer. 
+
+I'm using [Keyboard Maestro](https://www.keyboardmaestro.com/main/). 
+
+I've assigned the Hot Key CTRL-OPT-R to a Macro titled 'Notenik Apps Catalog'. The Macro only contains one Action, of type *Open a URL*. Then paste the complete URL you've created into the URL field. 
+
+### Step 5: Type Your Keyboard Shortcut
+
+Now when you type your new Keyboard Shortcut, two things will happen:
+
+1. Notenik will open your Apps Catalog (or bring it to the front, if it's already open);
+2. Notenik will pop up its [Note Selector](https://notenik.app/kb/select-a-note-for-action.html) window. 
+
+### Step 6: Select Your Application
+
+Now you can select one of your applications, via either of two means: 
+
++ Type three or more letters found anywhere in the name of the application;
++ Type a pound sign, followed by three or more letters found in the *Tags* field of any of your App Notes.
+
+Whichever method you use, select the desired app from the list that results (if it's not already selected).  
+
+Next make sure the Action popup at the bottom of the *Note Selector* window is set to *Launch Link*. (Note that this popup will default to whatever value was last selected for the the given Collection, so you should only have to pick this once.)
+
+Then hit the *OK* button, or simply press *return* on your keyboard. 
+
+Then your App should launch, using the [Link to Launch field](https://notenik.app/kb/link.html)!
+
+Voila!

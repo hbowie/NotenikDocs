@@ -34,6 +34,10 @@ Following are the supported formats.
 * Import/Export in CSV Format
 
 	Each Note will be represented as one row/line, and each field will be represented in a separate column. Commas are used to separate columns. This format is suitable for import into MS Excel, for example. You can apply [[Import Settings]] to the import operation. 
+
+* Import from Applications folder
+
+	This option allows you to import data about Mac applications from the Applications folder on your computer. You can apply [[Import Settings]] to the import operation. See [[Import Apps Folder]] for further info specific to this topic. 
 	
 * Import from OmniFocus
 
