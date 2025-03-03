@@ -1,5 +1,7 @@
 Title:  How To Create A Starter Pack
 
+Tags:   levels-outline.5 Creating and Tailoring a Collection of Notes.3 Starter Packs.1 How To Create A Starter Pack
+
 Timestamp: 20250225001946
 
 Seq:    5.3.1
@@ -40,5 +42,4 @@ The folder containing the Starter Pack should be named in a way that reflects th
 
 This entire folder can then be placed within the `Starter Packs` folder within the iCloud Drive Notenik folder.
 
-Subsequent executions of *File > New* will then show any added Starter Packs at the end of the list presented to the user, following the built-in Starter Packs. 
-
+Subsequent executions of *File > New* will then show any added Starter Packs at the end of the list presented to the user, following the built-in Starter Packs.

@@ -1,10 +1,18 @@
 Title:  Version 16.5.0
 
+Tags:   levels-outline.16 Version History.1 Version 1650
+
 Timestamp: 20250221002947
 
 Seq:    16.1
 
+Date:   2025-03-03
+
 Level:  3 - Section
+
+Teaser:
+
+Added support for custom starter packs. 
 
 Class:  version
 
@@ -12,4 +20,4 @@ Body:
 
 ##### Added Support for Custom Starter Packs
 
-Notenik now makes it easy to augment its [[Built-In Starter Packs]] with custom packs created by a user, and the Knowledge Base now provides instructions on [[How To Create A Starter Pack]]. Additionally the term *Starter Pack* is now being used consistently to identify what used to be called a *Starting Collection Type*, or a *Collection model*. 
+Notenik now makes it easy to augment its [[Built-In Starter Packs]] with custom packs created by a user, and the Knowledge Base now provides instructions on [[How To Create A Starter Pack]]. Additionally the term *Starter Pack* is now being used consistently to identify what used to be called a *Starting Collection Type*, or a *Collection model*.

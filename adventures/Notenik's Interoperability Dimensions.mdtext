@@ -1,12 +1,14 @@
 Title:  Notenik's Interoperability Dimensions
 
+Status: 4 - In Work
+
 Seq:    34
 
 Timestamp: 20240929172023
 
 Date Added: 2024-09-29 10:20:23 -0700
 
-Date Modified: 2024-09-29 10:37:15 -0700
+Date Modified: 2025-02-26 17:09:51 -0800
 
 Body:
 
@@ -36,4 +38,4 @@ So let me count the many dimensions along which Notenik is interoperable wtih ot
 
 6. Import/Export Formats
 
-	Notenik also supports additional formats that can be used to import data into the app, and to export data from it, such as tab-delimited, CSV, XML, JSON, OPML and so on. 
+	Notenik also supports additional formats that can be used to import data into the app, and to export data from it, such as tab-delimited, CSV, XML, JSON, OPML and so on.
