@@ -1,0 +1,49 @@
+Title:  Starter Packs for Notenik
+
+Tags:   database, starter-packs
+
+Status: 6 - Completed
+
+Seq:    44
+
+Date:   2025-03-08
+
+Author: Herb Bowie
+
+Teaser:
+
+Now you can create your own custom Starter Packs, and then use them to initialize new collections!
+
+
+Timestamp: 20250304173820
+
+Date Added: 2025-03-04 09:38:20 -0800
+
+Date Modified: 2025-03-08 16:16:00 -0800
+
+Body:
+
+Version 16.5.0 of Notenik adds support for custom Starter Packs. 
+
+Unlike many other (perhaps *all*...?) somewhat comparable note-taking apps, Notenik allows you to tailor each different collection (aka *folder*) full of notes in several meaningful ways. Most significantly, you can customize the particular set of [field labels and field types](https://notenik.app/kb/field-labels-and-types.html) used within each Collection, so that different collections can be used for quite different purposes. And then you can also tailor the look and feel of a collection by changing the CSS used for the display of its notes, and even the HTML layout used. 
+
+All of these changes can be made simply by editing a few text files but, for some time now, when you create a new collection, Notenik has allowed you to choose from a number of different [Starter Packs](https://notenik.app/kb/built-in-starter-packs.html) that can be used to initialize your new collection with a particular configuration. 
+
+I've added new Starter Packs to Notenik every once in a while but, still, as the developer, I've been the only person with the power to create a new one, or to enable other users to make use of one. 
+
+Up until now, that is!
+
+The latest version includes two related features. 
+
+The first is called *Clone*, and can be found beneath the *File* menu. This function will copy the selected collection to a new location, but leaving behind the actual notes that make up the content of the collection. 
+
+The user may then use their trusty text editor to make any further changes to the clone (such as adding more sample data), before using it as a custom Starter Pack. 
+
+Once these further edits are complete, the user may copy this cloned collection into the `Starter Packs` folder within the user's iCloud Drive Notenik folder. 
+
+It will then become available as an option the next time the user executes the process of creating a *New Collection*. 
+
+Note that, when exchanging Starter Packs with other users, it will be most convenient to first compress each Pack into a single Zip file. The user will then need to decompress the Pack before making use of it.
+
+Also note that the Notenik Discourse Forum now has a [new category](https://discourse.notenik.app/c/starter-pack-sharing/22) set up specifically for Starter Pack Sharing. 
+

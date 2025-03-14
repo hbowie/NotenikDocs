@@ -1,0 +1,23 @@
+Title:  Version 16.6.0
+
+Timestamp: 20250314171105
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Dropped dots from filenames
+
+When Notenik creates a new [[Note File]], it will now drop any periods contained within the Title of the note when forming the filename (other, of course, than the dot separating the name *per se* from the file extension). Existing filenames will be left as-is. 
+
+##### Added a new `Date Picked` field type
+
+A new field type of [[Date Picked]] has been added.
+
+##### Added a Custom URL `randompick` parm
+
+Added a `randompick` parm to the [[Custom URL Scheme]] to allow a Note to be selected at random, and then to have its [[Date Picked]] value set at the same time. 
