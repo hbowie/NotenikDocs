@@ -20,4 +20,12 @@ A new field type of [[Date Picked]] has been added.
 
 ##### Added a Custom URL `randompick` parm
 
-Added a `randompick` parm to the [[Custom URL Scheme]] to allow a Note to be selected at random, and then to have its [[Date Picked]] value set at the same time. 
+Added a `randompick` parm to the [[Custom URL Scheme]] to allow a Note to be selected at random, and then to have its [[Date Picked]] value set at the same time.
+
+##### Added a Custom URL Run Command
+
+Added a [[Notenik URL Run Command]] to run a [[Script File]].
+
+##### Added Useful Notenik Custom URLs available for Project Folders
+
+When viewing a [[project folder]], users may now use the contextual menu item of *Copy Notenik URL* from the *List* tab, and get back workable URLs that can be used to run a script file, or to open a collection. 
