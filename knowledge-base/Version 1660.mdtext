@@ -26,6 +26,15 @@ Added a `randompick` parm to the [[Custom URL Scheme]] to allow a Note to be sel
 
 Added a [[Notenik URL Run Command]] to run a [[Script File]].
 
-##### Added Useful Notenik Custom URLs available for Project Folders
+##### Added Useful Notenik Custom URLs for Project Folders
 
-When viewing a [[project folder]], users may now use the contextual menu item of *Copy Notenik URL* from the *List* tab, and get back workable URLs that can be used to run a script file, or to open a collection. 
+When viewing a [[project folder]], users may now use the contextual menu item of *Copy Notenik URL* from the *List* tab, and get back workable URLs that can be used to run a script file, or to open a collection.
+
+##### Skipping Links for non-HTML author-work-slug
+
+The [[Author Work Slug]] [[Derived Variable]] will now omit any links if the merge template's file extension is neither `htm` nor `html`; this can be useful when formatting an RSS feed, for example.
+
+##### Sorting Launch at Startup Notes
+
+When using [[Launch at Startup Tags]], the tagged notes are now sorted (using the collection's current sort sequence) before their links are launched. 
+
