@@ -36,5 +36,8 @@ The [[Author Work Slug]] [[Derived Variable]] will now omit any links if the mer
 
 ##### Sorting Launch at Startup Notes
 
-When using [[Launch at Startup Tags]], the tagged notes are now sorted (using the collection's current sort sequence) before their links are launched. 
+When using [[Launch at Startup Tags]], the tagged notes are now sorted (using the collection's current sort sequence) before their links are launched.
 
+##### Fixed Some Markdown Parsing Errors
+
+Improved handling of ampersands, and distinguishing intended ampersands vs. HTML [character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references). 
