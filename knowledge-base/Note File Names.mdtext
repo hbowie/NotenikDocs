@@ -1,7 +1,5 @@
 Title:  Note File Names
 
-Tags:   levels-outline.8 Files and Folders.1 Note Files.3 Note File Names
-
 Timestamp: 20210608181324
 
 Seq:    8.1.3
@@ -16,3 +14,11 @@ Body:
 
 A Notenik file name is generally identical to the Note's title, with the exception of a few occasional tweaks to avoid running afoul of various common operating system limitations. Spaces and capitalization are preserved. 
 
+A dot, or period, in a filename (other than the separator before the file extension) can cause much confusion, so Notenik will scrub these from the filenames used when creating new notes. In some cases Notenik will simply drop the dot, while in other cases, the dot will be replaced with a dash. Which action is taken depends on the characters surrounding the period. 
+
+| before dot | after dot | dot replacement action |
+| ---- | ---- | ---- |
+| space | space | replace with dash |
+| space | non-space | just drop it |
+| non-space | space | just drop it |
+| non-space | non-space | replace with dash |

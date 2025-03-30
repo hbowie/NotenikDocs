@@ -1,7 +1,5 @@
 Title:  File Links
 
-Tags:   levels-outline.8 Files and Folders.4 File Links
-
 Timestamp: 20230827234920
 
 Seq:    8.4
@@ -24,6 +22,4 @@ The local file or folder may be internal to the Collection (i.e., stored somewhe
 
 If it is external to the Collection, then such a link would start with `file://` and would contain a complete path to the file or folder. 
 
-If it is internal to the Collection, then such a link will be stored as a relative link (relative to the Collection folder itself), so that such links should be preserved if the Collection as a whole is moved to a different location. 
-
-
+If it is internal to the Collection, then such a link will be stored as a relative link (relative to the Collection folder itself), so that such links should be preserved if the Collection as a whole is moved to a different location.

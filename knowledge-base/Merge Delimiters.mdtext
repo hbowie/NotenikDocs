@@ -1,7 +1,5 @@
 Title:  Merge Delimiters
 
-Tags:   levels-outline.12 Merge Templates.1 Merge Delimiters
-
 Timestamp: 20210610152220
 
 Seq:    12.1
@@ -25,4 +23,4 @@ Notenik will recognize either of two sets of command and variable delimiters aut
 <tr><td>Start of Variable Modifiers</td><td>&amp;</td><td>&amp;</td></tr>
 </table>
 
-Beginning with [[Version 15.9.0]], any of the command/variable delimiters may be escaped by preceding each character with a backslash. Such coding can allow merge variables to have variable names that are constructed in one pass, preserving the escaped characters for processing in a second pass (as with a generated include file). 
+Beginning with [[Version 15.9.0]], any of the command/variable delimiters may be escaped by preceding each character with a backslash. Such coding can allow merge variables to have variable names that are constructed in one pass, preserving the escaped characters for processing in a second pass (as with a generated include file).

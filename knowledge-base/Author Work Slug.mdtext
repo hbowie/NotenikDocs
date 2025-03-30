@@ -1,7 +1,5 @@
 Title:  Author Work Slug
 
-Tags:   levels-outline.12 Merge Templates.2 Merge Variables.3 Derived Variables
-
 Timestamp: 20221008025603
 
 Seq:    12.2.3.1
@@ -20,4 +18,4 @@ The slug will use whatever fields are available, skipping any fields that are mi
 
 The output will include HTML tags, but will not be enclosed in any paragraph or other block tags.
 
-If the file extension of the merge template is neither `htm` nor `html`, then any available links will be omitted from the output. 
+If the file extension of the merge template is neither `htm` nor `html`, then any available links will be omitted from the output.

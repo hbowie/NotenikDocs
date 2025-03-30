@@ -1,7 +1,5 @@
 Title:  Heading Identification
 
-Tags:   levels-outline.7 Markdown.3 Notenik Markdown Parser.2 Minor Markdown Variations
-
 Timestamp: 20210813203616
 
 Seq:    7.3.2.2
@@ -38,4 +36,4 @@ But...
 
 #Number 7 is a good bet in the next race.
 
-Also see the [[Tags Handling]] option for a potential modification to the handling of a leading hash character without a following space. 
+Also see the [[Tags Handling]] option for a potential modification to the handling of a leading hash character without a following space.

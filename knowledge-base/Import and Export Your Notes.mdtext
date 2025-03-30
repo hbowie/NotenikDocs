@@ -1,6 +1,6 @@
 Title:  Import and Export Your Notes
 
-Tags:   levels-outline.10 Getting Data Into and Out of Notenik.3 Import and Export Your Notes, streamlined reading
+Tags:   streamlined reading
 
 AKA:    import
 
@@ -108,6 +108,8 @@ When exporting the Notes in a Collection, you will be presented with a few optio
 * Split Tags? Select 'Yes' if you wish one row to be written for each Tag on each Note. This will result in a special export in which each Note may be written multiple times, once for each Tag in the Note's Tags field. Notes without any Tags will be written only once, with a blank Tag field. In other cases, the Tag field will contain a single Tag, even if the Tags field contains multiple Tags. 
 
 * Add Web Extensions? Select 'Yes' to add a number of fields that can be useful for generating Web pages.
+
+* ToC Depth: When exporting to an EPUB file, use this option to control the depth of the Table of Contents. Higher numbers generate additional detail. 
 
 ##### Quick Export and Open
 

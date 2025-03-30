@@ -1,7 +1,5 @@
 Title:  Custom URL Scheme
 
-Tags:   levels-outline.11 Integration.1 Custom URL Scheme
-
 AKA:    Custom URL
 
 Timestamp: 20210627004934
@@ -21,4 +19,3 @@ Notenik has its own custom URL scheme, which can be invoked by other apps as a m
 Note that URLs must in general be [percent encoded](https://en.wikipedia.org/wiki/Percent-encoding). The most common encoding is done by replacing each space with `%20`. 
 
 The following commands are supported.
-

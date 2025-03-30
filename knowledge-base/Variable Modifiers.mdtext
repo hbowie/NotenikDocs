@@ -1,7 +1,5 @@
 Title:  Variable Modifiers
 
-Tags:   levels-outline.12 Merge Templates.3 Variable Modifiers
-
 Timestamp: 20210616193633
 
 Seq:    12.3
@@ -27,6 +25,7 @@ The following table summarizes the primary use of various letters and characters
 | / | [[Domain Name from Link]] |
 | > | [[Split Label from Number]] |
 | ! | [[Punctuation Purification]]  w/Squeeze |
+| @ | [[Alternate Numbering - At Sign]] |
 | 1 | [[Length Modifier]] | 
 | A | [[Author Name Modifier]] | 
 | B | [[Base File Name]] | 
