@@ -1,0 +1,221 @@
+Title:  Intro to Merge Templates
+
+Status: 4 - In Work
+
+Seq:    46
+
+Author: Herb Bowie
+
+Timestamp: 20250404200509
+
+Date Added: 2025-04-04 13:05:09 -0700
+
+Date Modified: 2025-04-04 14:40:05 -0700
+
+Body:
+
+In this adventure, I will offer a brief introduction to the use of Notenik [Merge Templates](https://notenik.app/kb/merge-templates.html). 
+
+Of course, Notenik can be used for a lot of different purposes, and you can do many of them without ever needing to learn the first thing about merge templates. 
+
+In general, though, whenever you would like to reformat some of the info you have in Notenik into some other layout, then you can use a merge template to get the job done. 
+
+Let me break this down into steps (many of which will be performed using your favorite text editor). 
+
+{:toc}
+
+##### Step 1. Identify Where The Output Will Be Used
+
+It can be used inside of Notenik (to reformat the Display tab), or somewhere outside of Notenik. 
+
+##### Step 2. Identify the Target Format
+
+This could be HTML (for a web page), or XML, or JSON, or CSV, or Markdown, or plain text, or any other format that can be expressed in a text file. 
+
+##### Step 3. Identify the Intended Scope
+
+By which I mean, your merge template could be intended to:
+
++ Represent a single Note
++ Represent an entire Collection
++ Represent some subset of a Collection
+
+If either of the latter, you may wish to see your output in the form of a list of some sort. 
+
+##### Step 4. Apply the Target Format
+
+Create a text file, using your favorite text editor, and load it with all the boilerplate you need for your target format. 
+
+For example, here's a very simple sample web page written using HTML. 
+
+```
+<!doctype html>
+<html>
+<head>
+	<title>Our Simple HTML Page</title>
+</head>
+
+<body>
+	Content goes here.
+</body>
+</html>
+```
+
+Save this in a text file, being sure to give the template file an extension appropriate for your intended output format — `.html` for HTML, and so forth. 
+
+Where you save this text file will depend on how you plan to use it. For example, if you'd like to reformat your *Display* tab, store it with the name `display.html` and save it inside of your collection folder. For other uses, it's often best to store it in a `templates` folder inside of a `factory` folder. 
+
+##### Step 5. Fill in Your Notenik Fields
+
+Figure out what fields should go where, and insert these using special delimiters. 
+
+For example, here's our simple web page, now with a couple of Notenik fields filled in. 
+
+```
+<!doctype html>
+<html>
+<head>
+	<title>=$title$=</title>
+</head>
+
+<h1>=$title$=</h1>
+
+<body>
+	=$body$=
+</body>
+</html>
+```
+
+Note the following:
+
++ Fields are inserted using their labels, and then surrounding them with `=$` in the front and `$=` at the end. These are the delimiters that Notenik looks for to identify these bits of text as things to be replaced by the Note's field values. 
+
++ A field label can be written using any combination of upper-and lower-case letters, and any kind of word separators (such as dashes). Notenik will boil all of this down to a lowest common denominator format that it uses internally to identify fields. 
+
++ We've inserted the Title field in two different places, as is common with HTML pages. 
+
++ This example is intended to be used for the scope of a single Note. 
+
+##### Step 6. Add Additional Formatting as Needed
+
+This step can really be done in parallel with the prior step, as you insert each field. 
+
+For example, note that in the prior code example, I've placed the second occurrence of `=$title$=` between starting and ending `h1` tags, so that it will be formatted as a level 1 heading. 
+
+Again, what sort of formatting code you use will depend on your desired output format, and on your own desires in terms of formatting. 
+
+##### Step 7. Add Variable Modifiers
+
+[Variable modifiers](https://notenik.app/kb/variable-modifiers.html) can be used to apply special formatting of one sort or another to the fields that you are inserting into your template. 
+
+Here's an example of what I mean. I won't repeat the entire code sample, just the fragment containing the Body field. 
+
+```
+<body>
+	=$body&w1o$=
+</body>
+```
+
+Note the following:
+
++ I've added an ampersand at the end of the field label, and preceding the closing variable delimiter. This character, in this position, tells Notenik that what follows consists of one or more variable modifiers. 
+
++ The [first variable modifier](https://notenik.app/kb/wiki-style-links-w.html) is signified by the letter `w`, and indicates how wikilinks in this field are to be handled. The following character, `1`, indicates that each Note in the Collection will be stored as a separate HTML file, using the normal conventions for file name formatting on the web. 
+
++ The [next variable modifier](https://notenik.app/kb/markdown-to-html-o.html) is signified by the letter `o`, which simply instructs Notenik to convert the given field from Markdown to HTML. 
+
+These conversions will be performed by Notenik before inserting the field value into the output. 
+
+Which variable modifiers you need or want will depend on the types of fields you are using, the desired output format, and/or on your appearance preferences.
+
+##### Step 8. Add Notenik Merge Commands
+
+[Merge Commands](https://notenik.app/kb/merge-commands.html) provide additional processing instructions for Notenik. 
+
+Here's our example with a couple of the most basic and essential merge commands added. 
+
+```
+<?nextrec?>
+<!doctype html>
+<html>
+<head>
+	<title>=$title$=</title>
+</head>
+
+<h1>=$title$=</h1>
+
+<body>
+	=$body&w1o$=
+</body>
+</html>
+<?loop?>
+```
+
+Note the following:
+
++ I've added `<?nextrec?>` at the beginning of the file, and `<?loop?>` at the end. 
+
++ Merge commands appear within the delimiters `<?` and `?>`. 
+
++ Merge commands (unlike merge variables) must always start in the first column of a line, and should exist on lines by themselves. 
+
++ The `nextrec` command tells Notenik that the following code should be filled in and output once for each Note being processed. (Again, this could be only one Note, or a list of Notes, depending on your intended scope, as discussed above.)
+
++ The `loop` command tells Notenik that the following code (if any) should be processed only once, after all the selected Notes have been processed. 
+
+##### Step 9. Consider Placement of the Output Command
+
+The [output](https://notenik.app/kb/output-command.html) command names an output file that will be the recipient of the code being generated by the template. 
+
+There are three possibilities here. 
+
+###### a. No Output Command
+
+Your template will be used in a context (such as Notenik display, or Notenik sharing) for which the output is predetermined, or determined by user input outside of the merge template. In this case, no `output` command should be inserted into your template. 
+
+###### b. Output One File per Note
+
+In this case the `output` command should follow the `nextrec` command, and should probably include one or more field's values to form the name of the output file. 
+
+Here's an example of what I mean (showing only a code fragment). 
+
+```
+<?nextrec?>
+<?output "=$title&f$=.html" ?>
+<!doctype html>
+```
+
+Note the following:
+
++ The Title of the Note is being used to form the filename. 
+
++ I've used a [variable modifier](https://notenik.app/kb/file-name-f.html) signified by `f` to make sure the title is formatted in a way that will be easy to access on a web server. 
+
++ I've added `.html` to the end of the filename, as a constant value. 
+
++ For the sake of simplicity I haven't specified a path, but that would usually precede the `=$title$=` field, depending on where you wish the output file to be placed. 
+
+###### c. Output a List
+
+The scope of your template is intended to be a list of Notes — not just a single Note. In this case, the `output` command will be placed *before* the `nextrec` command, and the name and location of the intended output file will be coded as a constant within the `output` command, as in the following example. 
+
+```
+<?output "list.html" ?>
+<!doctype html>
+<html>
+<head>
+	<title>My list of Notes</title>
+</head>
+
+<h1>My List of Notes</h1>
+
+<body>
+<?nextrec?>
+	<h2>=$title$=</h2>
+
+	=$body&w1o$=
+<?loop?>
+</body>
+</html>
+
+```

@@ -1,0 +1,27 @@
+Title:  Version 16.7.0
+
+Timestamp: 20250401200220
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Dots Gone Wild
+
+Traditional guidance found on the Web suggests that dots in filenames, while not strictly *verboten*, should generally be avoided. Notenik mostly follows this conservative guideline when concocting filenames for notes. However, this can sometimes cause issues for interoperability with other software, and so the [[Notenik Settings]] now include an option to *Allow Dots in Filenames* when creating [[Note File Names]]. 
+
+##### Sharing of Title and Wikilink
+
+The [[Share with Options]] window now provides additional options to share only the current Note's title, or a formatted [[Wiki Style Link]] to the current Note. 
+
+##### Confirmation Before Overwriting Sample Files
+
+If the user requests generation of sample `display.html` and `display.css` files, and either or both of these files already exist, then Notenik will now prompt the user to confirm their intentions before overwriting the existing files.
+
+##### New Share Template Option
+
+The [[Share with Options]] window has been modified to include a new option of selecting a [[Merge Template]] to specify content and format of the text to be shared. 
