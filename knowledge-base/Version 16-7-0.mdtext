@@ -4,7 +4,13 @@ Timestamp: 20250401200220
 
 Seq:    16.1
 
+Date:   2025-04-07
+
 Level:  3 - Section
+
+Teaser:
+
+New option to allow dots in filenames; Sharing with Options now includes abilities to share the Title or a full-fledged wiki-style link to the current note; New confirmation dialog presented before overwriting sample display.html and display.css files; Share with Options now includes ability to format a share using a custom merge template; Bulk Edit now allows a subvalue to be replaced or removed — such as a single tag. 
 
 Class:  version
 
@@ -24,4 +30,8 @@ If the user requests generation of sample `display.html` and `display.css` files
 
 ##### New Share Template Option
 
-The [[Share with Options]] window has been modified to include a new option of selecting a [[Merge Template]] to specify content and format of the text to be shared. 
+The [[Share with Options]] window has been modified to include a new option of selecting a [[Merge Template]] to specify content and format of the text to be shared.
+
+##### Bulk Edit Now Allows Subvalue Replacement
+
+When you *[[Bulk Edit a Set of Notes]], the displayed window now allows entry of an optional *Subvalue to Modify*. If this is entered, then the *Value to be Assigned* will only be used to replace the indicated subvalue when it is found within the *Field to be Edited*. For example, entering an existing [[Tags]] subvalue (i.e., a single tag) will cause only that tag to be replaced with the new value supplied (or removed, if the new value is blank).

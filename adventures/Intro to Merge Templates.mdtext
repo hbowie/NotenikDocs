@@ -2,7 +2,7 @@ Title:  Intro to Merge Templates
 
 Status: 4 - In Work
 
-Seq:    46
+Seq:    47
 
 Author: Herb Bowie
 
@@ -10,11 +10,11 @@ Timestamp: 20250404200509
 
 Date Added: 2025-04-04 13:05:09 -0700
 
-Date Modified: 2025-04-04 14:40:05 -0700
+Date Modified: 2025-04-11 10:37:24 -0700
 
 Body:
 
-In this adventure, I will offer a brief introduction to the use of Notenik [Merge Templates](https://notenik.app/kb/merge-templates.html). 
+In this adventure, I will offer a brief introduction to the use of Notenik [merge templates](https://notenik.app/kb/merge-templates.html). 
 
 Of course, Notenik can be used for a lot of different purposes, and you can do many of them without ever needing to learn the first thing about merge templates. 
 
@@ -30,17 +30,17 @@ It can be used inside of Notenik (to reformat the Display tab), or somewhere out
 
 ##### Step 2. Identify the Target Format
 
-This could be HTML (for a web page), or XML, or JSON, or CSV, or Markdown, or plain text, or any other format that can be expressed in a text file. 
+This could be HTML (for a web page, or for internal use within Notenik), or XML, or JSON, or CSV, or Markdown, or plain text, or any other format that can be expressed in a text file. 
 
 ##### Step 3. Identify the Intended Scope
 
 By which I mean, your merge template could be intended to:
 
-+ Represent a single Note
-+ Represent an entire Collection
-+ Represent some subset of a Collection
++ Represent a single note
++ Represent an entire collection
++ Represent some subset of a collection
 
-If either of the latter, you may wish to see your output in the form of a list of some sort. 
+If either of the latter two cases, you may wish to see your output in the form of a list of some sort. 
 
 ##### Step 4. Apply the Target Format
 
@@ -88,13 +88,13 @@ For example, here's our simple web page, now with a couple of Notenik fields fil
 
 Note the following:
 
-+ Fields are inserted using their labels, and then surrounding them with `=$` in the front and `$=` at the end. These are the delimiters that Notenik looks for to identify these bits of text as things to be replaced by the Note's field values. 
++ Fields are inserted using their labels, and then surrounding them with `=$` in the front and `$=` at the end. These are the delimiters that Notenik looks for to identify these bits of text as things to be replaced by a note's field values. 
 
-+ A field label can be written using any combination of upper-and lower-case letters, and any kind of word separators (such as dashes). Notenik will boil all of this down to a lowest common denominator format that it uses internally to identify fields. 
++ A field label can be written using any combination of upper-and lower-case letters, and any kind of word separators (such as dashes). Notenik will boil all of this down to a lowest common denominator text string that it uses internally to identify fields. 
 
 + We've inserted the Title field in two different places, as is common with HTML pages. 
 
-+ This example is intended to be used for the scope of a single Note. 
++ This example is intended to be used for the scope of a single note. 
 
 ##### Step 6. Add Additional Formatting as Needed
 
@@ -120,7 +120,7 @@ Note the following:
 
 + I've added an ampersand at the end of the field label, and preceding the closing variable delimiter. This character, in this position, tells Notenik that what follows consists of one or more variable modifiers. 
 
-+ The [first variable modifier](https://notenik.app/kb/wiki-style-links-w.html) is signified by the letter `w`, and indicates how wikilinks in this field are to be handled. The following character, `1`, indicates that each Note in the Collection will be stored as a separate HTML file, using the normal conventions for file name formatting on the web. 
++ The [first variable modifier](https://notenik.app/kb/wiki-style-links-w.html) is signified by the letter `w`, and indicates how wikilinks in this field are to be handled. The following character, `1`, indicates that each note in the collection will be stored as a separate HTML file, using the normal conventions for file name formatting on the web. 
 
 + The [next variable modifier](https://notenik.app/kb/markdown-to-html-o.html) is signified by the letter `o`, which simply instructs Notenik to convert the given field from Markdown to HTML. 
 
@@ -159,9 +159,9 @@ Note the following:
 
 + Merge commands (unlike merge variables) must always start in the first column of a line, and should exist on lines by themselves. 
 
-+ The `nextrec` command tells Notenik that the following code should be filled in and output once for each Note being processed. (Again, this could be only one Note, or a list of Notes, depending on your intended scope, as discussed above.)
++ The `nextrec` command tells Notenik that the following code should be filled in and output once for each note being processed. (Again, this could be only one note, or a list of notes, depending on your intended scope, as discussed above.)
 
-+ The `loop` command tells Notenik that the following code (if any) should be processed only once, after all the selected Notes have been processed. 
++ The `loop` command tells Notenik that the following code (if any) should be processed only once, after all the selected notes have been processed. 
 
 ##### Step 9. Consider Placement of the Output Command
 
@@ -187,7 +187,7 @@ Here's an example of what I mean (showing only a code fragment).
 
 Note the following:
 
-+ The Title of the Note is being used to form the filename. 
++ The Title of the note is being used to form the filename. 
 
 + I've used a [variable modifier](https://notenik.app/kb/file-name-f.html) signified by `f` to make sure the title is formatted in a way that will be easy to access on a web server. 
 
@@ -197,7 +197,7 @@ Note the following:
 
 ###### c. Output a List
 
-The scope of your template is intended to be a list of Notes — not just a single Note. In this case, the `output` command will be placed *before* the `nextrec` command, and the name and location of the intended output file will be coded as a constant within the `output` command, as in the following example. 
+The scope of your template is intended to be a list of notes — not just a single note. In this case, the `output` command will be placed *before* the `nextrec` command, and the name and location of the intended output file will be coded as a constant within the `output` command, as in the following example. 
 
 ```
 <?output "list.html" ?>
@@ -219,3 +219,9 @@ The scope of your template is intended to be a list of Notes — not just a sing
 </html>
 
 ```
+
+##### Step 10. Test and Tweak
+
+At this point, it's time to take your new merge template for a test drive, inspect its output, and then consider how you might fix/enhance the template to improve the output. This can be a one-and-done, or a series of small changes and tests until you are happy with the results. 
+
+And that's about it! If you've been avoiding use of merge templates in Notenik for lack of knowledge, then hopefully this brief tutorial has been enough to get you started! As usual, refer to the [Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html) for more complete information. 

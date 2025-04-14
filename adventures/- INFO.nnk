@@ -48,5 +48,5 @@ Hash Tags: notenik-field
 
 Window Numbers: 55.0;0.0;1287.0;1127.0;621.5;
 
-Column Widths: klass: 60, 80, 150; statusdigit: 20, 30, 50; date: 80, 157, 1500; tags: 50, 100, 1200; seq: 30, 80, 1500; title: 200, 509, 1500; x: 12, 20, 1500; author: 100, 200, 1000; datemod: 100, 180, 250; rank: 50, 80, 250; dateadded: 100, 180, 250; 
+Column Widths: statusdigit: 20, 30, 50; seq: 30, 80, 1500; rank: 50, 80, 250; dateadded: 100, 180, 250; datemod: 100, 180, 250; title: 200, 509, 1500; author: 100, 200, 1000; tags: 50, 100, 1200; x: 12, 20, 1500; klass: 60, 80, 150; date: 80, 157, 300; 
 
