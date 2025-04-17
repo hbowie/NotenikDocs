@@ -1,0 +1,19 @@
+Title:  Version 16.8.0
+
+Timestamp: 20250415215704
+
+Seq:    16.1
+
+Level:  3 - Section
+
+Class:  version
+
+Body:
+
+##### Tags Outline View Performance Tuning
+
+Changed a setting on the Tags Outline view to avoid strongly referencing items, which seems to have improved performance significantly.
+
+##### Underlines Within Words
+
+Underlines within words are now treated simply as underlines. Asterisks within words will still trigger appropriate emphasis, per the [Markdown Guide](https://www.markdownguide.org/basic-syntax/#emphasis). 

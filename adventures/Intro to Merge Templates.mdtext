@@ -161,7 +161,7 @@ Note the following:
 
 + The `nextrec` command tells Notenik that the following code should be filled in and output once for each note being processed. (Again, this could be only one note, or a list of notes, depending on your intended scope, as discussed above.)
 
-+ The `loop` command tells Notenik that the following code (if any) should be processed only once, after all the selected notes have been processed. 
++ The `loop` command tells Notenik that it's reached the end of the code to be repeated for each note, and that the following code (if any) should be processed only once, after all the selected notes have been processed. 
 
 ##### Step 9. Consider Placement of the Output Command
 
