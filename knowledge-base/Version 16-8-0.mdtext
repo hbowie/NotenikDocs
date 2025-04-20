@@ -12,7 +12,7 @@ Body:
 
 ##### Tags Outline View Performance Tuning
 
-Changed a setting on the Tags Outline view to avoid strongly referencing items, which seems to have improved performance significantly.
+Changed a setting on the Tags Outline view to avoid strongly referencing items, which seems to have improved overall app performance significantly.
 
 ##### Underlines Within Words
 
@@ -24,6 +24,8 @@ When using YAML frontmatter, Notenik will now write a blank line following the e
 
 ##### Incrementing Seq Values for New Notes
 
-If you have elected to [[Change Note ID Configuration]] for your collection, and you  have chosen the [[Seq]] field as your auxiliary value, and have opted to identify notes based on their aux field only, wtihout reference to the Title field, then a new Note's seq will now be incremented just beyond the highest seq value yet used in the collection, without reference to the currently selected Note. 
+If you have elected to [[Change Note ID Configuration]] for your collection, and you  have chosen the [[Seq]] field as your auxiliary value, and have opted to identify notes based on their aux field only, wtihout reference to the Title field, then a new Note's seq will now be incremented just beyond the highest seq value yet used in the collection, without reference to the currently selected Note.
 
+##### Fix for Failure to Refresh Multi-Note Views
 
+When the user selected a different note within a collection, by clicking on a different row in one of the multi-note views, and when they were in the process of adding a new note, without having yet saved it, Notenik would save the in-progress note, but fail to refresh the multi-note views to show the new note. This has been fixed. 
