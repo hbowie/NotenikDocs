@@ -4,7 +4,14 @@ Timestamp: 20250415215704
 
 Seq:    16.1
 
+Date:   2025-04-27
+
 Level:  3 - Section
+
+Teaser:
+
+- Performance and capacity improvements, focused on the Tags Outline view; - Underlines within words no longer trigger HTML emphasis; - One blank line is now written following the end of YAML frontmatter; - Revised Seq suggestions for Collections that use the Seq field as the only component of the unique IDs for its notes; - Fixed failures to adequately refresh list views under certain circumstances; - Seq field formatting now greatly enhanced. 
+
 
 Class:  version
 
@@ -28,4 +35,8 @@ If you have elected to [[Change Note ID Configuration]] for your collection, and
 
 ##### Fix for Failure to Refresh Multi-Note Views
 
-When the user selected a different note within a collection, by clicking on a different row in one of the multi-note views, and when they were in the process of adding a new note, without having yet saved it, Notenik would save the in-progress note, but fail to refresh the multi-note views to show the new note. This has been fixed. 
+When the user selected a different note within a collection, by clicking on a different row in one of the multi-note views, and when they were in the process of adding a new note, without having yet saved it, Notenik would save the in-progress note, but fail to refresh the multi-note views to show the new note. This has been fixed.
+
+##### Improvements to Seq Field Formatting
+
+Several enhancements have been made to formatting of the [[Seq]] field. Also added the [[Seq Formatted]] derived variable, and the [[Seq Formatting - K]] variable modifier.

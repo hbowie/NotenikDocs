@@ -1,0 +1,25 @@
+Title:  Day 1 - Identify Resources
+
+Seq:    1
+
+Date:   2025-04-23
+
+Body:
+
+Here are some resources I've gathered for the journey. 
+
++ [Swift on Server website](https://www.swift.org/documentation/server/) — This is the primary home for running Swift on a server. 
+
++ [Beginner's Guide to Server-Side Swift using the Hummingbird framework](Beginner's guide to server-side Swift using the Hummingbird framework)
+
++ [Practical Server Side Swift book](https://theswiftdev.gumroad.com/l/practical-server-side-swift) — I've got the latest version, 1.5.0, published on April 3, 2023. I've saved it to the Apple Books app. "Learn how to build a modular blog engine using Swift 5.8 and Vapor 4. 
+
++ [Introduction to Hummingbird 2 video](https://youtu.be/FHO_BfidQlQ?si=4BjoBcje4_m9XWeK)
+
++ [Swift on Server with Hummingbird 2 Medium post](https://medium.com/@kicsipixel/server-side-swift-with-hummingbird-2-8df2bae41462)
+
++ [Hummingbird documentation](https://docs.hummingbird.codes/2.0/documentation/hummingbird/)
+
++ [Hummingbird examples](https://github.com/hummingbird-project/hummingbird-examples/tree/main)
+
++ [Vapor and MongoDB video](https://youtu.be/raQHNpC9iEw?si=_v6VcLd404pUlJJe)
