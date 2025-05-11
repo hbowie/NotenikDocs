@@ -1,0 +1,17 @@
+Title:  End a Figure
+
+Seq:    3.8.5
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Body:
+
+A command to end a figure can be coded as follows.
+
+	{:endfigure}
+
+Such a command will generate a closing `</figcaption>` tag (assuming it was preceded by a `caption` command), and then a closing `</figure>` tag. 
+
+See the [[Start a Figure]] command for further info.

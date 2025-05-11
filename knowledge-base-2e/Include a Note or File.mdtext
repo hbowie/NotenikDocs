@@ -1,0 +1,73 @@
+Title:  Include a Note or File
+
+AKA:    transclusion, embed
+
+Seq:    3.6.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a second Note or text file may be included by placing the literal ``{:include:xxx}`` on a line by itself (where 'xxx' is replaced by the identifier for the text to be included), as in the following example:
+
+```
+{:include:another-file.txt}
+```
+
+If the supplied identifier contains a period, then Notenik will first attempt to interpret the identifier as a file path, relative to the Collection folder. 
+
+Another Note within the same Collection may be included as follows:
+
+```
+{{include:A Second Note to be Included}}
+```
+
+When including a second Note, an optional style may be specified as follows (where `quote` is a style):
+
+```
+{{include-quote:Title of a Quotation}}
+```
+
+The following styles are available at this time:
+
++ `body` - This is the default, and simply includes the body of the second Note. 
+
++ `note` - This style includes the entire contents of the second Note as it would be saved to disk. 
+
++ `quote` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution block to follow the quote, using the [[Attribution]] field or the [[Artist]]/Author field, along with associated Work fields ([[Work Title]], [[Work Type]], [[Work Link]]). 
+
++ `quotebiblio` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution in a style consistent with the the one used when you [[Format a Quote Citation]] using that special Markdown [[Single-Line Command]], obtaining information about the author and the work from the quotation's parent Notes, which are expected to be organized as they would be when you [[Generate a Bibliography]]. 
+
++ `quotebody` - The body of the included Note will be placed within Blockquotes, without any attempt to include an attribution (this style effectively implies that the surrounding text will provide sufficient attribution for the quote).
+
+Note that includes may be nested; in other words, if Note B includes Note C, and Note A includes Note B, then Note C will appear within Note A as well. 
+
+Note also that, if a Note is included within the Body of a Note, via this Markdown extension, then that same Note will **not** be displayed at the bottom of the the parent Note's page as part of the [[Include Children]] display. 
+
+Note that this format, and the intent of this Markdown extension, is slightly different from the [[Include Command]] as implemented for [[Merge Templates]]. 
+
++ The results of the Markdown extension described here will be visible within Notenik, when a Note is displayed; 
+
++ The results of the Merge Template Include command will only be visible when using the a Merge Template to generate some textual output outside of Notenik.
+
+##### Alternate Syntax
+
+Some other note processing software [uses the terminology *embed*](https://help.obsidian.md/How+to/Embed+files) rather than *include*, and uses the following syntax to embed a file.
+
+```
+![[another-file.txt]]
+```
+
+The following syntax is used to embed a Note:
+
+```
+![[A Second Note to be embedded]]
+```
+
+Notenik will try to respect this alternate syntax, in addition to its native syntax, as described above.
+
+##### Includes Between Collections
+
+Note that the same syntax and rules used to create [[Wiki Links Between Collections]] can also be applied when including a Note or file.

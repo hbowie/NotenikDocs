@@ -24,7 +24,9 @@ Unordered list items can then be indicated using the usual Markdown syntax. Note
 
 The result will be that each list item will start with a disclosure triangle, with the details following the list item initially hidden. Clicking on the disclosure triangle will then reveal the details following the list item line (including any lower-level lists, whose items will in turn have their own disclosure triangles). 
 
-For example...
+Note that placing this command immediately after the command to [[Generate Outline Based on Headings]] will cause outlines to be generated for both headings and unordered list items. 
+
+See examples below for outlines based on Unordered List Items. 
 
 {:outline-bullets}
 + Styling with CSS
@@ -42,3 +44,4 @@ For example...
 	For an example, see the following line:
 
 		{:outline-headings:3}
+

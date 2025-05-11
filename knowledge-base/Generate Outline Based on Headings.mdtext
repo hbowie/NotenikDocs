@@ -24,7 +24,9 @@ Headings can then be indicated using the usual Markdown syntax. However instead 
 
 The result will be that each heading line will start with a disclosure triangle, with the details following the heading line initially hidden. Clicking on the disclosure triangle will then reveal the details following the heading line (including any lower-level headings, which will in turn have their own disclosure triangles). 
 
-For example...
+Note that placing this command immediately before the command to [[Generate Outline Based on Unordered List Items]] will cause outlines to be generated for both headings and unordered list items. 
+
+See examples below for outlines based on headings. 
 
 {:outline-headings}
 ##### Styling with CSS

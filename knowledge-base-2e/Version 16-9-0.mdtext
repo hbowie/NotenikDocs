@@ -1,0 +1,21 @@
+Title:  Version 16.9.0
+
+Seq:    12.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Body:
+
+##### Improved Linking
+
+Relative links from a [[Link]] field were not being resolved correctly when they pointed to a [[project folder]]. This has been corrected.
+
+##### Added New Notenik Custom URL Find Command
+
+Added a new [[Notenik URL Find Command]] to tell Notenik to explicitly open a folder in the macOS Finder, rather than opening it as a collection within Notenik. 
+
+##### Outlining for both Headings and Lists
+
+If one places the Markdown command to [[Generate Outline Based on Unordered List Items]] immediately after the command to [[Generate Outline Based on Headings]], then one can generate disclosure triangles for both headings and unordered lists items.

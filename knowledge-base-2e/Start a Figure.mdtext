@@ -1,0 +1,37 @@
+Title:  Start a Figure
+
+Seq:    3.8.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Body:
+
+It's sometimes handy to use an HTML [figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure) element, along with a [figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption) element, to display some item with a caption beneath. 
+
+It's certainly possible to insert a block of HTML into a Markdown field in order to take advantage of these elements, but then one must also use straight HTML for the figured item and for the caption, which may well be more HTML than one wants to tackle without any parsing assistance. 
+
+Notenik offers a better (or at least a different) way. 
+
+Here's an example of the Notenik way to provide a figure with a caption. 
+
+```
+{:figure}
+![Photograph of Seattle at duskl](images/seattle-at-dusk.jpg)
+{:caption}
+An autumn Seattle Skyline at sunset, purchased from [iStock](https://www.istockphoto.com/photo/seattle-fall-skyline-gm1183468338-332764260).
+{:endfigure}
+```
+
+The `{:figure}` command generates an HTML `<figure>` opening tag. 
+
+The following line uses standard Markdown to generate an `<img>` tag.
+
+The `{:caption}` line then generates an HTML `<figcaption>` opening tag. 
+
+And then the following line includes a standard Markdown link. 
+
+And finally the `{:endfigure}` line generates both a closing `</figcaption>` tag and a closing `</figure>` tag.
+
+These three commands make the presentation of a captioned figure both easier and more straightforward.

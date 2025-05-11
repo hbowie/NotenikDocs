@@ -1,0 +1,12 @@
+Title:  No Backticks Style quotes
+
+Seq:    3.3.5
+
+Level:  4 - chunk
+
+Class:  version
+
+Body:
+
+Backticks-style quotes are *not* converted to curly quotes.
+

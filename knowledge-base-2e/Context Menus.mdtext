@@ -1,0 +1,55 @@
+Title:  Context Menus
+
+Seq:    2.4
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Body:
+
+Notenik also uses contextual menus to provide convenient access to some functionality. Such a menu is not normally visible, but can be accessed by control-clicking, or right-clicking, on a row within one of a collection's lists. 
+
+The following is a complete list of menu items that may be shown, although not all of these will be available in all circumstances. 
+
+Show in Finder
+: Show the file for the selected note in the macOS Finder. 
+
+Launch Link
+: Launch the [[Link]] URL for the selected note. 
+
+Share...
+: Opens the [[Share with Options]] window. 
+
+Copy Notenik URL
+: Assembles a Notenik [[Custom URL]] that can be used to open the selected note, and then places the resulting URL on the system clipboard (ready to be pasted wherever it might be useful).  
+
+Copy Title
+: Copies the [[title]] of the currently selected note to the system clipboard. 
+
+Copy Timestamp
+: Copies the [[timestamp]] of the currently selected note to the system clipboard. 
+
+Export to iCal
+: Exports the currently selected note(s) to a file in the [iCalendar](https://en.wikipedia.org/wiki/ICalendar) format. 
+
+Bulk Edit...
+: Opens the [[Bulk Edit]] window, which will allow a selected field to be changed to a selected value for an entire range of notes. 
+
+Duplicate
+: Duplicates the currently selected note, leaving it open on the Edit tab, awaiting changes from the user. 
+
+Delete Range...
+: Deletes an entire range of notes with a single action. 
+
+Modify Seq...
+: Will modify the [[Seq]] values for an entire range of notes, keeping them in their existing order. 
+
+New Child...
+: When using an outline structure, this will create a new note that is a child of the currently selected note.
+
+New with Options...
+: Presents the [[New Note with Options]] window, allowing various options to be selected before formatting the Edit tab for a new note. 
+
+
+

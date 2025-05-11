@@ -1,0 +1,12 @@
+Title:  No Email Obfuscation
+
+Seq:    3.3.4
+
+Level:  4 - chunk
+
+Class:  version
+
+Body:
+
+Automatic links for email addresses do *not* perform any randomized decimal and hex entity-encoding of the email addresses.
+

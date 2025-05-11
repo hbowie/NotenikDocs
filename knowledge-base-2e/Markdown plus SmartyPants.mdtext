@@ -1,0 +1,13 @@
+Title:  Markdown plus SmartyPants
+
+Seq:    3.1
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Body:
+
+The Markdown parser that is native to Notenik generally follows the original [Markdown Syntax Specification](https://daringfireball.net/projects/markdown/syntax) written by John Gruber, plus the [SmartyPants](https://daringfireball.net/projects/smartypants/) typographic extensions. 
+
+Exceptions/extensions/additions to the original syntax are described in following pages, and grouped into categories.
