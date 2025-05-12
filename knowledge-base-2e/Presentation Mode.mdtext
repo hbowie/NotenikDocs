@@ -1,0 +1,21 @@
+Title:  Presentation Mode
+
+Seq:    7.3.4
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20231005155618
+
+Body:
+
+When you [[Tailor Collection Settings]], or select from the Display Mode submenu beneath the Collection menu, you will have the option to set the Display Mode to Presentation. 
+
+As with the [[Streamlined Reading]] option, the Display tab will reduce clutter in order to focus attention on the Seq, Title and Body fields. 
+
+The primary difference between these two modes is that, in Presentation mode, the Next link at the bottom of each Display will not reveal the title of the upcoming Note. 
+
+The rationale for this behavior is that, if you are using a Notenik Collection to make a presentation to an audience, you typically want to focus attention on one Note at a time, and so want to prevent the listeners from jumping ahead to consideration of the subject of following Notes. 
+
+When making a presentation, you will typically also want to use CMD-Y to toggle the display of the List/Tabs views to the left of the Display.

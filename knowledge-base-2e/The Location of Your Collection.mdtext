@@ -1,0 +1,34 @@
+Title:  The Location of Your Collection
+
+Seq:    3.2.1.1
+
+Level:  5 - details
+
+Class:  non-version
+
+Body:
+
+When it comes to the location of your collection(s), you have two primary options to choose from. 
+
+1. Within the Notenik folder (aka "sandbox") within iCloud Drive. The advantages of storing your Collection(s) here are:
+
+	+ Notenik will always be able to easily access your collection(s);
+	+ Your only other location decision will be to name your collection/folder;
+	+ It will always be easy to find your Notenik collection(s).
+
+	(If you just want a quick and easy answer, then go for this first option -- you can always change your mind later, if needed.)
+
+2. Some other location on your Mac's hard drive, or on an external drive. The disadvantages here are:
+
+	+ When opening your collection(s), you will often have to manually select the location of your collection, in order to provide assurance to macOS that you really want Notenik to have access to that folder;
+	+ You will have to decide which parent folder on your drive should contain your collection(s);
+	+ You will have to remember where you stored your collection(s).
+
+	On the other hand, choosing your own location for a folder may have certain advantages:
+
+	+ If you're creating a website, then you may want your collection to be stored in your `Sites` folder;
+	+ If you want to sync your notes to the cloud and/or to other devices using something other than iCloud, then you may want to place your collection(s) in some other folder (such as your Dropbox folder, for example);
+	+ If you want to share your collection with someone else, then you may wish to store it in a shared folder;
+	+ If you want to access your notes using another application, such as a text editor, then such access will be easier if your collection is stored in a more neutral location.  
+
+If none of the advantages of Option 2 apply to your particular case, then you're probably better off selecting Option 1.

@@ -1,6 +1,6 @@
 Title:  Paste CVS -> Table
 
-Seq:    3.4.1.1
+Seq:    4.4.1.1
 
 Level:  5 - details
 
@@ -9,3 +9,4 @@ Class:  non-version
 Body:
 
 An item beneath the Edit menu, titled "Paste CSV -> Table", allows a comma-separated values file (or a tab-delimited file) to be formatted as a Markdown table and then pasted into a text field. The data to be converted must first be copied to the system clipboard, before invoking the Notenik command. 
+

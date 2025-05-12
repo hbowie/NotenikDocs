@@ -1,0 +1,14 @@
+Title:  The Basic Set of Fields
+
+Seq:    5.4
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20210609165607
+
+Body:
+
+In its most basic form, a Note consists of a Title and a Body. A Tags field and a Link field are also present by default, when creating a new Collection.
+

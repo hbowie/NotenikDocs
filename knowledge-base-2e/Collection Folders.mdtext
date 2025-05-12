@@ -1,0 +1,27 @@
+Title:  Collection Folders
+
+AKA:    essential collection
+
+Seq:    6.2
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20210619163521
+
+Body:
+
+Each note is part of a collection, and each collection is stored in its own folder (aka directory). Each note within a collection must have its own unique identifier (either its [[Title]] or some [[Alternate Note ID]]).  
+
+You can organize your notes into as many collections as you would like, and store each collection wherever you would like. 
+
+The Notenik application can open multiple collections at a time, each in its own window. The File > Open Recent command provides easy access to recently opened collections. 
+
+The Notenik folder within your iCloud drive is intended specifically for use by the Notenik application, so any Collection created here can easily be opened later, by selecting it from the File > Open from iCloud submenu. 
+
+You may use a command under the File menu to designate the current Collection as your **Essential Collection**. Once identified, this will be the first collection opened each time the application launches. The title of the collection, as presented at the top of the collection window, will have the value '(E)' appended to it, to provide a visual confirmation that it is the Essential Collection being viewed in that window. 
+
+The Save As command under the File menu allows you to save an entire collection in a new location, with the option to either keep the current location (effectively making a copy) or to delete it (effectively moving the collection to a new location). 
+
+Note that Notenik does not make any assumptions about how you wish to name your Notenik folders. When creating a new collection, or using Save As to save your current collection to a new location, Notenik expects you to create and appropriately name a new folder that will contain your collection. In other words, you should not simply select an existing folder with the expectation that Notenik will then create a subfolder to store your collection.

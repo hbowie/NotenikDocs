@@ -1,0 +1,27 @@
+Title:  Outline
+
+Seq:    3.2.4.9
+
+Level:  5 - details
+
+Class:  non-version
+
+Body:
+
+This is a collection meant to be used as a simple outline. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It makes use of [[Fields for Sequencing and Outlining]].
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Seq: <seq> 
+
+Level: <level: 1 - Top; 2 - Section; 3 - Chapter; 4 - Subsection; > 
+
+Body:  
+
+
+```

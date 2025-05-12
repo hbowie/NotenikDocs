@@ -1,0 +1,23 @@
+Title:  Streamlined Reading
+
+Tags:   streamlined reading
+
+Seq:    7.3.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20211128200750
+
+Body:
+
+When you [[Tailor Collection Settings]], or select from the Display Mode submenu beneath the Collection menu, you will have the option to set the Display Mode to Streamlined Reading. 
+
+When you select this option, it will trigger a number of different behaviors on the Notenik Display tab.
+
+In general, the Streamlined Reading option focuses attention on the major fields of each Note (title, body, etc.) and provides additional navigational elements allowing a reader to easily navigate forward, upwards, and downwards through the outline structure implied by the [[Seq]] and [[Level]] fields. 
+
+For further info, see the following entries:
+
++ The description of the [[Attribution]] field.

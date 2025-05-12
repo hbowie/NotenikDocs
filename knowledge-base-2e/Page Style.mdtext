@@ -1,0 +1,15 @@
+Title:  Page Style
+
+Seq:    5.9.1
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20240424185850
+
+Body:
+
+`Page Style` can be used as both a field label and a field type. 
+
+A `page-style` field type can be used to contain special CSS commands to be applied only to the current note, after any other CSS commands.

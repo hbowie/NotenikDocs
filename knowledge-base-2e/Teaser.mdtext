@@ -1,0 +1,25 @@
+Title:  Teaser
+
+Seq:    5.11.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210609172439
+
+Body:
+
+The word `Teaser` can be used as a label and as a type. 
+
+A label of `Teaser` will imply a type of `teaser`.
+
+A Collection should only have one field of type `Teaser`. 
+
+A `Teaser` field is meant to contain an excerpt from the Note, or a summary of its contents, or any brief bit of enticing text that can be displayed, usually beneath a Note's title, to encourage potential readers to click on a link in order to read the entire body of the Note. 
+
+When editing, a `teaser` field will appear as multiple lines of editable text. A `teaser` field may be formatted using Markdown.
+
+When displayed, a `teaser` field will be transformed using a Markdown parser.
+
+Also see the Markdown extension to [[Display Teasers]].

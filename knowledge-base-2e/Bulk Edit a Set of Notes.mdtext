@@ -1,0 +1,17 @@
+Title:  Bulk Edit a Set of Notes
+
+Seq:    3.12
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20240427212826
+
+Body:
+
+In order to make a single change to a set of Notes, select the Notes to be modified on the List tab, using CMD-Click to select one Note after another, or Shift-Click to select a range of Notes, then view the contextual menu (by right-clicking on the List) and select 'Bulk Edit...'. 
+
+You will then see a window that allows you to select the field you wish to update, and enter the value you wish to enter into that field, on each of the selected Notes. When you click OK, Notenik will proceed to make your requested updates.
+
+Starting with [[Version 16.7.0]], the Bulk Edit window also allows entry of an optional *Subvalue to Modify*. If this is entered, then the *Value to be Assigned* will only be used to replace the indicated subvalue when it is found within the *Field to be Edited*. For example, entering an existing [[Tags]] subvalue (i.e., a single tag) will cause only that tag to be replaced with the new value supplied (or removed, if the new value is blank).

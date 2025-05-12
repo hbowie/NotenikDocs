@@ -1,0 +1,24 @@
+Title:  Web Book
+
+Seq:    3.2.4.10
+
+Level:  5 - details
+
+Class:  non-version
+
+Body:
+
+This is a collection meant to be used to write a Web Book. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is designed to make use of the [[Export as Web Book]] function. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Seq: <seq> 
+
+Level: <level: 1 - Book Title; 2 - Section; 3 - Chapter; > 
+
+Body:  
+
+```

@@ -1,0 +1,27 @@
+Title:  Stash Notenik's Special Files
+
+Seq:    6.6
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20241004211427
+
+Body:
+
+In addition to Notenik's actual note files, Notenik can create a number of additional files that it uses for its own purposes. These are spelled out above, as on the [[Other Files and Subfolders]] page. 
+
+For various reasons, possibly including interoperability with other Text/Markdown editors/organizers, users may wish to stash these special files away into a subfolder, to avoid recklessly comingling them with the actual note files. 
+
+This stashing operation can be accomplished via the Stash Notenik Files in Subfolder command lurking beneath the Transform menu. This command will then create a collection subfolder named '`- notenik_files`' and in it place the following files.
+
++ The template file, named `template.xxx`, where `xxx` is your preferred file extension for your Note files
++ The '`- README.txt`' file
++ The '`- INFO.nnk`' file
++ The '`alias.txt`' file (should one exist)
++ The '`display.css`' and/or '`display.html`' files (should they exist)
+
+Notenik will then access these files within the new subfolder from that point on. 
+
+Note that users may of course create this subfolder themselves, and move the aforementioned files into there using the macOS Finder. This will have the exact same effect, so long as this Finder actvity occurs while the Collection is closed within Notenik.

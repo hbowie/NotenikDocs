@@ -1,7 +1,13 @@
 Title:  Files and Folders
 
-Seq:    5
+Seq:    6
 
 Level:  2 - section
 
 Class:  non-version
+
+Timestamp: 20250511215000
+
+Body:
+
+This section will tell you the details of how Notenik stores its information on disk. 

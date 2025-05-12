@@ -1,0 +1,15 @@
+Title:  longtext
+
+Seq:    5.15.4
+
+Level:  4 - chunk
+
+Class:  version
+
+Timestamp: 20210609174551
+
+Body:
+
+A field type of 'longtext' implies a multi-line text field that may be formatted using Markdown. 
+
+The [[Body]] field and the [[Teaser]] field both default to a type of 'longtext'.

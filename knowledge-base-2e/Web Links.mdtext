@@ -1,0 +1,21 @@
+Title:  Web Links
+
+Seq:    3.2.4.3
+
+Level:  5 - details
+
+Class:  non-version
+
+Body:
+
+This is a collection with the following [[Lists of Labels and Types|field definitions]] as provided in [[the Collection Template File]]. It is similar to the [[Basic Notes]], with the addition of a [[Link]] field. A Collection like this can be used to store Web bookmarks. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Link: <link> 
+
+Body:  
+```

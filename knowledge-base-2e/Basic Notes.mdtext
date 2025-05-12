@@ -1,0 +1,21 @@
+Title:  Basic Notes
+
+Seq:    3.2.4.1
+
+Level:  5 - details
+
+Class:  non-version
+
+Body:
+
+This is a simple Collection with the following [[Lists of Labels and Types|field definitions]] as provided in [[the Collection Template File]]. 
+
+```
+Title: <title> 
+
+Tags: <tags> 
+
+Body:  
+
+
+```

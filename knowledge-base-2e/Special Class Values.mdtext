@@ -1,0 +1,37 @@
+Title:  Special Class Values
+
+Tags:   streamlined reading
+
+Seq:    5.13.2.1
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20211130192217
+
+Body:
+
+You are free to use any `Class` values that make sense for you, but Notenik recognizes some values as having special significance (based on  a normal scheme of [book design][bkdsgn]), especially when using [[Streamlined Reading]] mode. 
+
+| Class Value | Significance |
+| ---------------- | ---------------- |
+| author | The Note identifies the author of one or more works, as might be cited within a bibliography 
+| back | back matter of a general nature
+| biblio | bibliography, as part of the back matter
+| exclude | exclude from reading sequence 
+| front | front matter of a general nature
+| intro | introduction, as part of the front matter
+| preface | preface, as part of the front matter
+| quote | quotation
+| quotation | quotation
+| title-page | title page
+| toc | table of contents, as part of the front matter 
+| work | The Note identifies a particular work written by one or more authors, as might be cited within a bibliography
+
+
+Frontmatter and bibliographic entries are often not shown with their sequence numbers, since these typically have less significance for this sort of content. 
+
+A class of `quote` or `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.
+
+[bkdsgn]: https://en.wikipedia.org/wiki/Book_design

@@ -1,0 +1,12 @@
+Title:  Reset to Defaults
+
+Seq:    7.1.5
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Body:
+
+This command, found beneath the Notenik menu, can be used to reset many of the [[Notenik Settings]] (including specification of an Essential Collection) to their default values.
+

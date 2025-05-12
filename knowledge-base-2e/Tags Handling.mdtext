@@ -1,0 +1,43 @@
+Title:  Tags Handling
+
+Seq:    7.3.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20240826200836
+
+Body:
+
+The Collection Settings contain an option for Tags Handling. You can choose from one of the following options. 
+
+##### Notenik Field
+
+This is the normal default value, indicating that the [[Tags]] field will be used to store the tags associated with each Note, and that the user will enter the desired tags directly into the Tags field. 
+
+##### Notenik Field with # signs
+
+This is similar to the default option, except that tags will be expected to start with hash signs ('`#`') when read from disk, and will be written to disk with preceding hash symbols. This will change the way each Note is internally formatted on disk. Formatting your tags in this fashion may increase interoperability of your Notes when using other software for viewing and editing.
+
+##### Inline hashtags within Body
+
+With this option, Notenik will parse the [[Body]] of each Note looking for inline hashtags. This option will observe the following rules. 
+
+1. A hashtag will be recognized within the body of each Note for each hash mark ('`#`')  immediately followed (with no intervening spaces or punctuation) by a string of characters starting with a letter. 
+
+2. Hashtags may contain letters, digits (if not leading), ordinary dashes and underline characters. Anything else will terminate the string. 
+
+3. Each such string will be recognized as a tag for the note, and will be treated internally just as if it had been read from the Tags field for the Note.
+
+4. The set of all such hash tags for a Note will replace any tags values (if any) read from the normal Tags field found in the Note as stored on disk. 
+
+5. No separate Tags field will be written to disk for Notes within the Collection.
+
+6. A space after a leading hash sign will be required for the line to be recognized as a level 1 heading, and a leading hash tag without a following space will be treated as a hashtag. This is a modification to Notenik's usual handling of such a case, as documented in [[Minor Markdown Variations]]. 
+
+7. When initially loading a Collection, Notenik will parse all of its body fields in order to extract the hashtags. This may cause some slight delay before the fully loaded Collection appears to the user.
+
+8. Even though hashtag values will not be stored as a separate field, the Collection must still have a Tags field defined as a valid field. 
+
+9. When converting the body to HTML, each hashtag will be made into a link, with a class specification of `hashtag`. When clicked the link will expand that tag on the Tags tab.

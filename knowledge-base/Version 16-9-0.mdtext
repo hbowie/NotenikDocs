@@ -4,7 +4,13 @@ Timestamp: 20250503191209
 
 Seq:    16.1
 
+Date:   2025-05-12
+
 Level:  3 - Section
+
+Teaser:
+
+- Improved relative linking from a Link field; - Added a new Custom URL find command, to explicitly request that a folder be opened in the Finder; - Enabled disclosure triangle outlining for both headings and unordered list items within a note. 
 
 Class:  version
 
@@ -20,4 +26,4 @@ Added a new [[Notenik URL Find Command]] to tell Notenik to explicitly open a fo
 
 ##### Outlining for both Headings and Lists
 
-If one places the Markdown command to [[Generate Outline Based on Unordered List Items]] immediately after the command to [[Generate Outline Based on Headings]], then one can generate disclosure triangles for both headings and unordered lists items. 
+If one places the Markdown command to [[Generate Outline Based on Unordered List Items]] immediately after the command to [[Generate Outline Based on Headings]], then one can generate disclosure triangles for both headings and unordered lists items.

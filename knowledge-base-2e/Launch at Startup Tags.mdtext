@@ -1,0 +1,15 @@
+Title:  Launch at Startup Tags
+
+Seq:    5.4.2.1
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20210626181251
+
+Body:
+
+A special 'Launch at Startup' tag can be added to a Note with a Link if you would like that Note's Link to be launched whenever Notenik starts up. 
+
+This special startup logic will only be executed once per day per collection, and it will only be executed for a collection that is automatically opened when Notenik starts up -- such as an Essential Collection.

@@ -1,0 +1,15 @@
+Title:  Functionality Associated with Field Types
+
+Seq:    5.2
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20210609163443
+
+Body:
+
+Several field types have special Notenik functionality associated with them. This functionality is generally associated with the note containing that field. For these special fields, Notenik should generally only have one field of that type in a collection; in some cases, Notenik can tolerate multiple fields of a type, but will attach its special functionality to the first field of that type. 
+
+See the description of each field type for further details.
