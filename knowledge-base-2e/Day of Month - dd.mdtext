@@ -1,0 +1,16 @@
+Title:  Day of Month - dd
+
+AKA:    Day of Month Mod
+
+Seq:    9.3.13
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210616204254
+
+Body:
+
+The letters "dd" represent a two-digit day of month within a date [[formatting string]].
+

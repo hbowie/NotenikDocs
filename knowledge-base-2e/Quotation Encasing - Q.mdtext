@@ -1,0 +1,16 @@
+Title:  Quotation Encasing - Q
+
+AKA:    Quotation Encasing
+
+Seq:    9.3.29
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210616202401
+
+Body:
+
+The letter "Q" will cause the variable to be enclosed in quotation marks, if the value contains quotation marks, or tabs, or newline characters. This can be useful when creating tab- or comma-delimited output.
+

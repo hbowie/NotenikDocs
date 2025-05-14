@@ -1,0 +1,20 @@
+Title:  Month or Minutes - M
+
+AKA:    Month or Minutes
+
+Seq:    9.3.25
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210616201933
+
+Body:
+
+Used in a date [[formatting string]], with the following effects:
+
+- MM - Two-digit month
+- MMM - Three-letter month abbreviation
+- MMMM - Full month name
+- mm - Two-digit minute within the hour

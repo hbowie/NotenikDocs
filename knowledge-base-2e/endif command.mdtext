@@ -1,0 +1,14 @@
+Title:  endif command
+
+Seq:    9.4.12
+
+Level:  4 - chunk
+
+Class:  version
+
+Timestamp: 20210616225723
+
+Body:
+
+The endif command terminates the scope of its corresponding if, ifchange, ifendgroup, ifnewgroup or else command.
+

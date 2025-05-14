@@ -1,0 +1,15 @@
+Title:  Extract Part of a Variable - Caret
+
+Seq:    9.3.5
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20240503163119
+
+Body:
+
+The caret symbol ('`^`') can be used to indicate that a portion of the variable string is to be extracted. The following character indicates what sort of extraction is to be performed. 
+
+- `x` - An `x` indicates that the file extension should be extracted from a filename or path string.

@@ -1,10 +1,14 @@
 Title:  Collection Toolbar
 
+Tags:   toolbar
+
 Seq:    2.3
 
 Level:  3 - chapter
 
 Class:  non-version
+
+Timestamp: 20250511004153
 
 Body:
 
@@ -37,6 +41,9 @@ Letter *A*
 Circular Arrow
 : Reloads the note's display (useful if a linked web page has temporarily replaced the note's contents on the Display tab). 
 
+Arrow Upwards from Square
+: Share the selected note directly to various services (also see [[Share with Options]]).
+
 Search Box
 : Enter a phrase for which you would like to search the collection, bringing up the first matching note. 
 
@@ -44,7 +51,4 @@ Ellipsis within Circle dropdown
 : Select a report to be run, or generate a sample report file. 
 
 Attachments dropdown
-: Open an attached file, or add a new attachment. 
-
-
-
+: Open an attached file, or add a new attachment.

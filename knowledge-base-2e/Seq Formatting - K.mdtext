@@ -1,0 +1,14 @@
+Title:  Seq Formatting - K
+
+Seq:    9.3.23
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250426202853
+
+Body:
+
+An uppercase "K" can be used following a [[Seq]] field or a [[Seq Formatted]] derived variable to indicate that the fully formatted version of the field is to be used; a lowercase "k" can be used in the same situation to invoke the partial version of the field.
+

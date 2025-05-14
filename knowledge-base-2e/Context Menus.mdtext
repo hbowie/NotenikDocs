@@ -1,10 +1,14 @@
 Title:  Context Menus
 
+Tags:   menus.context
+
 Seq:    2.4
 
 Level:  3 - chapter
 
 Class:  non-version
+
+Timestamp: 20250511025037
 
 Body:
 
@@ -49,7 +53,4 @@ New Child...
 : When using an outline structure, this will create a new note that is a child of the currently selected note.
 
 New with Options...
-: Presents the [[New Note with Options]] window, allowing various options to be selected before formatting the Edit tab for a new note. 
-
-
-
+: Presents the [[New Note with Options]] window, allowing various options to be selected before formatting the Edit tab for a new note.

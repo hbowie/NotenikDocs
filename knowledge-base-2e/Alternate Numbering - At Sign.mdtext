@@ -1,0 +1,20 @@
+Title:  Alternate Numbering - At Sign
+
+Seq:    9.3.7
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250325002039
+
+Body:
+
+The `@` at sign can be used to display an integer in an alternate numbering format, with the format depending on the following letter:
+
+| Letter | Numbering Format |
+| ------ | ------ |
+| A | uppercase letters |
+| a | lowercase letters |
+| I | uppercase roman numerals |
+| i | lowercase roman numerals |

@@ -5,3 +5,15 @@ Seq:    11
 Level:  2 - section
 
 Class:  non-version
+
+Timestamp: 20250511215000
+
+Body:
+
+This section provides focused examples of how to put together Notenik's various capabilities in pursuit of specific goals. 
+
+These articles generally assume that you have already downloaded and installed Notenik from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984).
+
+They also assume that you have read and understood the basics of [[creating and tailoring a Collection of Notes]], as well as how to perform some [[common tasks]].
+
+And, finally, they generally assume that you're using the Notenik Markdown parser.

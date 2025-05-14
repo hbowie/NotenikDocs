@@ -1,0 +1,16 @@
+Title:  AM PM - a
+
+AKA:    AM/PM Mod
+
+Seq:    9.3.10
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210616203732
+
+Body:
+
+A lowercase letter "a" epresents an AM/PM indicator within a date [[formatting string]].
+

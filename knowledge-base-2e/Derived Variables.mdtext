@@ -1,0 +1,15 @@
+Title:  Derived Variables
+
+Seq:    9.2.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20221009212403
+
+Body:
+
+The following variable names may be used as if they were field labels, but the resulting values will be derived from actual fields defined for the Collection, and stored in a Note. 
+
+Note that many of these are referred to as *slugs*, in the sense of formatted lines of type.

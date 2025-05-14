@@ -2,7 +2,7 @@ Title:  Version 16.9.0
 
 Timestamp: 20250503191209
 
-Seq:    16.1
+Seq:    16.2
 
 Date:   2025-05-12
 
@@ -11,6 +11,7 @@ Level:  3 - Section
 Teaser:
 
 - Improved relative linking from a Link field; - Added a new Custom URL find command, to explicitly request that a folder be opened in the Finder; - Enabled disclosure triangle outlining for both headings and unordered list items within a note. 
+
 
 Class:  version
 

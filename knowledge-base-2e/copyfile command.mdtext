@@ -1,0 +1,27 @@
+Title:  copyfile command
+
+Seq:    9.4.15
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20210616230136
+
+Body:
+
+This command causes a file to be copied from the location specified by the first operand, to the location specified by the second operand. 
+
+Note that this command is designed to be used with the [[Image Name]] field, so that an image file accompanying a note can be copied to an appropriate output folder, from which it will be referenced by an output web page.
+
+Following is an example. 
+
+```
+<?copyfile "../../content/writings/files/=$imagename$=" "../../web/images/=$imagename&f$=" ?>
+```
+
+This will copy the image file for each Note to a corresponding output folder where it can be found by the [[Image Slug]] derived variable.
+
+If the first and second operands specify folders, without any variables meant to represent file names, then the entire contents of the *from* folder will be copied to the *to* folder. 
+
+On the other hand if a variable meant to represent a specific file (such as `imagename`) could not be found for a particular Note, then the copyfile command will be aborted, and nothing will be copied.

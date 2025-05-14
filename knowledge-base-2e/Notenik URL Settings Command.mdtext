@@ -1,0 +1,17 @@
+Title:  Notenik URL Settings Command
+
+Seq:    8.16.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250318195256
+
+Body:
+
+Following is a sample URL:
+
+	notenik://settings
+
+This command simply brings up the overall Application Settings window, to allow the user to adjust one or more of the global settings.

@@ -1,0 +1,18 @@
+Title:  Year - y
+
+AKA:    Year Mod
+
+Seq:    9.3.38
+
+Level:  4 - chunk
+
+Class:  version
+
+Timestamp: 20210616204132
+
+Body:
+
+Used within a [[formatting string]], with the following effects:
+
+- yy - Two-digit year
+- yyyy - Four-digit year

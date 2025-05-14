@@ -1,5 +1,7 @@
 Title:  Add, Delete and Edit Your Notes
 
+Tags:   menus.Note.Delete Note, menus.Note.Discard Edits, menus.Note.New Note, menus.context.Delete Range
+
 AKA:    New Note, Discard Edits
 
 Seq:    3.4

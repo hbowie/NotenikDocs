@@ -1,0 +1,21 @@
+Title:  Notenik URL Find Command
+
+Seq:    8.16.7
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250506184422
+
+Body:
+
+This command opens a folder in the macOS Finder.  
+
+Following is a sample URL:  
+
+```
+ notenik://find?path=/Users/hbowie/Xcode/NotenikDocs
+```
+
+This command can be useful to tell Notenik explicitly to open a folder in the Finder, rather than opening the specified folder as a collection folder or a project folder within Notenik.

@@ -1,0 +1,27 @@
+Title:  copyaddins command
+
+Seq:    9.4.13
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250102230509
+
+Body:
+
+The `copyaddins` command can be used to copy `.css` and `.js` files from the collection [[add-ins folder]] to a comparable folder in an output location (such as a `web` folder). 
+
+The command line should appear as follows:
+
+```
+<?copyaddins?>
+```
+
+The output location will default to a folder named `add-ins` within the folder identified by the scripting [[webroot action]].
+
+If you wish to change the name of the output folder, you can supply a parameter to the command, as in the following example. 
+
+```
+<?copyaddins "mixins" ?>
+```

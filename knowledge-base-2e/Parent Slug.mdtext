@@ -1,0 +1,15 @@
+Title:  Parent Slug
+
+Seq:    9.2.3.9
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20221207024346
+
+Body:
+
+When a [[Seq]] field is specified for a Collection, possibly in combination with a [[Level]] field, then a special variable name of `parent-slug` can be used in a [[Merge Template]] in order to obtain a link that points from the current Note to its parent in the implied hierarchy. 
+
+The resulting HTML will generate something that looks much like the link to parents created when you [[Export as Web Book]].
