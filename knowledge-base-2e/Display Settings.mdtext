@@ -6,6 +6,8 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  Display tab; settings; appearance; font selection; CSS; 
+
 Timestamp: 20250511215000
 
 Body:
@@ -34,4 +36,4 @@ Note that the Display settings here will apply to the display of all of your Col
 
 + **Cancel** -- Clicking here will close the window without saving any changes you might have made. 
 
-+ **OK** -- Clicking here will save your settings and apply them to the display of your Notes, and optionally to the List Tab. 
++ **OK** -- Clicking here will save your settings and apply them to the display of your Notes, and optionally to the List Tab.

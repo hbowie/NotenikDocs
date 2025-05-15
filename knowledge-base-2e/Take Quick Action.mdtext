@@ -8,6 +8,8 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  actions; Quick Action; 
+
 Timestamp: 20210621221706
 
 Body:
@@ -31,4 +33,3 @@ If you select an existing note using the Note Title field, and then enter Body T
 And here's one last trick you can perform with the Quick Action window. If you enter `today` in the Note Title field, then this word will be replaced with today's date, formatted for year-month-day sorting, and with the day of the week appended to the end. Then enter some useful info about this date in the Body Text field, and press OK. If the Daily Note does not yet exist, it will be added, and the Body Text will become the body of your new Note. If the Note for this date has already been created, then the Body Text you enter will be appended to the body that is already there. All of this can be useful for those wishing to keep a log/journal of their daily activities.
 
 Of course, the usual security/sandboxing restrictions apply. If you haven't opened a particular Collection recently, and if it's not located within the iCloud Notenik folder, then you may need to open it normally using other means before you can open it using the Quick Action window.
-

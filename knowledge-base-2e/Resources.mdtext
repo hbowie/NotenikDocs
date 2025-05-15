@@ -8,14 +8,22 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  resources; links; 
+
 Timestamp: 20250510172400
 
 Body:
 
-As you are gradually learning about Notenik's capabilities, you may wish to refer to the following resources. 
+As you are gradually learning about Notenik's capabilities, you may wish to refer to the following resources, in addition to the contents of the Knowledge Base. 
 
 [Notenik 101 Video](https://youtu.be/JR0kpAUXM5E?si=lmfCs_BmX6b1xqQY)
 : This is a brief video demonstrating some of Notenik's basic capabilities. This is probably the best place to start for someone encountering Notenik for the first time. 
+
+[Notenik Intro](https://notenik.app/intro/welcome-to-notenik.html)
+: This is a brief written introduction to Notenik, including screenshots.
+
+[Notenik 201 Video](https://youtu.be/Qy0hejViBHI?si=tQRZyZ17BOpUmqsS)
+: This is a longer video demonstrating how to customize a Notenik collection. 
 
 [Download Link](https://apps.apple.com/us/app/notenik/id1465997984?mt=12&itscg=30200&itsct=apps_box_badge&mttnsubad=1465997984)
 : This is a link to Notenik's page in the Mac App Store. From here, you can download and install the app to your Mac. 
@@ -28,6 +36,9 @@ As you are gradually learning about Notenik's capabilities, you may wish to refe
 
 [Discussion Forum](https://discourse.notenik.app/)
 : This is the friendly Discourse forum where Notenik users can post questions, report bugs, submit feature requests, and share information with one another. 
+
+[Product Vision](https://notenik.app/vision.html)
+: For the overall shape of what we're trying to do with Notenik, including goals, operating principles and notable constraints. 
 
 [Source Code](https://github.com/hbowie/Notenik-25)
 : The source code for Notenik, including its documentation, can be found on GitHub.

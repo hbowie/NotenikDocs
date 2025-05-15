@@ -1,0 +1,30 @@
+Title:  Version 13.1.0
+
+Seq:    13.41
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2023-10-13
+
+Teaser:
+
+Added a Presentation Mode; Added 'Skip To' navigation option to skip lower-level detail when using Streamlined Reading; the Phone field now preserves embedded commas.
+
+
+Timestamp: 20231005154816
+
+Body:
+
+##### Added a Presentation Mode
+
+In addition to [[Streamlined Reading]], Notenik now supports a [[Presentation Mode]]. The [[Collection Settings]] have been modified to allow the selection of modes from a popup, rather than using a checkbox to select Streamlined Reading.
+
+##### Streamlined Skips
+
+When using [[Streamlined Reading]], or when you [[Export as Web Book]], Notenik will now provide an option to Skip over following details to go directly to the next Note/page that is at the same or a higher level than the current one. 
+
+##### Phone Field Supports Commas
+
+The [[Phone]] field now preserves commas in the field, which can be used to indicate that an extension follows.

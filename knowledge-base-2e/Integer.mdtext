@@ -4,7 +4,9 @@ Seq:    5.15.3
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  integer; 
 
 Timestamp: 20210609174445
 

@@ -6,6 +6,8 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  boolean; true or false; 
+
 Timestamp: 20210609174345
 
 Body:

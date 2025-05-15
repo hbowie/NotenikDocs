@@ -1,12 +1,14 @@
 Title:  Open Project Folder
 
-AKA:    parent realm, project folder
+AKA:    parent realm, project folder, open parent realm
 
 Seq:    6.8.2
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  folders; project folder; 
 
 Timestamp: 20210619170027
 

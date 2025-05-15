@@ -1,0 +1,45 @@
+Title:  Version 12.7.0
+
+Seq:    13.45
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2023-08-16
+
+Teaser:
+
+Added a derived merge variable for Image Name Short; Added variable modifier to derive a domain name from a link; Documented a variable modifier to split a label from a number-label combination; Reworked the Find, Search and Nav controls in several useful ways, to provide greater flexibility in moving back and forth between Notes along several different paths, and to provide keyboard shortcuts that are more consistent with those used by other apps.
+
+
+Timestamp: 20230803224835
+
+Body:
+
+##### Added Derived Merge Variable for Image Short Name
+
+A new derived variable of [[Image Name Short]] is available, to access the suffix of the image name, as it appears within Notenik, and as it is saved to disk.
+
+##### Added Variable Modifier to Derive a Domain Name
+
+Added a new [[Variable Modifier]] of '`/`' to obtain a [[Domain Name from Link]], in order to display the simple website domain name, rather than an entire link. 
+
+##### Documented a Variable Modifier to Split a Label from a Number
+
+Added this functionality a bit ago, but neglected to document it! A [[variable modifier]] of '`>`' can be used to obtain an aphabetic label from a field containing both a letter and a number. See [[Split Label from Number]] for details. 
+
+##### Reworked Find, Search and Nav Controls
+
+This version includes a major rework of the controls for finding, searching and Collection [[Navigation]]. 
+
+1. Enabled a find bar for the body of a Note, which had the cascading effect of enabling all of the standard functionality lurking beneath the Find submenu underneath the Edit menu. Users can now do standard Find and Replace operations within the body of a Note, while in Edit mode. Note however that the normal Find keyboard shortcuts are not available, since they are used for the Collection Search options found beneath the Nav menu. 
+
+2. Modified the [[search]] functionality accessed from the Nav menu in a few ways. 
+
+	+ The term 'search' is now used here consistently, rather than 'find', to avoid confusion with the standard Find commands located beneath the Edit menu;
+	+ Added a command to Search Previous, to complement the Search Next command.
+
+3. Added new Navigation History commands, to go Back in History, and then Forward in History (once you've gone back). These can be found beneath the Nav menu.
+
+4. Next and Prior Note functions are now called Next in Seq and Prior in Seq,

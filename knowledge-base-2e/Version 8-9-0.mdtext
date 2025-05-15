@@ -1,0 +1,26 @@
+Title:  Version 8.9.0
+
+Seq:    13.87
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2022-03-25
+
+Teaser:
+
+Added AppleScript APIs for integration with the Hook app; expanded the Notenik Custom URL scheme to allow opening a Note by specifing a Note's full file path, or by specifying a Note's timestamp.
+
+
+Timestamp: 20211116184349
+
+Body:
+
+##### Added APIs for Hook Integration
+
+Notenik has added some [[APIs for Hook Integration]], using AppleScript. Sample Hook scripts are provided, both to get the title and Custom Notenik URL for the currently selected Note, and to add a new Note. 
+
+##### Expanded Custom URL Scheme
+
+Added both `notepath` and `timestamp` as optional parameters to be used with the `open` command as part of the Notenik [[Custom URL Scheme]].

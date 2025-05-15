@@ -6,6 +6,10 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  settings; 
+
+Timestamp: 20250511224940
+
 Body:
 
 These are the most general settings. Details will be described later, on the pages documenting the functions affected by each setting. 

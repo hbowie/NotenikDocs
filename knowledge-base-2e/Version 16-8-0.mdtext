@@ -1,6 +1,6 @@
 Title:  Version 16.8.0
 
-Seq:    13.2
+Seq:    13.3
 
 Level:  3 - chapter
 
@@ -12,6 +12,8 @@ Teaser:
 
 - Performance and capacity improvements, focused on the Tags Outline view; - Underlines within words no longer trigger HTML emphasis; - One blank line is now written following the end of YAML frontmatter; - Revised Seq suggestions for Collections that use the Seq field as the only component of the unique IDs for its notes; - Fixed failures to adequately refresh list views under certain circumstances; - Seq field formatting now greatly enhanced. 
 
+
+Timestamp: 20250415215704
 
 Body:
 

@@ -1,0 +1,38 @@
+Title:  Version 15.5.0
+
+Seq:    13.16
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2024-10-12
+
+Teaser:
+
+This release offers a new command to stash special Notenik files in their own folder, to avoid comingling them with your Note files; it also adds a new quotebiblio include style, for including quotations from a separate bibliography section; the Note pasting logic has been improved to improve field matching when field labels don't match exactly; the copyfile merge command has been improved to avoid inadvertently copying a whole folder of files; and the Website starter pack has had several improvements. 
+
+
+Timestamp: 20241004200330
+
+Body:
+
+##### Stashing Special Notenik Files
+
+Added a new command to [[Stash Notenik's Special Files]], in order to hide these away in a subfolder. This may improve interoperability with some other Markdown wranglers.
+
+##### Adding a New Quotebiblio Include Style
+
+Added a new style value that can be used with the [[Include a Note or File]] Markdown command. A style of `quotebiblio` will produce a block quote with a following citation, and will attempt to pull author and work information from the quotation's parent Notes. 
+
+##### Modified Note Pasting Logic
+
+When pasting a Note from another Collection, Notenik will now attempt to do flexible field assignment, so that field labels need not exactly match in all cases. 
+
+##### Improved Copyfile Logic
+
+Modified the [[copyfile command]] so that, if a from file name is specified, but not available, then the command will be aborted (rather than copying the entire contents of the input folder).
+
+##### Improved Website Starter Pack
+
+Made several improvements to the [[Website]] starting Collection type.

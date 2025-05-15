@@ -6,6 +6,10 @@ Level:  4 - chunk
 
 Class:  version
 
+Index:  contents; table of contents; 
+
+Timestamp: 20250511215000
+
 Body:
 
 As an extension to the original Markdown spec from John Gruber, a Table of Contents may be generated for an entire Collection. 
@@ -24,7 +28,7 @@ If the Collection has a [[Level]] field, then the contents of the level field wi
 
 The generated Table of Contents will support direct linking from any ToC entry to the represented Note itself. 
 
-See this Collection's [[Complete Table of Contents]] for an example.
+See this Collection's [[Table of Contents]] for an example.
 
 With options similar to those available to [[generate a Note Table of Contents]], this command may be followed by one or two digits to indicate, respectively, the lowest level to be included in the ToC, and the highest level.
 

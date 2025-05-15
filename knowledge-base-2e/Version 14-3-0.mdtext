@@ -1,0 +1,26 @@
+Title:  Version 14.3.0
+
+Seq:    13.28
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2024-04-19
+
+Teaser:
+
+Added support for sub-folders; Added derived variable for note identifiers (including compound keys).
+
+
+Timestamp: 20240411181422
+
+Body:
+
+##### Added Support for Sub-Folders
+
+Sub-Folders are now supported through use of the new [[Folder]] field. Two new Collection sort options have been added: `Folder + Title` and `Folder + Date + Title`.
+
+##### Added Derived Variable for Note Identifiers
+
+A derived variable of [[Unique ID for Note]] can now be used within a [[Merge Template]] in order to fill in the unique identifier for a Note, even when the Title by itself is not unique.

@@ -6,13 +6,17 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  overview; 
+
+Timestamp: 20250511215252
+
 Body:
 
-Notenik is a free and open source Mac app for collecting, preserving, organizing, referencing and sharing information of all kinds. 
+Notenik is a free and open-source Mac app for collecting, preserving, organizing, referencing, and sharing information of all kinds. 
 
 Notenik is a modern, native Mac app written in Swift, using AppKit. Its [[User Interface]] follows all of the normal conventions that Mac users have come to expect, and provides convenient access to a number of frequently performed [[Common Tasks]]. 
 
-Notenik stores all of its information in plain text files stored on the user's Mac, and relies on [[Markdown]] for formatting the main body of each note. 
+Notenik stores all of its information in plain text files stored on the user's Mac and relies on [[Markdown]] for formatting the main body of each note. 
 
 Each Notenik file may also contain multiple other [[Fields]] -- in addition to the body -- and these other, discrete fields can be used for sorting and filtering and for many other purposes. These other fields are sometimes referred to collectively as *metadata*, or as *front matter*. 
 

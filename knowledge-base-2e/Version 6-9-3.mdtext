@@ -1,0 +1,24 @@
+Title:  Version 6.9.3
+
+Seq:    13.113
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2021-08-15
+
+Teaser:
+
+Fixed a bug affecting parsing of Math following a footnote definition.
+
+
+Timestamp: 20210815174353
+
+Body:
+
+Released on August 15, 2021. 
+
+##### Corrected Another MathJax Parsing Bug
+
+When some math followed a footnote definition, the first line of the math was sometimes being sent to the footnote definition, rather than to the regular text. This has been corrected.

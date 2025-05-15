@@ -8,6 +8,8 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  toolbar; 
+
 Timestamp: 20250511004153
 
 Body:
@@ -15,13 +17,13 @@ Body:
 Across the top of the Collection window you will find a toolbar containing, by default, the following items, proceeding from left to right. 
 
 Home
-: Takes the selection to the top of the list. 
+: Takes the list selection to the top of the list. 
 
 Left Arrow
-: Takes the selection to the prior row. 
+: Takes the list selection to the prior row. 
 
 Right Arrow
-: Takes the selection to the next row. 
+: Takes the list selection to the next row. 
 
 Plus Sign
 : Switches to the Edit tab and presents empty fields, allowing the user to supply information for a new note, to be added to the collection. 

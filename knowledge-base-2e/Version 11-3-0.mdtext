@@ -1,0 +1,56 @@
+Title:  Version 11.3.0
+
+Seq:    13.59
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2023-01-17
+
+Teaser:
+
+Added macOS Shortcut Action to Open Quick Action Window; Improved Format for Date Column on the List Tab; Tweaked Formatting when Including a Quote; Added Check Marks to Collection Sort Menu; Added Table Support for Long Cells; Added Ability to Escape Pipe Characters.
+
+
+Timestamp: 20211116184349
+
+Body:
+
+##### Added macOS Shortcut Action to Open Quick Action Window
+
+With this Notenik custom action, it is very easy to create a macOS Shortcut to invoke this action outside of Notenik, using whatever keyboard shortcut makes sense to you. In other words, this enables the user to create a global keyboard shortcut to open the Quick Action window in Notenik.
+
+##### Improved Format for Date Column on the List Tab
+
+When using a Sort selection that includes the Date field, the formatting of the field has been changed to add a 2-letter identifier for the day of the week at the end of the field, and to show the entire field in a monospaced font, so that the various date components always line up with one another within the column. 
+
+##### Tweaked Formatting when Including a Quote
+
+When you [[Include a Note or File]]. and you use the `quote` style, the formatting of the quote's attribution has been improved a bit.
+
+##### Added Check Marks to Collection Sort Menu
+
+Added check marks to the Sort submenu beneath the Collection menu to indicate which sort option(s) (possibly including the Reverse option) are currently in effect for the frontmost Collection.
+
+##### Added Table Support for Long Cells
+
+When using pipe characters to create an HTML [[Table]], users can now use the MultiMarkdown convention of adding additional pipes at the end of a cell to indicate columns to be spanned. 
+
+##### Added Ability to Escape Pipe Characters
+
+Pipe characters can now be escaped. This is especially useful if you wish a pipe character to appear within a [[Table]]. 
+
+For example, the following code:
+
+```
+| First Header  | Second Header             | Third Header |
+| ------------  | :-----------:             | -----------: |
+| Column 1      | Let's use an escaped '\|' | Column 3     |
+```
+
+... will be rendered as follows: 
+
+| First Header  | Second Header             | Third Header |
+| ------------  | :-----------:             | -----------: |
+| Column 1      | Let's use an escaped '\|' | Column 3     |

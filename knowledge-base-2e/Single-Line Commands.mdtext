@@ -6,6 +6,10 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  Markdown commands; 
+
+Timestamp: 20250511215000
+
 Body:
 
 The Notenik parser enables several single-line commands that are generally indicated by enclosure between curly braces. Details are available in following notes; this page provides a convenient summary. 

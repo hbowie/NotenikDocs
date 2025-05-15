@@ -1,0 +1,42 @@
+Title:  Version 14.5.0
+
+Seq:    13.26
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2024-05-17
+
+Teaser:
+
+Improved Index extract; improved export to iCal; a new merge template variable was provided in order to extract a file extension from a file name or path; fixed several bugs. 
+
+
+Timestamp: 20240503162856
+
+Body:
+
+##### ISO 8601 Date Formatting Fix
+
+When using a [[Formatting String]] to format a date in a [[Merge Template]], [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) style date formatting (with a 'T' separating the date from the time) was not working. This has been corrected by using the [ISO 8601 Date Formatter](https://developer.apple.com/documentation/foundation/iso8601dateformatter) for date formats containing the telltale 'T'. 
+
+##### File Extension Extraction Provided	
+
+The new [[Extract Part of a Variable - Caret]] merge template variable modifier can be used to extract the file extension from a file name or path string.
+
+##### Improved Index Extract
+
+Added a Page Status field to the extract format used when specifying a [[Scripting Module]] [[Input Module Parameter]] of `notenik-index`. 
+
+##### Improved Export to iCal
+
+Made several improvements to the [[Export to iCal]] function.
+
+##### Prevented Opening of Same Collection in Multiple Windows
+
+In some circumstances, Notenik could allow the same Collection to be opened in multiple windows. This has been corrected, so requests to open a Collection, if it is already open, should now uniformly result in simply bringing forward the existing window for the Collection.
+
+##### Resolved Conflict Between Class and Folder Fields
+
+The `class` folder was mistakenly being used as a sub-folder, in cases where both options were being used. This has been fixed.

@@ -4,7 +4,9 @@ Seq:    6.1.5
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  files; templates; collection template; 
 
 Timestamp: 20210626204820
 

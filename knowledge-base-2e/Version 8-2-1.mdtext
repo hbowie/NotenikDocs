@@ -1,0 +1,22 @@
+Title:  Version 8.2.1
+
+Seq:    13.96
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2022-02-04
+
+Teaser:
+
+Added code to create the iCloud Notenik container folder in case it is missing.
+
+
+Timestamp: 20211116184349
+
+Body:
+
+##### Recreate iCloud Notenik Documents Folder When Needed
+
+Added code to create the iCloud Notenik container folder in case it is missing.

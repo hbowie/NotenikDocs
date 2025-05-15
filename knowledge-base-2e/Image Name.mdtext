@@ -6,6 +6,8 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  images; 
+
 Timestamp: 20210609172607
 
 Body:
@@ -23,7 +25,7 @@ The following additional, related field labels may be specified to supply image 
 + `Image Credit`
 + `Image Credit Link`
 
-This metadata will be used when you [[Generate a Web Book]], or may be employed when creating [[Merge Templates]].
+This metadata will be used when you [[Export as Web Book]], or may be employed when creating [[Merge Templates]].
 
 Image Name is presented to the user on the Edit tab as a drop-down list including all of the Note's currently recognized file attachments. An assigned image name will not be preserved if the underlying file attachment is removed or renamed.
 

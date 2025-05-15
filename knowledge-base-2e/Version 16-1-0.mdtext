@@ -1,0 +1,50 @@
+Title:  Version 16.1.0
+
+Seq:    13.10
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2025-01-05
+
+Teaser:
+
+Added 'Open in Finder' item to project folders; Changed Title for a BBEdit project file to 'Open in BBEdit'; Added Ability to Paste CSV -> Table; Added 'notefilename' as new Merge Template Variable; Added a 'section-headings' Markdown command; Provisioned an Optional add-ins folder to make it easy to mix in 3rd party web components; Added a 'copyaddins' Merge Template Command; Fixed Problem that was Allowing the same Project Folder to be open in multiple windows.
+
+
+Timestamp: 20241222011239
+
+Body:
+
+##### Added Open in Finder item
+
+The [[project folder]] will now have an "Open in Finder" item generated, which will contain a link requesting the macOS Finder to open the Project Folder. 
+
+##### Changed Title for a BBEdit project file.
+
+When a [[project folder]] has a BBEdit project file at its top level, it will now show with a title of "Open in BBEdit". 
+
+##### Added Ability to Paste CSV -> Table
+
+A Markdown [[Table]] may now be generated from a comma-separated values file.
+
+##### Added notefilename as new Merge Template Variable
+
+Added a new [[System Variable]] of `notefilename` that can be used in a [[Merge Template]] to pull in the exact filename of the input Note.
+
+##### Added a section-headings command
+
+Added a `section-headings` Markdown command to [[Generate Sections for Headings]].
+
+##### Provisioned an Optional add-ins folder
+
+A folder named `add-ins` may now be placed within a collection folder. The add-ins folder can contain additional CSS and/or javascript files to be loaded. The CSS files must end with file extension `.css`, and the javascript files must end with the file extension `.js`.
+
+##### Added a copyaddins Merge Template Command
+
+Added a [[copyaddins command]] to copy files from the new [[add-ins folder]] to a comparable output folder.
+
+##### Fixed Problem Allowing Duplicate Project Folders
+
+Notenik had been mistakenly allowing a [[project folder]] to be opened in a new window, while leaving another window for the same folder still open. This has been corrected, so that the old window will be closed before opening the new one.

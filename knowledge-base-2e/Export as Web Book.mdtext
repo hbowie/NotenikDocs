@@ -2,13 +2,15 @@ Title:  Export as Web Book
 
 Tags:   fields.level, fields.seq, streamlined reading
 
-AKA:    web book export
+AKA:    web book export, Generate a Web Book
 
 Seq:    8.4.6
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  web books; 
 
 Timestamp: 20210709202731
 

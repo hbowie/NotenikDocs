@@ -1,0 +1,42 @@
+Title:  Version 15.4.0
+
+Seq:    13.17
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2024-09-29
+
+Teaser:
+
+This release includes improvements to left view visibility, improvements to table sorting, improvements to task list interoperability, a fix for the date added field, new optional initial visibility for backlinks and wikilinks, and a new ability to import a quotation from WikiQuote.org. 
+
+
+Timestamp: 20240917175131
+
+Body:
+
+##### Improvements to Left View Visibility
+
+Beneath the View menu, the Show/Hide List option no longer shrinks the window width when hiding the List. Instead, a new option has been added, called "Hide List, Narrow Window" which will have that effect. The Show/Hide List can then be used, if needed, to re-show the List and expand the window back to its original size.
+
+##### Improvements to Table Sorting
+
+When using the Markdown [[Single-Line Command]] to [[Make a Table Sortable]], multiple tables may now be sorted within the same Note's Body field.
+
+##### Improvements to Task List Interoperability
+
+Notenik will now use a lowercase 'x' rather than an uppercase 'X' to indicate a completed item within a [[Task List]].
+
+##### Fix for Date Added Field
+
+A problem with the [[Date Added]] field type was resolved.
+
+##### Optional Initial Visibility of Backlinks and Wiki Links
+
+A new configuration option can now be specified for a [[Back Links]] field and/or a [[Wiki Links]] field so that these links will be immediately visible, rather than being hidden until the user clicks on a disclosure triangle.
+
+##### Added Import from WikiQuote Feature
+
+Added a new function to allow the user to creat a [[New Note from WikiQuote]]. This can be useful when populating a Commonplace book.

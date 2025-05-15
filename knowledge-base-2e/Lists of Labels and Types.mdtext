@@ -1,5 +1,7 @@
 Title:  Lists of Labels and Types
 
+AKA:    field types
+
 Seq:    5.3
 
 Level:  3 - chapter
@@ -51,7 +53,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Folder]]
 + [[Image Name]]
 + [[Include Children]]
-+ [[Index]]
++ [[Index Field|Index]]
 + [[Integer]]
 + [[Level]]
 + [[Link]]

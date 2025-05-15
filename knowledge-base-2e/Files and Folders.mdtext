@@ -6,8 +6,11 @@ Level:  2 - section
 
 Class:  non-version
 
+Index:  files; folders; 
+
 Timestamp: 20250511215000
 
 Body:
 
 This section will tell you the details of how Notenik stores its information on disk. 
+

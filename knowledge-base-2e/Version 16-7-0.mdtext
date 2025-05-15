@@ -1,6 +1,6 @@
 Title:  Version 16.7.0
 
-Seq:    13.3
+Seq:    13.4
 
 Level:  3 - chapter
 
@@ -12,6 +12,8 @@ Teaser:
 
 New option to allow dots in filenames; Sharing with Options now includes abilities to share the Title or a full-fledged wiki-style link to the current note; New confirmation dialog presented before overwriting sample display.html and display.css files; Share with Options now includes ability to format a share using a custom merge template; Bulk Edit now allows a subvalue to be replaced or removed — such as a single tag. 
 
+
+Timestamp: 20250401200220
 
 Body:
 

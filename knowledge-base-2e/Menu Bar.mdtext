@@ -8,6 +8,8 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  menus; 
+
 Timestamp: 20250511174342
 
 Body:
@@ -32,7 +34,7 @@ Here you'll find the commands to Open a collection, and to create a New Collecti
 
 ##### Collection menu
 
-Here you'll find settings particular to the current collection being viewed. 
+Here you'll find functions that will deal with the collection as a whole. 
 
 ##### Nav menu
 
@@ -40,7 +42,7 @@ Here you'll find various ways to navigate through your collection.
 
 ##### Note menu
 
-Here you'll find commands to create a New Note, to Edit a note, to Save a note, and so forth. 
+Here you'll find functions pertaining to a single note, including commands to create a New Note, to Edit a note, to Save a note, and so forth. 
 
 ##### Edit menu
 

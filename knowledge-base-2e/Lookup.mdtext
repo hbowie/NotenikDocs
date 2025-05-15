@@ -6,7 +6,9 @@ Seq:    5.15.5
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  lookups; 
 
 Timestamp: 20210821192019
 
