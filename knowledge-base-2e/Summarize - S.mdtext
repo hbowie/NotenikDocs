@@ -6,7 +6,9 @@ Seq:    9.3.32
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  summarize; 
 
 Teaser:
 

@@ -6,9 +6,13 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  add; New Note; 
+
 Timestamp: 20250318195026
 
 Body:
+
+This command can be used to add a new note to a collection.
 
 Following is a sample URL:  
 

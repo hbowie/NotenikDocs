@@ -6,11 +6,13 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  open; 
+
 Timestamp: 20250318194851
 
 Body:
 
-This command opens a Collection and, optionally, a specific Note within that Collection and. optionally, at attachment for that Note. 
+This command opens a Collection and, optionally, a specific Note within that Collection and, optionally, an attachment for that Note. 
 
 Following is a sample URL:  
 

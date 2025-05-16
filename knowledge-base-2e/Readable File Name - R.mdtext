@@ -6,7 +6,9 @@ Seq:    9.3.31
 
 Level:  4 - chunk
 
-Class:  version
+Class:  non-version
+
+Index:  filename; 
 
 Timestamp: 20210616202604
 

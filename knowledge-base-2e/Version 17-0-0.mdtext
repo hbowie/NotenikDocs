@@ -13,3 +13,7 @@ Body:
 ##### Expand and Collapse Outlines
 
 Notenik uses [outline views](https://developer.apple.com/design/human-interface-guidelines/outline-views) on both the Tags tab and the optional Outline tab. Two new commands, with keyboard shortcuts, have been added beneath the View menu to specifically help with outlines on both of these tabs. The Expand Outline command will expand every node in the outline currently being viewed, so the user can see everything that is available to them. The Collapse Outline command will collapse all but the highest level nodes, so the user can see a compact, high-level view of what is available to them.
+
+##### Support Folder Field as Auxiliary Field for Note Identification
+
+The [[Folder]] field may now be used as the Auxiliary field when changing the [[Note Identifiers]] to something other than simply [[Title]]. Note that, in a case like this, no file renaming will be done: instead, the sub-folder names will simply be incorporated into each note's internal ID. 

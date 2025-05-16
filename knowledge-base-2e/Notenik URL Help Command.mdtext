@@ -6,9 +6,13 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  help; 
+
 Timestamp: 20250318195204
 
 Body:
+
+This command will open a specific page in the embedded Knowledge Base. 
 
 Following is a sample URL:
 
