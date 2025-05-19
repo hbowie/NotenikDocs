@@ -1,19 +1,19 @@
 Title:  Version 9.2.0
 
-Timestamp: 20211116184349
+Seq:    13.82
 
-Seq:    16.82
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-04-20
-
-Level:  3 - Section
 
 Teaser:
 
 Added a new model Collection -- a Commonplace Book using Lookup fields -- that can be used to initialize a new Collection; added automatic generation of initial backlinks when adding a Backlinks field; straightened out some issues that could affect capture of metadata when importing/pasting a new Note into a Collection; fixed some problems associated with moving/copying a Collection, including initial population of a new Collection.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

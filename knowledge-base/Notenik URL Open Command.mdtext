@@ -1,16 +1,18 @@
 Title:  Notenik URL Open Command
 
-Timestamp: 20250318194851
+Seq:    8.16.1
 
-Seq:    11.1.1
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  open; 
+
+Timestamp: 20250318194851
+
 Body:
 
-This command opens a Collection and, optionally, a specific Note within that Collection and. optionally, at attachment for that Note. 
+This command opens a Collection and, optionally, a specific Note within that Collection and, optionally, an attachment for that Note. 
 
 Following is a sample URL:  
 
@@ -39,4 +41,4 @@ The `open` command accepts the following parameters following the question mark:
 
 An easy way to obtain a complete URL that can be used to later open a specific Note is to right-click the Note's row on the List tab within Notenik, and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location. 
 
-To obtain a URL to open the Collection only, without specifying a specific Note, select `Copy Notenik URL for Collection` from beneath the `Collection` menu, then paste into the desired location. 
+To obtain a URL to open the Collection only, without specifying a specific Note, select `Copy Notenik URL for Collection` from beneath the `Collection` menu, then paste into the desired location.

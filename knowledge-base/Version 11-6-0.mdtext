@@ -1,19 +1,19 @@
 Title:  Version 11.6.0
 
-Timestamp: 20211116184349
+Seq:    13.56
 
-Seq:    16.56
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-03-01
-
-Level:  3 - Section
 
 Teaser:
 
 Added a new Markdown command to make a table sortable by its column headings; added a new Knowledge Base Reference page listing HTML class values assigned by Notenik; a few changes to default CSS styling, especially for links, to improve usability; extended behavior of the Collection setting to open external links in new tabs/window so that it will apply to Link fields as well; straightened out some funny business that was causing Notenik to open internal links within external web browser windows.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

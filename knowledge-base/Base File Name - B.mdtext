@@ -2,13 +2,15 @@ Title:  Base File Name - B
 
 AKA:    Base File Name
 
+Seq:    9.3.11
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  filename; 
+
 Timestamp: 20210616201106
-
-Seq:    12.3.11
-
-Level:  4 - Subsection
-
-Index:  file name formatting; 
 
 Body:
 

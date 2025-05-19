@@ -1,19 +1,19 @@
 Title:  Version 7.7.1
 
-Timestamp: 20211116184349
+Seq:    13.103
 
-Seq:    16.103
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-12-05
-
-Level:  3 - Section
 
 Teaser:
 
 A couple of important bug fixes affecting usage of the new Class templates, and of the Wikilinks/Backlinks fields.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

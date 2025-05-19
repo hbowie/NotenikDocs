@@ -1,14 +1,16 @@
 Title:  Favorites Settings
 
-Timestamp: 20230615205943
+Seq:    7.1.2
 
-Seq:    6.1.2
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  favorites; settings; 
+
+Timestamp: 20250511225145
+
 Body:
 
-These are settings that apply when you are exporting [[Favorites to HTML]]. See that page for details. 
+These are settings that apply when you are exporting [[Favorites to HTML]]. See that page for details.
 

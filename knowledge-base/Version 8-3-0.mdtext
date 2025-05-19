@@ -1,19 +1,19 @@
 Title:  Version 8.3.0
 
-Timestamp: 20211116184349
+Seq:    13.94
 
-Seq:    16.94
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-02-10
-
-Level:  3 - Section
 
 Teaser:
 
 Added Notenik Tips; added an option to go from the last Note back to the first Note, when using Streamlined Reading; positions and sizing of Collection Windows are now retained between sessions and restored when a Collection is next opened; random note navigation is now supported; plus a couple of small fixes for Mathjax usage.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

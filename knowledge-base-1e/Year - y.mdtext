@@ -1,0 +1,16 @@
+Title:  Year - y
+
+AKA:    Year Mod
+
+Timestamp: 20210616204132
+
+Seq:    12.3.38
+
+Level:  4 - Subsection
+
+Body:
+
+Used within a [[formatting string]], with the following effects:
+
+- yy - Two-digit year
+- yyyy - Four-digit year

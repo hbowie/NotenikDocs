@@ -2,17 +2,20 @@ Title:  Use of a Text Editor
 
 AKA:    text edit
 
-Timestamp: 20210619163055
+Seq:    6.1.9
 
-Seq:    8.1.9
+Level:  4 - chunk
 
-Level:  4 - Subsection
+Class:  non-version
+
+Index:  text editing; 
 
 Teaser:
 
 plain text; text editors;
 
-Class:  version
+
+Timestamp: 20210619163055
 
 Body:
 
@@ -20,6 +23,6 @@ All of your Notenik files are plain text files that can be opened, viewed and ed
 
 Notenik has a couple of menu commands that make it easy to open a file in your preferred text editor. 
 
-Use the `Text Edit Note` command under the `Note` menu to open the currently displayed Note in your default text editor. When you're done with your external edits, and have saved the file, use the `Reload Note` command to see the results of your external edits within Notenik.
+Use the Note > Text Edit Note command to open the currently displayed note in your default text editor. When you're done with your external edits, and have saved the file, use the Note > Reload Note command to see the results of your external edits within Notenik.
 
-Use the `Text Edit Collection's Template file` command beneath the Collection menu to open [[the Collection template file]] in your preferred text editor. When you are done with your external edits, use the `Reload Collection` command to see the results of any changes made.
+Use the Collection > Text Edit Collection's Template file command to open [[the Collection template file]] in your preferred text editor. When you are done with your external edits, use the Collection > Reload Collection command to see the results of any changes made.

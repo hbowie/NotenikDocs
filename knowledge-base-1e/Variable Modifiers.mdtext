@@ -1,0 +1,60 @@
+Title:  Variable Modifiers
+
+Timestamp: 20210616193633
+
+Seq:    12.3
+
+Level:  3 - Section
+
+Index:  merge variable modifiers; 
+
+Class:  non-version
+
+Body:
+
+A variable can be optionally followed (before the ending variable delimiters) by a modifier indicator and one or more modifiers. The default modifier indicator is the ampersand (&amp;).
+
+The following table summarizes the primary use of various letters and characters as variable modifiers. A detailed description of each modifier follows the summary table. Note that, unless otherwise specified, the use of letters is case-insensitive.
+
+| Mod | Meaning |
+| --- | ------- |
+| ' | [[Email Apostrophes]] | 
+| , | [[List Punctuation]] | 
+| _ | [[Underscore]] | 
+| \\ | [[Prep for JSON]] |
+| / | [[Domain Name from Link]] |
+| > | [[Split Label from Number]] |
+| ! | [[Punctuation Purification]]  w/Squeeze |
+| @ | [[Alternate Numbering - At Sign]] |
+| 1 | [[Length Modifier]] | 
+| A | [[Author Name Modifier]] | 
+| B | [[Base File Name]] | 
+| C | [[Word Demarcation]] | 
+| F | [[File Name]] | 
+| G | [[Linked Tags]] | 
+| H | [[HTML Mod]] | 
+| I | [[Initial Case]] | 
+| I | [[To Identifier]] |
+| J | [[Link Mod]] | 
+| K | [[Hour of Day Mod]] | 
+| L | [[Lowercase Modifier]] | 
+| M | [[Month or Minutes]] | 
+| N | [[No Breaks]] | 
+| O | [[Markdown to HTML]] | 
+| P | [[Punctuation Purification]] | 
+| Q | [[Quotation Encasing]] | 
+| R | [[Keep characters on the right]] | 
+| R | [[Readable File Name]] | 
+| S | [[Summarize Mod]] | 
+| T | [[HTML to Markdown]] | 
+| U | [[Uppercase Mod]] | 
+| V | [[Variance Mod]] | 
+| W | [[Wiki-Style Links Mod]] | 
+| X | [[XML Mod]] | 
+| Z | [[Linked Tags - Z]] |
+| a | [[AM/PM Mod]] | 
+| y | [[Year Mod]] | 
+| dd | [[Day of Month Mod]] | 
+| EEE | [[Day of Week Abbreviated]] | 
+| EEEE | [[Day of Week Full]] |
+| Dash | [[Remove Paragraph Tags Mod]] |

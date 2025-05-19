@@ -2,17 +2,19 @@ Title:  Rename a Field
 
 AKA:    Rename, Add or Remove a Field
 
-Timestamp: 20231213205152
+Seq:    7.4
 
-Seq:    5.6
-
-Level:  3 - Section
+Level:  3 - chapter
 
 Class:  non-version
 
+Index:  fields; 
+
+Timestamp: 20231213205152
+
 Body:
 
-Starting with [[Version 13.6.0]], the user can select `Rename, Add or Remove a Field` beneath the Collection menu in order to access an auxiliary window that supports renaming an existing field. 
+Starting with [[Version 13.6.0]], the user can select Collection > Rename, Add or Remove a Field in order to access an auxiliary window that supports renaming an existing field. 
 
 The same window can also be used to delete a field, although this can typically be done just as easily be deselecting the field in the [[Collection Settings]] window. 
 
@@ -24,7 +26,7 @@ Renaming an existing field can be complicated, though, because all of the Notes 
 
 The window allows the user to specify the following fields:
 
-+ Specify a Field Action of `Rename`, `Add` or `Remove`. The default is `Rename`. 
++ Specify a Field Action of Rename, Add or Remove. The default is Rename. 
 
 + Select an existing field label, if you are adding or removing. 
 
@@ -36,10 +38,10 @@ The window allows the user to specify the following fields:
 
 + If the new field type is one that accepts a configuration string of some kind, then you can enter it in the Config field. 
 
-+ If you'd like to specify a non-blank value for a new field being added, enter this in the field labeled `Default`. 
++ If you'd like to specify a non-blank value for a new field being added, enter this in the field labeled Default. 
 
-+ Hit the `Cancel` button to leave without making any updates. 
++ Hit the Cancel button to leave without making any updates. 
 
-+ Hit the `OK` button to proceed with your requested action.
++ Hit the OK button to proceed with your requested action.
 
-Note that the scope of this command is limited to [[the Collection Template File]] and the Note files stored within the Collection. If the user has created [[Script Files]] and/or other sorts of Template Files, then these will need to updated manually, using a text editor.
+Note that the scope of this command is limited to [[the Collection Template File]] and the Note files stored within the Collection. If the user has created [[Script Files]] and/or other sorts of Template Files, then these will need to be updated manually, using a text editor.

@@ -1,19 +1,19 @@
 Title:  Version 7.2.0
 
-Timestamp: 20210914010654
+Seq:    13.110
 
-Seq:    16.110
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-09-20
-
-Level:  3 - Section
 
 Teaser:
 
 Website address updated to point to Notenik.app; wiki links now will try to pluralize a reference, if it is not found in singular form; the Merge template Set command now allows a variable to be used as part or all of a global variable name; Markdown quote sharing corrected to respect lookup links; added a Quick Export and Open command.
 
 
-Class:  version
+Timestamp: 20210914010654
 
 Body:
 

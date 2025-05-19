@@ -1,0 +1,21 @@
+Title:  Custom URL Scheme
+
+AKA:    Custom URL
+
+Timestamp: 20210627004934
+
+Seq:    11.1
+
+Level:  3 - Section
+
+Index:  URLs, custom; custom URL scheme; 
+
+Class:  non-version
+
+Body:
+
+Notenik has its own custom URL scheme, which can be invoked by other apps as a means of integrating Notenik with these other applications. 
+
+Note that URLs must in general be [percent encoded](https://en.wikipedia.org/wiki/Percent-encoding). The most common encoding is done by replacing each space with `%20`. 
+
+The following commands are supported.

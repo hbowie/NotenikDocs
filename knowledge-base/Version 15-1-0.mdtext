@@ -1,19 +1,19 @@
 Title:  Version 15.1.0
 
-Timestamp: 20240810185309
+Seq:    13.20
 
-Seq:    16.20
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-08-22
-
-Level:  3 - Section
 
 Teaser:
 
 Added a new optional Outline tab, for use when outlining with Notenik.
 
 
-Class:  version
+Timestamp: 20240810185309
 
 Body:
 

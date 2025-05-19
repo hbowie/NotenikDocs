@@ -1,18 +1,20 @@
 Title:  Sequenced List
 
-Timestamp: 20221111185342
+Tags:   collection types.sequenced list
 
-Seq:    5.4.5
+Seq:    3.2.4.5
 
-Level:  4 - Subsection
-
-Index:  sequenced list; seq field; 
+Level:  5 - details
 
 Class:  non-version
 
+Index:  sequencing; 
+
+Timestamp: 20250511224230
+
 Body:
 
-This is a Collection meant to be used as a simple sequenced list. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is similar to the [[Web Links]] starter, with the addition of the [[Status]] and [[Seq]] fields. 
+This is a collection meant to be used as a simple sequenced list. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is similar to the [[Web Links]] starter, with the addition of the [[Status]] and [[Seq]] fields. 
 
 ```
 Title: <title> 

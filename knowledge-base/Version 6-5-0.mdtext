@@ -1,19 +1,19 @@
 Title:  Version 6.5.0
 
-Timestamp: 20210703232615
+Seq:    13.123
 
-Seq:    16.123
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-07-07
-
-Level:  3 - Section
 
 Teaser:
 
 Added an option to backup an entire Collection to a compressed Zip file; made improvements to Streamlined Reading, to focus only on Seq, Title and Body fields; expanded the custom URL help command to allow an ID to be included, to point to a specific Note to be initially displayed; added a What's New command beneath the Help menu to show the user the latest changes to the app.
 
 
-Class:  version
+Timestamp: 20210703232615
 
 Body:
 

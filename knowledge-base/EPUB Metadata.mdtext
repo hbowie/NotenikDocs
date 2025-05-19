@@ -1,18 +1,18 @@
 Title:  EPUB Metadata
 
-Timestamp: 20230413220551
+Seq:    12.12
 
-Seq:    15.13
-
-Level:  3 - Section
+Level:  3 - chapter
 
 Class:  non-version
+
+Timestamp: 20230413220551
 
 Body:
 
 {:metadata}
 		<dc:identifier id="pub-identifier">notenik.app/kb</dc:identifier>
-		<dc:title id="pub-title">The Notenik Knowledge Base</dc:title>
+		<dc:title id="pub-title">The Notenik Knowledge Base 2nd ed.</dc:title>
 		<dc:creator id="author">Herb Bowie</dc:creator>
 		<dc:language id="pub-language">en</dc:language>
-		<meta property="dcterms:modified">2023-04-13T12:00:00Z</meta>
+		<meta property="dcterms:modified">2025-05-13T12:00:00Z</meta>

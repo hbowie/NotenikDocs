@@ -1,19 +1,19 @@
 Title:  Version 6.9.2
 
-Timestamp: 20210813202014
+Seq:    13.114
 
-Seq:    16.114
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-08-13
-
-Level:  3 - Section
 
 Teaser:
 
 Straightened out a couple of Markdown parsing problems.
 
 
-Class:  version
+Timestamp: 20210813202014
 
 Body:
 

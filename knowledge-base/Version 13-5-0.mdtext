@@ -1,19 +1,19 @@
 Title:  Version 13.5.0
 
-Timestamp: 20231123181114
+Seq:    13.37
 
-Seq:    16.37
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-11-30
-
-Level:  3 - Section
 
 Teaser:
 
 Expanded Collection Table of Contents command to work when collection is sorted by Date + Seq; Added a starter pack to use as a Travel Planner; Added a starter pack containing code snippets to use with Notenik; Fixed a couple of bugs affecting note file parsing, and table generation when lines end with two or more spaces; Added some much-needed documentation for use of the Scripter window.
 
 
-Class:  version
+Timestamp: 20231123181114
 
 Body:
 

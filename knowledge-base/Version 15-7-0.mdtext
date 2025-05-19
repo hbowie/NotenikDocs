@@ -1,19 +1,19 @@
 Title:  Version 15.7.0
 
-Timestamp: 20241109193316
+Seq:    13.14
 
-Seq:    16.14
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-11-12
-
-Level:  3 - Section
 
 Teaser:
 
 Another code fencing fix; a date-time formatting fix; improved attachment renaming; fixed the streamlined reading 'skip to' link when using an alternate ID configuration; added an identifier for a user's designated essential collection. 
 
 
-Class:  version
+Timestamp: 20241109193316
 
 Body:
 

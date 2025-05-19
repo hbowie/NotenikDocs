@@ -1,0 +1,54 @@
+Title:  Version 15.8.0
+
+Timestamp: 20241114230455
+
+Seq:    16.13
+
+Date:   2024-11-25
+
+Level:  3 - Section
+
+Teaser:
+
+Renamed Parent Realm to Project Folder; made text files visible within the Project Folder; added default values for class and status fields; created a new option for naming script files; added new merge commands to copy images and copy css; expanded the usage for the file name variable modifier, to apply it to image file names; multiple css files may now be stored in a css folder, and the collection settings will allow the user to switch between them.
+
+
+Class:  version
+
+Body:
+
+##### Added Text Files to Parent Realm
+
+When opening a Parent Realm folder, text files located at the top level will now be visible, and can be opened with a double-click. These would typically be README files and License files. To be recognized as text files, they must have one of the following file extenstions: `.txt`, `.text`, `.md`, `.mdtext`, or `.mkdown`. Additionally, their contents will be displayed as the note's body field. 
+
+##### Adding Default Values for Class, Status fields
+
+The Collection template file can now specify a default value for the [[Class]] and [[Status]] fields, by placing an asterisk immediately following the desired default. 
+
+##### Renaming 'Parent Realm' to 'Project Folder' 
+
+Renaming the quite esoteric term of 'Parent Realm' to the less mystifying 'Project Folder'.
+
+##### A New Option for Naming Script Files
+
+A file residing in a folder named `scripts`, and having a file extension of `.tsv` (for *tab-separated values*), will now be recognized as a [[Script File]]. A file extension of `.tsv` should make it easier to open and edit script files using apps such as Numbers and Excel, which work better than a text editor when viewing a tab-delimited file.
+
+##### A New copyimages Merge Command
+
+The new [[copyimages command]] will copy local image files referenced by Markdown from the input collection to an output web folder. 
+
+##### Expanded Usage for File Name Variable Modifier
+
+The [[File Name - F]] variable modifier can now be used in conjunction with the new *copyimages* merge command to create web-friendly file names for the copied files.
+
+##### Collection Setting May Now Specify a CSS File
+
+The [[Collection Settings]] have been enhanced to allow the selection of a Cascading Style Sheets (aka CSS) file to be used to display the Collection within Notenik. The file to be used may be selected from the CSS files found in the `css` folder within the Collection's folder. To be recognized and used, files must be within the `css` folder and have the `.css` file extension. Notenik does not load any files into this folder. The user may populate this folder with any CSS files they find to be of interest. 
+
+##### A new copycss Merge Command
+
+The new [[copycss command]] merge template command will copy the css code being used by a Collection into the designated output file, where it can be referenced from output HTML.
+
+##### Adding HTML for People Demo
+
+Added a new starter pack available when creating a *New Collection* — an *HTML for People demo*. This is a work in progress, and is not yet complete.

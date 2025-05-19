@@ -2,21 +2,21 @@ Title:  Other Files and Subfolders
 
 AKA:    add-ins folder
 
+Seq:    6.5
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Index:  files; folders; 
+
 Timestamp: 20210619163946
-
-Seq:    8.5
-
-Level:  3 - Section
-
-Index:  files; folders; subfolders; INFO files; README files; alias file; display files; class folder; export folder; mirror folder; reports folder; 
-
-Class:  version
 
 Body:
 
-Within each Collection folder you will find one file for each Note in the Collection, with the file name based closely on the Note`s title. 
+Within each collection folder you will find one file for each note in the collection, with the file name based closely on the note`s title (or [[Alternate Note ID]]). 
 
-In addition to the Note files, the following special files and folders may be found within a Collection folder. 
+In addition to the note files, the following special files and folders may be found within a collection folder. 
 
 * The Notes may be stashed away in a subfolder named `notes`. This sort of Collection is known as a Web Collection, because the top level is reserved for generated HTML files, perhaps created using mirroring. In this case, the files and folders described below will be found within the `notes` folder. 
 
@@ -38,7 +38,7 @@ In addition to the Note files, the following special files and folders may be fo
 
 + An `add-ins` folder may contain any additional `.css` and/or `.js` files to be loaded for the collection's pages. Also see the [[copyaddins command]].
 
-+ A `class` folder will contain any [[class]] template files created for the Collection. 
++ A `class` folder will contain any [[class template files]] created for the Collection. 
 
 + A `css` folder may contain multiple `.css` files, and the user may select any of them to be used via a [[Collection Setting]].
 
@@ -48,4 +48,4 @@ In addition to the Note files, the following special files and folders may be fo
 
 * a `mirror` folder will contain templates, scripts and css used to mirror the collection to an alternate format (such as HTML). 
 
-* A `reports` sub-folder may contain a number of Template files and/or Script files.
+* A `reports` sub-folder may contain a number of [[Merge Templates]] and/or [[Script files]].

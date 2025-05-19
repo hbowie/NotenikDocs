@@ -1,19 +1,19 @@
 Title:  Version 13.1.0
 
-Timestamp: 20231005154816
+Seq:    13.41
 
-Seq:    16.41
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-10-13
-
-Level:  3 - Section
 
 Teaser:
 
 Added a Presentation Mode; Added 'Skip To' navigation option to skip lower-level detail when using Streamlined Reading; the Phone field now preserves embedded commas.
 
 
-Class:  version
+Timestamp: 20231005154816
 
 Body:
 

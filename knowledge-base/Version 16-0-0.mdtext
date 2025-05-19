@@ -1,19 +1,19 @@
 Title:  Version 16.0.0
 
-Timestamp: 20241212232446
+Seq:    13.11
 
-Seq:    16.11
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-12-20
-
-Level:  3 - Section
 
 Teaser:
 
 Added Markdown Segment command as a way of generating a div or an aside; Better Handling of Sync Conflicts; Better handling of the Essential Collection; Added Command to Reset App Settings to their Defaults; Added default CSS for asides; Open in Nova now possible from a Project Folder; Added Markdown Inject command to inject attributes into the following block tag; Added support for Markdown highlighting.
 
 
-Class:  version
+Timestamp: 20241212232446
 
 Body:
 

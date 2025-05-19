@@ -1,12 +1,14 @@
 Title:  Seq Formatted
 
-Timestamp: 20250426202032
+Seq:    9.2.3.13
 
-Seq:    12.2.3.13
-
-Level:  5 - Details
+Level:  5 - details
 
 Class:  non-version
+
+Index:  sequencing; seq; 
+
+Timestamp: 20250426202032
 
 Body:
 
@@ -18,5 +20,4 @@ This derived variable can be specified as follows:
 =$seq-formatted$=
 ```
 
-Also see the [[Seq Formatting - K]] variable modifier. 
-
+Also see the [[Seq Formatting - K]] variable modifier.

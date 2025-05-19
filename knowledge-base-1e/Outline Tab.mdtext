@@ -1,0 +1,25 @@
+Title:  Outline Tab
+
+Timestamp: 20240822175223
+
+Seq:    5.5.7
+
+Level:  4 - Subsection
+
+Class:  non-version
+
+Body:
+
+If your Collection includes [[Fields for Sequencing and Outlining]] — such as a [[Seq]] field, and possibly a [[Level]] field, then there is a good chance that you are [[Using Notenik as an Outliner]].
+
+In this case, your Collection will be a candidate for display of the optional Outline tab. 
+
+You can enable the Outline tab through use of the *Outline Tab* submenu within the *Collection* menu. Here you will find three options. 
+
+1. *No Outline Tab* — Dispense with the Outline tab altogether. 
+2. *Outline With Seq* — Display the Outline tab, and show the Seq field in the view, followed by the title for each Note. 
+3. *Outline No Seq* — Display the Outline tab, but show note titles only, without showing the Seq fields.  
+
+When the tab is shown, it will appear as a third tab on the left side of the Collection window, just to the right of the Tags tab. 
+
+This tab will work similarly to the List tab, in terms of working with your Notes, but will allow you to selectively show and collapse sections of your outline by clicking on the conventional disclosure triangles, thus allowing you to focus on one section of your outline at a time, while hiding others that might otherwise obscure your area(s) of focus.

@@ -1,14 +1,14 @@
 Title:  Display Seq
 
-Timestamp: 20230320094153
+Seq:    5.6.4
 
-Seq:    9.6.4
-
-Level:  4 - Subsection
-
-Index:  display seq field; streamlined reading; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  seq; sequencing; 
+
+Timestamp: 20230320094153
 
 Body:
 

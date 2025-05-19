@@ -1,12 +1,14 @@
 Title:  Type
 
+Seq:    5.13.1
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  type; 
+
 Timestamp: 20210609175110
-
-Seq:    9.13.1
-
-Level:  4 - Subsection
-
-Index:  type field; pick from field; sorting; class field; 
 
 Body:
 

@@ -1,19 +1,19 @@
 Title:  Version 16.2.0
 
-Timestamp: 20250109183624
+Seq:    13.9
 
-Seq:    16.9
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2025-01-14
-
-Level:  3 - Section
 
 Teaser:
 
 Made a couple of fixes to properly handle alternate Note Identification schemes; added add-ins support for the Web Book Export function; upgraded the two Website starter packs, for use when creating a new Collection. 
 
 
-Class:  version
+Timestamp: 20250109183624
 
 Body:
 

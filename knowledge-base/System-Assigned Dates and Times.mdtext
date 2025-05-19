@@ -1,12 +1,14 @@
 Title:  System-Assigned Dates and Times
 
+Seq:    5.16
+
+Level:  3 - chapter
+
+Class:  non-version
+
 Timestamp: 20210609175220
-
-Seq:    9.16
-
-Level:  3 - Section
 
 Body:
 
-These fields, unlike the [[Date]] field, are system-assigned, and consist of a time as well as a date. 
+These fields, unlike the [[Date]] field, are system-assigned, and consist of a time as well as a date.
 

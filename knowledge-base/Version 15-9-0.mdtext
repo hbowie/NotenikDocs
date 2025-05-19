@@ -1,19 +1,19 @@
 Title:  Version 15.9.0
 
-Timestamp: 20241203190416
+Seq:    13.12
 
-Seq:    16.12
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-12-11
-
-Level:  3 - Section
 
 Teaser:
 
 Fixed a problem with formatting Tables that contained consecutive pipes; When a Project Folder is opened, and the top level contains a README file, then that file will now receive the initial selection; Added Escape Characters in Merge Templates; Fixed a Problem that would sometimes cause the Seq field to be repeated; Improved Default CSS, including CSS for code displays; Added a clearglobals merge command; Added Markdown Figure and FigCaption Commands; Added a Markdown p-class Command; fixed a few minor bugs.
 
 
-Class:  version
+Timestamp: 20241203190416
 
 Body:
 

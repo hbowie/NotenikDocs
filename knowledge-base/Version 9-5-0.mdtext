@@ -1,19 +1,19 @@
 Title:  Version 9.5.0
 
-Timestamp: 20211116184349
+Seq:    13.78
 
-Seq:    16.78
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-06-14
-
-Level:  3 - Section
 
 Teaser:
 
 Added Note Selector option to format a Markdown command to include the selected Note; improved the working of the display teasers command; corrected a bug that occurred when adjusting edit font size.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

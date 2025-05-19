@@ -1,19 +1,19 @@
 Title:  Version 11.8.0
 
-Timestamp: 20211116184349
+Seq:    13.54
 
-Seq:    16.54
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-04-19
-
-Level:  3 - Section
 
 Teaser:
 
 Added ability to export to an EPUB; added ability to supply header, nav and footer elements, to be shown throughout a Collection (and put to use within the Notenik Knowledge Base); improvements to the Knowledge Base index; improved ability to cite authors and their works; added title-page as a standard class value; improved internal identification for footnotes and citations, allowing multiple notes to be combined while still ensuring a unique identifier for each such reference.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

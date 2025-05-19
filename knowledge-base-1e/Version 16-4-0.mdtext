@@ -1,0 +1,38 @@
+Title:  Version 16.4.0
+
+Timestamp: 20250203200130
+
+Seq:    16.7
+
+Date:   2025-02-20
+
+Level:  3 - Section
+
+Teaser:
+
+Fixed a cross-collection wikilink bug; fixed copyimage issues; replaced the populate app catalog function with a new import option; the note selector last action is now saved per Collection, rather than globally; added an action parameter to the custom URL definition to allow the Select a Note window to be opened by a URL. 
+
+
+Class:  version
+
+Body:
+
+##### Fixed Cross-Collection WikiLink Bug
+
+There was a problem when clicking on [[Wiki Links Between Collections]]. This has been fixed.
+
+##### Fixed Copyimages Issues
+
+When using the [[copyimages command]] in conjunction with the [[File Name - F]] variable modifier, the `src` attribute for the output [img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) element was not correctly referencing the copied image file, in cases where the output HTML was being written to a subfolder within the output website. This has been fixed through the insertion of a relative path up to the top level of the output website, when needed.
+
+##### Populate App Catalog Function Replaced
+
+The *Populate App Catalog* function has now been replaced with a new import option, [[Import Apps Folder]], which uses the [[Import Settings]] to determine when to add columns and rows.
+
+##### Note Selector Last Action Now Saved Per Collection
+
+When using the [[Note Selector]], Notenik will remember the last action chosen and make that the default the next time the Note Selector is used. This was previously a global default, but is now a separate default value for each Collection.
+
+##### Added Action Parameter to the Custom URL Definition
+
+When specifying a [[Custom URL]], the user may now specify `select=action` in order to pop up the [[Select a Note for Action]] screen.

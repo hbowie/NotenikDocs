@@ -1,12 +1,14 @@
 Title:  Specifying a Default Title Value
 
-Timestamp: 20230918233743
+Seq:    6.1.7.1
 
-Seq:    8.1.7.1
-
-Level:  5 - Details
+Level:  5 - details
 
 Class:  non-version
+
+Index:  numbering; 
+
+Timestamp: 20230918233743
 
 Body:
 
@@ -32,10 +34,10 @@ The first Note created would then be titled 'Note Number 001.'
 
 The last such number assigned is stored in the Collection's '`- INFO.nnk`' file, and is then incremented continuously each time a new Note is created using the Class Template File. 
 
-Be aware that deleting a Note numbered in this fashion will not cause Notenik to reuse the number previously assigned to the deleted Note. Again, number assignment will continue forwards from the highest number so far assigned. 
+Be aware that deleting a note numbered in this fashion will not cause Notenik to reuse the number previously assigned to the deleted note. Again, number assignment will continue forwards from the highest number so far assigned. 
 
 ###### New Note with Options
 
 As with other default field values, a default Title value will only be assigned when using the [[New Note with Options]] command beneath the Note menu. This is true whether or not the default Title value ends with number signs. 
 
-The default Note Title value will not appear in the New Note with Options window, but only in the Edit tab, after completing entries in the New Note with Options window. When the New Note with Options window is invoked, the Title field within that auxiliary window should be left blank, in order to invoke the default Title value specified in the Class Template File.
+The default note Title value will not appear in the New Note with Options window, but only in the Edit tab, after completing entries in the New Note with Options window. When the New Note with Options window is invoked, the Title field within that auxiliary window should be left blank, in order to invoke the default Title value specified in the Class Template File.

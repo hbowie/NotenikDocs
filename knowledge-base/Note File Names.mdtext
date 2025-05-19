@@ -1,18 +1,18 @@
 Title:  Note File Names
 
+Seq:    6.1.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  files; 
+
 Timestamp: 20210608181324
-
-Seq:    8.1.3
-
-Level:  4 - Subsection
-
-Index:  file names; 
-
-Class:  version
 
 Body:
 
-A Notenik file name is generally identical to the Note's title, with the exception of a few occasional tweaks to avoid running afoul of various common operating system limitations. Spaces and capitalization are preserved. 
+A Notenik file name is generally identical to the note's title (or [[Alternate Note ID]]), with the exception of a few occasional tweaks to avoid running afoul of various common operating system limitations. Spaces and capitalization are preserved. 
 
 ##### Dots in Note Filenames
 
@@ -25,4 +25,4 @@ A dot, or period, in a filename (other than the separator before the file extens
 | non-space | space | just drop it |
 | non-space | non-space | replace with dash |
 
-However, since dots are sometimes needed for interoperability with other software, the Notenik Settings includes an option to *Allow Dots in Filenames*. 
+However, since dots are sometimes needed for interoperability with other software, the [[Notenik Settings]] includes an option to *Allow Dots in Filenames*.

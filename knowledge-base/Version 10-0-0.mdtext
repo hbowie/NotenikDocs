@@ -1,19 +1,19 @@
 Title:  Version 10.0.0
 
-Timestamp: 20211116184349
+Seq:    13.73
 
-Seq:    16.73
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-07-29
-
-Level:  3 - Section
 
 Teaser:
 
 New Shortcut Actions to Add a Note, and to Run a Script; new Export option to Run a Script; improved Scripting documentation; Query Builder output is now routed to a Notenik window, rather than to a Web browser; Script Filter operators for partial string comparisons now ignore case on operands; removed application preference option to grant folder access without confirmation, since the confirmation is a key part of providing access to the selected folder.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

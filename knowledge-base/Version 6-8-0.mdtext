@@ -1,19 +1,19 @@
 Title:  Version 6.8.0
 
-Timestamp: 20210731170715
+Seq:    13.116
 
-Seq:    16.116
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-08-02
-
-Level:  3 - Section
 
 Teaser:
 
 Added Short ID to the list of available field labels and types, to help with URL shortening; added new option to export an entire Collection into a single HTML or Markdown document; fixed a bug affecting automatic links in footnotes.
 
 
-Class:  version
+Timestamp: 20210731170715
 
 Body:
 

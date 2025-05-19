@@ -1,19 +1,19 @@
 Title:  Version 12.1.0
 
-Timestamp: 20230512225711
+Seq:    13.51
 
-Seq:    16.51
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-05-23
-
-Level:  3 - Section
 
 Teaser:
 
 Added a Markdown command to generate an outline based on headings; added another command to generate an outline based on lists; made some improvements to the OPML import function using the Seq and Level fields.
 
 
-Class:  version
+Timestamp: 20230512225711
 
 Body:
 

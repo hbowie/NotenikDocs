@@ -1,0 +1,27 @@
+Title:  New Collection Menu Command
+
+Tags:   menus.File.New Collection
+
+Seq:    3.2.2
+
+Level:  4 - chunk
+
+Class:  version
+
+Index:  New Collection; 
+
+Timestamp: 20250511222945
+
+Body:
+
+Beneath the File menu you will find the 'New Collection...' menu item. 
+
+You will then see a window that will walk you through three different tabs. 
+
++ **Location** - Here you can specify whether you'd like your new Collection to be stored within Notenik's special iCloud container, or somewhere else. If unsure, the first option is the easiest. 
+
++ **Name** - Here you get to specify the name of your new Collection. This will become the name of the folder in which your notes will be stored. 
+
++ **Fields** - Here you specify what sort of notes collection you would like. Different types of collections will have different fields available for each Note. On this tab you can pick from one of several different options, starting with the simplest, and working towards more complex options. Pick the one that sounds closest to matching your intentions. Don't worry too much about making a mistake here, because you will be shown a couple of different ways of further customizing your Collection a little further on. 
+
+When you're done with these three tabs, you will then be shown a window allowing you to Tailor [[Collection Settings]] for your new collection -- including the list of fields supported within your collection.

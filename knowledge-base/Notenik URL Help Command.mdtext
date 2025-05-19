@@ -1,14 +1,18 @@
 Title:  Notenik URL Help Command
 
-Timestamp: 20250318195204
+Seq:    8.16.5
 
-Seq:    11.1.5
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  help; 
+
+Timestamp: 20250318195204
+
 Body:
+
+This command will open a specific page in the embedded Knowledge Base. 
 
 Following is a sample URL:
 

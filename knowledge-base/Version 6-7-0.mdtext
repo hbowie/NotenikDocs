@@ -1,19 +1,19 @@
 Title:  Version 6.7.0
 
-Timestamp: 20210716220208
+Seq:    13.121
 
-Seq:    16.121
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-07-19
-
-Level:  3 - Section
 
 Teaser:
 
 Added support for Mathjax; enhanced Table of Contents generation for a single Note; enhanced Table of Contents generation for an entire Collection.
 
 
-Class:  version
+Timestamp: 20210716220208
 
 Body:
 

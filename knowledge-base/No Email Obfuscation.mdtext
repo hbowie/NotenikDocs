@@ -1,14 +1,14 @@
 Title:  No Email Obfuscation
 
-Timestamp: 20210607233631
+Seq:    4.3.4
 
-Seq:    7.3.2.4
-
-Level:  5 - Details
-
-Index:  email obfuscation; 
+Level:  4 - chunk
 
 Class:  version
+
+Index:  email; 
+
+Timestamp: 20250511215000
 
 Body:
 

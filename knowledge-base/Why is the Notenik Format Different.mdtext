@@ -1,14 +1,14 @@
 Title:  Why is the Notenik Format Different?
 
+Seq:    6.1.8
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  files; 
+
 Timestamp: 20210608191157
-
-Seq:    8.1.8
-
-Level:  4 - Subsection
-
-Index:  Notenik file format; 
-
-Class:  version
 
 Body:
 
@@ -32,7 +32,7 @@ So whereas these other formats are primarily for documents, with at most some ab
 
 That being said, a Notenik file is not a completely general-purpose object: it's not intended to compete with JSON or YAML, for example. For one thing, each note must have a Title field and a Body field, in addition to other fields. Also, each field generally consists of a single value, without any convention for handling arbitrary lists, or any nesting of objects. 
 
-So there you have it: a Notenik Note sits somewhere between a Markdown doc with metadata and a full-fledged  object with any number of complex fields. Which makes it simple enough to be read and written by ordinary humans using any text editor, and yet flexible enough to help such users keep track of any number of useful, everyday objects. 
+So there you have it: a Notenik note sits somewhere between a Markdown doc with metadata and a full-fledged  object with any number of complex fields. Which makes it simple enough to be read and written by ordinary humans using any text editor, and yet flexible enough to help such users keep track of any number of useful, everyday objects. 
 
 Which was exactly my intent when concocting this format. 
 

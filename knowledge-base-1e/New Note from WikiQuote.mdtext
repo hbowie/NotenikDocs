@@ -1,0 +1,54 @@
+Title:  New Note from WikiQuote
+
+Timestamp: 20240929002020
+
+Seq:    10.4
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+Notenik has a special function to aid in capturing quotations from WikiQuote.org. 
+
+This function can be helpful when building a [[Commonplace Book]].
+
+This function can be invoked by selecting the 'New Note from WikiQuote...' item beneath the Note menu. 
+
+The user will then see a new window titled 'Import from WikiQuote', containing the following controls. 
+
+Language
+: This defaults to 'en' for English. Other values may be selected/entered. 
+
+Author
+: This is where the user should enter the name of an author found in WikiQuote.org. Spelling and capitalization must be precise in order to obtain any results. Once the user tabs out of this field, Notenik will attempt load that author's page from the web, and the user might notice a slight delay as the page is being retrieved and loaded. 
+
+Search text
+: Here the user can enter any text string that they wish to search for. Capitalization here is not significant. Once they tab out of this field, Notenik will attempt to find a matching quotation. 
+
+Quotation
+: The large text box contains the current quotation. 
+
+Cancel
+: Hit this button to cancel out of the operation. 
+
+Next
+: Use this button to advance to the next matching quotation. 
+
+Import
+: Use this button if you wish to import the quotation currently being shown. 
+
+Note that the import operation does not immediately save the quotation to the current Collection, but instead simply populates the Edit tab with the values obtained from WikiQuote, allowing the user to edit these as desired, or to discard the results altogether. 
+
+Notenik will attempt to populate the following fields (assuming they are available):
+
++ Title - This will be extracted from the beginning of the body text. 
+
++ Author
+
++ Date
+
++ Work Title
+
+Note that Notenik's extraction of this data is dependent on its sometimes problematic ability to parse the actual HTML contained in the WikiQuote pages, and that this is an imperfect process at best.

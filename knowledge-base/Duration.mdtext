@@ -1,12 +1,14 @@
 Title:  Duration
 
-Timestamp: 20240304203650
+Seq:    5.14.3
 
-Seq:    9.14.3
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  duration; 
+
+Timestamp: 20240304203650
 
 Body:
 

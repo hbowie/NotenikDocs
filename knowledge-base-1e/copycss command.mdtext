@@ -1,0 +1,27 @@
+Title:  copycss command
+
+Timestamp: 20241125194915
+
+Seq:    12.4.14
+
+Level:  4 - Subsection
+
+Body:
+
+The *copycss* command can be used to copy the css code being used by a Collection to a file in an output website folder. 
+
+The command line should appear as follows:
+
+```
+<?copycss?>
+```
+
+The input CSS code will be whatever code is currently being used within the source Collection. 
+
+The default output destination will be a file named `styles.css` within a folder named `css` within the location identified by the [[Template Module Parameters]] setting the `webroot`. 
+
+An optional parameter can be provided to identify some output folder and file path other than the default of `css/styles.css`, as in the following example. 
+
+```
+<?copycss "styles/styling.css" ?>
+```

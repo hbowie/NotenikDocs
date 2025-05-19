@@ -1,12 +1,12 @@
 Title:  Version 8.2.0
 
-Timestamp: 20211116184349
+Seq:    13.98
 
-Seq:    16.98
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-01-28
-
-Level:  3 - Section
 
 Teaser:
 
@@ -14,7 +14,7 @@ Added Markdown support for the creation of tables, using pipes and dashes; added
 improved editing of Index fields; added new command to Clean a Link, removing common tracking parameters; improved the readability of the Keyboard Shortcuts Reference page in the Knowledge Base; added a new Markdown Cheat Sheet. 
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

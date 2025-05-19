@@ -1,19 +1,19 @@
 Title:  Version 15.6.0
 
-Timestamp: 20241015222146
+Seq:    13.15
 
-Seq:    16.15
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-10-26
-
-Level:  3 - Section
 
 Teaser:
 
 Teaser Share added; Repeat Variable Modifier added; Code fencing now allows language name; temp_display.html file now unstashed; fixed a problem with stashed Notes. 
 
 
-Class:  version
+Timestamp: 20241015222146
 
 Body:
 

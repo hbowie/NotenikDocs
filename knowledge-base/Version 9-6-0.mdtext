@@ -1,19 +1,19 @@
 Title:  Version 9.6.0
 
-Timestamp: 20211116184349
+Seq:    13.77
 
-Seq:    16.77
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-06-23
-
-Level:  3 - Section
 
 Teaser:
 
 Added a Help menu link to the new Notenik Discussion Forums, hosted by Discourse; added an option allowing tailoring of font(s) used on the Edit tab; created a way to set default values for fields; added logic to Code field display to convert HTML in such a way that it will display as code; updated file extension change logic to include class templates.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

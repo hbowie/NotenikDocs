@@ -1,12 +1,14 @@
 Title:  String
 
+Seq:    5.15.8
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  string; 
+
 Timestamp: 20210609174751
-
-Seq:    9.15.8
-
-Level:  4 - Subsection
-
-Index:  string field; 
 
 Body:
 

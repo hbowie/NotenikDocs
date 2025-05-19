@@ -1,0 +1,16 @@
+Title:  Remove Paragraph Tags - Hyphen
+
+AKA:    Remove Paragraph Tags Mod
+
+Timestamp: 20210616220149
+
+Seq:    12.3.4
+
+Level:  4 - Subsection
+
+Index:  paragraph tags; 
+
+Body:
+
+When used following the [[Markdown to HTML - O]] modifier,  a dash ('-', aka minus sign) indicates that leading and trailing paragraph tags should be stripped from the output.
+

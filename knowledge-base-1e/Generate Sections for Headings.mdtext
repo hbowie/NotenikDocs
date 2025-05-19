@@ -1,0 +1,29 @@
+Title:  Generate Sections for Headings
+
+Timestamp: 20241229234539
+
+Seq:    7.3.7.9
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+The `section-headings` command can be used to divide the HTML output into sections, using the [section](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section) element, with the start of a new section indicated by the presence of a [heading](https://www.markdownguide.org/basic-syntax/#headings) of a certain level. 
+
+If no heading level is specified, as in the following example, the first heading encountered will set the sectioning heading level. 
+
+```
+{:section-headings}
+```
+
+An alternative is to specify the desired sectioning heading level directly, as in the following example. 
+
+```
+{:section-headings: 2}
+```
+
+This command should generally be placed at or near the top of the text field, before the appearance of the first heading. 
+
+The `<section>` tags generated will have `id` attributes supplied, with the literal `section-for-` being prepended to the [[Heading ID]] generated for the triggering heading.

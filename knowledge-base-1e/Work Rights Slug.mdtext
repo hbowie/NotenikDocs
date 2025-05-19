@@ -1,0 +1,17 @@
+Title:  Work Rights Slug
+
+Timestamp: 20220929173011
+
+Seq:    12.2.3.7
+
+Level:  5 - Details
+
+Index:  work rights slug; work rights field; 
+
+Class:  non-version
+
+Body:
+
+When the [[Work RIghts]] and [[Work Rights Holder]] fields are specified for a Collection, then a special variable name of `work-rights-slug` can be used in a [[Merge Template]] in order to obtain a nicely formatted rights line -- typically, a copyright notice. 
+
+In such a case, an accompanying [[Date]] field will be used as the initial publication date for the referenced work.

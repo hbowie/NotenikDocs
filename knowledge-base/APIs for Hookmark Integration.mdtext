@@ -1,18 +1,20 @@
 Title:  APIs for Hookmark Integration
 
-Timestamp: 20211116184349
+AKA:    APIs for Hook Integration
 
-Seq:    11.2
+Seq:    8.17
 
-Level:  3 - Section
-
-Index:  Hookmark; APIs; AppleScript commands; 
+Level:  3 - chapter
 
 Class:  non-version
 
+Index:  Applescript; Hookmark; 
+
+Timestamp: 20211116184349
+
 Body:
 
-Notenik now has some minimal AppleScript support, developed specifically to allow integration with the [Hookmarkmark app][Hookmark]. 
+Notenik now has some minimal AppleScript support, developed specifically to allow integration with the [Hookmark app][Hookmark]. 
 
 #### AppleScript Commands
 

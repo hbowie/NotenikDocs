@@ -1,14 +1,14 @@
 Title:  Forget All Shortcuts
 
-Timestamp: 20221003222011
+Seq:    6.8.5
 
-Seq:    8.8.5
-
-Level:  4 - Subsection
-
-Index:  collection shortcuts; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  collection ID; 
+
+Timestamp: 20221003222011
 
 Body:
 
@@ -18,6 +18,6 @@ In order to facilitate use of assigned Collection Shortcuts, Notenik will save t
 
 Over time, though, as Collections come and go, you may find that Notenik is remembering Shortcuts that would better be left forgotten. 
 
-That is when you may wish to exercise the **Forget All Shortcuts** command beneath the **File** menu. This will clear out Notenik's memory of Shortcuts from Collections opened in the past, and will allow Notenik to begin refilling its memory from Collections opened afterwards. 
+That is when you may wish to exercise the File > Forget All Shortcuts command. This will clear out Notenik's memory of Shortcuts from collections opened in the past, and will allow Notenik to begin refilling its memory from collections opened afterwards. 
 
-You can [[View the Log]] to see what Shortcuts are being loaded when Notenik launches, and also to verify the number of Shortcuts forgotten after executing this special command.
+You can [[View the Log]] to see what shortcuts are being loaded when Notenik launches, and also to verify the number of shortcuts forgotten after executing this special command.

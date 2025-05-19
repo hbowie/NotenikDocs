@@ -1,25 +1,27 @@
 Title:  File Links
 
-Timestamp: 20230827234920
+Seq:    6.4
 
-Seq:    8.4
-
-Level:  3 - Section
+Level:  3 - chapter
 
 Class:  non-version
+
+Index:  files; links; 
+
+Timestamp: 20230827234920
 
 Body:
 
 You may use a [[Link]] field to store a link to a local file or folder. 
 
-You may use the Set Local Link command, beneath the Note menu, to select a file or folder to be linked using the Link field. 
+You may use the Note > Set Local Link command to select a file or folder to be linked using the Link field. 
 
-You may also drag a file (other than a text file) from the Finder to the List tab of a Collection, and then drop it after an existing row (but not on it), in order to create a new Note pointing to the dragged file, with a Title based on the name of the file. 
+You may also drag a file (other than a text file) from the Finder to the List tab of a Collection, and then drop it after an existing row (but not on it), in order to create a new note pointing to the dragged file, with a Title based on the name of the file. 
 
-If you would rather have such a file stored as an attachment, you could then use the Convert Local Link to Attachment command -- again beneath the Note menu -- to convert the file link to a [[File Attachment]].
+If you would rather have such a file stored as an attachment, you could then use the Note > Convert Local Link to Attachment command to convert the file link to a [[File Attachment]].
 
-The local file or folder may be internal to the Collection (i.e., stored somewhere within or beneath the Collection folder), or external to the Collection. 
+The local file or folder may be internal to the collection (i.e., stored somewhere within or beneath the collection folder), or external to the collection. 
 
-If it is external to the Collection, then such a link would start with `file://` and would contain a complete path to the file or folder. 
+If it is external to the collection, then such a link would start with `file://` and would contain a complete path to the file or folder. 
 
-If it is internal to the Collection, then such a link will be stored as a relative link (relative to the Collection folder itself), so that such links should be preserved if the Collection as a whole is moved to a different location.
+If it is internal to the collection, then such a link will be stored as a relative link (relative to the collection folder itself), so that such links should be preserved if the collection as a whole is moved to a different location.

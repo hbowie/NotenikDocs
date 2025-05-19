@@ -1,19 +1,19 @@
 Title:  Version 15.5.0
 
-Timestamp: 20241004200330
+Seq:    13.16
 
-Seq:    16.16
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-10-12
-
-Level:  3 - Section
 
 Teaser:
 
 This release offers a new command to stash special Notenik files in their own folder, to avoid comingling them with your Note files; it also adds a new quotebiblio include style, for including quotations from a separate bibliography section; the Note pasting logic has been improved to improve field matching when field labels don't match exactly; the copyfile merge command has been improved to avoid inadvertently copying a whole folder of files; and the Website starter pack has had several improvements. 
 
 
-Class:  version
+Timestamp: 20241004200330
 
 Body:
 

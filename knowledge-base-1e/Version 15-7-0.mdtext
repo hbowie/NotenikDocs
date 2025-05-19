@@ -1,0 +1,38 @@
+Title:  Version 15.7.0
+
+Timestamp: 20241109193316
+
+Seq:    16.14
+
+Date:   2024-11-12
+
+Level:  3 - Section
+
+Teaser:
+
+Another code fencing fix; a date-time formatting fix; improved attachment renaming; fixed the streamlined reading 'skip to' link when using an alternate ID configuration; added an identifier for a user's designated essential collection. 
+
+
+Class:  version
+
+Body:
+
+##### Another Code Fencing Fix
+
+Code fencing was sometimes being triggered inappropriately. This has been corrected. 
+
+##### Date-Time Formatting Fix
+
+Fixed a problem that occurred when trying to apply date and time formatting to a date field that did not contain any time values.
+
+##### Improved Attachment Renaming
+
+When referencing [[File Attachments]] from Markdown code within the Body field, a change to a Note's title will also result in a change to the Body field to update the reference(s) to the attached files.
+
+##### Fixed Skip To with Alternate ID Configured
+
+When using [[Streamlined Reading]] mode in combination with [[Change Note ID Configuration]], the "Skip To" link was not always working. This has been fixed.
+
+##### Added Essential Collection Identifier
+
+As documented on the [[Collection Folders]] page, the Essential Collection will be visually identifiable by the appearance of the value '(E)' after the Collection title as it appears at the top of the Collection window.

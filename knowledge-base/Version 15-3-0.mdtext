@@ -1,19 +1,19 @@
 Title:  Version 15.3.0
 
-Timestamp: 20240911182329
+Seq:    13.18
 
-Seq:    16.18
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-09-15
-
-Level:  3 - Section
 
 Teaser:
 
 Several bug fixes: fixed MultiMarkdown "downshift"; fixed coding for an XML ellipsis; fixed merge template problems with conversion of body to HTML; fixed a file renaming issues; fixed a problem that occurred when changing the edit font settings. 
 
 
-Class:  version
+Timestamp: 20240911182329
 
 Body:
 

@@ -1,18 +1,20 @@
 Title:  Outline
 
-Timestamp: 20221111191245
+Tags:   collection types.outline, outlining
 
-Seq:    5.4.9
+Seq:    3.2.4.9
 
-Level:  4 - Subsection
-
-Index:  outlining; 
+Level:  5 - details
 
 Class:  non-version
 
+Index:  outlining; 
+
+Timestamp: 20250511224344
+
 Body:
 
-This is a Collection meant to be used as a simple outline. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It makes use of [[Fields for Sequencing and Outlining]].
+This is a collection meant to be used as a simple outline. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It makes use of [[Fields for Sequencing and Outlining]].
 
 ```
 Title: <title> 

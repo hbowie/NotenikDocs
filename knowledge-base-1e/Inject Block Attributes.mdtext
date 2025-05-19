@@ -1,0 +1,37 @@
+Title:  Inject Block Attributes
+
+Timestamp: 20241217232002
+
+Seq:    7.3.7.6
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+The `inject` command can be used to specify an HTML [class](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class), an [id](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id) and/or [style](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style) for the following block level element, such as a paragraph or an unordered list. 
+
+The command takes from 2 - 4 parameters, separated by `|` characters. 
+
+Here is a general form of the command.
+
+`{:inject:` *element* `|` *class* `|` *id* `|` *style* `}`
+
+Here's an example of the sort of code you might use. 
+
+```
+{:inject: p | notice }
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+```
+
+The first parameter, the `p`, indicates that the block level element to be modified is a paragraph. The second parameter, the `notice`, specifies the desired class value to be injected into the HTML. 
+
+And here's the way it might appear (depending on CSS styling). 
+
+{:inject: p | notice }
+**Want to learn how to make a website like this?**   
+Check out the free web book [HTML for People](https://htmlforpeople.com), along with the Notenik Companion. It's made for everyone and teaches you how to make a website in a friendly, approachable way.
+
+Notiice that standard Markdown syntax can be freely employed within the following block, and that the specified class value is only applied to a single block element.

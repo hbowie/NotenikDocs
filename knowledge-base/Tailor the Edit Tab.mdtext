@@ -1,28 +1,30 @@
 Title:  Tailor the Edit Tab
 
+Tags:   windows.collection.edit tab
+
 AKA:    Adjust Edit Fonts, Edit Font Settings
 
-Timestamp: 20220622180501
+Seq:    3.4.2
 
-Seq:    6.3.2
-
-Level:  4 - Subsection
-
-Index:  edit fonts; fonts; 
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  tailoring; 
+
+Timestamp: 20220622180501
+
 Body:
 
-If you look beneath the `View` menu, you will find several options that will allow you to edit the appearance of the Edit Tab. 
+If you look beneath the View menu, you will find several options that will allow you to edit the appearance of the Edit tab. 
 
 Note that any of these options may be exercised while editing a Note, and the changes will be reflected as soon as they are made (although only after saving any in-flight changes).
 
-These options allow apply to all Collections -- they are not Collection-specific.  
+These options allow apply to all collections -- they are not collection-specific.  
 
-+ `Increase Edit Font Size` -- This option will increase the font size(s) used on the Edit Tab. 
++ `Increase Edit Font Size` -- This option will increase the font size(s) used on the Edit tab. 
 
-+ `Decrease Edit Font Size` -- This option will decrease the font size(s) used on the Edit Tab. 
++ `Decrease Edit Font Size` -- This option will decrease the font size(s) used on the Edit tab. 
 
 + `Reset Edit Font Size` -- This option will reset the font size(s) used on the Edit tab to the default sizing. 
 

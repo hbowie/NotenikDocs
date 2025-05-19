@@ -1,0 +1,22 @@
+Title:  Version 15.1.0
+
+Timestamp: 20240810185309
+
+Seq:    16.20
+
+Date:   2024-08-22
+
+Level:  3 - Section
+
+Teaser:
+
+Added a new optional Outline tab, for use when outlining with Notenik.
+
+
+Class:  version
+
+Body:
+
+##### Added an Optional Outline Tab
+
+Created a new [[Outline Tab]] that can optionally be displayed for Collections that use a Seq field to organize their Notes into a hierarchical outline.

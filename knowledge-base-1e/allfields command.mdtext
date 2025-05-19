@@ -1,0 +1,12 @@
+Title:  allfields command
+
+Timestamp: 20210616230413
+
+Seq:    12.4.18
+
+Level:  4 - Subsection
+
+Body:
+
+This command will cause all of the fields in the current record/row/note to be written out as HTML, formatted as they would appear on the Display tab within Notenik. 
+

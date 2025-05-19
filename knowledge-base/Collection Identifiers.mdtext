@@ -1,18 +1,20 @@
 Title:  Collection Identifiers
 
-AKA:    Collection IDs
+AKA:    Collection IDs, collection shortcuts
 
-Timestamp: 20231231204208
+Seq:    6.8.1
 
-Seq:    8.8.1
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  collection ID; 
+
+Timestamp: 20231231204208
+
 Body:
 
-When using multiple Collections -- especially Collections that are in some way related to one another -- you may find it useful to be able to refer to a particular Collection via some brief handle. 
+When using multiple collections -- especially collections that are in some way related to one another -- you may find it useful to be able to refer to a particular collection via some brief handle. 
 
 Such a handle should generally consist of all lowercase letters, possibly with digits, but without spaces or punctuation. 
 
@@ -24,9 +26,9 @@ Such a Collection ID may be specified in either of two ways:
 
 Note that, in order for a Collection Identifier to be available for use, Notenik must have gained awareness of the ID during its current session. This awareness can come about in multiple ways:
 
-+ Notenik may recall a Collection shortcut used in a previous session;
-+ The Collection may have been opened during the current session;
-+ The Collection may have been opened as part of a [[project folder]]. 
++ Notenik may recall a collection shortcut used in a previous session;
++ The collection may have been opened during the current session;
++ The collection may have been opened as part of a [[project folder]]. 
 
 The most reliable way to make use of a Collection ID is:
 

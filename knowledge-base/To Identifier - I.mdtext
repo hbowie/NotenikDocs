@@ -2,13 +2,15 @@ Title:  To Identifier - I
 
 AKA:    To Identifier
 
+Seq:    9.3.20
+
+Level:  4 - chunk
+
+Class:  non-version
+
 Timestamp: 20220719193909
-
-Seq:    12.3.20
-
-Level:  4 - Subsection
 
 Body:
 
-The letter "I", when not being used as part of an [[Initial Case]] identifier, will cause the variable to be transformed to a lowest-common-denominator ID that can be used to identify a Note with the given Title. Spaces and punctuation will be removed, and all upper-case letters will be converted to lower-case. 
+The letter "I", when not being used as part of an [[Initial Case]] identifier, will cause the variable to be transformed to a lowest-common-denominator ID that can be used to identify a Note with the given Title. Spaces and punctuation will be removed, and all upper-case letters will be converted to lower-case.
 

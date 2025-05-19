@@ -1,18 +1,18 @@
 Title:  Share with Options
 
-Timestamp: 20211116184349
+Seq:    8.2
 
-Seq:    10.1.1
-
-Level:  4 - Subsection
-
-Index:  share note with options; JSON; blockquote; microblog post; 
+Level:  3 - chapter
 
 Class:  non-version
 
+Index:  share; copy; HTML; JSON; Markdown; merge templates; templates; 
+
+Timestamp: 20211116184349
+
 Body:
 
-The **Share w/Options...** command beneath the **Note** menu offers many powerful options for sharing the current Note. 
+The Share w/Options command beneath the Note menu offers many powerful options for sharing the current note. 
 
 These options fall into four different categories. 
 

@@ -1,14 +1,16 @@
 Title:  Markdown Settings
 
-Timestamp: 20230615210059
+Seq:    7.1.4
 
-Seq:    6.1.4
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  Markdown; settings; 
+
+Timestamp: 20250511225232
+
 Body:
 
-On this tab you can exercise your [[Choice of Markdown Parsers]].
+On this tab you can exercise your choice of Markdown parsers.
 

@@ -1,19 +1,19 @@
 Title:  Version 14.5.0
 
-Timestamp: 20240503162856
+Seq:    13.26
 
-Seq:    16.26
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-05-17
-
-Level:  3 - Section
 
 Teaser:
 
 Improved Index extract; improved export to iCal; a new merge template variable was provided in order to extract a file extension from a file name or path; fixed several bugs. 
 
 
-Class:  version
+Timestamp: 20240503162856
 
 Body:
 

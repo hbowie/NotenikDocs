@@ -1,19 +1,19 @@
 Title:  Version 16.4.0
 
-Timestamp: 20250203200130
+Seq:    13.7
 
-Seq:    16.7
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2025-02-20
-
-Level:  3 - Section
 
 Teaser:
 
 Fixed a cross-collection wikilink bug; fixed copyimage issues; replaced the populate app catalog function with a new import option; the note selector last action is now saved per Collection, rather than globally; added an action parameter to the custom URL definition to allow the Select a Note window to be opened by a URL. 
 
 
-Class:  version
+Timestamp: 20250203200130
 
 Body:
 

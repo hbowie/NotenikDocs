@@ -1,19 +1,19 @@
 Title:  Version 13.6.0
 
-Timestamp: 20231203185752
+Seq:    13.36
 
-Seq:    16.36
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-12-18
-
-Level:  3 - Section
 
 Teaser:
 
 Added a Field Renamer Utility; fixed a Variable Modifier bug; fixed a Date-Time formatting bug; Fixed a couple of lingering problems with Dynamic Task Lists.
 
 
-Class:  version
+Timestamp: 20231203185752
 
 Body:
 

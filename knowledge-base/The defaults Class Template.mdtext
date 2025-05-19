@@ -1,14 +1,14 @@
 Title:  The defaults Class Template
 
-Timestamp: 20220619181258
+Seq:    6.1.7
 
-Seq:    8.1.7
-
-Level:  4 - Subsection
-
-Index:  default field values; field value defaults; defaults template file; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  defaults; templates; 
+
+Timestamp: 20220619181258
 
 Body:
 
@@ -22,7 +22,7 @@ Here's how to make this work.
 
 2. After creating the requested class template file, Notenik will ask macOS to open the file within your preferred text editor. 
 
-3. The new defaults template file will have all of the Collection's field labels called out, but without any following information. You can now pecify default values for any of these field labels, to be provided whenever you create a new Note. 
+3. The new defaults template file will have all of the Collection's field labels called out, but without any following information. You can now specify default values for any of these field labels, to be provided whenever you create a new note. 
 
 4. There are special rules associated with [[Specifying a Default Title Value]].
 	

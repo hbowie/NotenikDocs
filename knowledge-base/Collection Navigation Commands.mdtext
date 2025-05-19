@@ -1,34 +1,32 @@
 Title:  Collection Navigation Commands
 
-Timestamp: 20220916192827
+Seq:    4.10
 
-Seq:    7.3.9
-
-Level:  4 - Subsection
+Level:  3 - chapter
 
 Class:  non-version
 
 Body:
 
-The following commands can be used to provide navigation throughout a Collection. 
+The following commands can be used to provide navigation throughout a collection. 
 
 These Markdown extensions are generally unique to Notenik. 
 
-When using Notenik to turn a Collection into a website (as with the [[Export as Web Book]] functionality), these commands can be used to create pages facilitating navigation through the entire site. 
+When using Notenik to turn a collection into a website (as with the [[Export as Web Book]] functionality), these commands can be used to create pages facilitating navigation through the entire site. 
 
-A note on performance: when Notenik displays a Note containing one of these commands, the app dynamically runs through the entire Collection in order to create the resulting HTML used to generate the view seen on the Display tab. This can take a while, especially for a large Collection, so don't be surprised if a page like this takes a bit longer to load than a normal Note would. 
+A note on performance: when Notenik displays a note containing one of these commands, the app dynamically runs through the entire Collection in order to create the resulting HTML used to generate the view seen on the Display tab. This can take a while, especially for a large collection, so don't be surprised if a page like this takes a bit longer to load than a normal note would. 
 
-When a Collection is turned into a website, then this Notenik performance hit will be taken when the output HTML is generated, and not when the resulting page is loaded into a web browser. 
+When a collection is turned into a website, then this Notenik performance hit will be taken when the output HTML is generated, and not when the resulting page is loaded into a web browser. 
 
 On the other hand, if the command results in the generation of a large web page (as is especially true for the `search` command), then some delays can also be expected when loading the output web page into a browser. 
 
 | Syntax | Function |
 | --------- | ------------ |
-|`{:biblio}` | [[Generate a Bibliography]] |
-| `{:calendar}` | [[Generate a Collection Calendar]] |
+|`{:biblio}` | *[[Generate a Bibliography]]* |
+| `{:calendar}` | *[[Generate a Collection Calendar]]* |
 | `{:collection-toc:2-3}` | *[[Generate a Collection Table of Contents]]* |
 | `{:index}` | *[[Generate a Collection Index]]* |
-| `{:random}` | [[Go To Random Note]]* |
+| `{:random}` | *[[Go To Random Note]]* |
 | `{:search}` | *[[Generate a Collection Search Page]]* |
 | `{:tags-cloud}` | *[[Generate a Tags Cloud]]* |
 | `{:tags-outline}` | *[[Generate a Tags Outline]]* |

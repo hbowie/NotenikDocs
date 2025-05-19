@@ -1,10 +1,12 @@
 Title:  clearglobals command
 
+Seq:    9.4.2
+
+Level:  4 - chunk
+
+Class:  version
+
 Timestamp: 20241209224236
-
-Seq:    12.4.2
-
-Level:  4 - Subsection
 
 Body:
 

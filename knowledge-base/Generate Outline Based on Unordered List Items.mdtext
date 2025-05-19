@@ -1,14 +1,16 @@
 Title:  Generate Outline Based on Unordered List Items
 
-Timestamp: 20230521181817
+Tags:   outlining
 
-Seq:    7.3.8.2
+Seq:    4.9.2
 
-Level:  5 - Details
-
-Index:  outlining; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  outlining; unordered list; 
+
+Timestamp: 20250511215000
 
 Body:
 
@@ -44,4 +46,3 @@ See examples below for outlines based on Unordered List Items.
 	For an example, see the following line:
 
 		{:outline-headings:3}
-

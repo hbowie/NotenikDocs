@@ -1,18 +1,20 @@
 Title:  To Do
 
-Timestamp: 20221111184847
+Tags:   collection types.to do
 
-Seq:    5.4.4
+Seq:    3.2.4.4
 
-Level:  4 - Subsection
-
-Index:  to do lists; tasks; 
+Level:  5 - details
 
 Class:  non-version
 
+Index:  to do; 
+
+Timestamp: 20250511224155
+
 Body:
 
-This is a Collection meant to be used as a simple Task list. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is similar to the [[Web Links]] starter, with the addition of the [[Status]], [[Date]] and [[Recurs]] fields. 
+This is a collection meant to be used as a simple Task list. It provides the following [[Lists of Labels and Types|fields]] as defined in [[the Collection Template File]]. It is similar to the [[Web Links]] starter, with the addition of the [[Status]], [[Date]] and [[Recurs]] fields. 
 
 ```
 Title: <title> 

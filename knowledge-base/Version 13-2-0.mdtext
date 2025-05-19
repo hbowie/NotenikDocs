@@ -1,19 +1,19 @@
 Title:  Version 13.2.0
 
-Timestamp: 20231016183009
+Seq:    13.40
 
-Seq:    16.40
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-10-18
-
-Level:  3 - Section
 
 Teaser:
 
 Fixed a bug affecting the use of a `display.html` template file; adding some limited support to import vCards into Notenik; added a new function to assign a specified tag to a set of search results.
 
 
-Class:  version
+Timestamp: 20231016183009
 
 Body:
 

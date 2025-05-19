@@ -1,12 +1,12 @@
 Title:  Version 16.6.0
 
-Timestamp: 20250314171105
+Seq:    13.5
 
-Seq:    16.5
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2025-03-30
-
-Level:  3 - Section
 
 Teaser:
 
@@ -14,7 +14,7 @@ Improved dot handling in filenames; Added a randompick option to the Notenik Cus
 Added another new option to the Custom URL scheme, allowing a Notenik script to be executed; Added Useful Notenik Custom URLs available when viewing Project Folders; Skipping Links for non-HTML author-work-slug; Adding sort to Launch at Startup Notes, so they launch in sequence; Fixed Some Markdown Parsing Errors; Added Variable Modifier for Alternate Numbering, supporting upper- and lower-case letters and roman numerals; Improved the EPUB Export, allowing depth setting for Table of Contents; Modifed the Outline Tab to allow Titles to be displayed without preceding Seq numbers.
 
 
-Class:  version
+Timestamp: 20250314171105
 
 Body:
 

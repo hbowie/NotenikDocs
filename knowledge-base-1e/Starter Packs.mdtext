@@ -1,0 +1,29 @@
+Title:  Starter Packs
+
+Timestamp: 20250224235503
+
+Seq:    5.3
+
+Level:  3 - Section
+
+Class:  non-version
+
+Body:
+
+A *Starter Pack* is a set of files that can be used to initialize a new Notenik Project or Collection. 
+
+Most significantly, a Starter Pack includes a [[Collection Template File]] specifying the [[Field Labels and Types]] that will be available for use by the new Collection. 
+
+Notenik comes with a number of [[Built-In Starter Packs]], and the user may choose from any of these when creating a new Collection. 
+
+To view the detailed contents of any of these Starter Packs, the user may choose either of the following options:
+
++ Select the Notenik application using the Finder, then right-click and choose *Show Package Contents*; navigate to the `Contents/Resources/models` folder; here you will see all of the built-in Starter Packs; click on any of these to view the contents. 
+
++ View them online, at [github.com/hbowie/Notenik-25/tree/main/Notenik/models](https://github.com/hbowie/Notenik-25/tree/main/Notenik/models). 
+
+Additional Starter Packs may be created by the user, or exchanged with other Notenik users via the [Notenik Discourse Forum](https://discourse.notenik.app/). 
+
+Additional Starter Packs may be placed in a folder titled `Starter Packs` within the iCloud Drive Notenik folder.
+
+Note that Starter Packs may be compressed into the the popular [Zip format](https://en.wikipedia.org/wiki/ZIP_(file_format)) in order to make handling and exchange easier; however Notenik will require such a compressed archive to be unzipped before it can be used.

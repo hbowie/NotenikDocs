@@ -1,14 +1,18 @@
 Title:  Heading auto-numbering
 
-Timestamp: 20210607233103
+Tags:   headings
 
-Seq:    7.3.2.3
+Seq:    4.3.3
 
-Level:  5 - Details
+Level:  4 - chunk
 
-Index:  heading auto-numbering; 
+Class:  version
+
+Index:  headings; numbering; 
+
+Timestamp: 20250511215000
 
 Body:
 
-As an extension to the original Markdown spec from John Gruber, headings may be auto-numbered in a fashion similar to the usual numbering of ordered items. 
+As an extension to the original Markdown spec from John Gruber, headings may be auto-numbered in a fashion similar to the usual numbering of ordered items.
 

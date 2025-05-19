@@ -1,19 +1,19 @@
 Title:  Version 13.0.0
 
-Timestamp: 20230918183643
+Seq:    13.42
 
-Seq:    16.42
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-09-29
-
-Level:  3 - Section
 
 Teaser:
 
 Added Ability to Specify a Default Title Value; Added Squeeze Option for Punctuation Purification; Made Tasklists Display Dynamic and Functional; Fixed a Problem with Link Interpretation; Fix for Seq Field Formatting on Secondary Displays; Fix for Seq Field Display on List Tab; Fixed a Markdown Parser Problem with Isolated Numbers; Fixed a Problem with Blank Lines in YAML front matter; Fixed a Horizontal Rule Problem; Fixed a Title Display Problem.
 
 
-Class:  version
+Timestamp: 20230918183643
 
 Body:
 

@@ -1,16 +1,20 @@
 Title:  Word and Character Counts
 
-Timestamp: 20210626220805
+Tags:   menus.Note.Show Counts
 
-Seq:    7.3.1
+Seq:    4.2
 
-Level:  4 - Subsection
+Level:  3 - chapter
 
-Index:  counts; word counts; character counts; 
+Class:  non-version
+
+Index:  counts; 
+
+Timestamp: 20250511215000
 
 Body:
 
-Beneath the Note menu there is an option to Show Counts. If you are using the Notenik Markdown parser, then selecting this item will display a window showing five separate numbers pertaining to the Body field of the currently selected Note. 
+Beneath the Note menu there is an option to Show Counts. If you are using the Notenik Markdown parser, then selecting this item will display a window showing five separate numbers pertaining to the body field of the currently selected note. 
 
 * Total Markdown Size -- This is the total number of characters contained in the body field. 
 * Number of Markdown Lines -- The number of lines in the body field. A line is counted only when ended by a line break or by the end of the Body field. 

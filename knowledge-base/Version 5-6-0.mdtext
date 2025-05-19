@@ -1,17 +1,17 @@
 Title:  Version 5.6.0
 
-Timestamp: 20210627222923
+Seq:    13.133
 
-Seq:    16.133
+Level:  3 - chapter
 
 Date:   2021-02-12
-
-Level:  3 - Section
 
 Teaser:
 
 Added an option to sort a Collection by Date Added; added a streamlined method for creating a new collection; enabled updating of all file extensions for all notes when the preferred file extension is changed in the collection settings.
 
+
+Timestamp: 20210627222923
 
 Body:
 

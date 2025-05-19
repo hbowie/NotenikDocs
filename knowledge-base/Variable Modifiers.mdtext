@@ -1,14 +1,12 @@
 Title:  Variable Modifiers
 
-Timestamp: 20210616193633
+Seq:    9.3
 
-Seq:    12.3
-
-Level:  3 - Section
-
-Index:  merge variable modifiers; 
+Level:  3 - chapter
 
 Class:  non-version
+
+Timestamp: 20210616193633
 
 Body:
 
@@ -52,7 +50,7 @@ The following table summarizes the primary use of various letters and characters
 | W | [[Wiki-Style Links Mod]] | 
 | X | [[XML Mod]] | 
 | Z | [[Linked Tags - Z]] |
-| a | [[AM/PM Mod]] | 
+| a | [[AM PM Mod]] | 
 | y | [[Year Mod]] | 
 | dd | [[Day of Month Mod]] | 
 | EEE | [[Day of Week Abbreviated]] | 

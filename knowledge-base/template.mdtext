@@ -4,21 +4,19 @@ AKA: <aka>
 
 Tags: <tags>
 
-Link: <link>
+Seq: <seq>
 
-Timestamp: 
+Level: <level: 1 - collection; 2 - section; 3 - chapter; 4 - chunk; 5 - details; >
 
-Seq: <seq: A.n.a.i.n|A.|xn.|xxa.|xxxi.|xxxxn.>
-
-Date: <date>
-
-Level: <level: 1 - Collection; 2 - Article; 3 - Section; 4 - Subsection; 5 - Details; >
+Class: <class: , chapter-page, non-version, title-page, version >
 
 Index: <index>
 
+Date: <date>
+
 Teaser: <teaser>
 
-Class: <class: , non-version, title-page, version >
+Timestamp: 
 
 Body: 
 

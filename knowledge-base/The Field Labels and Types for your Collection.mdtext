@@ -1,22 +1,18 @@
 Title:  The Field Labels and Types for your Collection
 
-Timestamp: 20210618003507
+Seq:    3.2.1.3
 
-Seq:    5.1.3
-
-Level:  4 - Subsection
-
-Index:  Zettelkasten; commonplace book; collection types; types of collections; 
+Level:  5 - details
 
 Class:  version
 
 Body:
 
-Each Collection can have its own combination of [[Field Labels and Types]]. The fields you choose will help to determine the particular functionality that may be available for your Collection. 
+Each collection can have its own combination of [[Field Labels and Types]]. The fields you choose will help to determine the particular functionality that may be available for your Collection. 
 
 Most commonly you might have the following sorts of Collections. 
 
-1. Basic Notes -- Such a Collection might have only a Title, Tags and Body fields. 
+1. Basic Notes -- Such a collection might have only a Title, Tags and Body fields. 
 
 2. Web Links -- Add a Link field to the ones defined for Basic Notes, and you can collect your web bookmarks. 
 

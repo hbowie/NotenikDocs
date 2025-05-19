@@ -1,19 +1,19 @@
 Title:  Version 12.2.0
 
-Timestamp: 20230528183635
+Seq:    13.50
 
-Seq:    16.50
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2023-06-05
-
-Level:  3 - Section
 
 Teaser:
 
 Expanded definition of alphabetic characters, to include accented characters, when cleaning string for use in tags, and for file names (accented characters are now accepted, whereas before they were being dropped); expanded allowable sequence depth for accurate sorting -- sorting was only accurate for the first six levels before, and now it should be accurate for any number of levels; better handling of images in streamlined reading mode; improved scrolling on the list tab, to prevent unwanted horizontal scrolling.
 
 
-Class:  version
+Timestamp: 20230528183635
 
 Body:
 

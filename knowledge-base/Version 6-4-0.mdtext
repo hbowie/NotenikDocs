@@ -1,19 +1,19 @@
 Title:  Version 6.4.0
 
-Timestamp: 20210627222923
+Seq:    13.124
 
-Seq:    16.124
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-07-02
-
-Level:  3 - Section
 
 Teaser:
 
 Markdown parser support for definition lists; new Collection setting for Streamlined Reading, increasing focus on Body content on the Display tab; new Display navigation elements added when using Streamlined Reading, especially useful when using Seq and Level fields and sorting by Seq; new Notenik Knowledge Base, available from the Help menu (replacing all prior Help documentation).
 
 
-Class:  version
+Timestamp: 20210627222923
 
 Body:
 

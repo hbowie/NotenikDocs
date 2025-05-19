@@ -1,14 +1,16 @@
 Title:  Wiki Links Between Collections
 
-Timestamp: 20220908213710
+Tags:   wikilinks
 
-Seq:    7.3.5.2
+Seq:    4.6.2
 
-Level:  5 - Details
-
-Index:  wiki links; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  wikilinks; collection ID; 
+
+Timestamp: 20250511215000
 
 Body:
 
@@ -28,4 +30,4 @@ Note that each Collection will be opened in its own window, as is usual for Note
 
 In order to increase interoperability with other apps, such as iA Writer, a leading '`/`' or '`../`' will be tolerated, but ignored.
 
-If your Collection Settings request Notenik to Create Notes for Missing Wiki Link Targets, then Notenik will create the targeted Note in the targeted Collection, if the targeted Note is not already present.
+If your [[Collection Settings]] request Notenik to Create Notes for Missing Wiki Link Targets, then Notenik will create the targeted Note in the targeted Collection, if the targeted Note is not already present.

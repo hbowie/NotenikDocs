@@ -1,19 +1,19 @@
 Title:  Version 8.7.1
 
-Timestamp: 20211116184349
+Seq:    13.89
 
-Seq:    16.89
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-03-11
-
-Level:  3 - Section
 
 Teaser:
 
 Quick fix to new `File` menu command to `Grant Folder Access`.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

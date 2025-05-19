@@ -1,14 +1,14 @@
 Title:  Supply EPUB Metadata
 
-Timestamp: 20230413224049
+Seq:    4.11.4
 
-Seq:    7.3.10.4
-
-Level:  5 - Details
-
-Index:  metadata; EPUB; today; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  EPUB; 
+
+Timestamp: 20250511215000
 
 Body:
 

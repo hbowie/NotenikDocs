@@ -2,21 +2,22 @@ Title:  Import and Export Your Notes
 
 Tags:   streamlined reading
 
-AKA:    import
+AKA:    import, export your notes
 
-Timestamp: 20210627002314
+Seq:    8.4
 
-Seq:    10.3
-
-Level:  3 - Section
-
-Index:  import notes; export notes; tab-delimited; CSV; OmniFocus; XML; JSON; OPML; web books; tags export settings; tags to select; split tags option; quick export and open; 
+Level:  3 - chapter
 
 Class:  version
 
+Index:  importing; exporting; YAML; OmniFocus; XML; OPML; contacts; vCards; concatenation; web books; 
+
+Timestamp: 20210627002314
+
 Body:
 
-You can import and export a Collection in a variety of formats, using commands found under the File menu.
+You can import and export a collection in a variety of formats, using commands found under the File menu.
+
 Following are the supported formats.
 
 * Import/Export in Notenik Format  

@@ -1,16 +1,18 @@
 Title:  Add, Delete and Edit Your Notes
 
+Tags:   menus.Note.Delete Note, menus.Note.Discard Edits, menus.Note.New Note, menus.context.Delete Range
+
 AKA:    New Note, Discard Edits
 
-Timestamp: 20210618170924
+Seq:    3.4
 
-Seq:    6.3
-
-Level:  3 - Section
-
-Index:  add a note; new note; delete a note; edit a note; edit fonts; 
+Level:  3 - chapter
 
 Class:  version
+
+Index:  Edit tab; New Note; add a note; edit; 
+
+Timestamp: 20210618170924
 
 Body:
 

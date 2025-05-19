@@ -1,12 +1,14 @@
 Title:  Date
 
+Seq:    5.7.1
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  dates; 
+
 Timestamp: 20210609170636
-
-Seq:    9.7.1
-
-Level:  4 - Subsection
-
-Index:  date field; sorting; 
 
 Body:
 

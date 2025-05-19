@@ -1,16 +1,22 @@
 Title:  Starter Packs
 
-Timestamp: 20250224235503
+Tags:   starter packs
 
-Seq:    5.3
+AKA:    Starting Collection Types
 
-Level:  3 - Section
+Seq:    3.2.3
+
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  starter packs; 
+
+Timestamp: 20250511223335
+
 Body:
 
-A *Starter Pack* is a set of files that can be used to initialize a new Notenik Project or Collection. 
+A *Starter Pack* is a set of files that can be used to initialize a new Notenik project or collection. 
 
 Most significantly, a Starter Pack includes a [[Collection Template File]] specifying the [[Field Labels and Types]] that will be available for use by the new Collection. 
 

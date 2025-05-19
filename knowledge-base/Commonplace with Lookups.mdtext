@@ -1,18 +1,20 @@
 Title:  Commonplace with Lookups
 
-Timestamp: 20221111192458
+Tags:   collection types.quotes, fields.lookup
 
-Seq:    5.4.11
+Seq:    3.2.4.11
 
-Level:  4 - Subsection
-
-Index:  commonplace book; lookup field; 
+Level:  5 - details
 
 Class:  non-version
 
+Index:  commonplace book; lookups; 
+
+Timestamp: 20250511224432
+
 Body:
 
-This is a more sophisticated version of a [[Commonplace Book]]. This starter pack actually consists of three different Collections that are tied together through the use of [[Lookup]] fields. 
+This is a more sophisticated version of a [[Commonplace Book]]. This starter pack actually consists of three different collections that are tied together through the use of [[Lookup]] fields. 
 
 The first collection is designed to store quotations, and its template file looks like this:
 

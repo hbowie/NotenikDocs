@@ -1,14 +1,14 @@
 Title:  Display Teasers
 
-Timestamp: 20220528173052
+Seq:    4.10.9
 
-Seq:    7.3.9.9
-
-Level:  5 - Details
-
-Index:  teaser field; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  teasers; 
+
+Timestamp: 20250511215000
 
 Body:
 

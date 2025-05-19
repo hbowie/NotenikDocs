@@ -1,14 +1,14 @@
 Title:  Lists of Labels and Types
 
-Timestamp: 20210609165506
+AKA:    field types
 
-Seq:    9.3
+Seq:    5.3
 
-Level:  3 - Section
-
-Index:  field labels; field types; 
+Level:  3 - chapter
 
 Class:  non-version
+
+Timestamp: 20210609165506
 
 Body:
 
@@ -53,7 +53,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Folder]]
 + [[Image Name]]
 + [[Include Children]]
-+ [[Index]]
++ [[Index Field|Index]]
 + [[Integer]]
 + [[Level]]
 + [[Link]]

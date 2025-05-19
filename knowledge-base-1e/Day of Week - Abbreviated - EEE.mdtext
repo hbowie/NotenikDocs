@@ -1,0 +1,14 @@
+Title:  Day of Week, Abbreviated - EEE
+
+AKA:    Day of Week Abbreviated
+
+Timestamp: 20210616215854
+
+Seq:    12.3.14
+
+Level:  4 - Subsection
+
+Body:
+
+The letters "EEE" represent an abbreviated, 3-character, day of week within a date formatting string.
+

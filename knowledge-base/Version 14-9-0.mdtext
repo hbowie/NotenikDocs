@@ -1,19 +1,19 @@
 Title:  Version 14.9.0
 
-Timestamp: 20240706180439
+Seq:    13.22
 
-Seq:    16.22
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-07-16
-
-Level:  3 - Section
 
 Teaser:
 
 This new version includes improved JSON preparation, remembrance of the last attachment folder when selecting another file to be attached, and a new way to override the use of a custom display template, when one is found. 
 
 
-Class:  version
+Timestamp: 20240706180439
 
 Body:
 

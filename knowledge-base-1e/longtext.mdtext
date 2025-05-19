@@ -1,0 +1,15 @@
+Title:  longtext
+
+Timestamp: 20210609174551
+
+Seq:    9.15.4
+
+Level:  4 - Subsection
+
+Index:  longtext field; Markdown; body field; teaser field; 
+
+Body:
+
+A field type of 'longtext' implies a multi-line text field that may be formatted using Markdown. 
+
+The [[Body]] field and the [[Teaser]] field both default to a type of 'longtext'.

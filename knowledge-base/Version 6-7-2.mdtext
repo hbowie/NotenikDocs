@@ -1,19 +1,19 @@
 Title:  Version 6.7.2
 
-Timestamp: 20210724211745
+Seq:    13.119
 
-Seq:    16.119
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2021-07-24
-
-Level:  3 - Section
 
 Teaser:
 
 Corrected a couple of significant deficiencies in the MathJax support.
 
 
-Class:  version
+Timestamp: 20210724211745
 
 Body:
 

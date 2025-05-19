@@ -1,0 +1,46 @@
+Title:  Version 13.9.0
+
+Timestamp: 20240124004953
+
+Seq:    16.33
+
+Date:   2024-02-01
+
+Level:  3 - Section
+
+Teaser:
+
+Added Search Scope Options; Export Web Book Refinements; Documentation Improvements; Fixed a Problem with Image Names.
+
+
+Class:  version
+
+Body:
+
+##### Added Search Scope Options
+
+When performing a [[Search]] within Notenik, the user may now elect to search only the currently selected Note and following Notes, or only the currently selected Note and all of its children.
+
+##### Export as Web Book Refinements
+
+Made a few minor improvements to the way the [[Export as Web Book]] function works. 
+
+##### Documentation Updates
+
+Updated some of the documentation collections other than the Knowledge Base. Also moved these around a bit, both when accessing within the app, and when accessing on the [Notenik.app site](https://notenik.app/docs.html).
+
+##### Removed the Product Vision from the Knowledge Base
+
+Moved this page to the [Notenik.app website](https://notenik.app/vision.html).
+
+##### Added Bottom Margin to Headings
+
+A small bottom margin (0.2em) was added  to all headings ( h1 - h6). 
+
+##### Fixed an Image Name Problem
+
+The [[Image Name]] field would sometimes become associated with the wrong file attachment. 
+
+##### Improved Knowledge Base Usability
+
+The Knowledge Base was streamlined and reorganized a biit to make it more usable and more useful.

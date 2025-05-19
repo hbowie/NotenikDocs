@@ -1,12 +1,14 @@
 Title:  Body
 
+Seq:    5.4.4
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  body; 
+
 Timestamp: 20210609165933
-
-Seq:    9.4.5
-
-Level:  4 - Subsection
-
-Index:  body field; 
 
 Body:
 
@@ -22,4 +24,4 @@ When parsing a Notenik text file, the body field has the special distinction of 
 
 When editing, the body field will appear as a multi-line text field, and will take up whatever available space is left after  the edit widgets for other fields have been presented. 
 
-For Display purposes, the body field will be run through a Markdown parser before presentation.
+For Display purposes, the body field will be run through a [[Markdown]] parser before presentation.

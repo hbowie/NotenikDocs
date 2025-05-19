@@ -1,19 +1,19 @@
 Title:  Version 15.2.0
 
-Timestamp: 20240824001425
+Seq:    13.19
 
-Seq:    16.19
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-09-04
-
-Level:  3 - Section
 
 Teaser:
 
 Increased Respect for Existing File Names; Added Tags Handling Option for Inline Hashtags; Grouping of Untagged Notes; Adding a Byline Formatting Command; Added Dark Image Option; Fixed Collection Table of Contents Bugs.
 
 
-Class:  version
+Timestamp: 20240824001425
 
 Body:
 

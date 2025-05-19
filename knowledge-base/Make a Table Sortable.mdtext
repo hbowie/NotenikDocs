@@ -1,14 +1,16 @@
 Title:  Make a Table Sortable
 
-Timestamp: 20230223243454
+Tags:   tables
 
-Seq:    7.3.8.5
+Seq:    4.9.5
 
-Level:  5 - Details
-
-Index:  tables; 
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  tables; sorting; 
+
+Timestamp: 20250511215000
 
 Body:
 

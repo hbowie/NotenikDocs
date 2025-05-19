@@ -1,12 +1,14 @@
 Title:  Rules for New Notes
 
+Seq:    6.11.3
+
+Level:  4 - chunk
+
+Class:  version
+
 Timestamp: 20210608235523
-
-Seq:    8.11.3
-
-Level:  4 - Subsection
 
 Body:
 
-New notes will be written out using whatever format is already in use within the Collection. 
+New notes will be written out using whatever format is already in use within the Collection, or whatever is specified in the [[Collection Settings]].
 

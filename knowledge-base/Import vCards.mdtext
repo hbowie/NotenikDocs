@@ -2,13 +2,15 @@ Title:  Import vCards
 
 AKA:    vCard Import
 
-Timestamp: 20231017214309
+Seq:    8.4.4
 
-Seq:    10.3.4
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  contacts; vCards; importing; 
+
+Timestamp: 20231017214309
 
 Body:
 

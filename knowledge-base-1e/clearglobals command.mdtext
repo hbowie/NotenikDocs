@@ -1,0 +1,13 @@
+Title:  clearglobals command
+
+Timestamp: 20241209224236
+
+Seq:    12.4.2
+
+Level:  4 - Subsection
+
+Body:
+
+This command will clear all [[Global Variables]] currently set by means of a [[set command]]. 
+
+Note that global variables are not automatically cleared when a [[nextrec command]] is processed, nor when a [[loop command]] is encountered.

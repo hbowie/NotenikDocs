@@ -1,14 +1,16 @@
 Title:  Reset to Defaults
 
-Timestamp: 20241214181532
+Seq:    7.1.5
 
-Seq:    6.1.5
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  settings; 
+
+Timestamp: 20250511225259
+
 Body:
 
-This command, found beneath the Notenik menu, can be used to reset many of the [[Notenik Settings]] (including specification of an Essential Collection) to their default values. 
+This command, found beneath the Notenik menu, can be used to reset many of the [[Notenik Settings]] (including specification of an Essential Collection) to their default values.
 

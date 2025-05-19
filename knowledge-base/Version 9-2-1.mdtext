@@ -1,19 +1,19 @@
 Title:  Version 9.2.1
 
-Timestamp: 20211116184349
+Seq:    13.81
 
-Seq:    16.81
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-04-21
-
-Level:  3 - Section
 
 Teaser:
 
 Fixed a problem that arose when a text file has a starting character that is invisible.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

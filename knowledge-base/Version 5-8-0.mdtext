@@ -1,17 +1,17 @@
 Title:  Version 5.8.0
 
-Timestamp: 20210627222923
+Seq:    13.131
 
-Seq:    16.131
+Level:  3 - chapter
 
 Date:   2021-04-06
-
-Level:  3 - Section
 
 Teaser:
 
 A bunch of changes intended for website generation: added new standard field labels/types of 'Image Name' and 'Minutes to Read', added a copyfile template command; added a new variable modifier to reformat an author's name; added the ability to specify css classes as part of the Linked Tags variable modifier; added Page Type as an additional field available when reading an indexed Notenik Collection; plus a few bug fixes.
 
+
+Timestamp: 20210627222923
 
 Body:
 

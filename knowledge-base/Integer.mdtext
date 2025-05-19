@@ -1,16 +1,16 @@
 Title:  Integer
 
+Seq:    5.15.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  integer; 
+
 Timestamp: 20210609174445
-
-Seq:    9.15.3
-
-Level:  4 - Subsection
-
-Index:  integer field; 
-
-Class:  version
 
 Body:
 
-This value is used to represent an integer. The type identifier may also be abbreviated  as `int`. 
+This value is used to represent an integer. The type identifier may also be abbreviated  as `int`.
 

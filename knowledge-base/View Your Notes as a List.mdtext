@@ -1,16 +1,18 @@
 Title:  View Your Notes as a List
 
+Tags:   menus.Nav.Go To Random Note, menus.View.Show or Hide List
+
 AKA:    sort menu
 
-Timestamp: 20210618171450
+Seq:    3.6
 
-Seq:    6.5
-
-Level:  3 - Section
-
-Index:  list tab; next; prior; 
+Level:  3 - chapter
 
 Class:  non-version
+
+Index:  List tab; 
+
+Timestamp: 20210618171450
 
 Body:
 
@@ -24,8 +26,8 @@ You can navigate through this list using some of the buttons on the Toolbar:
 - '<' Takes you to the prior note.
 - '>' Takes you to the next note. 
 
-Some of the same navigational commands are available under the `Nav` menu, with handy keyboard shortcuts noted on the right. There you will also find a command to scroll the list so as to bring the currently selected Note into view at the top of the displayed Notes.
+Some of the same navigational commands are available under the Nav menu, with handy keyboard shortcuts noted on the right. There you will also find a command to scroll the list so as to bring the currently selected Note into view at the top of the displayed Notes.
 
-Note that there is also an option beneath the Nav menu to navigate to a new Note in the Collection via a random path.
+Note that there is also an option beneath the Nav menu to navigate to a different Note in the collection via a random path.
 
 The View menu contains a 'Show/Hide List' command that will allow you to collapse the List/Tags view, so that you can see the right side of the window without any distractions. Use the same command again to show the list after it has been concealed. The left side of the window can also be collapsed by dragging the divider all the way to the left. Again, though, use the View command to restore it after it has been collapsed.

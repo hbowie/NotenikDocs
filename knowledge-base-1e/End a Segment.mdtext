@@ -1,0 +1,21 @@
+Title:  End a Segment
+
+AKA:    endssegment command
+
+Timestamp: 20241212235601
+
+Seq:    7.3.7.8
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+The `endsegment` command ends a segment of some sort that was previously begun by a [[segment command]].
+
+The command would be coded as follows.
+
+	{:end-segment}
+
+Note that the command takes no parameters, and will simply close whatever segment element was last started.

@@ -1,19 +1,19 @@
 Title:  Version 14.8.0
 
-Timestamp: 20240627201147
+Seq:    13.23
 
-Seq:    16.23
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-07-02
-
-Level:  3 - Section
 
 Teaser:
 
 Added a new merge template variable called datacount, to keep a count of incoming data rows/notes; similarly, a new variable of datamax now provides a count of the total number of incoming rows/notes; a similarly named datacount variable may also now be referenced from a script filter rule, to limit the number of rows/notes selected; the linked tags - Z variable modifier has been tweaked a bit to ensure it works for internal tags links, as well external ones;  added a new merge template variable to test for include failures, so a fallback can be provided in these cases. 
 
 
-Class:  version
+Timestamp: 20240627201147
 
 Body:
 

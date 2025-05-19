@@ -1,12 +1,14 @@
 Title:  Notenik URL Expand Command
 
-Timestamp: 20250318195118
+Seq:    8.16.3
 
-Seq:    11.1.3
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  tags; expand; 
+
+Timestamp: 20250318195118
 
 Body:
 
@@ -30,4 +32,4 @@ The `expand` command accepts the following parameters following the question mar
 
 + `shortcut` - The shortcut for the Collection to be opened. 
 + `path` - The complete path to the Collection to be opened, with percent encoding. 
-+ `tag` - The tag to be expanded. 
++ `tag` - The tag to be expanded.

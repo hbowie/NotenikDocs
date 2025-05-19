@@ -1,19 +1,19 @@
 Title:  Version 15.8.0
 
-Timestamp: 20241114230455
+Seq:    13.13
 
-Seq:    16.13
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-11-25
-
-Level:  3 - Section
 
 Teaser:
 
 Renamed Parent Realm to Project Folder; made text files visible within the Project Folder; added default values for class and status fields; created a new option for naming script files; added new merge commands to copy images and copy css; expanded the usage for the file name variable modifier, to apply it to image file names; multiple css files may now be stored in a css folder, and the collection settings will allow the user to switch between them.
 
 
-Class:  version
+Timestamp: 20241114230455
 
 Body:
 

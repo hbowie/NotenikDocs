@@ -1,12 +1,16 @@
 Title:  Footnotes
 
-Timestamp: 20210607233324
+Tags:   footnotes
 
-Seq:    7.3.3.3
+Seq:    4.4.3
 
-Level:  5 - Details
+Level:  4 - chunk
+
+Class:  non-version
 
 Index:  footnotes; 
+
+Timestamp: 20250511215000
 
 Body:
 
@@ -35,7 +39,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ```
 
-Notenik adds a special feature for Footnotes. If you include a [[Short ID]] field in a Collection, then Notenik will automatically incorporate the Short ID for each Note into the code that creates the links from the referencing text to the appropriate footnote, and then back again to the referencing text, so that the resulting IDs will be unique, even if the resulting code for multiple Notes is combined into a single page.
+Notenik adds a special feature for Footnotes. If you include a [[Short ID]] field in a Collection, then Notenik will automatically incorporate the Short ID for each note into the code that creates the links from the referencing text to the appropriate footnote, and then back again to the referencing text, so that the resulting IDs will be unique, even if the resulting code for multiple notes is combined into a single page.
 
 
 [ext]: https://www.markdownguide.org/extended-syntax/

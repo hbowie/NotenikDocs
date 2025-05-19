@@ -1,19 +1,19 @@
 Title:  Version 16.3.0
 
-Timestamp: 20250118010037
+Seq:    13.8
 
-Seq:    16.8
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2025-01-25
-
-Level:  3 - Section
 
 Teaser:
 
 Minimum macOS Version Changed to 13.5; Added Function to Paste Formatted Text as Markdown; Single Children now Listed within Streamlined Contents; Improved Ampersand Handling in Titles; Fixed New Field Type Selection when Adding/Renaming a Field.
 
 
-Class:  version
+Timestamp: 20250118010037
 
 Body:
 

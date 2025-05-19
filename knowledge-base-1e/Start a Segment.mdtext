@@ -1,0 +1,27 @@
+Title:  Start a Segment
+
+AKA:    segment command
+
+Timestamp: 20241212235504
+
+Seq:    7.3.7.7
+
+Level:  5 - Details
+
+Class:  non-version
+
+Body:
+
+The `segment` command can be used to start a segment of HTML within a Markdown field. 
+
+A *segment* is genereally intended to be something like a [div](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div) or an [aside](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside), but can be any HTML element. 
+
+The intended element name follows the command, as in the following example. 
+
+	{:segment: aside}
+
+A `segment` command should always be followed at some later point by an [[endssegment command]].
+
+Note that a class value and/or an id value can also be specified, in that sequence, using pipes to separate the parameters. 
+
+Also note that `segment` commands may be nested, if the resulting HTML would be valid.

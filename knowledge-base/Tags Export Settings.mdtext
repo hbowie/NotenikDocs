@@ -1,14 +1,16 @@
 Title:  Tags Export Settings
 
-Timestamp: 20230615210014
+Seq:    7.1.3
 
-Seq:    6.1.3
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
 
+Index:  tags; exporting; 
+
+Timestamp: 20250511225159
+
 Body:
 
-These are settings that affect the way in which tags are exported, optionally selecting some, and optionally suppressing others. 
+These are settings that affect the way in which tags are exported, optionally selecting some, and optionally suppressing others.
 

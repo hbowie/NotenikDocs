@@ -1,19 +1,19 @@
 Title:  Version 8.2.1
 
-Timestamp: 20211116184349
+Seq:    13.96
 
-Seq:    16.96
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-02-04
-
-Level:  3 - Section
 
 Teaser:
 
 Added code to create the iCloud Notenik container folder in case it is missing.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

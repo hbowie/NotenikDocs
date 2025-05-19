@@ -2,15 +2,15 @@ Title:  Author
 
 Tags:   fields.author
 
-Timestamp: 20210609172814
+Seq:    5.12.3
 
-Seq:    9.12.3
-
-Level:  4 - Subsection
-
-Index:  author field; by field; creator field; author work slug; 
+Level:  4 - chunk
 
 Class:  version
+
+Index:  author; creator; 
+
+Timestamp: 20210609172814
 
 Body:
 

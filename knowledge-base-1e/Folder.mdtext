@@ -1,0 +1,40 @@
+Title:  Folder
+
+Timestamp: 20240409005043
+
+Seq:    9.8.1
+
+Level:  4 - Subsection
+
+Body:
+
+The word `Folder` can be used as both a label and a type. 
+
+A Collection is not expected to have more than one field of type `folder`. 
+
+This special field can be used to group your Notes into sub-folders within a parent folder. 
+
+Each sub-folder can then be accessed through Notenik as part of its parent Collection, or on its own, and sub-folders can be moved/archived and still be accessed via Notenik. 
+
+Notenik only supports one level of sub-folders, so you cannot place sub-folders within other sub-folders. 
+
+The values appearing for this field are not stored within the text files for your Notes, but are taken from the actual names of the sub-folders found within your parent folder. Specifying a new value for this field will create a new sub-folder with the name you have specified. Changing the value for this field will move your Note from one sub-folder to another. If this field is left blank, then the Note will be stored in the parent folder itself. 
+
+The value of the `folder` field is saved to disk as the enclosing folder name. In order to change this value outside of Notenik, you can create new folders and move notes between folders using whatever tools (the Finder, the command line, etc.) you would normally use for these sorts of file and folder management tasks. You would then need to reload the Collection to see the changes made outside of Notenik, just as you would if you had changed other field values with an external text editor. 
+
+The `Folder` field would need to be specified in [[the Collection Template File]] for the parent Collection. The Collection Template files for the sub-folders will be created automatically, with the same fields specified for the parent Collection, with the exception of the `Folder` field itself, which will be  omitted. 
+
+The `folder` field will appear as a [combo box](https://developer.apple.com/design/human-interface-guidelines/combo-boxes) on the Edit tab, allowing selection from a list of existing sub-folders, or creation of a new one. 
+
+When the parent collection is opened, it will show Notes stored directly in the parent folder, plus Notes stored in sub-folders.
+
+If a sub-folder is opened directly, then it will appear as an ordinary Notenik Collection, with no folder field. 
+
+Note Identifiers (normally consisting of the Title field) will need to be unique across all included folders; that is, the same Note identifier cannot be repeated across subfolders.
+
+In terms of merge template/report/query/script processing, Notenik always creates an internal model of a collection within memory, and then uses that memory model for all of its query/reporting functions.  So `folder` field values can be used in these reporting contexts just like any other fields.
+
+There are two options to [[Change the Sort Sequence for your Collection]] that incoporate the `folder field`:
+
++ Folder + TItle
++ Folder + Date + Title

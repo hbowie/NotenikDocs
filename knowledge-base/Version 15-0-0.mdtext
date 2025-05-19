@@ -1,19 +1,19 @@
 Title:  Version 15.0.0
 
-Timestamp: 20240730194420
+Seq:    13.21
 
-Seq:    16.21
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-08-03
-
-Level:  3 - Section
 
 Teaser:
 
 Small improvements in several spots; added a new quote-from command as a Markdown extension. 
 
 
-Class:  version
+Timestamp: 20240730194420
 
 Body:
 

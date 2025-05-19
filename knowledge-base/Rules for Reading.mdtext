@@ -1,10 +1,12 @@
 Title:  Rules for Reading
 
+Seq:    6.11.1
+
+Level:  4 - chunk
+
+Class:  version
+
 Timestamp: 20210608235050
-
-Seq:    8.11.1
-
-Level:  4 - Subsection
 
 Body:
 
@@ -12,7 +14,7 @@ With that being said, here are some rules that Notenik will try to apply to inte
 
 1. Notenik will respect a template file that it finds, but it does not insist on the presence of a template file. 
 
-2. Notenik will place a file named ``- INFO.nnk` in any folder that it opens successfully. Notenik uses this file to track some basic info about the Collection. Notenik also uses the presence of this file to indicate that the folder contains a Notenik Collection. 
+2. Notenik will place a file named `- INFO.nnk` in any folder that it opens successfully. Notenik uses this file to track some basic info about the collection. Notenik also uses the presence of this file to indicate that the folder contains a Notenik collection. 
 
 3. Notenik will generally respect whatever metadata tags are found at the top of the file, unless you have specified otherwise. In this respect, Notenik generally follows the same conventions as the [MultiMarkdown Metadata](https://fletcher.github.io/MultiMarkdown-4/metadata.html) specification. 
 

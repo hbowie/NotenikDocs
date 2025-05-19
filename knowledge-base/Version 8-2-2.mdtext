@@ -1,19 +1,19 @@
 Title:  Version 8.2.2
 
-Timestamp: 20211116184349
+Seq:    13.95
 
-Seq:    16.95
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2022-02-06
-
-Level:  3 - Section
 
 Teaser:
 
 Fixed a couple of math bugs reported by a user.
 
 
-Class:  version
+Timestamp: 20211116184349
 
 Body:
 

@@ -1,0 +1,12 @@
+Title:  else command
+
+Timestamp: 20210616225540
+
+Seq:    12.4.11
+
+Level:  4 - Subsection
+
+Body:
+
+The else command terminates the scope of its preceding if, ifchange, ifendgroup or ifnewgroup command, and applies the opposite logical condition to the following template lines.
+

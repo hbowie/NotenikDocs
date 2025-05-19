@@ -1,19 +1,19 @@
 Title:  Version 14.1.0
 
-Timestamp: 20240304203613
+Seq:    13.31
 
-Seq:    16.31
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-03-10
-
-Level:  3 - Section
 
 Teaser:
 
 Added a Duration field type; added an Export to iCal option; Updated the Putting It All Together write-up to include these new features; fixed an include bug.
 
 
-Class:  version
+Timestamp: 20240304203613
 
 Body:
 

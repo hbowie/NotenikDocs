@@ -1,0 +1,18 @@
+Title:  Readable File Name - R
+
+AKA:    Readable File Name
+
+Timestamp: 20210616202604
+
+Seq:    12.3.31
+
+Level:  4 - Subsection
+
+Index:  file name formatting; 
+
+Class:  version
+
+Body:
+
+The letter "R", following a [[File Name - F]] modifier, will cause the variable to be converted to a safe file name, but preserving as much human readability as possible. 
+

@@ -2,11 +2,9 @@ Title:  End a Segment
 
 AKA:    endssegment command
 
-Timestamp: 20241212235601
+Seq:    4.8.8
 
-Seq:    7.3.7.8
-
-Level:  5 - Details
+Level:  4 - chunk
 
 Class:  non-version
 

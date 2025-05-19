@@ -1,0 +1,54 @@
+Title:  Version 15.9.0
+
+Timestamp: 20241203190416
+
+Seq:    16.12
+
+Date:   2024-12-11
+
+Level:  3 - Section
+
+Teaser:
+
+Fixed a problem with formatting Tables that contained consecutive pipes; When a Project Folder is opened, and the top level contains a README file, then that file will now receive the initial selection; Added Escape Characters in Merge Templates; Fixed a Problem that would sometimes cause the Seq field to be repeated; Improved Default CSS, including CSS for code displays; Added a clearglobals merge command; Added Markdown Figure and FigCaption Commands; Added a Markdown p-class Command; fixed a few minor bugs.
+
+
+Class:  version
+
+Body:
+
+##### Fixed a Table Formatting Problem
+
+Fixed a problem with formatting [[Tables]] that contained consecutive pipes. 
+
+##### Initial Selection of README files
+
+When a Project Folder is opened, and the top level contains a README file, then that file will receive the initial selection.
+
+##### Added Escape Characters in Merge Templates
+
+Characters used to form [[Merge Delimiters]] may now be escaped, by preceding each character with a backslash, so that they may escape processing on a first pass through the merge processor, in order to be processed on a second pass.
+
+##### Fixed a Double Seq Problem
+
+When a collection was configured to use Seq + Title as its ID, and when in Streamlined Reading mode, the Seq field would sometimes appear twice. This has been corrected.
+
+##### Improved Default CSS
+
+As one example, the default css for code displays has been improved to make it more readable. 
+
+##### Added a clearglobals command
+
+Added a new [[clearglobals command]] merge command that can be used to clear the values of all [[Global Variables]].
+
+##### Added Markdown Figure Commands
+
+Added a [[Start a Figure]] command, a [[Start a Figure Caption]] command, and an [[End a Figure]] command, to make it easier to generate HTML `<figure>` and `<figcaption>` elements.
+
+##### Added Markdown p-class Command
+
+Added a new `p-class` Markdown command to [[Specify a Paragraph Class]] for the following paragraph.
+
+##### Fixed a Few Bugs
+
+A few relatively obscure bugs were eliminated.

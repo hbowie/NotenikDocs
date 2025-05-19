@@ -1,19 +1,19 @@
 Title:  Version 14.0.0
 
-Timestamp: 20240215213227
+Seq:    13.32
 
-Seq:    16.32
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-02-26
-
-Level:  3 - Section
 
 Teaser:
 
 Added Note ID configuration options (to allow duplicate titles within a collection); added Markdown support for strikethroughs, subscripts and superscripts; fixed a couple of bugs.
 
 
-Class:  version
+Timestamp: 20240215213227
 
 Body:
 

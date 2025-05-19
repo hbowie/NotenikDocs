@@ -1,12 +1,14 @@
 Title:  Notenik URL Run Command
 
-Timestamp: 20250318195344
+Seq:    8.16.4
 
-Seq:    11.1.4
-
-Level:  4 - Subsection
+Level:  4 - chunk
 
 Class:  non-version
+
+Index:  run; scripting; 
+
+Timestamp: 20250318195344
 
 Body:
 
@@ -30,5 +32,4 @@ The `run` command accepts the following parameters following the question mark:
 + `path` - The complete path to the script file to be run, with percent encoding. 
 + `go` - This optional parameter may be set to `go` or `wait` (which is the default). A complete parameter of `go=now` indicates that the script should be immediately executed, without waiting for the user to press the *Go* button.
 
-An easy way to obtain a complete URL that can be used to later run a specific script is to right-click the script file's row on the List tab within a Notenik [[project folder]], and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location. 
-
+An easy way to obtain a complete URL that can be used to later run a specific script is to right-click the script file's row on the List tab within a Notenik [[project folder]], and then select `Copy Notenik URL` from the contextual menu that will pop up. This will copy a complete Notenik URL to the clipboard, from which it can then be pasted into another location.

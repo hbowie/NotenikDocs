@@ -16,4 +16,12 @@ Notenik uses [outline views](https://developer.apple.com/design/human-interface-
 
 ##### Support Folder Field as Auxiliary Field for Note Identification
 
-The [[Folder]] field may now be used as the Auxiliary field when changing the [[Note Identifiers]] to something other than simply [[Title]]. Note that, in a case like this, no file renaming will be done: instead, the sub-folder names will simply be incorporated into each note's internal ID. 
+The [[Folder]] field may now be used as the Auxiliary field when changing the [[Note Identifiers]] to something other than simply [[Title]]. Note that, in a case like this, no file renaming will be done: instead, the sub-folder names will simply be incorporated into each note's internal ID.
+
+##### Improvements to Collection Indexing
+
+When using the Markdown command to [[Generate a Collection Index]], following a link to an indexed page will now allow the user to move backward and forward within the list of all pages containing that same index term, wtihtout having to first return to the index page, using new commands beneath the Nav menu. 
+
+##### Improvements to the Knowledge Base
+
+Made some improvements to the organization of the Notenik Knowledge Base, including a more complete and functional [[Index to the Knowledge Base]]. 

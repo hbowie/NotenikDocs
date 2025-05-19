@@ -1,0 +1,14 @@
+Title:  Browse Module Parameters
+
+Timestamp: 20210617212102
+
+Seq:    13.3.6
+
+Level:  4 - Subsection
+
+Index:  merge browse; 
+
+Body:
+
+The value column should contain the URL to be opened. Note that this may usefully be set to a localhost address to open a local website as the last command in a script. 
+

@@ -1,19 +1,19 @@
 Title:  Version 14.6.0
 
-Timestamp: 20240521222431
+Seq:    13.25
 
-Seq:    16.25
+Level:  3 - chapter
+
+Class:  version
 
 Date:   2024-06-01
-
-Level:  3 - Section
 
 Teaser:
 
 Increased maximum body edit height; Improved report generation; Improved reports menu; Added Collection setting for minimum body edit view height, to allow user to ensure that a predetermined amount of space is allocated to the edit view for the body field. 
 
 
-Class:  version
+Timestamp: 20240521222431
 
 Body:
 
