@@ -22,8 +22,8 @@ The Notenik application can open multiple collections at a time, each in its own
 
 The Notenik folder within your iCloud drive is intended specifically for use by the Notenik application, so any Collection created here can easily be opened later, by selecting it from the File > Open from iCloud submenu. 
 
-You may use a command under the File menu to designate the current Collection as your **Essential Collection**. Once identified, this will be the first collection opened each time the application launches. The title of the collection, as presented at the top of the collection window, will have the value '(E)' appended to it, to provide a visual confirmation that it is the Essential Collection being viewed in that window. 
-
 The Save As command under the File menu allows you to save an entire collection in a new location, with the option to either keep the current location (effectively making a copy) or to delete it (effectively moving the collection to a new location). 
 
 Note that Notenik does not make any assumptions about how you wish to name your Notenik folders. When creating a new collection, or using Save As to save your current collection to a new location, Notenik expects you to create and appropriately name a new folder that will contain your collection. In other words, you should not simply select an existing folder with the expectation that Notenik will then create a subfolder to store your collection.
+
+Notenik provides special support for two special collections. 

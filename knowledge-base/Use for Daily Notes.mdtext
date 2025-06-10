@@ -1,0 +1,55 @@
+Title:  Use for Daily Notes
+
+AKA:    Daily Notes
+
+Seq:    7.3.7
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250608203039
+
+Body:
+
+Many productivity gurus recommend some sort of system for Daily Notes. 
+
+This [Medium post](https://medium.com/macoclock/apple-notes-how-one-simple-note-keeps-my-day-clear-and-my-mind-free-a72fd3f87a59) is representative. 
+
+The basic idea is to have a new note for each day, and then use it to quickly capture any ideas or potentially useful bits of info that come up during the day, deferring any action or more permanent cataloging for later — potentially during an end-of-day review. 
+
+Click on this *Collection Settings* checkbox to make this collection a Daily Notes collection. 
+
+Note that you may find it convenient to make a Daily Notes collection your [[General Notes]] collection as well, but this combination is not required. 
+
+Notenik actually supports two different approaches to keeping your Daily Notes, and provides a [[Built-In Starter Pack]] for each. 
+
++ Daily Notes in Subfolders — This makes use of the [[Folder]] field type to create a new subfolder for each date, with each added item becoming its own note. Some potential advantages with this approach are: a) since each item becomes its own note, these can easily be dragged and dropped later to more specific (and less general) collections; and b) when you are done with the notes for a particular date, the entire subfolder can be deleted or archived. 
+
++ Daily Notes in Single Folder — This uses the more traditional approach of creating a new note for each date, with each added item being appended to the end of the latest note's body field. 
+
+Notenik provides the following additional/special functionality for a Daily Notes collection. 
+
+##### New Note
+
+When using *Note > New Note*, or clicking on the plus button in the [[Collection Toolbar]], the *Edit* tab for a Daily Notes collection will be prepopulated with today's date and, optionally, time of day. If the collection uses the folder field, then the date will be entered into the folder field, and the time of day (24-hour, hours and minutes) will be entered into the Seq field. If the collection stores all of its daily notes in a single folder, then the date will be entered into the Title field. 
+
+##### New Note w/Options
+
+Using *Note > New Note w/Options* will work similarly to the *New Note* functionality described above. 
+
+##### Daily Notes Starter Packs
+
+
+
+Note that if you use one of these starter packs, the resulting collection will be automatically identified as your Daily Notes collection, making the following step unnecessary. 
+
+##### Identify Your Daily Notes Collection
+
+Use *File > Make this the Daily Notes Collection* to identify an existing Notenik collection as your Daily Notes collection. From this point on, you will see `(D)` appended to the end of the collection title so that you can quickly identify your Daily Notes. 
+
+##### Open Daily Notes
+
+Use *File > Open Daily Notes* to quickly open your Daily Notes and bring the collection window to the front. The keyboard shortcut *Ctrl-Shift-D* can be used to quickly execute this command from your keyboard.
+
+##### Add Note via Drag and Drop

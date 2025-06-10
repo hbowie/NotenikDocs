@@ -1,0 +1,21 @@
+Title:  The General Notes Collection
+
+AKA:    General Notes
+
+Seq:    6.2.2
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250608200016
+
+Body:
+
+Use *File > Make Collection General* to designate the current collection as your General Notes collection. 
+
+This is intended to be a general-purpose collection for all sorts of notes that you'd like to quickly save. 
+
+Use *File > Open General Notes* or the associated [[Keyboard Shortcut]] to open your General Notes and/or bring it to the front.
+
+Also see the [[Custom URL Scheme]] for ways to reference the General Notes collection via a Notenik URL. 

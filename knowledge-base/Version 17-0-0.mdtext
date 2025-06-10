@@ -1,10 +1,17 @@
 Title:  Version 17.0.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2025-05-22
+
+Teaser:
+
+Added new commands to fully expand and collapse outlines; the folder field is now supported as an auxiliary field for the purpose of uniquely identifying each note in a collection; improvements made to usage of a collection index; some improvements to the Notenik Knowledge Base; improvements when creating new notes from wikilinks. 
+
 
 Timestamp: 20250513171440
 
@@ -24,4 +31,8 @@ When using the Markdown command to [[Generate a Collection Index]], following a 
 
 ##### Improvements to the Knowledge Base
 
-Made some improvements to the organization of the Notenik Knowledge Base, including a more complete and functional [[Index to the Knowledge Base]]. 
+Made some improvements to the organization of the Notenik Knowledge Base, including a more complete and functional [[Index to the Knowledge Base]].
+
+##### Improved New Notes from Wikilinks
+
+If you code a [[Wiki Style Link]] to a note that does not yet exist, and your [[Collection Settings]] are set to Create Notes for Missing Wiki Link Targets, then the new note will now be assigned the same [[Class]] as the linking note, the same [[Level]], and an incremented [[Seq]], if the linking note has these fields.

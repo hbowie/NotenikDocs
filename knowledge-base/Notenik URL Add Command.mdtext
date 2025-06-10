@@ -24,7 +24,7 @@ Again, let's break this down.
 + `add` - The Notenik command to add a new Note to an existing Collection. 
 + `?` - A question mark indicates the end of the command and the beginning of the query string. 
 + `shortcut=todo` - The shortcut identifying the Collection to which the new Note is to be added. 
-+ `path=Users/user1/Sites/site1` - Again, specifying the complete path would be an alternate way of identifying the Collection to be used. 
++ `path=Users/user1/Sites/site1` - Again, specifying the complete path would be an alternate way of identifying the Collection to be used. (Alternatively, the `special` parameter can be used to request either your `essential` or `general` collection, as with the [[Notenik URL Open Command]].)
 + `&` - An ampersand is used to separate each `label=value` parameter from the next. 
 + `title=Pick%20up%20milk` - The title for the new Note. This will amost always require percent encoding, as in this example. 
 + `&` - An ampersand is used to separate each `label=value` parameter from the next. 

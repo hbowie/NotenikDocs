@@ -1,0 +1,21 @@
+Title:  The Essential Collection
+
+AKA:    Essential collection
+
+Seq:    6.2.1
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  Essential collection; 
+
+Timestamp: 20250608195435
+
+Body:
+
+You may use a command under the File menu to designate the current Collection as your *Essential Collection*. Once identified, this will be the first collection opened each time the application launches. The title of the collection, as presented at the top of the collection window, will have the value '(E)' appended to it, to provide a visual confirmation that it is the Essential Collection being viewed in that window. There is also a convenient [[Keyboard Shortcut]] for opening the Essential collection, and/or bringing it to the front. 
+
+Also see the [[Custom URL Scheme]] for a way to reference the Essential collection via a Notenik URL. 
+
+

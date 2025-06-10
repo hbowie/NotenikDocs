@@ -1,4 +1,4 @@
-Title: Notenik Knowledge Base 2nd ed.
+Title: Notenik Knowledge Base
 
 Title Set by User: true
 
@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 402
+Last Index Selected: 216
 
 Mirror Auto Index: false
 
@@ -40,7 +40,7 @@ Ext Links Open in New Windows: true
 
 Scrolling Sync: false
 
-Web Book Folder: /Users/hbowie/Sites/notenik-web/kb2e
+Web Book Folder: /Users/hbowie/Sites/notenik-web/kb
 
 Web Book EPUB: false
 
@@ -50,9 +50,9 @@ Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 356.0;0.0;1247.0;1415.0;428.0;
+Window Numbers: 1302.0;0.0;1247.0;1410.0;428.0;
 
-Column Widths: title: 200, 445, 1500; statusdigit: 20, 30, 50; date: 80, 120, 500; klass: 60, 80, 150; dateadded: 100, 180, 250; datemod: 100, 180, 250; seq: 30, 80, 250; x: 12, 20, 50; author: 100, 200, 1000; rank: 50, 80, 250; tags: 50, 100, 1200; 
+Column Widths: seq: 30, 80, 250; rank: 50, 80, 250; statusdigit: 20, 30, 50; date: 80, 120, 500; datemod: 100, 180, 250; dateadded: 100, 180, 250; klass: 60, 80, 150; x: 12, 20, 50; author: 100, 200, 1000; tags: 50, 100, 1200; title: 200, 488, 1500; 
 
 footer Note ID: footerpage
 

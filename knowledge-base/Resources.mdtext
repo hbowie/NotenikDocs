@@ -16,6 +16,9 @@ Body:
 
 As you are gradually learning about Notenik's capabilities, you may wish to refer to the following resources, in addition to the contents of the Knowledge Base. 
 
+[Reasons to Use Notenik](https://notenik.app/reasons/index.html)
+: A comprehensive list of all the reasons why you might want to use Notenik. 
+
 [Notenik 101 Video](https://youtu.be/JR0kpAUXM5E?si=lmfCs_BmX6b1xqQY)
 : This is a brief video demonstrating some of Notenik's basic capabilities. This is probably the best place to start for someone encountering Notenik for the first time. 
 
@@ -39,6 +42,15 @@ As you are gradually learning about Notenik's capabilities, you may wish to refe
 
 [Product Vision](https://notenik.app/vision.html)
 : For the overall shape of what we're trying to do with Notenik, including goals, operating principles and notable constraints. 
+
+[Intro to Website Creation using Notenik](https://notenik.app/web-intro/index.html)
+: If you're somewhat new to HTML and CSS, and interested in using Notenik to create a static website, then this is the intro for you. 
+
+[Create a Website using Notenik](https://notenik.app/web-guide/index.html)
+: A step-by-step guide to creating a new website using Notenik, especially if you are envisioning something more ambitious than a simple blog. 
+
+[Adventures with Notenik](https://notenik.app/adventures.html)
+: This is the Notenik blog, with descriptions of our continuing adventures appearing from time to time. 
 
 [Source Code](https://github.com/hbowie/Notenik-25)
 : The source code for Notenik, including its documentation, can be found on GitHub.

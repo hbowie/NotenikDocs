@@ -2,7 +2,7 @@ Title: Reasons to Use Notenik
 
 Title Set by User: true
 
-Link: /Users/hbowie/Xcode/Notenik Docs 2024/reasons
+Link: /Users/hbowie/Xcode/NotenikDocs/reasons
 
 Sort Parm: 1
 
@@ -18,9 +18,15 @@ Mirror Auto Index: false
 
 Display Body Label: false
 
+Minimum Body Edit View Height: 5.0
+
 Title Display Option: p bold
 
 Display Mode: streamlined
+
+Outline Tab: 0
+
+Override Custom Display: false
 
 MathJax: false
 
@@ -38,13 +44,15 @@ Web Book Folder: /Users/hbowie/Sites/notenik-web/reasons
 
 Web Book EPUB: false
 
+ToC Depth: 3
+
 Note File Format: nnk
 
-Hash Tags: false
+Hash Tags: notenik-field
 
 Window Numbers: 139.0;0.0;1201.0;1411.0;504.0;
 
-Column Widths: seq: 30, 80, 250; title: 200, 407, 1500; rank: 50, 80, 250; date: 80, 120, 500; author: 100, 200, 1000; datemod: 100, 180, 250; klass: 60, 80, 150; tags: 50, 100, 1200; dateadded: 100, 180, 250; statusdigit: 20, 30, 50; x: 12, 20, 50; 
+Column Widths: statusdigit: 20, 30, 50; klass: 60, 80, 150; x: 12, 20, 50; date: 80, 120, 500; dateadded: 100, 180, 250; datemod: 100, 180, 250; seq: 30, 80, 250; author: 100, 200, 1000; tags: 50, 100, 1200; rank: 50, 80, 250; title: 200, 407, 1500; 
 
 footer Note ID: footerpage
 

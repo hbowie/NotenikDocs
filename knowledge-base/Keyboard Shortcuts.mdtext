@@ -22,9 +22,11 @@ Following are the keyboard shortcuts available within the app.
 |      | Shift |     | Cmd |  D  | Discard Edits
 | Ctrl |       |     |     |  D  | [[Insert a Date]] 
 |      |       |     | Cmd |  E  | Edit Note
+|      |       | Opt | Cmd |  E  | Open [[Essential Collection]]
 |      |       |     | Cmd |  F  | Find (aka [[Search]]) ([Mac Standard][mkeys])
 |      |       | Opt | Cmd |  F  | Advanced [[Search]]
 |      |       |     | Cmd |  G  | Find Again ([Mac Standard][mkeys])
+|      |       | Opt | Cmd |  G  | Open [[General Notes]]
 |      |       |     | Cmd |  H  | Hide Notenik ([Mac Standard][mkeys])
 |      |       | Opt | Cmd |  H  | Hide Others ([Mac Standard][mkeys])
 |      |       |     | Cmd |  I  | Increment [[Date]] or [[Seq]]

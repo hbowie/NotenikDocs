@@ -1,0 +1,41 @@
+Title:  Capture General Notes
+
+AKA:    Daily Notes
+
+Seq:    11.11
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20250606201516
+
+Body:
+
+Many productivity gurus recommend some sort of system for Daily Notes. 
+
+This [Medium post](https://medium.com/macoclock/apple-notes-how-one-simple-note-keeps-my-day-clear-and-my-mind-free-a72fd3f87a59) is representative. 
+
+The basic idea is to have a new note for each day, and then use it to quickly capture any ideas or potentially useful bits of info that come up during the day, deferring any action or more permanent cataloging for later — potentially during an end-of-day review. 
+
+Notenik has some features that can be used to easily implement such a system. 
+
+##### Daily Notes Starter Packs
+
+Notenik actually supports two different approaches to keeping your Daily Notes, and provides a [[Built-In Starter Pack]] for each. 
+
++ Daily Notes in Subfolders — This makes use of the [[Folder]] field type to create a new subfolder for each date, with each added item becoming its own note. 
+
++ Daily Notes in Single Folder — This uses the more traditional approach of creating a new note for each date, with each added item being appended to the end of the latest note's body field. 
+
+Note that if you use one of these starter packs, the resulting collection will be automatically identified as your Daily Notes collection, making the following step unnecessary. 
+
+##### Identify Your Daily Notes Collection
+
+Use *File > Make this the Daily Notes Collection* to identify an existing Notenik collection as your Daily Notes collection. From this point on, you will see `(D)` appended to the end of the collection title so that you can quickly identify your Daily Notes. 
+
+##### Open Daily Notes
+
+Use *File > Open Daily Notes* to quickly open your Daily Notes and bring the collection window to the front. The keyboard shortcut *Ctrl-Shift-D* can be used to quickly execute this command from your keyboard.
+
+##### Add Note via Drag and Drop

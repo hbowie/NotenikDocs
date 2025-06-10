@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Table of Contents</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+/* The following CSS comes from the darkModeAdjustments 
+   method of the DisplayPrefs class within Notenik. */
+:root {
+    color-scheme: light dark;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --link-color: Blue;
+    --link-hover-color: Blue;
+    --background-hover-color: #f0f0f0;
+    --link-visited-color: Purple;
+    --link-active-color: Red;
+    --background-active-color: #e0e0e0;
+    --code-color: #d81b60;
+    --preformatted-color: #444;
+    --accent-bg: #f5f7ff;
+    --border: #898EA4;
+    --highlight-color: Gainsboro;
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
+}
+a.ext-link::after {
+    content: "";
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.2em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+@media screen and (prefers-color-scheme: dark) { 
+  :root {
+    --background-color: #000000;
+    --text-color: #F0F0F0;
+    --link-color: #93d5ff;
+    --link-hover-color: #94d8ff;
+    --background-hover-color: #282828;
+    --link-visited-color: #cab7ff;
+    --link-active-color: #94d8ff;
+    --background-active-color: #363636;
+    --code-color: #f06292;
+    --preformatted-color: #ccc;
+    --accent-bg: #2b2b2b;
+    --highlight-color: DimGray;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
+  }
+    a.ext-link::after {
+        content: "";
+        width: 0.9em;
+        height: 0.9em;
+        margin-left: 0.2em;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='%23F0F0F0' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+}
+a {
+    color: var(--link-color);
+}
+a:focus {
+    color: var(--link-hover-color);
+    background: var(--background-hover-color);
+}
+a:hover {
+    color: var(--link-hover-color);
+    background: var(--background-hover-color);
+}
+a:active {
+    color: var(--link-active-color);
+    background: var(--background-active-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+/* The following CSS comes from the darkModeAdjustments 
+   method of the DisplayPrefs class within Notenik. */
+:root {
+    color-scheme: light dark;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --link-color: Blue;
+    --link-hover-color: Blue;
+    --background-hover-color: #f0f0f0;
+    --link-visited-color: Purple;
+    --link-active-color: Red;
+    --background-active-color: #e0e0e0;
+    --code-color: #d81b60;
+    --preformatted-color: #444;
+    --accent-bg: #f5f7ff;
+    --border: #898EA4;
+    --highlight-color: Gainsboro;
+    --bg: #fff;
+    --accent-bg: #f5f7ff;
+}
+a.ext-link::after {
+    content: "";
+    width: 0.9em;
+    height: 0.9em;
+    margin-left: 0.2em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+@media screen and (prefers-color-scheme: dark) { 
+  :root {
+    --background-color: #000000;
+    --text-color: #F0F0F0;
+    --link-color: #93d5ff;
+    --link-hover-color: #94d8ff;
+    --background-hover-color: #282828;
+    --link-visited-color: #cab7ff;
+    --link-active-color: #94d8ff;
+    --background-active-color: #363636;
+    --code-color: #f06292;
+    --preformatted-color: #ccc;
+    --accent-bg: #2b2b2b;
+    --highlight-color: DimGray;
+    --bg: #212121;
+    --accent-bg: #2b2b2b;
+  }
+    a.ext-link::after {
+        content: "";
+        width: 0.9em;
+        height: 0.9em;
+        margin-left: 0.2em;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' stroke='%23F0F0F0' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+    }
+}
+a {
+    color: var(--link-color);
+}
+a:focus {
+    color: var(--link-hover-color);
+    background: var(--background-hover-color);
+}
+a:hover {
+    color: var(--link-hover-color);
+    background: var(--background-hover-color);
+}
+a:active {
+    color: var(--link-active-color);
+    background: var(--background-active-color);
+}
+.search-results {
+    background-color: var(--highlight-color);
+}
+/* The following CSS comes from the displayCSS method of the
+   DisplayPrefs class within Notenik.                        */
+:root {
+    --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    --standard-border-radius: 5px;
+}
+body {
+  tab-size: 4;
+  margin: 1em;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.45;
+/* fontCSS insertion starts here */
+font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15pt;
+/* fontCSS insertion ends here   */
+}
+img { max-width: 100%; border: 4px solid gray; }
+body { max-width: 33em; margin: 0 auto; float: none; }
+p {
+    margin-top: 0.2em;
+    margin-bottom: 0.7em;
+}
+body > footer {
+    margin-top: 4rem;
+    text-align: center;
+}
+/* Consolidate box styling */
+aside, pre, progress {
+  background-color: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  margin-bottom: 1rem;
+}
+aside {
+  font-size: 1rem;
+  width: 30%;
+  padding: 0 15px;
+  margin-inline-start: 15px;
+  float: right;
+}
+*[dir="rtl"] aside {
+  float: left;
+}
+
+/* Make aside full-width on mobile */
+@media only screen and (max-width: 720px) {
+  aside {
+    width: 100%;
+    float: none;
+    margin-inline-start: 0;
+  }
+}
+blockquote {
+  border-left: 0.4em solid #999;
+  margin-left: 0;
+  padding-left: 1em;
+}
+.quote-from {
+    margin-block-start: 0.1rem;
+    margin-block-end: 0.5rem;
+    margin: 0.1rem 0 0.5rem 0;
+    padding: 0.25rem 2.6em;
+    line-height: 1.45;
+    position: relative;
+}
+.quote-from:before {
+    display: block;
+    padding-left: 1.4em;
+    content: "\2014";
+    position: absolute;
+    left: 0;
+}
+figure {
+  margin-left: 0.2em;
+  padding-left: 0.2em;
+}
+table, th, td {
+  border: 2px solid gray;
+}
+table {
+  border-collapse: collapse;
+  margin-bottom: 0.7em;
+}
+th, td {
+  padding: 6px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --------------------------------------------------
+
+  Lists
+
+* -------------------------------------------------- */
+
+li { margin-top: 0.2em; margin-bottom: 0.2em; }
+ul.checklist { list-style-type: none; }
+ul.tags-list { list-style-type: none; }
+ul.tags-cloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.5rem;
+}
+ul.tags-cloud a {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  border-radius: 15px;
+  background-color: var(--highlight-color);
+  padding: 2px 12px 2px 12px;
+  margin: 10px 10px 10px 10px;
+  min-width: 40px;
+  text-align: center;
+}
+ul.notenik-toc {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+ol.notenik-biblio-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+ol.notenik-biblio-list li {
+  margin-left: 3em;
+  text-indent: -3em;
+  margin-bottom: 1em;
+}
+ul.outline-ul {
+    list-style-type: none;
+}
+ul.outline-list {
+    list-style-type: none;
+}
+ul.outline-ul-within-details {
+    list-style-type: none;
+    /* margin-left: 0;
+    padding-left: 5px; */
+}
+li.outline-li-bullet {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+details {
+    margin-left: 2.2em;
+}
+summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.2em;
+}
+details > summary:first-of-type {
+    list-style-position: outside;
+}
+/* --------------------------------------------------
+
+  Other stuff
+
+* -------------------------------------------------- */
+figure.notenik-quote-attrib {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+}
+figure.notenik-quote-attrib blockquote {
+  border-left: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+figure.notenik-quote-attrib figcaption {
+    text-align: right;
+}
+
+cite.notenik-cite-major {
+  font-style: italic;
+}
+cite.notenik-cite-minor {
+  font-style: normal;
+}
+.notenik-aka {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}
+table.notenik-calendar {
+  table-layout: fixed;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+td.notenik-calendar-day-data {
+  vertical-align: top;
+}
+p.notenik-calendar-day-of-month {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+  font-size: 1.2em;
+}
+p.notenik-calendar-day-contents {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a:visited {
+    color: var(--link-visited-color);
+}
+a:active {
+    color: var(--link-active-color);
+}
+
+a.wiki-link {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+a.hashtag {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+a.ext-link {
+    text-decoration: none;
+    border-bottom: 1px dotted;
+}
+
+a.nav-link:link {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+nav ul li a.wiki-link {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+footer.nnk-footer {
+    clear: both;
+    border-top: 1px dashed var(--text-color);
+    margin-top: 1em;
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: right;
+}
+
+footer.nnk-footer p {
+    padding-top: 0.5em;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.heading-1-details {
+    margin-left: 2.2em;
+}
+.heading-2-details {
+    margin-left: 2.2em;
+}
+.heading-3-details {
+    margin-left: 2.2em;
+}
+.heading-4-details {
+    margin-left: 2.2em;
+}
+.heading-5-details {
+    margin-left: 2.2em;
+}
+.heading-6-details {
+    margin-left: 2.2em;
+}
+
+.heading-1-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+.heading-2-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+.heading-3-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+.heading-4-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+.heading-5-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+.heading-6-summary {
+    margin-left: -2.2em;
+    margin-bottom: 0.5em;
+}
+pre {
+    
+}
+code {
+    font-family: var(--mono-font);
+    color: var(--code-color);
+}
+pre {
+  padding: 1rem 1.4rem;
+  max-width: 100%;
+  overflow-x: auto;
+  color: var(--preformatted-color);
+}
+
+/* Fix embedded code within pre */
+pre code {
+  color: var(--preformatted-color);
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Classes for notices */
+.notice {
+  background: var(--accent-bg);
+  border: 2px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+article, fieldset, dialog {
+  border: 1px solid var(--border);
+  padding: 1rem;
+  border-radius: var(--standard-border-radius);
+  margin-bottom: 1rem;
+}
+
+article h2:first-child,
+section h2:first-child,
+article h3:first-child,
+section h3:first-child {
+  margin-top: 1rem;
+}
+
+/* Make the header bg full width, but the content inline with body */
+body > header {
+  background-color: var(--accent-bg);
+  border-bottom: 1px solid var(--border);
+  text-align: center;
+  padding: 0 0.5rem 2rem 0.5rem;
+  grid-column: 1 / -1;
+}
+
+body > header > *:only-child {
+  margin-block-start: 2rem;
+}
+
+body > header h1 {
+  max-width: 1200px;
+  margin: 1rem auto;
+}
+
+body > header p {
+  max-width: 40rem;
+  margin: 1rem auto;
+}
+
+header.nnk-header {
+    background-color: var(--background-color);
+    text-align: center;
+    border-bottom: none;
+    max-width: none;
+    padding: 0 0 0 0;
+}
+
+/* Format navigation */
+header > nav {
+  font-size: 1rem;
+  line-height: 2;
+  padding: 1rem 0 0 0;
+}
+
+/* Use flexbox to allow items to wrap, as needed */
+header > nav ul,
+header > nav ol {
+  align-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* List items are inline elements, make them behave more like blocks */
+header > nav ul li,
+header > nav ol li {
+  display: inline-block;
+}
+
+header > nav a,
+header > nav a:visited {
+  margin: 0 0.5rem 1rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--standard-border-radius);
+  color: var(--text);
+  display: inline-block;
+  padding: 0.1rem 1rem;
+  text-decoration: none;
+}
+
+header > nav a:hover,
+header > nav a.current,
+header > nav a[aria-current="page"],
+header > nav a[aria-current="true"] {
+  border-color: var(--accent);
+  color: var(--accent);
+  cursor: pointer;
+}
+
+/* Reduce nav side on mobile */
+@media only screen and (max-width: 720px) {
+  header > nav a {
+    border: none;
+    padding: 0;
+    text-decoration: underline;
+    line-height: 1;
+  }
+}
+
+nav.nnk-nav {
+    float: right;
+    font-style: italic;
+}
+
+nav.nnk-nav ul {
+    margin-top: 0;
+}
+
+nav.nnk-nav ul li {
+    display: inline;
+}
+
+nav.nnk-nav ul li a {
+    text-decoration: none;
+    border-bottom: none;
+}
+/* Generated CSS for headings follows. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 0.7em;
+    margin-bottom: 0.2em;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+    font-size: 2.0em;
+}
+h2 {
+    text-align: left;
+    font-size: 1.8em;
+}
+h3 {
+    text-align: left;
+    font-size: 1.6em;
+}
+h4 {
+    text-align: left;
+    font-size: 1.4em;
+}
+h5 {
+    text-align: left;
+    font-size: 1.2em;
+}
+h6 {
+    text-align: left;
+    font-size: 1.0em;
+}
+
+/* Generated CSS for headings follows. */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    margin-top: 0.7em;
+    margin-bottom: 0.2em;
+    font-style: normal;
+}
+h1 {
+    text-align: center;
+    font-size: 2.0em;
+}
+h2 {
+    text-align: left;
+    font-size: 1.8em;
+}
+h3 {
+    text-align: left;
+    font-size: 1.6em;
+}
+h4 {
+    text-align: left;
+    font-size: 1.4em;
+}
+h5 {
+    text-align: left;
+    font-size: 1.2em;
+}
+h6 {
+    text-align: left;
+    font-size: 1.0em;
+}
+
+</style>
+<script type="text/javascript"> 
+window.MathJax = { 
+    tex: { 
+      tags: 'ams' 
+    } 
+  }; 
+</script> 
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"> 
+</script>
+</head>
+<body>
+
+<header class="nnk-header">
+<p>Notenik Knowledge Base </p>
+
+</header>
+
+<nav class="nnk-nav">
+<ul>
+<li><a href="https://ntnk.app/tableofcontents" class="wiki-link">Contents</a> </li>
+<li><a href="https://ntnk.app/indextotheknowledgebase" class="wiki-link">Index</a> </li>
+<li><a href="https://ntnk.app/searchpage" class="wiki-link">Search</a> </li>
+</ul>
+
+
+</nav>
+
+<main>
+<p>1 <a href="https://ntnk.app/introduction" class="nav-link">Introduction</a>&#160;&#8593;</p><h3 id="tableofcontents">1.4 Table of Contents</h3>
+<p>This table of contents allows you to easily explore the layout of the Knowledge Base, and hopefully zero in on exactly what you may be looking for. </p>
+
+<p>You can always return to this page by using the <em>Contents</em> link at the top right of any page. </p>
+
+<p>This page is generated using the Markdown extension to <a href="https://ntnk.app/generateacollectiontableofcontents" class="wiki-link">Generate a Collection Table of Contents</a>, preceded by the extension to <a href="https://ntnk.app/generateoutlinebasedonunorderedlistitems" class="wiki-link">Generate Outline Based on Unordered List Items</a>. </p><ul class="outline-ul-within-details">
+<li><details>
+
+<summary>
+1 <a href="https://ntnk.app/introduction" class="nav-link">Introduction</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">1.1 <a href="https://ntnk.app/appoverview" class="nav-link">App Overview</a></li>
+<li class="outline-li-no-kids">1.2 <a href="https://ntnk.app/resources" class="nav-link">Resources</a></li>
+<li class="outline-li-no-kids">1.3 <a href="https://ntnk.app/thisdocument" class="nav-link">This Document</a></li>
+<li class="outline-li-no-kids">1.5 <a href="https://ntnk.app/searchpage" class="nav-link">Search Page</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+2 <a href="https://ntnk.app/userinterface" class="nav-link">User Interface</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">2.1 <a href="https://ntnk.app/menubar" class="nav-link">Menu Bar</a></li>
+<li class="outline-li-no-kids">2.2 <a href="https://ntnk.app/collectionwindow" class="nav-link">Collection Window</a></li>
+<li class="outline-li-no-kids">2.3 <a href="https://ntnk.app/collectiontoolbar" class="nav-link">Collection Toolbar</a></li>
+<li class="outline-li-no-kids">2.4 <a href="https://ntnk.app/contextmenus" class="nav-link">Context Menus</a></li>
+<li class="outline-li-no-kids">2.5 <a href="https://ntnk.app/navigationboard" class="nav-link">Navigation Board</a></li>
+<li class="outline-li-no-kids">2.6 <a href="https://ntnk.app/otherwindows" class="nav-link">Other Windows</a></li>
+<li class="outline-li-no-kids">2.7 <a href="https://ntnk.app/accessibilitynotes" class="nav-link">Accessibility Notes</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+3 <a href="https://ntnk.app/commontasks" class="nav-link">Common Tasks</a></summary>
+<ul class="outline-ul-within-details">
+<li><details>
+
+<summary>
+3.1 <a href="https://ntnk.app/collectionnavigation" class="nav-link">Collection Navigation</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">3.1.1 <a href="https://ntnk.app/backwardsandforwards" class="nav-link">Backwards and Forwards</a></li>
+<li class="outline-li-no-kids">3.1.2 <a href="https://ntnk.app/upanddownthehierarchy" class="nav-link">Up and Down the Hierarchy</a></li>
+<li class="outline-li-no-kids">3.1.3 <a href="https://ntnk.app/searchthecollection" class="nav-link">Search the Collection</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+3.2 <a href="https://ntnk.app/createanewcollection" class="nav-link">Create a New Collection</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">3.2.1 <a href="https://ntnk.app/decisionstobemade" class="nav-link">Decisions to be Made</a></li>
+<li class="outline-li-no-kids">3.2.2 <a href="https://ntnk.app/newcollectionmenucommand" class="nav-link">New Collection Menu Command</a></li>
+<li class="outline-li-no-kids">3.2.3 <a href="https://ntnk.app/starterpacks" class="nav-link">Starter Packs</a></li>
+<li class="outline-li-no-kids">3.2.4 <a href="https://ntnk.app/builtinstarterpacks" class="nav-link">Built-In Starter Packs</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+3.3 <a href="https://ntnk.app/displayanote" class="nav-link">Display a Note</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">3.3.1 <a href="https://ntnk.app/tailorthedisplay" class="nav-link">Tailor the Display</a></li>
+<li class="outline-li-no-kids">3.3.2 <a href="https://ntnk.app/defaultstylingforheadings" class="nav-link">Default Styling for Headings</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+3.4 <a href="https://ntnk.app/adddeleteandedityournotes" class="nav-link">Add, Delete and Edit Your Notes</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">3.4.1 <a href="https://ntnk.app/newnotewithoptions" class="nav-link">New Note with Options</a></li>
+<li class="outline-li-no-kids">3.4.2 <a href="https://ntnk.app/tailortheedittab" class="nav-link">Tailor the Edit Tab</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">3.5 <a href="https://ntnk.app/flipbetweenthedisplayandedittabs" class="nav-link">Flip between the Display and Edit Tabs</a></li>
+<li class="outline-li-no-kids">3.6 <a href="https://ntnk.app/viewyournotesasalist" class="nav-link">View Your Notes as a List</a></li>
+<li class="outline-li-no-kids">3.7 <a href="https://ntnk.app/changethesortsequence" class="nav-link">Change the Sort Sequence</a></li>
+<li class="outline-li-no-kids">3.8 <a href="https://ntnk.app/navigation" class="nav-link">Navigation</a></li>
+<li class="outline-li-no-kids">3.9 <a href="https://ntnk.app/search" class="nav-link">Search</a></li>
+<li class="outline-li-no-kids">3.10 <a href="https://ntnk.app/selectanoteforaction" class="nav-link">Select a Note for Action</a></li>
+<li class="outline-li-no-kids">3.11 <a href="https://ntnk.app/insertadate" class="nav-link">Insert a Date</a></li>
+<li class="outline-li-no-kids">3.12 <a href="https://ntnk.app/bulkeditasetofnotes" class="nav-link">Bulk Edit a Set of Notes</a></li>
+<li class="outline-li-no-kids">3.13 <a href="https://ntnk.app/viewthelog" class="nav-link">View the Log</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4 <a href="https://ntnk.app/markdown" class="nav-link">Markdown</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.1 <a href="https://ntnk.app/markdownplussmartypants" class="nav-link">Markdown plus SmartyPants</a></li>
+<li class="outline-li-no-kids">4.2 <a href="https://ntnk.app/wordandcharactercounts" class="nav-link">Word and Character Counts</a></li>
+<li><details>
+
+<summary>
+4.3 <a href="https://ntnk.app/minormarkdownvariations" class="nav-link">Minor Markdown Variations</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.3.1 <a href="https://ntnk.app/curlyapostrophes" class="nav-link">Curly Apostrophes</a></li>
+<li class="outline-li-no-kids">4.3.2 <a href="https://ntnk.app/headingidentification" class="nav-link">Heading Identification</a></li>
+<li class="outline-li-no-kids">4.3.3 <a href="https://ntnk.app/headingautonumbering" class="nav-link">Heading auto-numbering</a></li>
+<li class="outline-li-no-kids">4.3.4 <a href="https://ntnk.app/noemailobfuscation" class="nav-link">No Email Obfuscation</a></li>
+<li class="outline-li-no-kids">4.3.5 <a href="https://ntnk.app/nobackticksstylequotes" class="nav-link">No Backticks Style quotes</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.4 <a href="https://ntnk.app/commonmarkdownextensions" class="nav-link">Common Markdown Extensions</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.4.1 <a href="https://ntnk.app/tables" class="nav-link">Tables</a></li>
+<li class="outline-li-no-kids">4.4.2 <a href="https://ntnk.app/fencedcodeblocks" class="nav-link">Fenced Code Blocks</a></li>
+<li class="outline-li-no-kids">4.4.3 <a href="https://ntnk.app/footnotes" class="nav-link">Footnotes</a></li>
+<li class="outline-li-no-kids">4.4.4 <a href="https://ntnk.app/headingidgeneration" class="nav-link">Heading ID Generation</a></li>
+<li class="outline-li-no-kids">4.4.5 <a href="https://ntnk.app/definitionlists" class="nav-link">Definition Lists</a></li>
+<li class="outline-li-no-kids">4.4.6 <a href="https://ntnk.app/strikethrough" class="nav-link">Strikethrough</a></li>
+<li class="outline-li-no-kids">4.4.7 <a href="https://ntnk.app/highlight" class="nav-link">Highlight</a></li>
+<li class="outline-li-no-kids">4.4.8 <a href="https://ntnk.app/tasklists" class="nav-link">Task Lists</a></li>
+<li class="outline-li-no-kids">4.4.9 <a href="https://ntnk.app/subscript" class="nav-link">Subscript</a></li>
+<li class="outline-li-no-kids">4.4.10 <a href="https://ntnk.app/superscript" class="nav-link">Superscript</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.5 <a href="https://ntnk.app/multimarkdownextensions" class="nav-link">MultiMarkdown Extensions</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.5.1 <a href="https://ntnk.app/citations" class="nav-link">Citations</a></li>
+<li class="outline-li-no-kids">4.5.2 <a href="https://ntnk.app/mathjaxsupport" class="nav-link">MathJax Support</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.6 <a href="https://ntnk.app/referencinganothernote" class="nav-link">Referencing Another Note</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.6.2 <a href="https://ntnk.app/wikilinksbetweencollections" class="nav-link">Wiki Links Between Collections</a></li>
+<li class="outline-li-no-kids">4.6.3 <a href="https://ntnk.app/includeanoteorfile" class="nav-link">Include a Note or File</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">4.7 <a href="https://ntnk.app/singlelinecommands" class="nav-link">Single-Line Commands</a></li>
+<li class="outline-li-no-kids">4.7 <a href="https://ntnk.app/wikistylelinks" class="nav-link">Wiki Style Links</a></li>
+<li><details>
+
+<summary>
+4.8 <a href="https://ntnk.app/formattingcommands" class="nav-link">Formatting Commands</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.8.1 <a href="https://ntnk.app/formataquotecitation" class="nav-link">Format a Quote Citation</a></li>
+<li class="outline-li-no-kids">4.8.2 <a href="https://ntnk.app/formatabyline" class="nav-link">Format a Byline</a></li>
+<li class="outline-li-no-kids">4.8.3 <a href="https://ntnk.app/startafigure" class="nav-link">Start a Figure</a></li>
+<li class="outline-li-no-kids">4.8.4 <a href="https://ntnk.app/startafigurecaption" class="nav-link">Start a Figure Caption</a></li>
+<li class="outline-li-no-kids">4.8.5 <a href="https://ntnk.app/endafigure" class="nav-link">End a Figure</a></li>
+<li class="outline-li-no-kids">4.8.6 <a href="https://ntnk.app/injectblockattributes" class="nav-link">Inject Block Attributes</a></li>
+<li class="outline-li-no-kids">4.8.7 <a href="https://ntnk.app/startasegment" class="nav-link">Start a Segment</a></li>
+<li class="outline-li-no-kids">4.8.8 <a href="https://ntnk.app/endasegment" class="nav-link">End a Segment</a></li>
+<li class="outline-li-no-kids">4.8.9 <a href="https://ntnk.app/generatesectionsforheadings" class="nav-link">Generate Sections for Headings</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.9 <a href="https://ntnk.app/intranotecommands" class="nav-link">Intra-Note Commands</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.9.1 <a href="https://ntnk.app/generateanotetableofcontents" class="nav-link">Generate a Note Table of Contents</a></li>
+<li class="outline-li-no-kids">4.9.2 <a href="https://ntnk.app/generateoutlinebasedonunorderedlistitems" class="nav-link">Generate Outline Based on Unordered List Items</a></li>
+<li class="outline-li-no-kids">4.9.3 <a href="https://ntnk.app/generateoutlinebasedonheadings" class="nav-link">Generate Outline Based on Headings</a></li>
+<li class="outline-li-no-kids">4.9.4 <a href="https://ntnk.app/generatealistofattachments" class="nav-link">Generate a List of Attachments</a></li>
+<li class="outline-li-no-kids">4.9.5 <a href="https://ntnk.app/makeatablesortable" class="nav-link">Make a Table Sortable</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.10 <a href="https://ntnk.app/collectionnavigationcommands" class="nav-link">Collection Navigation Commands</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.10.1 <a href="https://ntnk.app/generateabibliography" class="nav-link">Generate a Bibliography</a></li>
+<li class="outline-li-no-kids">4.10.2 <a href="https://ntnk.app/generateacollectioncalendar" class="nav-link">Generate a Collection Calendar</a></li>
+<li class="outline-li-no-kids">4.10.3 <a href="https://ntnk.app/generateacollectiontableofcontents" class="nav-link">Generate a Collection Table of Contents</a></li>
+<li class="outline-li-no-kids">4.10.4 <a href="https://ntnk.app/generateacollectionindex" class="nav-link">Generate a Collection Index</a></li>
+<li class="outline-li-no-kids">4.10.5 <a href="https://ntnk.app/gotorandomnote" class="nav-link">Go To Random Note</a></li>
+<li class="outline-li-no-kids">4.10.6 <a href="https://ntnk.app/generateacollectionsearchpage" class="nav-link">Generate a Collection Search Page</a></li>
+<li class="outline-li-no-kids">4.10.7 <a href="https://ntnk.app/generateatagscloud" class="nav-link">Generate a Tags Cloud</a></li>
+<li class="outline-li-no-kids">4.10.8 <a href="https://ntnk.app/generateatagsoutline" class="nav-link">Generate a Tags Outline</a></li>
+<li class="outline-li-no-kids">4.10.9 <a href="https://ntnk.app/displayteasers" class="nav-link">Display Teasers</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+4.11 <a href="https://ntnk.app/supplycollectiondata" class="nav-link">Supply Collection Data</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">4.11.1 <a href="https://ntnk.app/supplyapageheader" class="nav-link">Supply a Page Header</a></li>
+<li class="outline-li-no-kids">4.11.2 <a href="https://ntnk.app/supplypagenavigation" class="nav-link">Supply Page Navigation</a></li>
+<li class="outline-li-no-kids">4.11.3 <a href="https://ntnk.app/supplyapagefooter" class="nav-link">Supply a Page Footer</a></li>
+<li class="outline-li-no-kids">4.11.4 <a href="https://ntnk.app/supplyepubmetadata" class="nav-link">Supply EPUB Metadata</a></li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5 <a href="https://ntnk.app/fields" class="nav-link">Fields</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.1 <a href="https://ntnk.app/whatwemeanbylabelandtype" class="nav-link">What We Mean by Label and Type</a></li>
+<li class="outline-li-no-kids">5.2 <a href="https://ntnk.app/functionalityassociatedwithfieldtypes" class="nav-link">Functionality Associated with Field Types</a></li>
+<li class="outline-li-no-kids">5.3 <a href="https://ntnk.app/listsoflabelsandtypes" class="nav-link">Lists of Labels and Types</a></li>
+<li><details>
+
+<summary>
+5.4 <a href="https://ntnk.app/basicsetoffields" class="nav-link">The Basic Set of Fields</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.4.1 <a href="https://ntnk.app/title" class="nav-link">Title</a></li>
+<li class="outline-li-no-kids">5.4.2 <a href="https://ntnk.app/tags" class="nav-link">Tags</a></li>
+<li class="outline-li-no-kids">5.4.3 <a href="https://ntnk.app/link" class="nav-link">Link</a></li>
+<li class="outline-li-no-kids">5.4.4 <a href="https://ntnk.app/body" class="nav-link">Body</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.5 <a href="https://ntnk.app/fieldstoassistwithnotelinking" class="nav-link">Fields to Assist with Note Linking</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.5.1 <a href="https://ntnk.app/alsoknownas" class="nav-link">Also Known As</a></li>
+<li class="outline-li-no-kids">5.5.2 <a href="https://ntnk.app/backlinks" class="nav-link">Back Links</a></li>
+<li class="outline-li-no-kids">5.5.3 <a href="https://ntnk.app/wikilinks" class="nav-link">Wiki Links</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.6 <a href="https://ntnk.app/fieldsforsequencingandoutlining" class="nav-link">Fields for Sequencing and Outlining</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.6.1 <a href="https://ntnk.app/seq" class="nav-link">Seq</a></li>
+<li class="outline-li-no-kids">5.6.2 <a href="https://ntnk.app/level" class="nav-link">Level</a></li>
+<li class="outline-li-no-kids">5.6.3 <a href="https://ntnk.app/includechildren" class="nav-link">Include Children</a></li>
+<li class="outline-li-no-kids">5.6.4 <a href="https://ntnk.app/displayseq" class="nav-link">Display Seq</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.7 <a href="https://ntnk.app/taskrelatedfields" class="nav-link">Task-Related Fields</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.7.1 <a href="https://ntnk.app/date" class="nav-link">Date</a></li>
+<li class="outline-li-no-kids">5.7.2 <a href="https://ntnk.app/status" class="nav-link">Status</a></li>
+<li class="outline-li-no-kids">5.7.3 <a href="https://ntnk.app/recurs" class="nav-link">Recurs</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.8 <a href="https://ntnk.app/fieldsfororganizing" class="nav-link">Fields for Organizing</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.8.1 <a href="https://ntnk.app/folder" class="nav-link">Folder</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.9 <a href="https://ntnk.app/fieldstomodifyanotesdisplay" class="nav-link">Fields to Modify a Note&apos;s Display</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.9.1 <a href="https://ntnk.app/pagestyle" class="nav-link">Page Style</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.10 <a href="https://ntnk.app/fieldsforcontacts" class="nav-link">Fields for Contacts</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.10.1 <a href="https://ntnk.app/email" class="nav-link">Email</a></li>
+<li class="outline-li-no-kids">5.10.2 <a href="https://ntnk.app/phone" class="nav-link">Phone</a></li>
+<li class="outline-li-no-kids">5.10.3 <a href="https://ntnk.app/person" class="nav-link">Person</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.11 <a href="https://ntnk.app/webmakingfields" class="nav-link">Web-Making Fields</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.11.1 <a href="https://ntnk.app/code" class="nav-link">Code</a></li>
+<li class="outline-li-no-kids">5.11.2 <a href="https://ntnk.app/indexfield" class="nav-link">Index field</a></li>
+<li class="outline-li-no-kids">5.11.3 <a href="https://ntnk.app/teaser" class="nav-link">Teaser</a></li>
+<li class="outline-li-no-kids">5.11.4 <a href="https://ntnk.app/minutestoread" class="nav-link">Minutes to Read</a></li>
+<li class="outline-li-no-kids">5.11.5 <a href="https://ntnk.app/imagename" class="nav-link">Image Name</a></li>
+<li class="outline-li-no-kids">5.11.6 <a href="https://ntnk.app/shortid" class="nav-link">Short ID</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.12 <a href="https://ntnk.app/fieldsusefulforreviewscitationsandquotations" class="nav-link">Fields Useful for Reviews, Citations and Quotations</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.12.1 <a href="https://ntnk.app/artist" class="nav-link">Artist</a></li>
+<li class="outline-li-no-kids">5.12.2 <a href="https://ntnk.app/attribution" class="nav-link">Attribution</a></li>
+<li class="outline-li-no-kids">5.12.3 <a href="https://ntnk.app/author" class="nav-link">Author</a></li>
+<li class="outline-li-no-kids">5.12.4 <a href="https://ntnk.app/rating" class="nav-link">Rating</a></li>
+<li class="outline-li-no-kids">5.12.5 <a href="https://ntnk.app/worktitle" class="nav-link">Work Title</a></li>
+<li class="outline-li-no-kids">5.12.6 <a href="https://ntnk.app/worktype" class="nav-link">Work Type</a></li>
+<li class="outline-li-no-kids">5.12.7 <a href="https://ntnk.app/worklink" class="nav-link">Work Link</a></li>
+<li class="outline-li-no-kids">5.12.8 <a href="https://ntnk.app/workrights" class="nav-link">Work RIghts</a></li>
+<li class="outline-li-no-kids">5.12.9 <a href="https://ntnk.app/workrightsholder" class="nav-link">Work Rights Holder</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.13 <a href="https://ntnk.app/fieldsusedtoidentifyvariouskindsofnotes" class="nav-link">Fields Used to Identify Various Kinds of Notes</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.13.1 <a href="https://ntnk.app/type" class="nav-link">Type</a></li>
+<li class="outline-li-no-kids">5.13.2 <a href="https://ntnk.app/class" class="nav-link">Class</a></li>
+<li class="outline-li-no-kids">5.13.3 <a href="https://ntnk.app/rank" class="nav-link">Rank</a></li>
+<li class="outline-li-no-kids">5.13.4 <a href="https://ntnk.app/textformat" class="nav-link">Text Format</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.14 <a href="https://ntnk.app/fieldsfortravelplanning" class="nav-link">Fields for Travel Planning</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.14.1 <a href="https://ntnk.app/address" class="nav-link">Address</a></li>
+<li class="outline-li-no-kids">5.14.2 <a href="https://ntnk.app/directions" class="nav-link">Directions</a></li>
+<li class="outline-li-no-kids">5.14.3 <a href="https://ntnk.app/duration" class="nav-link">Duration</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.15 <a href="https://ntnk.app/generalpurposefields" class="nav-link">General-Purpose Fields</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.15.1 <a href="https://ntnk.app/boolean" class="nav-link">Boolean</a></li>
+<li class="outline-li-no-kids">5.15.2 <a href="https://ntnk.app/combo" class="nav-link">Combo</a></li>
+<li class="outline-li-no-kids">5.15.3 <a href="https://ntnk.app/integer" class="nav-link">Integer</a></li>
+<li class="outline-li-no-kids">5.15.4 <a href="https://ntnk.app/longtext" class="nav-link">longtext</a></li>
+<li class="outline-li-no-kids">5.15.5 <a href="https://ntnk.app/lookup" class="nav-link">Lookup</a></li>
+<li class="outline-li-no-kids">5.15.6 <a href="https://ntnk.app/lookback" class="nav-link">Lookback</a></li>
+<li class="outline-li-no-kids">5.15.7 <a href="https://ntnk.app/pickfrom" class="nav-link">Pick From</a></li>
+<li class="outline-li-no-kids">5.15.8 <a href="https://ntnk.app/string" class="nav-link">String</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+5.16 <a href="https://ntnk.app/systemassigneddatesandtimes" class="nav-link">System-Assigned Dates and Times</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">5.16.1 <a href="https://ntnk.app/dateadded" class="nav-link">Date Added</a></li>
+<li class="outline-li-no-kids">5.16.2 <a href="https://ntnk.app/datemodified" class="nav-link">Date Modified</a></li>
+<li class="outline-li-no-kids">5.16.3 <a href="https://ntnk.app/datepicked" class="nav-link">Date Picked</a></li>
+<li class="outline-li-no-kids">5.16.4 <a href="https://ntnk.app/timestamp" class="nav-link">Timestamp</a></li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+6 <a href="https://ntnk.app/filesandfolders" class="nav-link">Files and Folders</a></summary>
+<ul class="outline-ul-within-details">
+<li><details>
+
+<summary>
+6.1 <a href="https://ntnk.app/notefiles" class="nav-link">Note Files</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">6.1.1 <a href="https://ntnk.app/notefileformat" class="nav-link">Note File Format</a></li>
+<li class="outline-li-no-kids">6.1.2 <a href="https://ntnk.app/notefileformatexample" class="nav-link">Note File Format Example</a></li>
+<li class="outline-li-no-kids">6.1.3 <a href="https://ntnk.app/notefilenames" class="nav-link">Note File Names</a></li>
+<li class="outline-li-no-kids">6.1.4 <a href="https://ntnk.app/notefileextensions" class="nav-link">Note File Extensions</a></li>
+<li class="outline-li-no-kids">6.1.5 <a href="https://ntnk.app/collectiontemplatefile" class="nav-link">The Collection Template File</a></li>
+<li class="outline-li-no-kids">6.1.6 <a href="https://ntnk.app/classtemplatefiles" class="nav-link">Class Template Files</a></li>
+<li class="outline-li-no-kids">6.1.7 <a href="https://ntnk.app/defaultsclasstemplate" class="nav-link">The defaults Class Template</a></li>
+<li class="outline-li-no-kids">6.1.8 <a href="https://ntnk.app/whyisthenotenikformatdifferent" class="nav-link">Why is the Notenik Format Different?</a></li>
+<li class="outline-li-no-kids">6.1.9 <a href="https://ntnk.app/useofatexteditor" class="nav-link">Use of a Text Editor</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">6.2 <a href="https://ntnk.app/collectionfolders" class="nav-link">Collection Folders</a></li>
+<li class="outline-li-no-kids">6.3 <a href="https://ntnk.app/fileattachments" class="nav-link">File Attachments</a></li>
+<li class="outline-li-no-kids">6.4 <a href="https://ntnk.app/filelinks" class="nav-link">File Links</a></li>
+<li class="outline-li-no-kids">6.5 <a href="https://ntnk.app/otherfilesandsubfolders" class="nav-link">Other Files and Subfolders</a></li>
+<li class="outline-li-no-kids">6.6 <a href="https://ntnk.app/stashnoteniksspecialfiles" class="nav-link">Stash Notenik&apos;s Special Files</a></li>
+<li class="outline-li-no-kids">6.7 <a href="https://ntnk.app/notenikicloudcontainer" class="nav-link">The Notenik iCloud Container</a></li>
+<li><details>
+
+<summary>
+6.8 <a href="https://ntnk.app/managingabunchofcollections" class="nav-link">Managing a Bunch of Collections</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">6.8.1 <a href="https://ntnk.app/collectionidentifiers" class="nav-link">Collection Identifiers</a></li>
+<li class="outline-li-no-kids">6.8.2 <a href="https://ntnk.app/openprojectfolder" class="nav-link">Open Project Folder</a></li>
+<li class="outline-li-no-kids">6.8.3 <a href="https://ntnk.app/navigateyourcollectionsviatheboard" class="nav-link">Navigate Your Collections via the Board</a></li>
+<li class="outline-li-no-kids">6.8.4 <a href="https://ntnk.app/takequickaction" class="nav-link">Take Quick Action</a></li>
+<li class="outline-li-no-kids">6.8.5 <a href="https://ntnk.app/forgetallshortcuts" class="nav-link">Forget All Shortcuts</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">6.9 <a href="https://ntnk.app/diskaccesspermissions" class="nav-link">Disk Access Permissions</a></li>
+<li class="outline-li-no-kids">6.10 <a href="https://ntnk.app/syncyournotes" class="nav-link">Sync Your Notes</a></li>
+<li><details>
+
+<summary>
+6.11 <a href="https://ntnk.app/existingtextfiles" class="nav-link">Existing Text Files</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">6.11.1 <a href="https://ntnk.app/rulesforreading" class="nav-link">Rules for Reading</a></li>
+<li class="outline-li-no-kids">6.11.2 <a href="https://ntnk.app/rulesforupdating" class="nav-link">Rules for Updating</a></li>
+<li class="outline-li-no-kids">6.11.3 <a href="https://ntnk.app/rulesfornewnotes" class="nav-link">Rules for New Notes</a></li>
+<li class="outline-li-no-kids">6.11.4 <a href="https://ntnk.app/convertinganentirecollection" class="nav-link">Converting an Entire Collection</a></li>
+<li class="outline-li-no-kids">6.11.5 <a href="https://ntnk.app/backingupexistingfiles" class="nav-link">Backing Up Existing Files</a></li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+7 <a href="https://ntnk.app/configurationsettings" class="nav-link">Configuration Settings</a></summary>
+<ul class="outline-ul-within-details">
+<li><details>
+
+<summary>
+7.1 <a href="https://ntnk.app/appsettings" class="nav-link">App Settings</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">7.1.1 <a href="https://ntnk.app/generalsettings" class="nav-link">General Settings</a></li>
+<li class="outline-li-no-kids">7.1.2 <a href="https://ntnk.app/favoritessettings" class="nav-link">Favorites Settings</a></li>
+<li class="outline-li-no-kids">7.1.3 <a href="https://ntnk.app/tagsexportsettings" class="nav-link">Tags Export Settings</a></li>
+<li class="outline-li-no-kids">7.1.4 <a href="https://ntnk.app/markdownsettings" class="nav-link">Markdown Settings</a></li>
+<li class="outline-li-no-kids">7.1.5 <a href="https://ntnk.app/resettodefaults" class="nav-link">Reset to Defaults</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">7.2 <a href="https://ntnk.app/displaysettings" class="nav-link">Display Settings</a></li>
+<li><details>
+
+<summary>
+7.3 <a href="https://ntnk.app/collectionsettings" class="nav-link">Collection Settings</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">7.3.1 <a href="https://ntnk.app/collectiontitle" class="nav-link">Collection Title</a></li>
+<li class="outline-li-no-kids">7.3.2 <a href="https://ntnk.app/notetitledisplay" class="nav-link">Note Title Display</a></li>
+<li class="outline-li-no-kids">7.3.3 <a href="https://ntnk.app/streamlinedreading" class="nav-link">Streamlined Reading</a></li>
+<li class="outline-li-no-kids">7.3.4 <a href="https://ntnk.app/presentationmode" class="nav-link">Presentation Mode</a></li>
+<li class="outline-li-no-kids">7.3.5 <a href="https://ntnk.app/quotationsmode" class="nav-link">Quotations Mode</a></li>
+<li class="outline-li-no-kids">7.3.6 <a href="https://ntnk.app/tagshandling" class="nav-link">Tags Handling</a></li>
+<li class="outline-li-no-kids">7.3.7 <a href="https://ntnk.app/outlinetab" class="nav-link">Outline Tab</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">7.4 <a href="https://ntnk.app/renameafield" class="nav-link">Rename a Field</a></li>
+<li class="outline-li-no-kids">7.5 <a href="https://ntnk.app/changenoteidconfiguration" class="nav-link">Change Note ID Configuration</a></li>
+<li class="outline-li-no-kids">7.6 <a href="https://ntnk.app/addinsforcssandjavascript" class="nav-link">Add-Ins for CSS and Javascript</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+8 <a href="https://ntnk.app/workingwithotherapps" class="nav-link">Working with Other Apps</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">8.1 <a href="https://ntnk.app/copycutpasteandshareyournotes" class="nav-link">Copy, Cut, Paste and Share your Notes</a></li>
+<li class="outline-li-no-kids">8.2 <a href="https://ntnk.app/sharewithoptions" class="nav-link">Share with Options</a></li>
+<li class="outline-li-no-kids">8.3 <a href="https://ntnk.app/pastespecializedtexttomarkdown" class="nav-link">Paste Specialized Text to Markdown</a></li>
+<li><details>
+
+<summary>
+8.4 <a href="https://ntnk.app/importandexportyournotes" class="nav-link">Import and Export Your Notes</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">8.4.1 <a href="https://ntnk.app/importappsfolder" class="nav-link">Import Apps Folder</a></li>
+<li class="outline-li-no-kids">8.4.2 <a href="https://ntnk.app/importfromomnifocus" class="nav-link">Import from OmniFocus</a></li>
+<li class="outline-li-no-kids">8.4.3 <a href="https://ntnk.app/importsettings" class="nav-link">Import Settings</a></li>
+<li class="outline-li-no-kids">8.4.4 <a href="https://ntnk.app/importvcards" class="nav-link">Import vCards</a></li>
+<li class="outline-li-no-kids">8.4.5 <a href="https://ntnk.app/exporttoical" class="nav-link">Export to iCal</a></li>
+<li class="outline-li-no-kids">8.4.6 <a href="https://ntnk.app/exportaswebbook" class="nav-link">Export as Web Book</a></li>
+<li class="outline-li-no-kids">8.4.7 <a href="https://ntnk.app/exportusingscript" class="nav-link">Export Using Script</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">8.5 <a href="https://ntnk.app/newnotefromwikiquote" class="nav-link">New Note from WikiQuote</a></li>
+<li class="outline-li-no-kids">8.6 <a href="https://ntnk.app/exporttonotenikvssaveasvsmove" class="nav-link">Export to Notenik vs. Save As vs. Move</a></li>
+<li class="outline-li-no-kids">8.7 <a href="https://ntnk.app/backuptozip" class="nav-link">Backup to Zip</a></li>
+<li class="outline-li-no-kids">8.8 <a href="https://ntnk.app/publishtomedium" class="nav-link">Publish to Medium</a></li>
+<li class="outline-li-no-kids">8.9 <a href="https://ntnk.app/generatingreports" class="nav-link">Generating Reports</a></li>
+<li class="outline-li-no-kids">8.10 <a href="https://ntnk.app/recordandplayscripts" class="nav-link">Record and Play Scripts</a></li>
+<li><details>
+
+<summary>
+8.11 <a href="https://ntnk.app/querybuilder" class="nav-link">Query Builder</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">8.11.1 <a href="https://ntnk.app/queryoutputwindow" class="nav-link">Query Output Window</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">8.12 <a href="https://ntnk.app/favoritestohtml" class="nav-link">Favorites to HTML</a></li>
+<li class="outline-li-no-kids">8.13 <a href="https://ntnk.app/datestocalendar" class="nav-link">Dates to Calendar</a></li>
+<li class="outline-li-no-kids">8.14 <a href="https://ntnk.app/mirroryournotes" class="nav-link">Mirror Your Notes</a></li>
+<li><details>
+
+<summary>
+8.15 <a href="https://ntnk.app/websitebuilding" class="nav-link">Website Building</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">8.15.1 <a href="https://ntnk.app/blogwebsitecreation" class="nav-link">Blog website creation</a></li>
+<li class="outline-li-no-kids">8.15.2 <a href="https://ntnk.app/websitewithcontentcreation" class="nav-link">Website with content creation</a></li>
+<li class="outline-li-no-kids">8.15.3 <a href="https://ntnk.app/websitegenerationtips" class="nav-link">Website Generation Tips</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+8.16 <a href="https://ntnk.app/customurlscheme" class="nav-link">Custom URL Scheme</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">8.16.1 <a href="https://ntnk.app/notenikurlopencommand" class="nav-link">Notenik URL Open Command</a></li>
+<li class="outline-li-no-kids">8.16.2 <a href="https://ntnk.app/notenikurladdcommand" class="nav-link">Notenik URL Add Command</a></li>
+<li class="outline-li-no-kids">8.16.3 <a href="https://ntnk.app/notenikurlexpandcommand" class="nav-link">Notenik URL Expand Command</a></li>
+<li class="outline-li-no-kids">8.16.4 <a href="https://ntnk.app/notenikurlruncommand" class="nav-link">Notenik URL Run Command</a></li>
+<li class="outline-li-no-kids">8.16.5 <a href="https://ntnk.app/notenikurlhelpcommand" class="nav-link">Notenik URL Help Command</a></li>
+<li class="outline-li-no-kids">8.16.6 <a href="https://ntnk.app/notenikurlsettingscommand" class="nav-link">Notenik URL Settings Command</a></li>
+<li class="outline-li-no-kids">8.16.7 <a href="https://ntnk.app/notenikurlfindcommand" class="nav-link">Notenik URL Find Command</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">8.17 <a href="https://ntnk.app/apisforhookmarkintegration" class="nav-link">APIs for Hookmark Integration</a></li>
+<li class="outline-li-no-kids">8.18 <a href="https://ntnk.app/actionsforshortcuts" class="nav-link">Actions for Shortcuts</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+9 <a href="https://ntnk.app/mergetemplates" class="nav-link">Merge Templates</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">9.1 <a href="https://ntnk.app/mergedelimiters" class="nav-link">Merge Delimiters</a></li>
+<li><details>
+
+<summary>
+9.2 <a href="https://ntnk.app/mergevariables" class="nav-link">Merge Variables</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">9.2.1 <a href="https://ntnk.app/globalvariables" class="nav-link">Global Variables</a></li>
+<li class="outline-li-no-kids">9.2.2 <a href="https://ntnk.app/systemvariables" class="nav-link">System Variables</a></li>
+<li class="outline-li-no-kids">9.2.3 <a href="https://ntnk.app/derivedvariables" class="nav-link">Derived Variables</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+9.3 <a href="https://ntnk.app/variablemodifiers" class="nav-link">Variable Modifiers</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">9.3.1 <a href="https://ntnk.app/emailapostrophes" class="nav-link">Email Apostrophes</a></li>
+<li class="outline-li-no-kids">9.3.2 <a href="https://ntnk.app/listpunctuation" class="nav-link">List Punctuation</a></li>
+<li class="outline-li-no-kids">9.3.3 <a href="https://ntnk.app/underscore" class="nav-link">Underscore</a></li>
+<li class="outline-li-no-kids">9.3.4 <a href="https://ntnk.app/removeparagraphtagshyphen" class="nav-link">Remove Paragraph Tags - Hyphen</a></li>
+<li class="outline-li-no-kids">9.3.5 <a href="https://ntnk.app/extractpartofavariablecaret" class="nav-link">Extract Part of a Variable - Caret</a></li>
+<li class="outline-li-no-kids">9.3.6 <a href="https://ntnk.app/taketextfromright" class="nav-link">Take Text from Right</a></li>
+<li class="outline-li-no-kids">9.3.7 <a href="https://ntnk.app/alternatenumberingatsign" class="nav-link">Alternate Numbering - At Sign</a></li>
+<li class="outline-li-no-kids">9.3.8 <a href="https://ntnk.app/lengthmodifier" class="nav-link">Length Modifier</a></li>
+<li class="outline-li-no-kids">9.3.9 <a href="https://ntnk.app/authornamemodifiera" class="nav-link">Author Name Modifier - A</a></li>
+<li class="outline-li-no-kids">9.3.10 <a href="https://ntnk.app/ampma" class="nav-link">AM PM - a</a></li>
+<li class="outline-li-no-kids">9.3.11 <a href="https://ntnk.app/basefilenameb" class="nav-link">Base File Name - B</a></li>
+<li class="outline-li-no-kids">9.3.12 <a href="https://ntnk.app/worddemarcationc" class="nav-link">Word Demarcation - C</a></li>
+<li class="outline-li-no-kids">9.3.13 <a href="https://ntnk.app/dayofmonthdd" class="nav-link">Day of Month - dd</a></li>
+<li class="outline-li-no-kids">9.3.14 <a href="https://ntnk.app/dayofweekabbreviatedeee" class="nav-link">Day of Week, Abbreviated - EEE</a></li>
+<li class="outline-li-no-kids">9.3.15 <a href="https://ntnk.app/dayofweekeeee" class="nav-link">Day of Week - EEEE</a></li>
+<li class="outline-li-no-kids">9.3.16 <a href="https://ntnk.app/filenamef" class="nav-link">File Name - F</a></li>
+<li class="outline-li-no-kids">9.3.17 <a href="https://ntnk.app/linkedtagsg" class="nav-link">Linked Tags - G</a></li>
+<li class="outline-li-no-kids">9.3.18 <a href="https://ntnk.app/htmlh" class="nav-link">HTML - H</a></li>
+<li class="outline-li-no-kids">9.3.19 <a href="https://ntnk.app/initialcasei" class="nav-link">Initial Case - I</a></li>
+<li class="outline-li-no-kids">9.3.20 <a href="https://ntnk.app/toidentifieri" class="nav-link">To Identifier - I</a></li>
+<li class="outline-li-no-kids">9.3.21 <a href="https://ntnk.app/linkj" class="nav-link">Link - J</a></li>
+<li class="outline-li-no-kids">9.3.22 <a href="https://ntnk.app/hourofdayk" class="nav-link">Hour of Day - K</a></li>
+<li class="outline-li-no-kids">9.3.23 <a href="https://ntnk.app/seqformattingk" class="nav-link">Seq Formatting - K</a></li>
+<li class="outline-li-no-kids">9.3.24 <a href="https://ntnk.app/lowercasemodifierl" class="nav-link">Lowercase Modifier - L</a></li>
+<li class="outline-li-no-kids">9.3.25 <a href="https://ntnk.app/monthorminutesm" class="nav-link">Month or Minutes - M</a></li>
+<li class="outline-li-no-kids">9.3.26 <a href="https://ntnk.app/nobreaksn" class="nav-link">No Breaks - N</a></li>
+<li class="outline-li-no-kids">9.3.27 <a href="https://ntnk.app/markdowntohtmlo" class="nav-link">Markdown to HTML - O</a></li>
+<li class="outline-li-no-kids">9.3.28 <a href="https://ntnk.app/punctuationpurificationp" class="nav-link">Punctuation Purification - P</a></li>
+<li class="outline-li-no-kids">9.3.29 <a href="https://ntnk.app/quotationencasingq" class="nav-link">Quotation Encasing - Q</a></li>
+<li class="outline-li-no-kids">9.3.30 <a href="https://ntnk.app/keepcharactersontherightr" class="nav-link">Keep Characters on the Right - R</a></li>
+<li class="outline-li-no-kids">9.3.31 <a href="https://ntnk.app/readablefilenamer" class="nav-link">Readable File Name - R</a></li>
+<li class="outline-li-no-kids">9.3.32 <a href="https://ntnk.app/summarizes" class="nav-link">Summarize - S</a></li>
+<li class="outline-li-no-kids">9.3.33 <a href="https://ntnk.app/htmltomarkdownt" class="nav-link">HTML to Markdown - T</a></li>
+<li class="outline-li-no-kids">9.3.34 <a href="https://ntnk.app/uppercasemodifieru" class="nav-link">Uppercase Modifier - U</a></li>
+<li class="outline-li-no-kids">9.3.35 <a href="https://ntnk.app/variancev" class="nav-link">Variance - V</a></li>
+<li class="outline-li-no-kids">9.3.36 <a href="https://ntnk.app/wikistylelinksw" class="nav-link">Wiki-Style Links - W</a></li>
+<li class="outline-li-no-kids">9.3.37 <a href="https://ntnk.app/xmlx" class="nav-link">XML - X</a></li>
+<li class="outline-li-no-kids">9.3.38 <a href="https://ntnk.app/yeary" class="nav-link">Year - y</a></li>
+<li class="outline-li-no-kids">9.3.39 <a href="https://ntnk.app/linkedtagsz" class="nav-link">Linked Tags - Z</a></li>
+<li class="outline-li-no-kids">9.3.40 <a href="https://ntnk.app/prepforjson" class="nav-link">Prep for JSON</a></li>
+<li class="outline-li-no-kids">9.3.41 <a href="https://ntnk.app/splitlabelfromnumber" class="nav-link">Split Label from Number - &gt;</a></li>
+<li class="outline-li-no-kids">9.3.42 <a href="https://ntnk.app/domainnamefromlink" class="nav-link">Domain Name from Link - /</a></li>
+<li class="outline-li-no-kids">9.3.43 <a href="https://ntnk.app/repeatr" class="nav-link">Repeat - ^R</a></li>
+<li class="outline-li-no-kids">9.3.44 <a href="https://ntnk.app/formattingstring" class="nav-link">Formatting String</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+9.4 <a href="https://ntnk.app/mergecommands" class="nav-link">Merge Commands</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">9.4.1 <a href="https://ntnk.app/delimscommand" class="nav-link">delims command</a></li>
+<li class="outline-li-no-kids">9.4.2 <a href="https://ntnk.app/clearglobalscommand" class="nav-link">clearglobals command</a></li>
+<li class="outline-li-no-kids">9.4.3 <a href="https://ntnk.app/setcommand" class="nav-link">set command</a></li>
+<li class="outline-li-no-kids">9.4.4 <a href="https://ntnk.app/outputcommand" class="nav-link">output command</a></li>
+<li class="outline-li-no-kids">9.4.5 <a href="https://ntnk.app/nextreccommand" class="nav-link">nextrec command</a></li>
+<li class="outline-li-no-kids">9.4.6 <a href="https://ntnk.app/definegroupcommand" class="nav-link">definegroup command</a></li>
+<li class="outline-li-no-kids">9.4.7 <a href="https://ntnk.app/ifendgroupcommand" class="nav-link">ifendgroup command</a></li>
+<li class="outline-li-no-kids">9.4.8 <a href="https://ntnk.app/trailingcommand" class="nav-link">trailing command</a></li>
+<li class="outline-li-no-kids">9.4.9 <a href="https://ntnk.app/ifnewgroupcommand" class="nav-link">ifnewgroup command</a></li>
+<li class="outline-li-no-kids">9.4.10 <a href="https://ntnk.app/ifcommand" class="nav-link">if command</a></li>
+<li class="outline-li-no-kids">9.4.11 <a href="https://ntnk.app/elsecommand" class="nav-link">else command</a></li>
+<li class="outline-li-no-kids">9.4.12 <a href="https://ntnk.app/endifcommand" class="nav-link">endif command</a></li>
+<li class="outline-li-no-kids">9.4.13 <a href="https://ntnk.app/copyaddinscommand" class="nav-link">copyaddins command</a></li>
+<li class="outline-li-no-kids">9.4.14 <a href="https://ntnk.app/copycsscommand" class="nav-link">copycss command</a></li>
+<li class="outline-li-no-kids">9.4.15 <a href="https://ntnk.app/copyfilecommand" class="nav-link">copyfile command</a></li>
+<li class="outline-li-no-kids">9.4.16 <a href="https://ntnk.app/copyimagescommand" class="nav-link">copyimages command</a></li>
+<li class="outline-li-no-kids">9.4.17 <a href="https://ntnk.app/includecommand" class="nav-link">include command</a></li>
+<li class="outline-li-no-kids">9.4.18 <a href="https://ntnk.app/allfieldscommand" class="nav-link">allfields command</a></li>
+<li class="outline-li-no-kids">9.4.19 <a href="https://ntnk.app/loopcommand" class="nav-link">loop command</a></li>
+</ul>
+</details>
+</li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+10 <a href="https://ntnk.app/scriptfiles" class="nav-link">Script Files</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">10.1 <a href="https://ntnk.app/scripterwindow" class="nav-link">Scripter Window</a></li>
+<li class="outline-li-no-kids">10.2 <a href="https://ntnk.app/scriptfilecolumns" class="nav-link">Script File Columns</a></li>
+<li><details>
+
+<summary>
+10.3 <a href="https://ntnk.app/scriptingmodules" class="nav-link">Scripting Modules</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">10.3.1 <a href="https://ntnk.app/inputmoduleparameters" class="nav-link">Input Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.2 <a href="https://ntnk.app/filtermoduleparameters" class="nav-link">Filter Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.3 <a href="https://ntnk.app/sortmoduleparameters" class="nav-link">Sort Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.4 <a href="https://ntnk.app/templatemoduleparameters" class="nav-link">Template Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.5 <a href="https://ntnk.app/outputmoduleparameters" class="nav-link">Output Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.6 <a href="https://ntnk.app/browsemoduleparameters" class="nav-link">Browse Module Parameters</a></li>
+<li class="outline-li-no-kids">10.3.7 <a href="https://ntnk.app/scriptmoduleparameters" class="nav-link">Script Module Parameters</a></li>
+</ul>
+</details>
+</li>
+<li class="outline-li-no-kids">10.4 <a href="https://ntnk.app/scriptfileexample" class="nav-link">Script File Example</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+11 <a href="https://ntnk.app/commonusecases" class="nav-link">Common Use Cases</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">11.1 <a href="https://ntnk.app/createasimplecollectionofnotes" class="nav-link">Create a Simple Collection of Notes</a></li>
+<li class="outline-li-no-kids">11.2 <a href="https://ntnk.app/createacollectionofwebbookmarks" class="nav-link">Create a Collection of Web Bookmarks</a></li>
+<li class="outline-li-no-kids">11.3 <a href="https://ntnk.app/makeatodolist" class="nav-link">Make a To-Do List</a></li>
+<li class="outline-li-no-kids">11.4 <a href="https://ntnk.app/usingnotenikasanoutliner" class="nav-link">Using Notenik as an Outliner</a></li>
+<li class="outline-li-no-kids">11.5 <a href="https://ntnk.app/createadigitalcommonplacebookorazettelkasten" class="nav-link">Create a Digital Commonplace Book or a Zettelkasten</a></li>
+<li class="outline-li-no-kids">11.6 <a href="https://ntnk.app/createacommonplacebookwithlookupfields" class="nav-link">Create a Commonplace Book with Lookup Fields</a></li>
+<li class="outline-li-no-kids">11.7 <a href="https://ntnk.app/writeawebbook" class="nav-link">Write a Web Book</a></li>
+<li class="outline-li-no-kids">11.8 <a href="https://ntnk.app/makeaprojectlauncher" class="nav-link">Make a Project Launcher</a></li>
+<li class="outline-li-no-kids">11.9 <a href="https://ntnk.app/usingnotenikasatravelplanner" class="nav-link">Using Notenik as a Travel Planner</a></li>
+<li class="outline-li-no-kids">11.10 <a href="https://ntnk.app/seeadailyquote" class="nav-link">See a Daily Quote</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+12 <a href="https://ntnk.app/reference" class="nav-link">Reference</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">12.1 <a href="https://ntnk.app/about" class="nav-link">About</a></li>
+<li class="outline-li-no-kids">12.2 <a href="https://ntnk.app/aboutthoseothernames" class="nav-link">About Those Other Names&hellip;</a></li>
+<li class="outline-li-no-kids">12.3 <a href="https://ntnk.app/license" class="nav-link">License</a></li>
+<li class="outline-li-no-kids">12.4 <a href="https://ntnk.app/privacy" class="nav-link">Privacy</a></li>
+<li class="outline-li-no-kids">12.5 <a href="https://ntnk.app/support" class="nav-link">Support</a></li>
+<li class="outline-li-no-kids">12.6 <a href="https://ntnk.app/keyboardshortcuts" class="nav-link">Keyboard Shortcuts</a></li>
+<li class="outline-li-no-kids">12.7 <a href="https://ntnk.app/htmlclassvalues" class="nav-link">HTML Class Values</a></li>
+<li class="outline-li-no-kids">12.8 <a href="https://ntnk.app/indextotheknowledgebase" class="nav-link">Index to the Knowledge Base</a></li>
+</ul>
+</details>
+</li>
+<li><details>
+
+<summary>
+13 <a href="https://ntnk.app/versionhistory" class="nav-link">Version History</a></summary>
+<ul class="outline-ul-within-details">
+<li class="outline-li-no-kids">13.1 <a href="https://ntnk.app/version1700" class="nav-link">Version 17.0.0</a></li>
+<li class="outline-li-no-kids">13.2 <a href="https://ntnk.app/version1690" class="nav-link">Version 16.9.0</a></li>
+<li class="outline-li-no-kids">13.3 <a href="https://ntnk.app/version1680" class="nav-link">Version 16.8.0</a></li>
+<li class="outline-li-no-kids">13.4 <a href="https://ntnk.app/version1670" class="nav-link">Version 16.7.0</a></li>
+<li class="outline-li-no-kids">13.5 <a href="https://ntnk.app/version1660" class="nav-link">Version 16.6.0</a></li>
+<li class="outline-li-no-kids">13.6 <a href="https://ntnk.app/version1650" class="nav-link">Version 16.5.0</a></li>
+<li class="outline-li-no-kids">13.7 <a href="https://ntnk.app/version1640" class="nav-link">Version 16.4.0</a></li>
+<li class="outline-li-no-kids">13.8 <a href="https://ntnk.app/version1630" class="nav-link">Version 16.3.0</a></li>
+<li class="outline-li-no-kids">13.9 <a href="https://ntnk.app/version1620" class="nav-link">Version 16.2.0</a></li>
+<li class="outline-li-no-kids">13.10 <a href="https://ntnk.app/version1610" class="nav-link">Version 16.1.0</a></li>
+<li class="outline-li-no-kids">13.11 <a href="https://ntnk.app/version1600" class="nav-link">Version 16.0.0</a></li>
+<li class="outline-li-no-kids">13.12 <a href="https://ntnk.app/version1590" class="nav-link">Version 15.9.0</a></li>
+<li class="outline-li-no-kids">13.13 <a href="https://ntnk.app/version1580" class="nav-link">Version 15.8.0</a></li>
+<li class="outline-li-no-kids">13.14 <a href="https://ntnk.app/version1570" class="nav-link">Version 15.7.0</a></li>
+<li class="outline-li-no-kids">13.15 <a href="https://ntnk.app/version1560" class="nav-link">Version 15.6.0</a></li>
+<li class="outline-li-no-kids">13.16 <a href="https://ntnk.app/version1550" class="nav-link">Version 15.5.0</a></li>
+<li class="outline-li-no-kids">13.17 <a href="https://ntnk.app/version1540" class="nav-link">Version 15.4.0</a></li>
+<li class="outline-li-no-kids">13.18 <a href="https://ntnk.app/version1530" class="nav-link">Version 15.3.0</a></li>
+<li class="outline-li-no-kids">13.19 <a href="https://ntnk.app/version1520" class="nav-link">Version 15.2.0</a></li>
+<li class="outline-li-no-kids">13.20 <a href="https://ntnk.app/version1510" class="nav-link">Version 15.1.0</a></li>
+<li class="outline-li-no-kids">13.21 <a href="https://ntnk.app/version1500" class="nav-link">Version 15.0.0</a></li>
+<li class="outline-li-no-kids">13.22 <a href="https://ntnk.app/version1490" class="nav-link">Version 14.9.0</a></li>
+<li class="outline-li-no-kids">13.23 <a href="https://ntnk.app/version1480" class="nav-link">Version 14.8.0</a></li>
+<li class="outline-li-no-kids">13.24 <a href="https://ntnk.app/version1470" class="nav-link">Version 14.7.0</a></li>
+<li class="outline-li-no-kids">13.25 <a href="https://ntnk.app/version1460" class="nav-link">Version 14.6.0</a></li>
+<li class="outline-li-no-kids">13.26 <a href="https://ntnk.app/version1450" class="nav-link">Version 14.5.0</a></li>
+<li class="outline-li-no-kids">13.27 <a href="https://ntnk.app/version1440" class="nav-link">Version 14.4.0</a></li>
+<li class="outline-li-no-kids">13.28 <a href="https://ntnk.app/version1430" class="nav-link">Version 14.3.0</a></li>
+<li class="outline-li-no-kids">13.29 <a href="https://ntnk.app/version1422" class="nav-link">Version 14.2.2</a></li>
+<li class="outline-li-no-kids">13.30 <a href="https://ntnk.app/version1420" class="nav-link">Version 14.2.0</a></li>
+<li class="outline-li-no-kids">13.31 <a href="https://ntnk.app/version1410" class="nav-link">Version 14.1.0</a></li>
+<li class="outline-li-no-kids">13.32 <a href="https://ntnk.app/version1400" class="nav-link">Version 14.0.0</a></li>
+<li class="outline-li-no-kids">13.33 <a href="https://ntnk.app/version1390" class="nav-link">Version 13.9.0</a></li>
+<li class="outline-li-no-kids">13.34 <a href="https://ntnk.app/version1380" class="nav-link">Version 13.8.0</a></li>
+<li class="outline-li-no-kids">13.35 <a href="https://ntnk.app/version1370" class="nav-link">Version 13.7.0</a></li>
+<li class="outline-li-no-kids">13.36 <a href="https://ntnk.app/version1360" class="nav-link">Version 13.6.0</a></li>
+<li class="outline-li-no-kids">13.37 <a href="https://ntnk.app/version1350" class="nav-link">Version 13.5.0</a></li>
+<li class="outline-li-no-kids">13.38 <a href="https://ntnk.app/version1340" class="nav-link">Version 13.4.0</a></li>
+<li class="outline-li-no-kids">13.39 <a href="https://ntnk.app/version1330" class="nav-link">Version 13.3.0</a></li>
+<li class="outline-li-no-kids">13.40 <a href="https://ntnk.app/version1320" class="nav-link">Version 13.2.0</a></li>
+<li class="outline-li-no-kids">13.41 <a href="https://ntnk.app/version1310" class="nav-link">Version 13.1.0</a></li>
+<li class="outline-li-no-kids">13.42 <a href="https://ntnk.app/version1300" class="nav-link">Version 13.0.0</a></li>
+<li class="outline-li-no-kids">13.43 <a href="https://ntnk.app/version1290" class="nav-link">Version 12.9.0</a></li>
+<li class="outline-li-no-kids">13.44 <a href="https://ntnk.app/version1280" class="nav-link">Version 12.8.0</a></li>
+<li class="outline-li-no-kids">13.45 <a href="https://ntnk.app/version1270" class="nav-link">Version 12.7.0</a></li>
+<li class="outline-li-no-kids">13.46 <a href="https://ntnk.app/version1260" class="nav-link">Version 12.6.0</a></li>
+<li class="outline-li-no-kids">13.47 <a href="https://ntnk.app/version1250" class="nav-link">Version 12.5.0</a></li>
+<li class="outline-li-no-kids">13.48 <a href="https://ntnk.app/version1240" class="nav-link">Version 12.4.0</a></li>
+<li class="outline-li-no-kids">13.49 <a href="https://ntnk.app/version1230" class="nav-link">Version 12.3.0</a></li>
+<li class="outline-li-no-kids">13.50 <a href="https://ntnk.app/version1220" class="nav-link">Version 12.2.0</a></li>
+<li class="outline-li-no-kids">13.51 <a href="https://ntnk.app/version1210" class="nav-link">Version 12.1.0</a></li>
+<li class="outline-li-no-kids">13.52 <a href="https://ntnk.app/version1200" class="nav-link">Version 12.0.0</a></li>
+<li class="outline-li-no-kids">13.53 <a href="https://ntnk.app/version1190" class="nav-link">Version 11.9.0</a></li>
+<li class="outline-li-no-kids">13.54 <a href="https://ntnk.app/version1180" class="nav-link">Version 11.8.0</a></li>
+<li class="outline-li-no-kids">13.55 <a href="https://ntnk.app/version1170" class="nav-link">Version 11.7.0</a></li>
+<li class="outline-li-no-kids">13.56 <a href="https://ntnk.app/version1160" class="nav-link">Version 11.6.0</a></li>
+<li class="outline-li-no-kids">13.57 <a href="https://ntnk.app/version1150" class="nav-link">Version 11.5.0</a></li>
+<li class="outline-li-no-kids">13.58 <a href="https://ntnk.app/version1140" class="nav-link">Version 11.4.0</a></li>
+<li class="outline-li-no-kids">13.59 <a href="https://ntnk.app/version1130" class="nav-link">Version 11.3.0</a></li>
+<li class="outline-li-no-kids">13.60 <a href="https://ntnk.app/version1120" class="nav-link">Version 11.2.0</a></li>
+<li class="outline-li-no-kids">13.61 <a href="https://ntnk.app/version1110" class="nav-link">Version 11.1.0</a></li>
+<li class="outline-li-no-kids">13.62 <a href="https://ntnk.app/version1100" class="nav-link">Version 11.0.0</a></li>
+<li class="outline-li-no-kids">13.63 <a href="https://ntnk.app/version1090" class="nav-link">Version 10.9.0</a></li>
+<li class="outline-li-no-kids">13.64 <a href="https://ntnk.app/version1080" class="nav-link">Version 10.8.0</a></li>
+<li class="outline-li-no-kids">13.65 <a href="https://ntnk.app/version1071" class="nav-link">Version 10.7.1</a></li>
+<li class="outline-li-no-kids">13.66 <a href="https://ntnk.app/version1070" class="nav-link">Version 10.7.0</a></li>
+<li class="outline-li-no-kids">13.67 <a href="https://ntnk.app/version1060" class="nav-link">Version 10.6.0</a></li>
+<li class="outline-li-no-kids">13.68 <a href="https://ntnk.app/version1050" class="nav-link">Version 10.5.0</a></li>
+<li class="outline-li-no-kids">13.69 <a href="https://ntnk.app/version1040" class="nav-link">Version 10.4.0</a></li>
+<li class="outline-li-no-kids">13.70 <a href="https://ntnk.app/version1030" class="nav-link">Version 10.3.0</a></li>
+<li class="outline-li-no-kids">13.71 <a href="https://ntnk.app/version1020" class="nav-link">Version 10.2.0</a></li>
+<li class="outline-li-no-kids">13.72 <a href="https://ntnk.app/version1010" class="nav-link">Version 10.1.0</a></li>
+<li class="outline-li-no-kids">13.73 <a href="https://ntnk.app/version1000" class="nav-link">Version 10.0.0</a></li>
+<li class="outline-li-no-kids">13.74 <a href="https://ntnk.app/version990" class="nav-link">Version 9.9.0</a></li>
+<li class="outline-li-no-kids">13.75 <a href="https://ntnk.app/version980" class="nav-link">Version 9.8.0</a></li>
+<li class="outline-li-no-kids">13.76 <a href="https://ntnk.app/version970" class="nav-link">Version 9.7.0</a></li>
+<li class="outline-li-no-kids">13.77 <a href="https://ntnk.app/version960" class="nav-link">Version 9.6.0</a></li>
+<li class="outline-li-no-kids">13.78 <a href="https://ntnk.app/version950" class="nav-link">Version 9.5.0</a></li>
+<li class="outline-li-no-kids">13.79 <a href="https://ntnk.app/version940" class="nav-link">Version 9.4.0</a></li>
+<li class="outline-li-no-kids">13.80 <a href="https://ntnk.app/version930" class="nav-link">Version 9.3.0</a></li>
+<li class="outline-li-no-kids">13.81 <a href="https://ntnk.app/version921" class="nav-link">Version 9.2.1</a></li>
+<li class="outline-li-no-kids">13.82 <a href="https://ntnk.app/version920" class="nav-link">Version 9.2.0</a></li>
+<li class="outline-li-no-kids">13.83 <a href="https://ntnk.app/version910" class="nav-link">Version 9.1.0</a></li>
+<li class="outline-li-no-kids">13.84 <a href="https://ntnk.app/version902" class="nav-link">Version 9.0.2</a></li>
+<li class="outline-li-no-kids">13.85 <a href="https://ntnk.app/version901" class="nav-link">Version 9.0.1</a></li>
+<li class="outline-li-no-kids">13.86 <a href="https://ntnk.app/version900" class="nav-link">Version 9.0.0</a></li>
+<li class="outline-li-no-kids">13.87 <a href="https://ntnk.app/version890" class="nav-link">Version 8.9.0</a></li>
+<li class="outline-li-no-kids">13.88 <a href="https://ntnk.app/version880" class="nav-link">Version 8.8.0</a></li>
+<li class="outline-li-no-kids">13.89 <a href="https://ntnk.app/version871" class="nav-link">Version 8.7.1</a></li>
+<li class="outline-li-no-kids">13.90 <a href="https://ntnk.app/version870" class="nav-link">Version 8.7.0</a></li>
+<li class="outline-li-no-kids">13.91 <a href="https://ntnk.app/version860" class="nav-link">Version 8.6.0</a></li>
+<li class="outline-li-no-kids">13.92 <a href="https://ntnk.app/version850" class="nav-link">Version 8.5.0</a></li>
+<li class="outline-li-no-kids">13.93 <a href="https://ntnk.app/version840" class="nav-link">Version 8.4.0</a></li>
+<li class="outline-li-no-kids">13.94 <a href="https://ntnk.app/version830" class="nav-link">Version 8.3.0</a></li>
+<li class="outline-li-no-kids">13.95 <a href="https://ntnk.app/version822" class="nav-link">Version 8.2.2</a></li>
+<li class="outline-li-no-kids">13.96 <a href="https://ntnk.app/version821" class="nav-link">Version 8.2.1</a></li>
+<li class="outline-li-no-kids">13.97 <a href="https://ntnk.app/version8202" class="nav-link">Version 8.2.0 2</a></li>
+<li class="outline-li-no-kids">13.98 <a href="https://ntnk.app/version820" class="nav-link">Version 8.2.0</a></li>
+<li class="outline-li-no-kids">13.99 <a href="https://ntnk.app/version810" class="nav-link">Version 8.1.0</a></li>
+<li class="outline-li-no-kids">13.100 <a href="https://ntnk.app/version800" class="nav-link">Version 8.0.0</a></li>
+<li class="outline-li-no-kids">13.101 <a href="https://ntnk.app/version790" class="nav-link">Version 7.9.0</a></li>
+<li class="outline-li-no-kids">13.102 <a href="https://ntnk.app/version780" class="nav-link">Version 7.8.0</a></li>
+<li class="outline-li-no-kids">13.103 <a href="https://ntnk.app/version771" class="nav-link">Version 7.7.1</a></li>
+<li class="outline-li-no-kids">13.104 <a href="https://ntnk.app/version770" class="nav-link">Version 7.7.0</a></li>
+<li class="outline-li-no-kids">13.105 <a href="https://ntnk.app/version760" class="nav-link">Version 7.6.0</a></li>
+<li class="outline-li-no-kids">13.106 <a href="https://ntnk.app/version750" class="nav-link">Version 7.5.0</a></li>
+<li class="outline-li-no-kids">13.107 <a href="https://ntnk.app/version743" class="nav-link">Version 7.4.3</a></li>
+<li class="outline-li-no-kids">13.108 <a href="https://ntnk.app/version740" class="nav-link">Version 7.4.0</a></li>
+<li class="outline-li-no-kids">13.109 <a href="https://ntnk.app/version730" class="nav-link">Version 7.3.0</a></li>
+<li class="outline-li-no-kids">13.110 <a href="https://ntnk.app/version720" class="nav-link">Version 7.2.0</a></li>
+<li class="outline-li-no-kids">13.111 <a href="https://ntnk.app/version710" class="nav-link">Version 7.1.0</a></li>
+<li class="outline-li-no-kids">13.112 <a href="https://ntnk.app/version700" class="nav-link">Version 7.0.0</a></li>
+<li class="outline-li-no-kids">13.113 <a href="https://ntnk.app/version693" class="nav-link">Version 6.9.3</a></li>
+<li class="outline-li-no-kids">13.114 <a href="https://ntnk.app/version692" class="nav-link">Version 6.9.2</a></li>
+<li class="outline-li-no-kids">13.115 <a href="https://ntnk.app/version690" class="nav-link">Version 6.9.0</a></li>
+<li class="outline-li-no-kids">13.116 <a href="https://ntnk.app/version680" class="nav-link">Version 6.8.0</a></li>
+<li class="outline-li-no-kids">13.117 <a href="https://ntnk.app/version674" class="nav-link">Version 6.7.4</a></li>
+<li class="outline-li-no-kids">13.118 <a href="https://ntnk.app/version673" class="nav-link">Version 6.7.3</a></li>
+<li class="outline-li-no-kids">13.119 <a href="https://ntnk.app/version672" class="nav-link">Version 6.7.2</a></li>
+<li class="outline-li-no-kids">13.120 <a href="https://ntnk.app/version671" class="nav-link">Version 6.7.1</a></li>
+<li class="outline-li-no-kids">13.121 <a href="https://ntnk.app/version670" class="nav-link">Version 6.7.0</a></li>
+<li class="outline-li-no-kids">13.122 <a href="https://ntnk.app/version660" class="nav-link">Version 6.6.0</a></li>
+<li class="outline-li-no-kids">13.123 <a href="https://ntnk.app/version650" class="nav-link">Version 6.5.0</a></li>
+<li class="outline-li-no-kids">13.124 <a href="https://ntnk.app/version640" class="nav-link">Version 6.4.0</a></li>
+<li class="outline-li-no-kids">13.125 <a href="https://ntnk.app/version630" class="nav-link">Version 6.3.0</a></li>
+<li class="outline-li-no-kids">13.126 <a href="https://ntnk.app/version620" class="nav-link">Version 6.2.0</a></li>
+<li class="outline-li-no-kids">13.127 <a href="https://ntnk.app/version610" class="nav-link">Version 6.1.0</a></li>
+<li class="outline-li-no-kids">13.128 <a href="https://ntnk.app/version600" class="nav-link">Version 6.0.0</a></li>
+<li class="outline-li-no-kids">13.129 <a href="https://ntnk.app/version590" class="nav-link">Version 5.9.0</a></li>
+<li class="outline-li-no-kids">13.130 <a href="https://ntnk.app/version581" class="nav-link">Version 5.8.1</a></li>
+<li class="outline-li-no-kids">13.131 <a href="https://ntnk.app/version580" class="nav-link">Version 5.8.0</a></li>
+<li class="outline-li-no-kids">13.132 <a href="https://ntnk.app/version570" class="nav-link">Version 5.7.0</a></li>
+<li class="outline-li-no-kids">13.133 <a href="https://ntnk.app/version560" class="nav-link">Version 5.6.0</a></li>
+<li class="outline-li-no-kids">13.134 <a href="https://ntnk.app/version550" class="nav-link">Version 5.5.0</a></li>
+<li class="outline-li-no-kids">13.135 <a href="https://ntnk.app/version540" class="nav-link">Version 5.4.0</a></li>
+<li class="outline-li-no-kids">13.136 <a href="https://ntnk.app/version530" class="nav-link">Version 5.3.0</a></li>
+<li class="outline-li-no-kids">13.137 <a href="https://ntnk.app/version520" class="nav-link">Version 5.2.0</a></li>
+<li class="outline-li-no-kids">13.138 <a href="https://ntnk.app/version510" class="nav-link">Version 5.1.0</a></li>
+<li class="outline-li-no-kids">13.139 <a href="https://ntnk.app/version500" class="nav-link">Version 5.0.0</a></li>
+<li class="outline-li-no-kids">13.140 <a href="https://ntnk.app/version490" class="nav-link">Version 4.9.0</a></li>
+<li class="outline-li-no-kids">13.141 <a href="https://ntnk.app/version480" class="nav-link">Version 4.8.0</a></li>
+<li class="outline-li-no-kids">13.142 <a href="https://ntnk.app/version470" class="nav-link">Version 4.7.0</a></li>
+<li class="outline-li-no-kids">13.143 <a href="https://ntnk.app/version460" class="nav-link">Version 4.6.0</a></li>
+<li class="outline-li-no-kids">13.144 <a href="https://ntnk.app/version450" class="nav-link">Version 4.5.0</a></li>
+<li class="outline-li-no-kids">13.145 <a href="https://ntnk.app/version440" class="nav-link">Version 4.4.0</a></li>
+<li class="outline-li-no-kids">13.146 <a href="https://ntnk.app/version430" class="nav-link">Version 4.3.0</a></li>
+<li class="outline-li-no-kids">13.147 <a href="https://ntnk.app/version420" class="nav-link">Version 4.2.0</a></li>
+<li class="outline-li-no-kids">13.148 <a href="https://ntnk.app/version410" class="nav-link">Version 4.1.0</a></li>
+<li class="outline-li-no-kids">13.149 <a href="https://ntnk.app/version400" class="nav-link">Version 4.0.0</a></li>
+<li class="outline-li-no-kids">13.150 <a href="https://ntnk.app/version390" class="nav-link">Version 3.9.0</a></li>
+<li class="outline-li-no-kids">13.151 <a href="https://ntnk.app/version380" class="nav-link">Version 3.8.0</a></li>
+<li class="outline-li-no-kids">13.152 <a href="https://ntnk.app/version370" class="nav-link">Version 3.7.0</a></li>
+<li class="outline-li-no-kids">13.153 <a href="https://ntnk.app/version360" class="nav-link">Version 3.6.0</a></li>
+<li class="outline-li-no-kids">13.154 <a href="https://ntnk.app/version350" class="nav-link">Version 3.5.0</a></li>
+<li class="outline-li-no-kids">13.155 <a href="https://ntnk.app/version340" class="nav-link">Version 3.4.0</a></li>
+<li class="outline-li-no-kids">13.156 <a href="https://ntnk.app/version330" class="nav-link">Version 3.3.0</a></li>
+<li class="outline-li-no-kids">13.157 <a href="https://ntnk.app/version320" class="nav-link">Version 3.2.0</a></li>
+<li class="outline-li-no-kids">13.158 <a href="https://ntnk.app/version310" class="nav-link">Version 3.1.0</a></li>
+<li class="outline-li-no-kids">13.159 <a href="https://ntnk.app/version300" class="nav-link">Version 3.0.0</a></li>
+<li class="outline-li-no-kids">13.160 <a href="https://ntnk.app/version290" class="nav-link">Version 2.9.0</a></li>
+<li class="outline-li-no-kids">13.161 <a href="https://ntnk.app/version280" class="nav-link">Version 2.8.0</a></li>
+<li class="outline-li-no-kids">13.162 <a href="https://ntnk.app/version270" class="nav-link">Version 2.7.0</a></li>
+<li class="outline-li-no-kids">13.163 <a href="https://ntnk.app/version260" class="nav-link">Version 2.6.0</a></li>
+<li class="outline-li-no-kids">13.164 <a href="https://ntnk.app/version250" class="nav-link">Version 2.5.0</a></li>
+<li class="outline-li-no-kids">13.165 <a href="https://ntnk.app/version240" class="nav-link">Version 2.4.0</a></li>
+<li class="outline-li-no-kids">13.166 <a href="https://ntnk.app/version230" class="nav-link">Version 2.3.0</a></li>
+<li class="outline-li-no-kids">13.167 <a href="https://ntnk.app/version220" class="nav-link">Version 2.2.0</a></li>
+<li class="outline-li-no-kids">13.168 <a href="https://ntnk.app/version210" class="nav-link">Version 2.1.0</a></li>
+<li class="outline-li-no-kids">13.169 <a href="https://ntnk.app/version200" class="nav-link">Version 2.0.0</a></li>
+<li class="outline-li-no-kids">13.170 <a href="https://ntnk.app/version190" class="nav-link">Version 1.9.0</a></li>
+<li class="outline-li-no-kids">13.171 <a href="https://ntnk.app/version180" class="nav-link">Version 1.8.0</a></li>
+<li class="outline-li-no-kids">13.172 <a href="https://ntnk.app/version170" class="nav-link">Version 1.7.0</a></li>
+<li class="outline-li-no-kids">13.173 <a href="https://ntnk.app/version160" class="nav-link">Version 1.6.0</a></li>
+<li class="outline-li-no-kids">13.174 <a href="https://ntnk.app/version150" class="nav-link">Version 1.5.0</a></li>
+<li class="outline-li-no-kids">13.175 <a href="https://ntnk.app/version141" class="nav-link">Version 1.4.1</a></li>
+<li class="outline-li-no-kids">13.176 <a href="https://ntnk.app/version140" class="nav-link">Version 1.4.0</a></li>
+<li class="outline-li-no-kids">13.177 <a href="https://ntnk.app/version130" class="nav-link">Version 1.3.0</a></li>
+<li class="outline-li-no-kids">13.178 <a href="https://ntnk.app/version120" class="nav-link">Version 1.2.0</a></li>
+<li class="outline-li-no-kids">13.179 <a href="https://ntnk.app/version110" class="nav-link">Version 1.1.0</a></li>
+</ul>
+</details>
+</li>
+</ul>
+
+
+
+<hr />
+<div>
+
+<p>Next: 1.5 <a href="https://ntnk.app/searchpage" class="nav-link">Search Page</a></p></div>
+
+
+</main>
+
+<footer class="nnk-footer">
+<p>Authored by Herb Bowie as open source software under the terms of the MIT License. </p>
+
+</footer>
+</body>
+</html>

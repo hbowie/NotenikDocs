@@ -2,9 +2,9 @@ Title:  Wiki Style Links
 
 AKA:    wiki link
 
-Seq:    4.6.1
+Seq:    4.7
 
-Level:  4 - chunk
+Level:  3 - chapter
 
 Class:  non-version
 
@@ -24,7 +24,7 @@ If you are using Notenik's parser, then a link to another note may be coded by s
 
 If Notenik cannot initially find the target for a link, it will attempt to take possible singular/plural variation into account, in this way: if the link target ends with the letter 's', then Notenik will try again with the trailing 's' removed; if the link target does not end with an 's', then Notenik will try adding the letter 's' to the end. If such a change successfully identifies a note, then that note will be used as the target of the wiki link. 
 
-If you code a wiki style link, in double square brackets, to a note that does not yet exist, then after saving the edits to the note and redisplaying it, the new note (the target of the link) may be created for you automatically. The new note will have the targeted title assigned, and body text containing a link back to the referencing note. This auto-creation behavior is optional, and can be enabled by checking a box in the [[Collection Settings]] window. 
+If you code a wiki style link, in double square brackets, to a note that does not yet exist, then after saving the edits to the note and redisplaying it, the new note (the target of the link) may be created for you automatically. The new note will have the targeted title assigned, and body text containing a link back to the referencing note. Also, starting with [[Version 17.0.0]], the new note will be assigned the same [[Class]] as the linking note, the same [[Level]], and an incremented [[Seq]], if the linking note has these fields. This auto-creation behavior is optional, and can be enabled by checking a box in the [[Collection Settings]] window. 
 
 If you also enable the [[timestamp]] field for a collection, then you can change the title of a linked note without changing the referencing wiki link text, and Notenik will remember the association between the old title and the new title, making use of the timestamp field to preserve a unique, unchanging identity for each note. These associations will be saved in a special file named 'alias.txt', within the collection folder. This functionality can be useful to make sure you don't end up with broken links between notes.
 

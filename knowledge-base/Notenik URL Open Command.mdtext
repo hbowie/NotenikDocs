@@ -32,6 +32,7 @@ The `open` command accepts the following parameters following the question mark:
 
 + `shortcut` - The shortcut for the Collection to be opened. 
 + `path` - The complete path to the Collection to be opened, with percent encoding. 
++ `special` - This can be set to either `essential` or `general` to specify either your [[Essential collection]] or your [[General Notes]] collection.
 + `id` - The ID identifying the Note to be selected for display, which is generally the Note's title, with spaces and punctuation removed, and converted to lowercase. 
 + `timestamp` - A [[timestamp]] for a Note can be supplied, as an alternate to `id`, as a means of identifying a specific Note to be selected for display. 
 + `notepath` - A complete file system path to a specific Note can be specified, as a means of specifying both a Collection and a Note within the Collection; again, the path will need to be percent encoded. 
