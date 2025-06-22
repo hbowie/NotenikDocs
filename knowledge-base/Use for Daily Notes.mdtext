@@ -32,24 +32,4 @@ Notenik provides the following additional/special functionality for a Daily Note
 
 ##### New Note
 
-When using *Note > New Note*, or clicking on the plus button in the [[Collection Toolbar]], the *Edit* tab for a Daily Notes collection will be prepopulated with today's date and, optionally, time of day. If the collection uses the folder field, then the date will be entered into the folder field, and the time of day (24-hour, hours and minutes) will be entered into the Seq field. If the collection stores all of its daily notes in a single folder, then the date will be entered into the Title field. 
-
-##### New Note w/Options
-
-Using *Note > New Note w/Options* will work similarly to the *New Note* functionality described above. 
-
-##### Daily Notes Starter Packs
-
-
-
-Note that if you use one of these starter packs, the resulting collection will be automatically identified as your Daily Notes collection, making the following step unnecessary. 
-
-##### Identify Your Daily Notes Collection
-
-Use *File > Make this the Daily Notes Collection* to identify an existing Notenik collection as your Daily Notes collection. From this point on, you will see `(D)` appended to the end of the collection title so that you can quickly identify your Daily Notes. 
-
-##### Open Daily Notes
-
-Use *File > Open Daily Notes* to quickly open your Daily Notes and bring the collection window to the front. The keyboard shortcut *Ctrl-Shift-D* can be used to quickly execute this command from your keyboard.
-
-##### Add Note via Drag and Drop
+When creating a new note, the *Edit* tab for a Daily Notes collection will be prepopulated with today's date and, optionally, time of day. If the collection uses the folder field, then the date will be entered into the folder field, and the time of day (24-hour, hours and minutes) will be entered into the Seq field. If the collection stores all of its daily notes in a single folder, then the date will be entered into the Title field.

@@ -1,0 +1,27 @@
+Title:  Author Work Slug with Internal Links
+
+Seq:    9.2.3.2
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20250618203111
+
+Body:
+
+This is similar to [[Author Work Slug]], but generates internal links for author pages, rather than linking to any designated external link. More specifically, the filename will consist of the author name, modified by the [[File Name - F]] variable modifier, with an `.html` file extension, and with a preceding path of `../authors/`.
+
+For example, the following [[Merge Variable]]...
+
+```
+=$author-work-slug-int-links$=
+```
+
+...when expanded for an author name of "Wynton Marsalis", would produce the following linking code:
+
+```
+<a href="../authors/wynton-marsalis.html">
+```
+
+
