@@ -52,3 +52,5 @@ In the case of a sync in a single direction:
 + The *from* collection will not be modified in any way. 
 + The *from* collection will be assumed to have the desired data. Modification dates will not be considered. 
 + Deletions will occur when the *to* collection has a note not contained in the *from* collection.
+
+Note that a Collection Sync can also be scripted, using the [[Sync Module Parameters|Sync Module]].

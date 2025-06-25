@@ -12,4 +12,4 @@ Body:
 
 ##### Added Collection Sync
 
-Notenik has a new [[Collection Sync]] command that can be used to synchronize data between two collections.
+Notenik has a new [[Collection Sync]] command that can be used to synchronize data between two collections. This process also be script-driven, using the new [[Sync Module Parameters|Sync Module]].

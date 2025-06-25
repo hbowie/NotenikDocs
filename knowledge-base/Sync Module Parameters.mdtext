@@ -1,0 +1,57 @@
+Title:  Sync Module Parameters
+
+Seq:    10.3.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250624192143
+
+Body:
+
+Following is a sample set of script file rows that can be used to execute a [[Collection Sync]]. 
+
+We'll first display this as an HTML table, to make it easy to read. 
+
+| module| action| modifier| object| value | 
+| ---| ---| ---| ---| --- | 
+| sync| open| | left| /Users/hbowie/Sites/HBowie-23/content/authors | 
+| sync| open| | right| /Users/hbowie/Sites/belief-system-21c/content/authors | 
+| sync| set| | direction| bidirectional | 
+| sync| set| | respectblanks| false | 
+| sync| set| | actions| logsummary | 
+| sync| sync| | |  | 
+
+Now we'll show the code for these same rows, using tabs as column delimiters. 
+
+```
+module	action	modifier	object	value
+sync	open		left	/Users/hbowie/Sites/HBowie-23/content/authors
+sync	open		right	/Users/hbowie/Sites/belief-system-21c/content/authors
+sync	set		direction	bidirectional
+sync	set		respectblanks	false
+sync	set		actions	logsummary
+sync	sync			
+
+```
+
+As we can see, there are three different actions available. 
+
+#### Open
+
+The *Object* value can be either `left` or `right`, and both must be specified. The value column should contain a file path to a collection folder. 
+
+#### Set
+
+The following parameters may be set.
+
+* direction — Set this variable to `lefttoright`, `righttoleft` or `bidirectional`.
+
+* respectblanks — Set this to either `true` or `false`. 
+
+* actions — Set this to `logonly`, `logdetails`, or `logsummary`.
+
+#### Sync
+
+No parameters are necessary. This will start the sync process. 
