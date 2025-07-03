@@ -1,6 +1,6 @@
 Title:  Daily Notes in Subfolders
 
-Seq:    3.2.4.17
+Seq:    3.3.4.17
 
 Level:  5 - details
 
@@ -11,3 +11,4 @@ Timestamp: 20250611193536
 Body:
 
 This can be used to create a [[Daily Notes]] collection that creates a new subfolder for each day. 
+

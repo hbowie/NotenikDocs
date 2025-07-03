@@ -4,7 +4,13 @@ Seq:    13.1
 
 Level:  3 - chapter
 
-Class:  non-version
+Class:  version
+
+Date:   2025-07-03
+
+Teaser:
+
+Added Collection Sync capabilities; added a First Use screen to help new users quickly get up and running. 
 
 Timestamp: 20250622195859
 
@@ -13,3 +19,7 @@ Body:
 ##### Added Collection Sync
 
 Notenik has a new [[Collection Sync]] command that can be used to synchronize data between two collections. This process also be script-driven, using the new [[Sync Module Parameters|Sync Module]].
+
+##### Added First Use Screen
+
+Changed the [[First Use]] experience to allow a new user to quickly and easily create a simple collection of notes.
