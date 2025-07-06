@@ -44,6 +44,8 @@ If you'd like to see your Notes listed in sequence by their assigned number, you
 
 A seq field can also be used to store a time of day. In this case, colons and spaces will be recognized as separator characters, and a final segment containing a value of 'AM' or 'PM' (in either upper- or lowercase) will be placed at the beginning of the derived sort key, after converting to lowercase, for purposes of normalization. The result should be that these values sort into a natural order, and are displayed in a natural format. 
 
+Note that a Seq time of day field can be combined with another field of type Seq. In a case like this, the Seq time of day field should have a label starting with the word "time", and its definition in [[the Collection Template File]] should follow the line defining the other Seq field being used. 
+
 ##### New Note Seq Suggestions
 
 When adding a new Note, if the currently selected Note has a seq value, then the new Note's seq will be initialized by incrementing the selected Note's seq value. In other words, if you have your list sorted by Seq, then a new Note will be inserted immediately following the selected Note. 

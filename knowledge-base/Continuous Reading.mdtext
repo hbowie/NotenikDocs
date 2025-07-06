@@ -1,0 +1,21 @@
+Title:  Continuous Reading
+
+Seq:    7.3.4
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  Display Mode; Continuous Reading; 
+
+Timestamp: 20250706204619
+
+Body:
+
+When you [[Tailor Collection Settings]], or select from the Display Mode submenu beneath the Collection menu, you will have the option to set the Display Mode to Continuous Reading. 
+
+A Display Mode of Continuous Reading will streamline the reading experience on the Display tab, but also present all notes together on that tab, one after another. In essence, Notenik will stitch together all of the notes in the collection into one long document, allowing you to scroll through the entire collection continuously. 
+
+This mode is intended for use with relatively small numbers of relatively short notes. Large numbers of lengthy notes might well result in unacceptable performance.
+
+You may also [[export your notes]] in this format using the *File > Export* function. 
