@@ -84,9 +84,9 @@ Following are the supported formats.
 
 	A single file will be produced, with all Notes in the Collection appearing one after another, in the selected format (HTML or Markdown). Notes will appear in whatever Sort Sequence you have currently selected for the Collection. If you've selected the Streamlined Reading option in the Collection Settings, then the focus of the content will be on the [[Seq]], Title and Body fields. The overall intent is to combine all of the Notes in your Collection into a single document.  If you [[Generate a Collection Table of Contents]] in one of the Collection's Notes, then the generated Table of Contents will appear in the output -- even for the Concatenated Markdown option. 
 
-* Export in Continuous HTML
+* Export in Continuous HTML or Markdown
 
-	A single file will be produced, with all notes in the collection appearing one after another, in HTML format, but formatted for [[Streamlined Reading]], rather than showing all fields for every note. 
+	A single file will be produced, with all notes in the collection appearing one after another, in the selected format (HTML or Markdown), but formatted for [[Streamlined Reading]], rather than showing all fields for every note. 
 
 * Export to HTML Outline
 
