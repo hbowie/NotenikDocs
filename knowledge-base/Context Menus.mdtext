@@ -39,6 +39,9 @@ Copy Timestamp
 Export to iCal
 : Exports the currently selected note(s) to a file in the [iCalendar](https://en.wikipedia.org/wiki/ICalendar) format. 
 
+Continuous Display
+: Arranges the currently selected notes into a [[Continuous Reading]] display. The Display will remain in Continuous Partial mode so long as the user continues to focus on the selected notes. Taking some action outside of this group should cause the Display Mode to revert to its previous value. 
+
 Bulk Edit...
 : Opens the [[Bulk Edit]] window, which will allow a selected field to be changed to a selected value for an entire range of notes. 
 

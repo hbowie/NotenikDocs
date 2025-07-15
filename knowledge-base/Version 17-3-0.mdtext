@@ -14,6 +14,8 @@ Body:
 
 Added a new Display Mode of [[Continuous Reading]]. This mode places all of a collection's notes into one long scrolling display. 
 
+Also added a Continuous Display [[Context Menu]] item, that will arrange the currently selected notes into a continous reading display. 
+
 ##### Seq Field as Time of Day
 
-Notenik has been modified to allow two [[Seq]] fields to be used in the same collection, with the later one being used hold a time of day. 
+Notenik has been modified to allow two [[Seq]] fields to be used in the same collection, with the later one being used to hold a time of day.
