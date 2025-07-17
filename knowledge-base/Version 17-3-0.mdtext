@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2025-07-16
+
+Teaser:
+
+Added a continuous reading display mode, and enabled a second Seq field to be used as a time of day. 
+
 Timestamp: 20250706203910
 
 Body:
