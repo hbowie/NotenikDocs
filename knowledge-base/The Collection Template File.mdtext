@@ -29,3 +29,19 @@ For some field types, a list of allowable values may also accompany the type its
 Notenik will create and edit a collection's template file for you, in most cases, but for very complex or specialized sets of [[field labels and types]], you may wish to make [[use of a text editor]] to modify the file directly. 
 
 Note that collection templates are very different from [[Merge Templates]], so you should not confuse the two.
+
+Also note that, when writing a note to disk, the Notenik default is to avoid writing lines without data. However, if you have fields for which you wish to see note lines with labels only, the default can be overridden by placing a `@` character preceding the field type in the collection template file.  
+
+See the following example:
+
+```
+Author Info: @<longtext>
+```
+
+In this case, the note file would contain a line like the following when the Author Info was missing or blank.
+
+```
+Author Info: 
+```
+
+This can be especially useful if you intend to edit the note file later using a text editor, or some other application. 

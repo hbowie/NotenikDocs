@@ -70,8 +70,12 @@ Following are the keyboard shortcuts available within the app.
 |      |       |     | Cmd |  8  | Sort by Date Added
 |      |       |     | Cmd |  9  | Sort by Date Modified
 | Ctrl |    |     | Cmd |   9  | Expand Outline
-|      |       |     | Cmd | \[  | Prior Note
-|      |       |     | Cmd | \]  | Next Note
+|      |       |     | Cmd | \[  | Prior Note in Sort Sequence
+|      |       |     | Cmd | \]  | Next Note in Sort Sequence
+|      | Shift |  | Cmd | \[  | Prior Note in History
+|      | Shift |  | Cmd | \]  | Next Note in History
+| Ctrl |    |     |           | \[  | Prior Note for term in [[collection index]]
+| Ctrl |    |     |           | \]  | Next Note for term in [[collection index]]
 |      |       | Opt | Cmd | \]  | Indent Note
 |      |       | Opt | Cmd | \[  | Outdent Note
 |      | Shift |     | Cmd | \]  | Random Note

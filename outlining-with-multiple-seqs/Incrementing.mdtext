@@ -1,0 +1,9 @@
+Title:  Incrementing
+
+Seq:    3
+
+Level:  2
+
+Body:
+
+When choosing the *Increment* function from the *Note* menu, Notenik will only increment the Seq value being displayed for the selected row (plus overlapping Seq values in the same position in subsequent notes), and leave other Seq values as they are. 

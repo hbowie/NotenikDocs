@@ -1,0 +1,11 @@
+Title:  Appearance
+
+Seq:    2
+
+Level:  2
+
+Body:
+
+When multiple Seq values are entered, and the list is sorted with Seq as the primary key, the sequenced note will appear once on the List tab (and on the Outline tab, if present) for *each* Seq value. 
+
+Selecting any of the rows will cause the same underlying note to be displayed, and edited. 

@@ -1,0 +1,23 @@
+Title:  Version 17.4.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20250718181019
+
+Body:
+
+##### Multiple Seq Values Produce Multiple Rows
+
+The [[Seq]] field has now been opened up to allow multiple values, separated by semicolons. When a collection is sorted by the Seq field, a note with multiple sequence values will appear multiple times — one row for each sequence value. The same sort of thing will occur on the optional [[Outline Tab]]. 
+
+##### Modified Shortcut Keys to Navigate a Collection Index
+
+When generating a [[Collection Index]], the [[Keyboard Shortcuts]] for navigation backwards and forwards have been updated, to avoid a conflict with normal [macOS keyboard shortcuts](https://support.apple.com/en-us/102650) used for text editing. The new keyboard shortcuts are Control Left Bracket and Control Right Bracket.
+
+##### Added Option to Write Note Lines Without Data
+
+When writing a note to disk, the Notenik default is to avoid writing lines without data. However, if you have fields for which you wish to see note lines with labels only, that default can now be overridden by placing a `@` character preceding the field type in [[the Collection Template File]].

@@ -1,0 +1,15 @@
+Title:  Data Entry
+
+Seq:    1
+
+Level:  2
+
+Body:
+
+Multiple Seq values may be entered in the standard Seq field, separated by semicolons. 
+
+For example:
+
+```
+Seq: 1.2.2; 2.4.3
+```

@@ -40,6 +40,10 @@ When used as a sort field, seq values will be padded to cause them to sort into 
 
 If you'd like to see your Notes listed in sequence by their assigned number, you can use the Sort Menu to change the sequence of the displayed list from Title to Seq + Title. Use the Reverse option to see them in descending sequence. 
 
+##### Multiple Seq Values
+
+A Seq field may contain multiple sequence values, separated by semicolons. When sorting by such a field, and viewing on the List tab or the Outline tab, the same note will appear multiple times: once for each distinct value. Modifying any occurrence will modify the underlying note, and hence will modify the data for all of the rows. Deleting any of the rows will result in the deletion of the underlying note, and hence the removal of all rows. 
+
 ##### Seq as Time of Day
 
 A seq field can also be used to store a time of day. In this case, colons and spaces will be recognized as separator characters, and a final segment containing a value of 'AM' or 'PM' (in either upper- or lowercase) will be placed at the beginning of the derived sort key, after converting to lowercase, for purposes of normalization. The result should be that these values sort into a natural order, and are displayed in a natural format. 

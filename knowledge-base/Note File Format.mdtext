@@ -41,3 +41,6 @@ Here are the general formattng rules for note files within Notenik:
 + The Body field must be last. 
 
 + Once the Body label is encountered, everything following will be interpreted as part of the Body's value.
+
+Note that, when writing a note to disk, the Notenik default is to avoid writing lines without data. However, if you have fields for which you wish to see note lines with labels only, the default can be overridden by placing a `@` character preceding the field type in [[the Collection Template File]].  
+
