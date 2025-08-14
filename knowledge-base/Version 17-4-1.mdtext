@@ -1,0 +1,21 @@
+Title:  Version 17.4.1
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2025-08-12
+
+Teaser:
+
+Corrected a bug that could cause Notenik to crash, especially when creating a new collection. 
+
+Timestamp: 20250812060535
+
+Body:
+
+##### Fixed Crash When Creating a New Collection
+
+Corrected a bug that could sometimes cause Notenik to crash — specifically when trying to open a collection with only one note. 

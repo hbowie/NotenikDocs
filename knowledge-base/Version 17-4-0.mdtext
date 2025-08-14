@@ -1,6 +1,6 @@
 Title:  Version 17.4.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2025-08-10
 Teaser:
 
 The Seq field has been opened up to allow multiple values, separated by semicolons; the shortcut keys used to navigate a collection index have been updated to avoid a conflict with normal macOS key combinations used for text editing; added an option to write note lines containing labels only, without any data. 
+
 
 Timestamp: 20250718181019
 
