@@ -1,0 +1,26 @@
+Title:  Finished Work Slug
+
+Seq:    9.2.3.3
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20250816110908
+
+Body:
+
+When the [[Work Title]] and associated fields are available for a collection, then a special variable name of `finished-work-slug` can be used in a [[Merge Template]] in order to obtain a nicely formatted line stating that you have finished consuming some created work.
+
+For example, if you are referencing the book *The Proof of my Innocence*, then the resulting line will be:
+
+> Finished reading *The Proof of my Innocence* 
+
+The intent is for this slug to be used to generate the title for a blog post. 
+
+The [[Work Type]] field will be used, when available, to determine whether the title of the work should be italicized, or enclosed in parentheses. 
+
+If an [[Author]] field is available, then the author's name will be appended to the end, for very short work titles. 
+
+The output will include HTML tags, but will not be enclosed in any paragraph or other block tags.
+
