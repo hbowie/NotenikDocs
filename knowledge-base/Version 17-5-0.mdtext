@@ -20,4 +20,10 @@ When using a [[Formatting String]] to format a partial date within a [[Merge Tem
 
 ##### Added a New Finished Work Slug
 
-Created a new [[Merge Template]] [[Derived Variable]] of [[Finished Work Slug]], that can be used to format a line saying that you have finished consuming some created work (to use when you have finished reading a book, for example). 
+Created a new [[Merge Template]] [[Derived Variable]] of [[Finished Work Slug]], that can be used to format a line saying that you have finished consuming some created work (to use when you have finished reading a book, for example).
+
+##### Corrected Variable Modifier Overlap
+
+The [[Repeat - ^R]] variable modifier was blocking the use of the [[Extract File Extension - ^x]] variable modifier. This has been corrected. 
+
+

@@ -19,6 +19,8 @@ The following table summarizes the primary use of various letters and characters
 | ' | [[Email Apostrophes]] | 
 | , | [[List Punctuation]] | 
 | _ | [[Underscore]] | 
+| ^x | [[Extract File Extension - ^x]] |
+| ^r | [[Repeat - ^R]] |
 | \\ | [[Prep for JSON]] |
 | / | [[Domain Name from Link]] |
 | > | [[Split Label from Number]] |
