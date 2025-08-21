@@ -24,6 +24,8 @@ Created a new [[Merge Template]] [[Derived Variable]] of [[Finished Work Slug]],
 
 ##### Corrected Variable Modifier Overlap
 
-The [[Repeat - ^R]] variable modifier was blocking the use of the [[Extract File Extension - ^x]] variable modifier. This has been corrected. 
+The [[Repeat - ^R]] variable modifier was blocking the use of the [[Extract File Extension - ^x]] variable modifier. This has been corrected.
 
+##### Added a Hashtags Variable Modifier
 
+The new [[Hashtags - #]] variable modifier can be used to convert Notenik tags into hashtags. 

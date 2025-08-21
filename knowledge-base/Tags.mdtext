@@ -36,3 +36,5 @@ Beneath the Collection menu you will find an option to perform a Tags Mass Chang
 Some text file authors like to prepend their tags with hash marks, as is common with social media hashtags. Notenik will generally try to recognize and respect this preference, but the hash marks will generally not appear within Notenik.
 
 Also see the [[Tags Handling]] option within the Collection Settings for further ways to enter tags for your notes.
+
+Also see the [[Hashtags - #]] variable modifier for a means of converting Notenik tags to hashtags. 

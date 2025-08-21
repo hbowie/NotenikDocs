@@ -1,0 +1,23 @@
+Title:  Hashtags - #
+
+Seq:    9.3.9
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  Hash tags; 
+
+Timestamp: 20250819094433
+
+Body:
+
+This modifer is meant to be used specifically with the [[Tags]] field. 
+
+It will convert a note's tags into [hashtags](https://en.wikipedia.org/wiki/Hashtag) and place them one after another on a single line, separated by spaces. Tags will be formatted into CamelCase, following [this guidance](https://fedi.tips/what-are-hashtags-how-do-i-use-them-on-mastodon-and-the-fediverse/).
+
+Additionally, one may suppress certain tags from inclusion by placing them after a minus sign ('`-`'). Multiple tags to be excluded may be separated by commas or semicolons. 
+
+One may also add certain fixed tags by placing them after a plus sign ('`+`'). No case conversion will be done on tags to be added. The tags to be added will precede the specific tags for a note. 
+
+
