@@ -21,3 +21,5 @@ A Collection may have any number of `rating` fields.
 A `rating` field is expected to contain a numeric value (integer or double) that indicates a rating or priority or some similar value.
 
 When editing, a rating field will appear as a single line of editable text.
+
+See the [[Repeat - ^R]] variable modifier if you'd like to convert a numeric rating to a series of stars. 

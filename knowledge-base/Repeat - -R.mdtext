@@ -28,10 +28,21 @@ The following example may be helpful.
 =$level&^r-1,2,&nbsp;^$=
 ```
 
-In this example, a non-breaking space](https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/) will be repeated *x* times, with the [[Level]] variable supplying the starting value for *x*. 
+In this example, a [non-breaking space](https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/) will be repeated *x* times, with the [[Level]] variable supplying the starting value for *x*. 
 
 The first integer supplied is '-1', which means that a value of 1 will be subtracted from the level field.
 
 The second integer supplied is '2', which means that the adjusted level field will be multiplied by two. 
 
 The effect will be to indent the following content based on the depth of the level field, with a level of 1 producing no indentation, and with two non-breaking spaces being used for indentation for each higher level value.
+
+Here is another example, using the [[Rating]] field. 
+
+```
+<?if =$rating$= ?>
+	<p>rating: =$rating&^r0,1,&#9733;^$=</p>
+<?endif?>
+```
+
+The effect here is to convert a numeric rating — say, something in the range of 1 - 5 — to a series of one or more stars  (since `&#9733;` is the HTML entity for a star).
+

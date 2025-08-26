@@ -20,7 +20,6 @@ The intent is for this slug to be used to generate the title for a blog post.
 
 The [[Work Type]] field will be used, when available, to determine whether the title of the work should be italicized, or enclosed in parentheses. 
 
-If an [[Author]] field is available, then the author's name will be appended to the end, for very short work titles. 
+If an [[Author]] field is available, then the author's name will be appended to the end. 
 
-The output will include HTML tags, but will not be enclosed in any paragraph or other block tags.
-
+The output will be formatted in Markdown.
