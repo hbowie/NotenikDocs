@@ -1,0 +1,15 @@
+Title:  Version 17.6.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20250910165423
+
+Body:
+
+##### Optional Linkage Between Class and Level Fields
+
+In some collections it may be useful to have a tight correlation between [[Level]] values and[[Class]] values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level.

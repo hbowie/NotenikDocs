@@ -35,3 +35,7 @@ Note that the default will cause the field to be populated when creating a new N
 As always, be sure to Reload the Collection after making changes to the Collection template!
 
 Each class value may have an associated [[Class Template File]].
+
+## Relationship between Level and Class
+
+In some collections it may be useful to have a tight correlation between [[Level]] values and class values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level. 

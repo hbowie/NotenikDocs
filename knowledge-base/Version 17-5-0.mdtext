@@ -1,6 +1,6 @@
 Title:  Version 17.5.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2025-08-26
 Teaser:
 
 Expanded the functionality of the Summarize variable modifier to provide special handling for web links; Improved formatting of partial dates, when using a formatting string; Added a new Finished Work slug to produce a nicely formatted chunk of text stating that you have finished consuming some piece of media (such as reading a book); Corrected the unintended overlap between two different variable modifiers both using the caret character; Added a hashtags variable modifier, to convert Notenik tags into hashtags; Provided an example of the generation of star ratings, using the Rating field. 
+
 
 Timestamp: 20250815092446
 
@@ -39,3 +40,4 @@ The new [[Hashtags - #]] variable modifier can be used to convert Notenik tags i
 ##### Provided Example of Star Ratings
 
 Provided an example of converting a numeric [[Rating]] to a more conventional series of stars, using the [[Repeat - ^R]] variable modifier.
+
