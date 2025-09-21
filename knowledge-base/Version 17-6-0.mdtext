@@ -1,10 +1,17 @@
 Title:  Version 17.6.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2025-09-19
+
+Teaser:
+
+Updated app icon for Tahoe; tweaked some UI details for Tahoe; added optional linkage between Class and Level fields; added a new Long Title field type, for use when a longer title should replace the traditional one at the note display level. 
+
 
 Timestamp: 20250910165423
 
@@ -12,4 +19,22 @@ Body:
 
 ##### Optional Linkage Between Class and Level Fields
 
-In some collections it may be useful to have a tight correlation between [[Level]] values and[[Class]] values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level.
+In some collections it may be useful to have a tight correlation between [[Level]] values and[[Class]]  values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level.
+
+##### Added New Long Title Field Type
+
+Added a new [[Field Labels and Types|Field Type]] of [[Long Title]]. A `long-title` field can be useful for collections for which the standard title will be sufficient for lists of notes, but for which longer titles are desired to appear at the top of each display, when using the [[Streamlined Reading]] display mode. 
+
+##### Modified Title Display Slug
+
+Modified the [[Title Display Slug]] to make use of the new [[Long Title]] field if one is available. 
+
+##### Updated App Icon for Tahoe
+
+Notenik's app icon has been updated to use the latest format provided by Apple. However I've opted for simplicity and continuity over any of the razzle-dazzle effects provided by the new Liquid Glass design, so it won't appear very different from the old one!
+
+##### Various UI Adjustments
+
+I've updated various elements of the user interface to accommodate Tahoe. Specifically:
+
++ Updated the New Note with Options screen to avoid scrunching of the Seq field.

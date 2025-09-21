@@ -1,0 +1,19 @@
+Title:  Version 17.7.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20250920170340
+
+Body:
+
+##### Fixed Some Sequencing Issues
+
+Found a bug in resequencing, and in displaying Seq values. I believe these have now been fixed.
+
+##### Further UI Adjustments for Tahoe
+
+Found some additional screens that Tahoe hadn't treated kindly, and adjusted these. 

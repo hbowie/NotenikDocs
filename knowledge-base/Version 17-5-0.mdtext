@@ -1,6 +1,6 @@
 Title:  Version 17.5.0
 
-Seq:    13.2
+Seq:    13.3
 
 Level:  3 - chapter
 
@@ -40,4 +40,3 @@ The new [[Hashtags - #]] variable modifier can be used to convert Notenik tags i
 ##### Provided Example of Star Ratings
 
 Provided an example of converting a numeric [[Rating]] to a more conventional series of stars, using the [[Repeat - ^R]] variable modifier.
-

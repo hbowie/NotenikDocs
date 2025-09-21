@@ -33,3 +33,5 @@ The title field (or other [[Note Identifiers]]) serves as a Note's unique identi
 2. In its lowest common denominator form (as described above), when used internally by Notenik;
 
 3. In a lightly transformed form, when creating a file name for the note, to be used on disk.
+
+Also see the [[Long Title]] field, for cases in which longer titles are desired at the top of Streamline Reading displays. 

@@ -8,7 +8,7 @@ Seq: <seq>
 
 Level: <level: 1 - collection; 2 - section; 3 - chapter; 4 - chunk; 5 - details; >
 
-Class: <class: , chapter-page, non-version, title-page, version >
+Class: <class: chapter-page, non-version, title-page, version >
 
 Index: <index>
 
