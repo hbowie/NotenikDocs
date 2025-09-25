@@ -14,6 +14,24 @@ Body:
 
 Found a bug in resequencing, and in displaying Seq values. I believe these have now been fixed.
 
+##### Fixed a Biblio Quote Problem
+
+When you [[Include a Note or File]] with a style of `quotebiblio`, there were some problems obtaining the author's name when the author had more than one work in the bibliography. This has been fixed. 
+
+Also, when generating a biblio quote, if the author's name contains a comma, then Notenik will attempt to convert it so the first name appears first. 
+
+##### Fixed a Title Formatting Problem
+
+The [[Title]] value, as well as the [[Long Title]] value, are no longer being run through an XML converter before including in a display. This means that a long title can contain a `<br />` command in order to force a line break. 
+
+##### Changed ToC Streamlined Reading Behavior
+
+When in [[Streamlined Reading]] mode, or exporting as a web book, a Contents section will not be generated at the bottom of the page, showing children of the current Note, if the first such child would itself be a Table of Contents, as identified by a Title of "Table of Contents" or a class of `toc`. 
+
+##### Fixed Some CSS Issues
+
+The generated CSS was no longer respecting the user's font choices entered in the [[Display Settings]]. This has been corrected. 
+
 ##### Further UI Adjustments for Tahoe
 
-Found some additional screens that Tahoe hadn't treated kindly, and adjusted these. 
+Found some additional screens that Tahoe hadn't treated kindly, and adjusted these.
