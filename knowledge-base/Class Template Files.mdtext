@@ -14,11 +14,13 @@ Body:
 
 Starting with [[Version 7.7.0]], the user may specify a special template file for each different [[Class]] of Note within a Collection. 
 
-A Class template file can serve two different purposes:
+A Class template file can serve three different purposes:
 
 + A class template file may specify a subset of all fields within the Collection to be available when adding/editing a Note of the specified Class. This can be useful if the collection identifies a long list of field labels and types, but only some of these are relevant to notes of a certain class: the Edit tab then becomes a lot cleaner. 
 
 + A class template file may specify default values for one or more fields, to be presented on the Edit tab when adding a new note of a given class. 
+
++ A class template file may specify a formatting string to be used for all [[Seq]] values for notes having the given class. If specified, this will override the Seq formatting defined in [[the Collection Template File]].
 
 Here's how to make all of this work. 
 

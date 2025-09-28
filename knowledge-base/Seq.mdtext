@@ -74,6 +74,8 @@ Starting with [[Version 7.9.0]], you can also modify the Seq values for an entir
 
 Formatting codes may be specified for a Seq field. 
 
+The codes specified here will be used to format all Seq values, with the exception of special [Class|classes of notes] that have their own special formatting codes. 
+
 These codes can serve three distinct purposes.
 
 1. Display integer numbers (1, 2, 3) as either upper-case letters (A, B, C), lower-case letters (a, b, c), upper-case Roman numerals (I, II, III) or lower-case Roman numerals (i, ii, iii). For example a Seq value of 3.5.7 could be displayed instead as III.E.7.

@@ -35,3 +35,7 @@ The generated CSS was no longer respecting the user's font choices entered in th
 ##### Further UI Adjustments for Tahoe
 
 Found some additional screens that Tahoe hadn't treated kindly, and adjusted these.
+
+##### Added Optional Seq Formatting by Class
+
+A [[Class Template File]] can now be used to specify a formatting string for a [[Seq]] field that is only to be applied to notes of a specific class. If supplied, this will override any formatting string that might have been specified for a certain level of a Seq value. 
