@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2025-09-28
+
+Teaser:
+
+Fixed a biblio quote problem; fixed some sequencing issues; changed an aspect of title formatting; changed Table of Contents streamlined reading behavior; corrected some CSS problems; further UI adjustments to accommodate Tahoe; added optional seq formatting by class. 
+
 Timestamp: 20250920170340
 
 Body:
@@ -38,4 +44,4 @@ Found some additional screens that Tahoe hadn't treated kindly, and adjusted the
 
 ##### Added Optional Seq Formatting by Class
 
-A [[Class Template File]] can now be used to specify a formatting string for a [[Seq]] field that is only to be applied to notes of a specific class. If supplied, this will override any formatting string that might have been specified for a certain level of a Seq value. 
+A [[Class Template File]] can now be used to specify a formatting string for a [[Seq]] field that is only to be applied to notes of a specific class. If supplied, this will override any formatting string that might have been specified for a certain level of a Seq value.
