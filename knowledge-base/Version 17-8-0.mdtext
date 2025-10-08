@@ -1,0 +1,23 @@
+Title:  Version 17.8.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20250930210810
+
+Body:
+
+##### Added Export Scripting Module
+
+Added a new [[Export Module Parameters|Export Module]] to be used as part of a [[Script File]].
+
+##### Expanded Exclusion Rule
+
+The [[Special Class Value]] of `exclude` will now prevent a note from being listed as a parent when [[Generate a Web Book|Generating a Web Book]], or when using [[Streamlined Reading]] mode.
+
+##### Fixed File Drop
+
+There was a problem with dropping a file onto a note in the List tab, apparently caused by some Tahoe changes. This has been fixed. 

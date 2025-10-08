@@ -1,6 +1,6 @@
 Title:  Sync Module Parameters
 
-Seq:    10.3.6
+Seq:    10.3.7
 
 Level:  4 - chunk
 
@@ -54,4 +54,4 @@ The following parameters may be set.
 
 #### Sync
 
-No parameters are necessary. This will start the sync process. 
+No parameters are necessary. This will start the sync process.

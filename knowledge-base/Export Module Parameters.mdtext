@@ -1,0 +1,24 @@
+Title:  Export Module Parameters
+
+Seq:    10.3.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20250930211221
+
+Body:
+
+An Export command may only have an action of 'open'.
+
+#### Open
+
+The current data source, which must be a valid Notenik collection, will be exported using the given format. 
+
+The modifier field specifies the export format, and the value field specifies a path to the output to be written. 
+
+The following modifier values are valid:
+
+* `web-book-as-site` - Generates a web book as a series of web pages, using the [[Export as Web Book]] functionality to create a web book as a site. 
+

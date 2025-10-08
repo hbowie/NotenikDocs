@@ -22,6 +22,10 @@ The module column may contain any of the following values.
 
 * output - Write the filtered, sorted data to an output file in tab-delimited format. 
 
+* export - Export the input Notenik collection into an available format. 
+
+* sync - Synchronize one collection with another. 
+
 * browse - Open the specified URL in your preferred Web browser. 
 
 * script - Include another file while playing a script. 

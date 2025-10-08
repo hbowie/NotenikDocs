@@ -1,6 +1,6 @@
 Title:  Version 17.7.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2025-09-28
 Teaser:
 
 Fixed a biblio quote problem; fixed some sequencing issues; changed an aspect of title formatting; changed Table of Contents streamlined reading behavior; corrected some CSS problems; further UI adjustments to accommodate Tahoe; added optional seq formatting by class. 
+
 
 Timestamp: 20250920170340
 
