@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2025-10-14
+
+Teaser:
+
+Added export scripting module, so that a web book export can now be scripted; Expanded the exclusion rule to avoid displaying an excluded note as a parent for navigation; Fixed a file drop problem that had cropped up somehow; Fixed an Include Children problem; Fixed a CSS float problem. 
+
 Timestamp: 20250930210810
 
 Body:
@@ -20,4 +26,13 @@ The [[Special Class Value]] of `exclude` will now prevent a note from being list
 
 ##### Fixed File Drop
 
-There was a problem with dropping a file onto a note in the List tab, apparently caused by some Tahoe changes. This has been fixed. 
+There was a problem with dropping a file onto a note in the List tab, apparently caused by some Tahoe changes. This has been fixed.
+
+##### Fixed an Include Children Problem
+
+The [[Include Children]] feature was skipping children that followed deeper descendants. This has been corrected. 
+
+##### Fixed a CSS Float Problem
+
+Some heading floats were not being cleared before displaying a note title. This has been corrected.
+
