@@ -16,5 +16,6 @@ A Collection is not expected to have more than one field of type `long-title`.
 
 A `long-title` field is meant to complement the standard [[Title]] field. 
 
-A `long-title` field can be useful for collections for which the standard title will be sufficient for lists of notes, but for which longer titles are desired to appear at the top of each display, when using the [[Streamlined Reading]] display mode. 
+A `long-title` field can be useful for collections for which the standard title will be sufficient for lists of notes, but for which longer titles are desired to appear at the top of each display, when using the [[Streamlined Reading]] display mode.
 
+When a long title is used within an HTML document or fragment, Notenik will apply Markdown parsing to the field. This is primarily useful in applying styling within a Long Title field. 

@@ -1,0 +1,19 @@
+Title:  Version 17.9.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20251022152108
+
+Body:
+
+##### Titles Treated as Markdown
+
+Notenik hasn't always been consistent about how it treats the [[Title]] field when using it in an HTML document or fragment. Made some changes to apply Markdown parsing to the Title field when used in this context. This is primarily useful in applying styling within a Title field. 
+
+When an [[collection index]] is generated, multiple pages indexed with the same term will now appear in the Collection's [[sort sequence]], rather than being sorted always by the Title field. 
+
+

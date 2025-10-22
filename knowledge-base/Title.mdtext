@@ -34,4 +34,6 @@ The title field (or other [[Note Identifiers]]) serves as a Note's unique identi
 
 3. In a lightly transformed form, when creating a file name for the note, to be used on disk.
 
-Also see the [[Long Title]] field, for cases in which longer titles are desired at the top of Streamline Reading displays. 
+When a title is used within an HTML document or fragment, Notenik will apply Markdown parsing to the field. This is primarily useful in applying styling within a Title field. 
+
+Also see the [[Long Title]] field, for cases in which longer titles are desired at the top of Streamline Reading displays.
