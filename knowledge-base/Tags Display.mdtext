@@ -1,0 +1,19 @@
+Title:  Tags Display
+
+Seq:    7.3.8
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20251028000057
+
+Body:
+
+You can choose from a few options to control how the [[Tags]] field shows up when you [[Display a Note]].
+
++ **Above Title** — Your note's tags will appear just above the Title line. 
++ **Below Title** — Your note's tags will appear just below the Title line. 
++ **Repl Nav Up** — Your note's tags will appear where the Streamlined Reading upwards navigation link usually appears. 
++ **No Display** — Your note's tags will not be included in the Display. 
+

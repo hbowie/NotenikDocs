@@ -18,7 +18,7 @@ You will be presented with the Settings for your collection immediately after cr
 
 But you can always access these Settings later by selecting the Settings item beneath the Collection menu. 
 
-Note that these are different from the [[Application Settings]], found beneath the Notenik menu. The Application Settings apply globally to all of your collections.)
+Note that these are different from the [[Application Settings]], found beneath the Notenik menu. The Application Settings apply globally to all of your collections.
 
 The left side of the Collection Settings allows you to tweak the Collection Title, the file extension used for Notes, and a few other settings. 
 
@@ -37,6 +37,8 @@ Enter a shortcut for a collection as one way to reference it later, via a [[Coll
 Select an option to tailor your [[Note Title Display]]. The default is a normal font size, with a bold style applied. See the separate page below for details. 
 
 Select an option for [[Tags Handling]]. See the separate page below for details. 
+
+Select an option for [[Tags Display]]. See the separate page below for details. 
 
 The following controls are available and can be used to modify/augment the appearance of notes on the Display tab. 
 

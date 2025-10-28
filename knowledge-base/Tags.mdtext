@@ -27,7 +27,7 @@ When editing, the tags field will appear as a line of tokens, making it easier t
 
 Click on the Tags tab to see your notes organized by tags, instead of appearing in a straight List. If a note has multiple Tags assigned, then it will appear multiple times on the Tags tab, once for each Tag. By adding multiple levels to your Tags, you can effectively organize your notes into an outline. Also notice that notes lacking any tags will appear on this tab under a pseudo-tag named "- untagged."
 
-For display purposes, tags will often appear in italics, above the title field, and without any identifying label. When tags appear in this way, they are clickable, and clicking on a tag will take you to the Tags tab on the left side of the Collection window, will reveal all of the Notes having that tag, and will hide any Notes that might otherwise have appeared above the selected tag. In other words, clicking on the tag for a note will quickly show you all of the notes with that same tag. 
+For display purposes, tags will generally appear just above or below the title field, and without any identifying label. The paragraph containing the tags will be styled with an HTML class value of `nnk-tags`. When tags appear in this way, they are clickable, and clicking on a tag will take you to the Tags tab on the left side of the Collection window, will reveal all of the Notes having that tag, and will hide any Notes that might otherwise have appeared above the selected tag. In other words, clicking on the tag for a note will quickly show you all of the notes with that same tag. You can exercise some control over the location of the Tags on the Display with the Collection Setting of [[Tags Display]].
 
 There is an option beneath the Sort menu to sort your list of notes by Tags plus Title fields. 
 
@@ -37,4 +37,4 @@ Some text file authors like to prepend their tags with hash marks, as is common 
 
 Also see the [[Tags Handling]] option within the Collection Settings for further ways to enter tags for your notes.
 
-Also see the [[Hashtags - #]] variable modifier for a means of converting Notenik tags to hashtags. 
+Also see the [[Hashtags - #]] variable modifier for a means of converting Notenik tags to hashtags.

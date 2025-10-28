@@ -10,10 +10,38 @@ Timestamp: 20251022152108
 
 Body:
 
+##### New Collection Setting for Tags Display Placement
+
+Added a new [[Tags Display]] Collection setting to control the placement of the [[Tags]] field. You can choose to have it above the title, below the title, replacing the upwards navigation for streamlined reading, or to not display at all. 
+
+##### Made Some Changes To Display of Tags Field
+
+Made a number of changes to the way the [[Tags]] field is displayed. 
+
++ The paragraph enclosing the tags will now be styled with an [[HTML Class Value]] of `nnk-tags` (or a value of `nnk-tags-repl-nav-up` if you have chosen to have the tags display replace the normal upward navigation display when engaging Streamlined Reading);
++ The `nnk-tags` class will have a default `font-style` of `italic`;
++ The resulting default appearance of the tags field should be unchanged, but will now allow for optional override styling when you [[Tailor the Display]] using a `display.css` file.  
+
+##### Fixed Tag Linking for Published Web Books
+
+When you click on a tag displayed along with a Note, Notenik attempts to link to the same tag on the Tags tab. For a published web book, though, there is no Tags tab! So now, if you include the Markdown command to [[Generate a Tags Cloud]], or [[Generate a Tags Outline]] anywhere within the same collection, Notenik will instead link to the same tag on that generated page. 
+
 ##### Titles Treated as Markdown
 
 Notenik hasn't always been consistent about how it treats the [[Title]] field when using it in an HTML document or fragment. Made some changes to apply Markdown parsing to the Title field when used in this context. This is primarily useful in applying styling within a Title field. 
 
-When an [[collection index]] is generated, multiple pages indexed with the same term will now appear in the Collection's [[sort sequence]], rather than being sorted always by the Title field. 
+##### Index Page Sort Changed
 
+When a [[collection index]] is generated, multiple notes indexed with the same term will now appear in the Collection's [[sort sequence]], rather than being sorted always by the Title field.
 
+##### Added CSS Class of `attribution-following`
+
+When you [[Include a Note or File]] with an include style of `quotebiblio`, the resulting blockquote for the quotation will have an [[HTML Class Value]] of `attribution-following`. 
+
+##### Expanded Linkage Between Class and Level Fields
+
+In some collections it may be useful to have a tight correlation between [[Level]] values and [[Class]]  values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate level when a class value is entered by the user.  
+
+##### UI Change for Tahoe
+
+The [[Navigation Board]] has been expanded to allow room for all controls.

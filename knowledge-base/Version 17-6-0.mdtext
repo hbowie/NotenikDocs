@@ -19,7 +19,7 @@ Body:
 
 ##### Optional Linkage Between Class and Level Fields
 
-In some collections it may be useful to have a tight correlation between [[Level]] values and[[Class]]  values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level.
+In some collections it may be useful to have a tight correlation between [[Level]] values and [[Class]]  values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate class for the given level after any user adjustments to the level.
 
 ##### Added New Long Title Field Type
 
