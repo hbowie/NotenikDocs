@@ -12,5 +12,5 @@ Timestamp: 20221009214530
 
 Body:
 
-When a [[Work Title]] field is available for a Collection, then then a special variable name of `known-work-title` can be used in a [[Merge Template]]. This derived variable will simply be equal to the Work Title, unless the Work Title is '`unkown`', in which case the Known Work Title will be blank.
+When a [[Work Title]] field is available for a Collection, then then a special variable name of `known-work-title` can be used in a [[Merge Template]]. This derived variable will simply be equal to the Work Title, unless the Work Title is '`unknown`', in which case the Known Work Title will be blank.
 

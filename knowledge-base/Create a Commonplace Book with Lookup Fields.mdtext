@@ -14,6 +14,8 @@ Timestamp: 20210826164204
 
 Body:
 
+Note: Before proceeding here, you might wish to review the related use case titled [[All About Quotations]]. 
+
 I've maintained my own [Digital Commonplace Book][dcm] for years, and one of the challenges with maintaining a collection of notable quotations is the repetition of information from one Note to another: the same author, and even the same work, along with accompanying information, may be repeated numerous times. It is annoying, tedious, time-consuming and error-prone to re-enter that information on each Note, but there is no workable alternative when dealing with only a single flat file (or single Collection of Notes, in our case). 
 
 [[Version 7.0.0]] of Notenik,however, introduced [[Lookup]] fields, which allow one Collection to reference Notes in other Collections, and we can now use such fields to solve our repetition problem. 

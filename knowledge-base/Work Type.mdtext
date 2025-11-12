@@ -24,32 +24,46 @@ When editing, his field type comes along with a standard set of possible values,
 
 Additional types are added to this list as the need arises, but this is the complete list as of this writing:
 
-+ unknown
-+ Album
++ Album *
 + Article
 + Blog Post
-+ Book
-+ CD
++ Book *
++ CD *
 + Comment
 + Conference
-+ Decision
++ Decision *
++ Editorial
 + Essay
-+ Film
++ Film *
 + Interview
 + Lecture
 + Letter
-+ Novel
++ Major Work *
++ Minor Work
++ Novel *
++ Obituary
++ Opinion
 + Paper
-+ Play
++ Play *
 + Podcast
 + Poem
 + Preface
 + Presentation
++ Quotation *
++ Quotation from minor
 + Remarks
 + Sermon
 + Song
 + Speech
 + Story
-+ Television Show
-+ Video
++ Television Show *
++ unknown *
++ Video *
 + Web Page
++ Web Site *
+
+The types marked with an asterisk are considered major types, meaning that the titles should normally be italicized — in contrast to the other types, considered minor, meaning that the titles should be enclosed in quotation marks.
+
+The `Quotation` type has some special meaning and logic associated with it. This type means that the quotation was itself a quotation found in a source by a different author. With this type, Notenik expects the work title to be something like "Quoted in The Long Goodbye" or "Quote from The Long Goodbye". When this type is found, Notenik will generate the phrase "as quoted in" to precede the actual work title when generating an attribution. 
+
+`Quotaton from minor` works in a similar way, but treats the title as a minor work, to be enclosed in quotation marks rather than being italicized. 

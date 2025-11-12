@@ -1,0 +1,216 @@
+Title:  All About Quotations
+
+Seq:    11.12
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20251111173555
+
+Body:
+
+Notenik has many special features designed to help collect, manage and format a collection of quotations. Here's where you can learn all about this use case for Notenik. 
+
+{:toc}
+
+#### Why Quotations?
+
+I've been collecting memorable and insightful quotations for many years, and one of my prime goals for Notenik was to provide first-class handling for this sort of information. 
+
+In fact, before Notenik came along, I had a Mac app called [iWisdom](https://iwisdom.en.softonic.com/mac) whose sole purpose was to maintain quotations. And so, when I decided to write a more flexible, general-purpose app, I wanted to preserve and continue to extend this sort of functionality. 
+
+#### Why Notenik?
+
+The whole notion of a maintaining a [digital commonplace book](https://www.nytimes.com/2021/02/10/technology/personaltech/make-digital-commonplace-book.html) has gained a lot of traction in recent years. But then, the question arises, what software should we use for such an endeavor?
+
+It's certainly possible to keep everything in one increasingly lengthy word-processing document. But then, what can you do with such a list? Not a lot. So, for me at least, that's out. 
+
+At a minimum, I want each quotation to be its own thing, so that the list can be filtered and sorted in different ways. And so, for this purpose, you can choose from any of a long list of available note-taking tools, and make each quotation its own note. 
+
+But then, there's the problem of fields. I want to keep track of, not just the quotation itself, but metadata about the quotation: its author, its subject, its source, its date, to name some of the most important ones. And then I want to be able to sort and filter using those discrete data elements. 
+
+And, who knows, I might even want to generate a [bibliography](https://en.wikipedia.org/wiki/Bibliography) from the collection, or from part of it. (More on this later.)
+
+So Notenik is designed to allow entry of the quotations themselves, using Markdown, as well as all sorts of metadata about each quotation. 
+
+#### The Fields
+
+Of course, you can use whatever field labels and types you would like for your collection, but let me give you a rundown of the ones that might be used most typically. 
+
+##### Title
+
+The [[Title]] field can be used to assign a short title for each quotation. And also, by default, this field will be the key field for your collection, meaning that each quotation must have its own unique title. 
+
+Some may see this as a limitation: after all, quotations do not generally come with their own short titles. So yes, this does require the user to take a few moments to pick a key phrase that will further condense the meaning of the quotation into a few words. 
+
+In practice, though, I find these titles useful. If I'm looking through my collection, and looking for something useful in a particular context, these brief titles serve as short and useful reminders of the nature of each quotation. So, for me, this is time well spent. 
+
+##### Body
+
+The quotation itself should be entered into the [[Body]] field. It is generally best not to enclose the quotation in quotation marks within the body, as these (or other indicators of a quotation) can instead be generated on demand. 
+
+##### Author Fields
+
+Several field labels and/or types are provided specifically for information about authors. 
+
+###### Author
+
+Most lists of quotations will include the name of the author who originally uttered the words being quoted. And so Notenik provides the [[Author]] field as a place to park this useful information. 
+
+Note, however, that common attributions for quotations are often wrong, as one website or other publication makes a mistake, and then others pick up the mistake and republish it, with this process going on seemingly *ad infinitum*. So, if you're not actually taking a quotation from its original source, but instead picking it up from any one of a number of common websites, you might want to do a little further research to verify that the author is specified accurately. 
+
+There is also a question of whether to specify an author's name with their first name first, or their last name first. First name first is the way most people like to see it, but last name first is useful for sorting, as in the generation of a traditional bibliography. 
+
+Whichever way you enter it, Notenik provides functionality to try to generate the  other format as needed. However, if your goal is to provide a rigorous bibliography at some point, last name first is recommended for date entry (in other words "Chandler, Raymond" rather than "Raymond Chandler"). 
+
+###### Author Info
+
+There is no special field type for such a field, but the label itself is recognized by Notenik in some cases. I use such a field for a brief (one-line) description of the author. (And I usually pick this up from the opening of the author's Wikipedia entry.) For me, this is a quick reminder of the author's significance. 
+
+###### Author Link
+
+This would be a field of type [[Link]], proving a URL from which the reader can discover more info about the author. 
+
+I often use the author's Wikipedia entry as the target of such a link but, if the author is still alive, or has some active foundation dedicated to the author's work, I will tend to favor a more personal link, when one is available and appears useful. 
+
+Note that, if you are using an arrangement in which each author has its own note, and the author notes are identified via a [[Class]] value of `author`, then the label for this field may just be `Link`, rather than `Author Link`. 
+
+###### Author Years
+
+Again, there is no special field type for such a field, but Notenik recognizes this field label in certain cases. I use such a field to enter the author's birth year, followed by a hyphen, then followed by the year of the author's death. (As in "1888-1959" for Raymond Chandler. 
+
+If the author is still alive, I simply enter the birth year and the hyphen, without any ending year. 
+
+If I'm unsure of the author's birth year, I generally enter a my best guess, followed by a question mark, instead of a hyphen. 
+
+I find this field useful for keeping track of the range of my citations.
+
+##### Work Fields
+
+Several other field labels and/or types are provided specifically to store information about the published work from which the quotation was taken. 
+
+###### Work Title
+
+The [[Work Title]] field can be used to store the title of the original work from which the quotation was taken. 
+
+###### Work Type
+
+The [[Work Type]] field can be used to identify what type of work the quotation was taken from. 
+
+The type also implies whether the work title should normally be italicized, or enclosed in quotation marks. 
+
+###### Work Link
+
+This is a another field of type [[Link]] that can be used to provide a web location at which the reader can find more info about the work or, possibly, the work itself. 
+
+###### Work Date
+
+If [[the Collection Template file]] for a Collection defines more than one field of type [[Date]], then the publication date for the work may be placed in a special field labeled `Work Date`. I usually use this just for the year of publication, but month and/or day of month may be specified as well, if available, and if of interest. 
+
+###### Work ID
+
+A field carrying this label may be used to store an identifying number for the work, such as an ISBN. 
+
+###### Work Rights
+
+A field carrying this label may be used to indicate the the work is protected by copyright, or with some other sort of rights, such as those provided by the [Creative Commons](https://creativecommons.org) organization. If the work is copyrighted, then simply place the word `copyright` in this field. 
+
+###### Work Rights Holder
+
+The name of the individual(s) or organization owning the rights. 
+
+###### Publisher
+
+The name of the publisher of the work. 
+
+###### Publisher City
+
+The city where the publisher can be found. 
+
+#### The Arrangements
+
+There are several different approaches to arranging these fields into collections. 
+
+##### A Single Collection with Only Quotations
+
+You can create a collection like this using the [[Commonplace Book]] [[Built-In Starter Pack]] when you [[Create a New Collection]]. With this arrangement the fields for your quotations, your authors and your works are all in one Collection. 
+
+One disadvantage of this approach is that, if you include multiple quotations from the same author, then the information about the author (and possible about the work, if more than one quote from the same source) must be repeated for each quotation. 
+
+##### Multiple Collections using Lookups
+
+You can create a collection like this using the [[Commonplace with Lookups]] [[Built-In Starter Pack]] when you [[Create a New Collection]]. With this arrangement, you have three collections: one for quotes, one for authors, and one for works. The quotes collection will use one [[lookup]] field for author info, and another for info about the cited works. And then the works collection will also use a lookup field for author there. 
+
+With this arrangement you need not duplicate author or work info for multiple quotations from the same author. What's more, if you add or update information for an author or work, that new info will automatically display for all of the referencing quotations. 
+
+##### One Web Book with a Bibliography
+
+You can create a collection like this using the [[Web Book with Bibliography]] [[Built-In Starter Pack]] when you [[Create a New Collection]]. This arrangement makes use of the [[Class]] field. This arrangement assumes that you will use four [[Special Class Values]], and that notes identified with these classes will be arranged in a hierarchical fashion, using the [[Seq]] and [[Level]] fields to define the hierarchy. The four special class values are as follows:
+
+| Class | Level | Usage |
+| ----- | ----- | ----- |
+| `biblio` | any | The bibliography, generated with the [[Generate a Bibliography]] Markdown command |
+| `author` | biblio + 1 | The name of the author is placed in the Title field, last name first. Other author fields are filled here. |
+| `work` | biblio + 2 | The name of the work is placed in the Title field, and other work fields are filled in here. |
+| `quote` | biblio + 3 | This contains the actual quote. The title of the quotation is placed in the Title field. |
+
+Note that, using this arrangement, the author and work info is associated with each quotation, not through lookups, but through the relationships between a quotation and its parent notes in the hierarchy. 
+
+Also note that, when using this arrangement, it is up to the user to arrange the authors and works into the desired sequence. Normally, authors would be arranged alphabetically based on last name, and multiple works for the same author would be arranged in chronological order, based on their publication dates. 
+
+#### The Markdown Commands
+
+Several of the Notenik custom [[Single-Line Commands|Markdown commands]] are especially useful when working with quotations. 
+
++ `{:authors-table}` — *[[Generate an Authors Table]]* — See the [Index of Cited Authors](https://hbowie.net/authors/index.html) on my personal website for an example.
+
++ `{:biblio}` — *[[Generate a Bibliography]]* — See the [Bibliography](https://abouthumans.net/bibliography.html) from my *About Humans* site for an example. 
+
++ `{:include:another-file.txt}` — *[[Include a Note or File]]* — In particular, see the `{:include-quote:xxx}` and `{:include-quotebiblio:xyz}` variants. 
+
++ `{:quote-from:parms}` — *[[Format a Quote Citation]]* — This command can be used if you wish to directly provide the elements of a citation immediately following the quotation. 
+
++ `{:random}` — *[[Go To Random Note]]* — This can be used to allow the reader to visit a randomly selected quotation. Note that, if your collection contains more than just quotations, you can specify one or more [[Class]] values to be included in the selection, while excluding others. 
+
++ `{:search}` — *[[Generate a Collection Search Page]]* — This can be used to allow the reader to search through your collection of quotations. 
+
++ `{:tags-cloud}` — *[[Generate a Tags Cloud]]* — I haven't so far mentioned the [[Tags]] field, but if you choose to tag your notes, then you can easily generate a tags cloud showing the quotations bearing each tag. 
+
++ `{:tags-outline}` — *[[Generate a Tags Outline]]* — Similar to the tags cloud, but without the big bubbles. 
+
+#### The Merge Template Variables
+
+If you are using a [[Merge Template]] then you can of course use any of the aforementioned fields without any special considerations. 
+
+However, Notenik provides several special [[Derived Variables]] that can additionally be used for convenience in formatting, and these are worthy of your consideration when working with quotations. 
+
++ [[Author Work Slug]] — This can be used to nicely format information about the author and the source work. 
+
++ [[Author Work Slug with Internal Links]] - If you are creating a website on which each author will have their own page, located within a special `authors` folder, then this variation will link author names to those pages. 
+
++ [[Known Work Title]] — Will convert a value of `unknown` to blanks. 
+
++ [[Major Work]] — This will be true for a work type implying a major work, and false if a minor work type. 
+
++ [[The Work Type Slug]] - Provides a little extra formatting for a Work Type. 
+
++ [[Work Rights Slug]] — Some special formatting for a copyright statement. 
+
+#### Special Variable Modifiers
+
+When using a [[Merge Template]] you also have available a number of [[Variable Modifers]]. The following are of particular interest when working with quotations. 
+
++ [[Author Name Modifier - A]] — This can be used to format an author's name last name first, first name first, or last name only. 
+
+#### Special Notenik Menu Items
+
+When working with quotations within Notenik, a couple of menu items deserve special mention. 
+
++ *Collection > Display Mode > Quotations* — This display mode will show quotations with nicely formatted attributions, without breaking down every field into its own line. 
+
++ *Nav > Go To Random Note* — This can be used to pick a random quotation, which can be kind of fun. 
+
++ *Transform > Quotes to Biblio* — You may perhaps encounter a situation in which you have been collecting quotations using arrangements 1 or 2, but then wish to use some of these as part of a bibliography, using arrangement 3. In a case like this, this command can be used to transform your quotes from one arrangement style to the other. You will be asked to select three collections: the first should be the one containing your current quotations, the second (which is optional) could be the collection that is intended to be the ultimate destination for your bibliography, and the third is a special temporary collection, containing a bibliography, into which the quotations will be imported (excluding any that already exist within the ultimate destination, if specified, based on matching quotation titles). Note that the user interface here is rather minimal, since I have no expectation that this function will be widely used. 
+
+

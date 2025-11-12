@@ -1,10 +1,17 @@
 Title:  Version 17.9.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2025-10-30
+
+Teaser:
+
+Some additional UI layout improvements for Tahoe; added a collection setting to control the placement of the Tags field on the Display tab; some improvements for web book publishing; some additional custom CSS classes added to generated HTML; improved linkage between the Class and Level fields on the New Note with Options screen.
+
 
 Timestamp: 20251022152108
 
@@ -41,6 +48,14 @@ When you [[Include a Note or File]] with an include style of `quotebiblio`, the 
 ##### Expanded Linkage Between Class and Level Fields
 
 In some collections it may be useful to have a tight correlation between [[Level]] values and [[Class]]  values. When Notenik observes this sort of correlation, the [[New Note with Options]] screen will attempt to suggest the appropriate level when a class value is entered by the user.  
+
+##### Added a New Authors-Table Command
+
+Added a new Markdown command to [[Generate an Authors Table]]. 
+
+##### Fixed a Sortable Table Problem
+
+Fixed a Problem with the Markdown command to  [[Make a Table Sortable]]. For columns containing links, the sort was previously sorting on the anchor HTML, rather than the enclosed text. This has been corrected. 
 
 ##### UI Change for Tahoe
 

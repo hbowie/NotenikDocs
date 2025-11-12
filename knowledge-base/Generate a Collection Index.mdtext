@@ -4,7 +4,7 @@ Tags:   fields.index
 
 AKA:    collection index
 
-Seq:    4.10.4
+Seq:    4.10.5
 
 Level:  4 - chunk
 
@@ -31,5 +31,15 @@ When using the [[Export as Web Book]] feature, this Markdown extension can be us
 See this Collection's [[Index to the Knowledge Base]] for an example.
 
 Starting with [[Version 17.0.0]], when following links to indexed notes from within Notenik, the resulting note Display will show the indexed term, along with the position of this note within the list of all notes indexed by the same term. The Nav > Forward in Index and Nav > Back in Index commands can then be used to view other notes indexed by the same term, without having to first return to the index page. 
+
+Starting with [[Version 18.0.0]], the index entries will be sorted more in accordance with traditional book indexing rules, dropping any leading articles ("a", "an" and "the"). 
+
+Also starting with [[Version 18.0.0]], the user may specify an index field name following the command itself, as in the following example:
+
+```
+{:index:topics-index}
+```
+
+This supports the creation of multiple index pages, each for an index field with a different label. 
 
 Note that, when using [[Merge Templates]] and converting [[Markdown to HTML]], you will likely also need to use the [[Variable Modifier]] identified as the [[Wiki-Style Links Mod]], typically with a value of '`w1`', in order to make sure that this command resolves effectively, since it generates wiki-style links in Markdown before the conversion to HTML takes place.

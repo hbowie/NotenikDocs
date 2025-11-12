@@ -21,6 +21,7 @@ Note also that these commands are further categorized based on their relationshi
 | Syntax | Function |
 | --------- | ------------ |
 | `{:attachments}` | *[[Generate a List of Attachments]]* |
+| `{:authors-table}` | *[[Generate an Authors Table]]* |
 | `{:biblio}` | *[[Generate a Bibliography]]* |
 | `{:byline}` | *[[Format a Byline]]* |
 | `{:calendar}` | *[[Generate a Collection Calendar]]* |

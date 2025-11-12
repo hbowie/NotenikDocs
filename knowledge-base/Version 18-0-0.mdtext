@@ -1,0 +1,43 @@
+Title:  Version 18.0.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20251102211351
+
+Body:
+
+##### Improved Sorting in a Collection Index
+
+The function to [[Generate a Collection Index]] will now sort the index entries more in accordance with traditional book indexing rules, dropping any leading articles ("a", "an" and "the").
+
+##### Added Support for Multiple Indexes
+
+When using the [[Index]] field type, the user may now specify more than one field of type `index`, each with its own field label. The Markdown command to [[Generate a Collection Index]] can then specify a field label to generate an index for each field separately. For example, a user might wish to have one index for topics, and another for proper names. 
+
+#### Improved Last Name First Sort
+
+When you [[Change the Sort Sequence]] to `Last Name First`, the [[Date]] of the entry will now be considered for multiple entries with the same creator name. This is helpful when sorting quotations. 
+
+#### Fixed a Few Seq Problems
+
+Fixed a couple of issues around manipulation of [[Seq]] fields.
+
+#### Added a NavLeft Command
+
+Added a `navleft` Markdown command to [[Supply Left Side Navigation]] for a collection. 
+
+#### Added Some Work Types
+
+Added a few new [[Work Type]] values. In particular there are a couple meant to handle the case when you run across a quotation in a book by someone else, and so want to reference both the author of the quotation and the work in which some author featured the quote. 
+
+#### Added a New Starter Pack
+
+Added a [[Built-In Starter Pack]] for a [[Web Book with Bibliography]]. 
+
+#### Added an All About Quotations Use Case
+
+I've added a page called [[All About Quotations]] to the [[Common Use Cases]] section. With some recent enhancements, I felt like it was time to pull all the quotations stuff together in one place. 

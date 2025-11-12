@@ -1,0 +1,23 @@
+Title:  Supply Left Side Navigation
+
+Seq:    4.11.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20251112211737
+
+Body:
+
+The `navleft` command can be used to place some sort of navigational elements at the top of every page, but appearing on the left side rather than the [[Supply Page Navigation]] stuff that normally appears to the right. 
+
+If supplied, this element can be used to replace the upwards navigation normally appearing to the left when in Streamlined Reading mode.
+
+Here's an example. 
+
+```
+{:navleft}
+
+```
+
