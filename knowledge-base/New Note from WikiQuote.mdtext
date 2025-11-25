@@ -54,3 +54,6 @@ Notenik will attempt to populate the following fields (assuming they are availab
 + Work Title
 
 Note that Notenik's extraction of this data is dependent on its sometimes problematic ability to parse the actual HTML contained in the WikiQuote pages, and that this is an imperfect process at best.
+
+Note also that Notenik will attempt to search the WikiQuote site using your Internet connection. If the connection is unavailable, or slow, then that may affect Notenik's responsiveness. 
+

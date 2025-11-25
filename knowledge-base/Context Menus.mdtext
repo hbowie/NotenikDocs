@@ -54,6 +54,12 @@ Delete Range...
 Modify Seq...
 : Will modify the [[Seq]] values for an entire range of notes, keeping them in their existing order. 
 
+Renumber Display Seq
+: For a collection containing a [[Display Seq]] field, this option will renumber that field for the range of selected notes, skipping any notes not of the same [[Level]] and [[Class]] as the first note in the range. The numbering will start with 1, and be incremented by 1 for each successive matching note. 
+
+Assign Attribution
+: For a collection containing an [[Attribution]] field, and organized in the recommended format for a [[Generate a Bibliography|Bibliography]], this function will fill in the Attribution field for notes of class `work` and `quote` within the selected range. This will overwrite any existing Attribution values for these notes. 
+
 New Child...
 : When using an outline structure, this will create a new note that is a child of the currently selected note.
 

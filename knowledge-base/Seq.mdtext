@@ -121,3 +121,8 @@ And here's how a series of Seq values might appear after formatting using these 
 | 1.2            | 1.b    | b.      |
 | 1.2.1          | 1.b.i  | i.      |
 | 1.2.2          | 1.b.ii | ii.     |
+
+##### Seq Formatting by Class
+
+Also see the page on [[Class Template Files]] to learn how you can vary seq formatting by [[Class]].
+

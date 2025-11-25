@@ -1,0 +1,23 @@
+Title:  Version 18.1.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20251121212247
+
+Body:
+
+##### Quotes to Biblio Cleanup
+
+Did a little cleanup on the new Quotes to Biblio function. 
+
+##### Added a Renumber Display Seq Function
+
+Added a new [[Context Menu]] item to Renumber the [[Display Seq]] field for a range of notes.
+
+##### Added an Assign Attribution Function
+
+Added a new [[Context Menu]] item to Assign Attribution values for a range of note. 

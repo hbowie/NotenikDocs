@@ -6,6 +6,8 @@ Level:  4 - chunk
 
 Class:  non-version
 
+Index:  navigation; 
+
 Timestamp: 20251112211737
 
 Body:
@@ -20,4 +22,3 @@ Here's an example.
 {:navleft}
 
 ```
-

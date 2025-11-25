@@ -1,10 +1,17 @@
 Title:  Version 18.0.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2025-11-14
+
+Teaser:
+
+Improved Sorting in a Collection Index; Added Support for Multiple Indexes; Improved Last-Name-First Sort; Fixed a Few Seq Problems; Added a NavLeft Command; Added Some Work Types; Added a New Starter Pack for a Web Book with Bibliography; Added Streamlined Reading Keyboard Shortcuts; Added an "All About Quotations" Use Case Document.
+
 
 Timestamp: 20251102211351
 
@@ -38,6 +45,10 @@ Added a few new [[Work Type]] values. In particular there are a couple meant to 
 
 Added a [[Built-In Starter Pack]] for a [[Web Book with Bibliography]]. 
 
+#### Added Streamlined Reading Keyboard Shortcuts
+
+Added new [[Keyboard Shortcuts]] to turn [[Streamlined Reading]] on and off. 
+
 #### Added an All About Quotations Use Case
 
-I've added a page called [[All About Quotations]] to the [[Common Use Cases]] section. With some recent enhancements, I felt like it was time to pull all the quotations stuff together in one place. 
+I've added a page called [[All About Quotations]] to the [[Common Use Cases]] section. With some recent enhancements, I felt like it was time to pull all the quotations stuff together in one place.

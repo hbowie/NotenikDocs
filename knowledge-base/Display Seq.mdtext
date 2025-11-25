@@ -31,3 +31,5 @@ Idea Number: <displayseq: No._XXX_&ndash;_>
 ```
 
 The text following the `<displayseq: `, if present, will be used for formatting each `display-seq` value for display. The `XXX` literal will be replaced by the `display-seq` value. Underscores will be replaced with spaces.
+
+See the Renumber Display Seq [[Context Menu]] item for a way to assign sequential numbers to this field. 

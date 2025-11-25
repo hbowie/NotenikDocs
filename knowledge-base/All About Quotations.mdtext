@@ -6,11 +6,13 @@ Level:  3 - chapter
 
 Class:  non-version
 
+Index:  quotations; 
+
 Timestamp: 20251111173555
 
 Body:
 
-Notenik has many special features designed to help collect, manage and format a collection of quotations. Here's where you can learn all about this use case for Notenik. 
+Notenik has many special features designed to help collect, manage and format a collection of quotations. Here's where you can learn all about this particular use case for Notenik. 
 
 {:toc}
 
@@ -209,8 +211,8 @@ When working with quotations within Notenik, a couple of menu items deserve spec
 
 + *Collection > Display Mode > Quotations* — This display mode will show quotations with nicely formatted attributions, without breaking down every field into its own line. 
 
++ *Note > New Note from Wikiquote* — [WikiQuote](https://en.wikiquote.org) is a companion site to Wikipedia, and is a generally reliable source of accurate quotations with accompanying citations. Notenik provides a special [[New Note from Wikiquote]] command that will allow you to specify a language and an author and a chunk of text, and then search that author's page for a quotation containing that text. Once found, you will have the option to import the quotation into your collection of quotations. 
+
 + *Nav > Go To Random Note* — This can be used to pick a random quotation, which can be kind of fun. 
 
-+ *Transform > Quotes to Biblio* — You may perhaps encounter a situation in which you have been collecting quotations using arrangements 1 or 2, but then wish to use some of these as part of a bibliography, using arrangement 3. In a case like this, this command can be used to transform your quotes from one arrangement style to the other. You will be asked to select three collections: the first should be the one containing your current quotations, the second (which is optional) could be the collection that is intended to be the ultimate destination for your bibliography, and the third is a special temporary collection, containing a bibliography, into which the quotations will be imported (excluding any that already exist within the ultimate destination, if specified, based on matching quotation titles). Note that the user interface here is rather minimal, since I have no expectation that this function will be widely used. 
-
-
++ *Transform > Quotes to Biblio* — You may perhaps encounter a situation in which you have been collecting quotations using arrangements 1 or 2, but then wish to use some of these as part of a bibliography, using arrangement 3. In a case like this, this command can be used to transform your quotes from one arrangement style to the other. You will be asked to select three collections: the first should be the one containing your current quotations, the second (which is optional) could be the collection that is intended to be the ultimate destination for your bibliography, and the third is a special temporary collection, containing a bibliography, into which the quotations will be imported (excluding any that already exist within the ultimate destination, if specified, based on matching quotation titles). Note that the user interface here is rather minimal, since I have no expectation that this function will be widely used.
