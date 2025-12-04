@@ -1,0 +1,26 @@
+Title:  Included By
+
+Seq:    5.5.4
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20251204181530
+
+Body:
+
+If you use the [[Markdown Command]] to [[Include a Note]], then you may wish also to see, for each included note, where it is being included. 
+
+A field with a type of `includedby` can provide this sort of information. 
+
+This is similar to the [[Back Links]] field type, but provides the same sort of backwards view for include commands. 
+
+In order for this to work, a field of type [[Inclusions]] must also be specified for the Collection. 
+
+Both the Inclusions field and the Included By field will have their values saved in their corresponding text files. 
+
+These field types must be added through direct editing of [[the Collection Template File]].
+
+If these field types are being added to an existing collection with a non-trivial number of Notes, then the Generate Inclusions Links item beneath the Collection menu can be used to generate values for these fields. 
+

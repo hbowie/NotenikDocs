@@ -20,4 +20,8 @@ Added a new [[Context Menu]] item to Renumber the [[Display Seq]] field for a ra
 
 ##### Added an Assign Attribution Function
 
-Added a new [[Context Menu]] item to Assign Attribution values for a range of note. 
+Added a new [[Context Menu]] item to Assign Attribution values for a range of note.
+
+##### Added New IncludedBy Field Type
+
+Added new field types of [[Inclusions]] and [[IncludedBy]]. These essentially provide [[Back Links]] for Markdown commands to [[Include a Note]].
