@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2025-12-11
+
+Teaser:
+
+Did a little cleanup on the new Quotes to Biblio function; Added a new Context Menu item to Renumber the Display Seq field for a range of notes; Added a new Context Menu item to Assign Attribution values for a range of notes; Added new field types of Inclusions and IncludedBy -- these essentially provide Back Links for Markdown commands to Include a Note; Enhanced the Markdown Command to Include a Note to add a `ref` style for calling out references. 
+
 Timestamp: 20251121212247
 
 Body:
@@ -20,8 +26,12 @@ Added a new [[Context Menu]] item to Renumber the [[Display Seq]] field for a ra
 
 ##### Added an Assign Attribution Function
 
-Added a new [[Context Menu]] item to Assign Attribution values for a range of note.
+Added a new [[Context Menu]] item to Assign Attribution values for a range of notes.
 
 ##### Added New IncludedBy Field Type
 
 Added new field types of [[Inclusions]] and [[IncludedBy]]. These essentially provide [[Back Links]] for Markdown commands to [[Include a Note]].
+
+##### Added Ref Style for Note Inclusion
+
+The [[Markdown Command]] to [[Include a Note or File]] has been enhanced to add a `ref` style for calling out references. The included reference notes can then be updated with [[IncludedBy]] values pointing back to the referencing note(s).

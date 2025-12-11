@@ -2,7 +2,7 @@ Title:  Include a Note or File
 
 Tags:   embed, include
 
-AKA:    transclusion, embed, Include a Note
+AKA:    transclusion, embed, Include a Note, inclusion
 
 Seq:    4.6.3
 
@@ -47,6 +47,8 @@ The following styles are available at this time:
 + `quotebiblio` - The body of the included Note will be placed within Blockquotes, and an attempt will be made to format a quote attribution in a style consistent with the the one used when you [[Format a Quote Citation]] using that special Markdown [[Single-Line Command]], obtaining information about the author and the work from the quotation's parent Notes, which are expected to be organized as they would be when you [[Generate a Bibliography]]. The blockquote tag will be styled with a class specification of `attribution-following`. 
 
 + `quotebody` - The body of the included Note will be placed within Blockquotes, without any attempt to include an attribution (this style effectively implies that the surrounding text will provide sufficient attribution for the quote).
+
++ `ref` - A wikilink will be created to the reference note. If the reference note has a [[Class]] value containing the text `element`, then Notenik will attempt to find a parent note for the reference note and, if found, will also provide a link to the parent note, showing it as "An element of" the parent note. 
 
 Note that includes may be nested; in other words, if Note B includes Note C, and Note A includes Note B, then Note C will appear within Note A as well. 
 
