@@ -1,0 +1,36 @@
+Title:  Supply a Title Suffix
+
+Seq:    4.11.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260103232727
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, a suffix to be used when formulating an [HTML Document Title](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/title) may be provided as part of the `titlesuffix` command, as in the following example:
+
+```
+{:titlesuffix: | Notenik Knowledge Base}
+```
+
+The string following the second colon will be appended to the [[Title]] of the Note when formulating the document titles for the collection. 
+
+Note that HTML Document Titles are not of much significance when viewing a Collection within Notenik, but are of more interest when using the [[web book export]] function. 
+
+If you wish to use a separating character between the Note Title and any provided text, then that character must be specified as part of the supplied suffix. 
+
+These sorts of additional string are often used to identify the site as a whole, and generally follow the title value for an individual page. 
+
+If you wish the supplied string to be used as a prefix instead of a suffix, then this may be indicated simply by ending the supplied string with some form of punctuation, that will then become the separator character to be used. See the following code for an example of this. 
+
+```
+{:titlesuffix: About Humans: }
+```
+
+A Note containing this command may appear anywhere within a Collection, and be given any convenient and meaningful title. 
+
+Since a Note containing such a command is not meant to be read sequentially as part of the overall Collection, Notenik will generally skip such pages when formatting [[Streamlined Reading]] navigational elements. 
+

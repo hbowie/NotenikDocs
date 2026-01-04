@@ -1,0 +1,29 @@
+Title:  What Do We Mean by a Web Book?
+
+Seq:    1
+
+Level:  2
+
+Body:
+
+What we're talking about here is a website that is structured much in the form of a traditional book. 
+
+This could be a subset of a larger site, or a complete site on its own. 
+
+What we're *not* talking about is an e-book that can only be read with some specialized software, and that requires a specialized distribution mechanism.
+
+And we're also not talking about something that is composed and formatted to be distributed as a printed book or an e-book, and then tossed somewhere onto the web as an afterthought. 
+
+No, we're talking about something available on the open web, that can be read on any device, with any web browser, and an ordinary Internet connection, and that takes advantage of all of the relevant resources of the open web. 
+
+Here are some examples of what I'm talking about:
+
++ *[Practical Typography](https://practicaltypography.com)* by Matthew Butterick
++ *[Reason to Rock](https://www.reasontorock.com)*, by yours truly
++ *[Big Ideas in Software Development](https://www.softdevbigideas.com)*, also by me
++ *[The Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html)*
++ *[Important Things to Know About Humans](https://abouthumans.net)*, once again one of mine
+
+Note that I'll primarily be referring to this last one as an example as I go through this Notenik aid. 
+
+You can find all the supporting Notenik source files for this last site on GitHub, at [github.com/hbowie/about-humans](https://github.com/hbowie/about-humans).

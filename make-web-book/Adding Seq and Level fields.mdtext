@@ -1,0 +1,29 @@
+Title:  Adding Seq and Level fields
+
+Seq:    3
+
+Level:  2
+
+Body:
+
+The Notenik default is to sort your pages by their titles — but that's no way to organize a book (unless it's a dictionary or an encyclopedia). 
+
+So we need to add Seq and Level fields to our Collection to allow us to impose a reading structure. 
+
+So, if you haven't done that yet, go ahead and do that now.
+
+The easiest way to add these fields is by using the Collection Settings screen, and simply clicking on the appropriate checkboxes. 
+
+Once you've done this, change your Collection Sort option to Seq + Title.
+
+Now you are creating a book that is structured in the form of an outline.
+
+So go ahead and select the folloing menu option: 
+
++ Collection -> Outline Tab > Outline with Seq
+
+Now you should see a third tab on the left of the window, labeled Outline. 
+
+This allows you to manipulate your book in the form of an outline. 
+
+This will become more useful as you build your book, adding more content. 

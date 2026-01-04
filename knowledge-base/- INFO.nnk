@@ -52,9 +52,11 @@ Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 1329.0;0.0;1197.0;1358.0;500.0;
+Window Numbers: 1203.0;77.0;1236.0;1195.0;500.0;
 
-Column Widths: datemod: 100, 180, 250; statusdigit: 20, 30, 50; tags: 50, 100, 1200; title: 200, 486, 1500; dateadded: 100, 180, 250; x: 12, 20, 50; klass: 60, 80, 150; date: 80, 120, 500; seq: 30, 80, 1500; rank: 50, 80, 250; author: 100, 200, 1000; 
+Column Widths: statusdigit: 20, 30, 50; seq: 30, 80, 1500; author: 100, 200, 1000; tags: 50, 100, 1200; x: 12, 20, 50; klass: 60, 80, 150; dateadded: 100, 180, 250; datemod: 100, 180, 250; title: 200, 486, 1500; rank: 50, 80, 250; date: 80, 120, 500; 
+
+author Note ID: collectionauthor
 
 footer Note ID: footerpage
 
@@ -63,6 +65,8 @@ header Note ID: headerpage
 metadata Note ID: epubmetadata
 
 nav Note ID: navpage
+
+titlesuffix Note ID: titlesuffix
 
 Note Picker Action: Copy and Paste Wikilink
 

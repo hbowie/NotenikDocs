@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 55
+Last Index Selected: 54
 
 Mirror Auto Index: false
 
@@ -21,6 +21,8 @@ Display Body Label: true
 Minimum Body Edit View Height: 5.0
 
 Title Display Option: level
+
+Tags Display: above-title
 
 Display Mode: normal
 
@@ -48,7 +50,7 @@ Hash Tags: notenik-field
 
 Window Numbers: 913.0;0.0;1050.0;1409.0;500.0;
 
-Column Widths: x: 12, 20, 1500; klass: 60, 80, 150; author: 100, 200, 1000; date: 80, 157, 300; tags: 50, 100, 1200; rank: 50, 80, 250; datemod: 100, 180, 250; statusdigit: 20, 30, 50; seq: 30, 80, 1500; dateadded: 100, 180, 250; title: 200, 509, 1500; 
+Column Widths: rank: 50, 80, 250; statusdigit: 20, 30, 50; date: 80, 157, 300; klass: 60, 80, 150; tags: 50, 100, 1200; x: 12, 20, 1500; title: 200, 509, 1500; seq: 30, 80, 1500; author: 100, 200, 1000; dateadded: 100, 180, 250; datemod: 100, 180, 250; 
 
 Note Picker Action: Copy and Paste Wikilink
 

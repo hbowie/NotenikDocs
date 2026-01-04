@@ -1,0 +1,25 @@
+Title:  Why a Web Book?
+
+Seq:    2
+
+Level:  2
+
+Body:
+
+Well, first of all, books have been around for centuries, and their form has been refined and proven useful time and time again over all those years. 
+
+A book is a way to convey information and opinions on a focused topic at some significant length, and to bundle that content into a durable package that can be easily shared and referenced. 
+
+And it generally does all of this without any advertising or other interruptions to the flow of the work. 
+
+For example web book ( or a *web-based book*, for those who prefer that term) adds to these traditional attributes:
+
++ Can easily link to other resources on the web;
++ Can easily provide links within the work, allowing the reader (when desired) to navigate through the work in ways other than a strictly linear fashion;
++ Can be easily updated by the author, with immediate availability of the latest version to all readers, and without any concerns about removing older versions from circulation.
+
+As [Matthew Butterick points out](https://practicaltypography.com/why-theres-no-e-book-or-pdf.html):
+
+> Though the web has a number of problems—lack of a payment model for content is at the top of the list—I consider it our best opportunity for digital books. It’s based on open standards, with no vendor lock-ins. It has finally—especially because of the arrival of webfonts—developed a useful level of design sophistication.
+> 
+> The web also offers some unique benefits. Unlike PDF or other static e-book formats, a web-based book can be part of the searchable, hyperlinkable flow of web information at large. It’s easier to update, so it maintains a better connection to the author. It can have software-based features provided by the server or the web browser. It is, in short, a living thing.

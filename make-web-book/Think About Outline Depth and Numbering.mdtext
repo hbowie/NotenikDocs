@@ -1,0 +1,19 @@
+Title:  Think About Outline Depth and Numbering
+
+Seq:    5
+
+Level:  2
+
+Body:
+
+Once you have Seq and Level fields, you need to think about how to use them. 
+
+### Depth
+
+Think about the smallest unit of content that you would likely to be easily addressable through its own web address (aka *URL*). 
+
+Will your book have sections? If so, that will be one level. 
+
+Will your book have chapters? Most do. This will be another level, possibly contained within sections. 
+
+How long with your chapters be? Do you want 

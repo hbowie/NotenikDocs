@@ -1,6 +1,6 @@
 Title:  Version 18.1.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2025-12-11
 Teaser:
 
 Did a little cleanup on the new Quotes to Biblio function; Added a new Context Menu item to Renumber the Display Seq field for a range of notes; Added a new Context Menu item to Assign Attribution values for a range of notes; Added new field types of Inclusions and IncludedBy -- these essentially provide Back Links for Markdown commands to Include a Note; Enhanced the Markdown Command to Include a Note to add a `ref` style for calling out references. 
+
 
 Timestamp: 20251121212247
 

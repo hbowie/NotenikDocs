@@ -1,0 +1,30 @@
+Title:  Supply an Author Name
+
+Seq:    4.11.8
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260103235752
+
+Body:
+
+As an extension to the original Markdown spec from John Gruber, an author name to be used when formulating an [HTML meta](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta) *author* value may be provided as part of the `author` command, as in the following example:
+
+```
+{:author:Herb Bowie}
+```
+When this command is supplied for a Collection, then HTML meta author tags will be generated for every page in the Collection. 
+
+Note that HTML meta author tags are not of much significance when viewing a Collection within Notenik, but are of more interest when using the [[web book export]] function. 
+
+A Note containing this command may appear anywhere within a Collection, and be given any convenient and meaningful title. 
+
+Since a Note containing such a command is not meant to be read sequentially as part of the overall Collection, Notenik will generally skip such pages when formatting [[Streamlined Reading]] navigational elements. 
+
+Note that this general author value will be overridden with more specific information in the following cases:
+
++ If a Note has an [[Author]] field, then that value will be used instead. 
++ If a Note has a [[Class]] value of `author`, then the Note's Title value will be used. 
++ If a Note has a [[Class]] value of `work` or `quote`, and if the Note has an [[Attribution]] field, then Notenik will attempt to extract the author name from the beginning of the Attribution value. 
