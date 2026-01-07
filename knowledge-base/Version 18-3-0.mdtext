@@ -12,4 +12,8 @@ Body:
 
 ##### Fixed Index Navigation
 
-Fixed a problem with navigation from a page containing a [[Generate a Collection Index]] command. 
+Fixed a problem with navigation from a page containing a [[Generate a Collection Index]] command.
+
+##### Improved iCal Export
+
+Made a change to the [[Context Menu]] Export to iCal function so that the selected notes need not be in a continuous range. 
