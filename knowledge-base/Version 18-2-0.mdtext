@@ -1,6 +1,6 @@
 Title:  Version 18.2.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-01-04
 Teaser:
 
 Added some new Markdown commands to generate HTML head metadata when using the Export to Web Book function. 
+
 
 Timestamp: 20260103182302
 

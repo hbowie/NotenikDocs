@@ -1,0 +1,43 @@
+Title:  What Do I Mean by a Web Book?
+
+Seq:    2
+
+Level:  2
+
+Body:
+
+What I'm talking about here is a website that is structured much in the form of a traditional book. 
+
+This is different from some other, similar forms. 
+
++ It's not an e-book that can only be read with some specialized software, and can only be acquired through some special distribution channels. 
+
++ Nor is it something that is composed and formatted to be distributed as a printed book or an e-book, and then made available on the web as an afterthought. 
+
+Instead a *web* book, as I'm using the term, has the following characteristics:
+
++ Can be read using any modern web browser;
++ Is published on the web, and is available to anyone with Internet access;
++ Is designed primarily (and often exclusively) to be read on the web, using an ordinary browser;
++ Employs many of the traditional elements of printed [book design](https://en.wikipedia.org/wiki/Book_design#Front_matter);
++ Is designed so that it can be read sequentially, but also allows individual elements (chapters, sections, etc.) to be accessed directly, from anywhere, using a standard [hyperlink](https://en.wikipedia.org/wiki/Hyperlink);
++ Provides extensive hyperlinks, both internally (for moving around within the book), as well as externally, to related sites and resources;
++ Provides other standard website functions, including some sort of search mechanism. 
+	
+No, a web book can be read with any web browser, and is available to anyone with access to the World Wide Web. 
+
+No, a web book is designed with a website as its first and only form.  
+
+No, we're talking about something available on the open web, that can be read on any device, with any web browser, and an ordinary Internet connection, and that takes advantage of all of the relevant resources of the open web. 
+
+Here are some examples of what I'm talking about:
+
++ *[Practical Typography](https://practicaltypography.com)* by Matthew Butterick
++ *[Reason to Rock](https://www.reasontorock.com)*, by yours truly
++ *[Big Ideas in Software Development](https://www.softdevbigideas.com)*, also by me
++ *[The Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html)*
++ *[Important Things to Know About Humans](https://abouthumans.net)*, once again one of mine
+
+Note that I'll primarily be referring to this last one as an example as I go through this Notenik aid. 
+
+You can find all the supporting Notenik source files for this last site on GitHub, at [github.com/hbowie/about-humans](https://github.com/hbowie/about-humans).

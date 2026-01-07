@@ -1,0 +1,19 @@
+Title:  Examples of Web Books
+
+Seq:    3
+
+Level:  2
+
+Body:
+
+Here are some examples of what I'm talking about:
+
++ *[Practical Typography](https://practicaltypography.com)* by Matthew Butterick
++ *[Reason to Rock](https://www.reasontorock.com)*, by yours truly
++ *[Big Ideas in Software Development](https://www.softdevbigideas.com)*, also by me
++ *[The Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html)*
++ *[Important Things to Know About Humans](https://abouthumans.net)*, once again one of mine
+
+Note that I'll primarily be referring to this last one as an example as I go through this Notenik aid. 
+
+You can find all the supporting Notenik source files for this last site on GitHub, at [github.com/hbowie/about-humans](https://github.com/hbowie/about-humans).

@@ -1,0 +1,15 @@
+Title:  Version 18.3.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260107184151
+
+Body:
+
+##### Fixed Index Navigation
+
+Fixed a problem with navigation from a page containing a [[Generate a Collection Index]] command. 
