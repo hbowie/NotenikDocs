@@ -16,4 +16,8 @@ Fixed a problem with navigation from a page containing a [[Generate a Collection
 
 ##### Improved iCal Export
 
-Made a change to the [[Context Menu]] Export to iCal function so that the selected notes need not be in a continuous range. 
+Made a change to the [[Context Menu]] Export to iCal function so that the selected notes need not be in a continuous range.
+
+##### Modified File Open Functionality
+
+When invoking the *File > Open* command, Notenik will now allow the user to select any folder or file, and will then do its best to open the specified (or enclosing) folder as either a [[project folder]] or a [[collection folder]], depending on the contents of the folder. 

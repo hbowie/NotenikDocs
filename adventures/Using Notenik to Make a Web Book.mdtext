@@ -1,0 +1,53 @@
+Title:  Using Notenik to Make a Web Book
+
+Tags:   books, web books
+
+Status: 6 - Completed
+
+Seq:    49
+
+Date:   2026-01-08
+
+Author: Herb Bowie
+
+Teaser:
+
+I've been focused on making web books for many years and now, for the first time, I'm able to generate a complete book-like website straight out of Notenik, with no special templates or script files needed! 
+
+Timestamp: 20260107235733
+
+Date Added: 2026-01-07 15:57:33 -0800
+
+Date Modified: 2026-01-08 09:39:18 -0800
+
+Body:
+
+From the beginning (back at the beginning of this century) my interest in making content for the Web has run to creating something book-like, rather than a blog or some other form. 
+
+My first effort along these lines was *[Reason to Rock](https://www.reasontorock.com)*, which I've been pretty happy with. This was when I created a Java app called PSTextMerge, which was driven by text-delimited files in order to generate the pages and structure for the resulting website. 
+
+PSTextMerge functionality then became part of Notenik, and I used that app to create my next web book, *[Big Ideas in Software Development](https://www.softdevbigideas.com)*.
+
+And then, of course, there's the [Notenik Knowledge Base](https://notenik.app/kb/notenik-knowledge-base.html), which is also in a book-like form. 
+
+And while Notenik has been a very useful tool for all of this, these earlier efforts generally required the creation and editing of special [merge templates](https://notenik.app/kb/merge-templates.html) and [script files](https://notenik.app/kb/script-files.html), which were very powerful, but also a little complicated. 
+
+For my latest web book, though, I decided to try to generate the entire site using only Notenik code, without need for any auxiliary files for formatting and scripting. 
+
+So many of the recent [changes to Notenik](https://notenik.app/kb/version-history.html) have been focused on enhancing the [Export as Web Book](https://notenik.app/kb/export-as-web-book.html) functionality to allow all the important niceties to be produced straight out of Notenik, without need for any merge templates or script files. 
+
+And while there's probably more that could be done here, I'm now at a point where I'm pretty satisfied with everything. 
+
+If you'd like to take a look at the resulting web book (or perhaps *web-based book*, to use the [terminology preferred by Matthew Butterick](https://practicaltypography.com/why-theres-no-e-book-or-pdf.html)), you can find it at [AboutHumans.net](https://abouthumans.net). And if you'd like to view or even download the entire Notenik project, you can find that [on GitHub](https://github.com/hbowie/about-humans). 
+
+I have to say that I think the current version of Notenik is a pretty awesome tool for writing, organizing and publishing a web book. Notenik supports all of the following:
+
+1. Creation and editing of content
+2. Organizing and reorganizing content
+3. Sophisticated and flexible numbering of sections, chapters and so on
+4. Generation of traditional book elements, such as an index and a bibliography
+5. Generation of typical website navigation, including a search page
+6. Internal presentation of the entire collection/book in something very like the finished form
+7. Complete generation of HTML as part of an easy export function
+
+Don't know if anyone else will be inspired to use Notenik in this way, but right now I'm pretty pleased with it!

@@ -1,0 +1,33 @@
+Title:  Content Organization
+
+Seq:    2
+
+Level:  2
+
+Body:
+
+The content collection uses both the [`seq`](https://notenik.app/kb/seq.html) and [`level`](https://notenik.app/kb/level.html) field types to organize the content into an outline structure. 
+
+Here are the relevant lines within the `template.mdtext` file. 
+
+```
+Seq: <seq: I.n.n.n.n.|I.|xn.|I.n.n|I.n.n.n.|I.n.n.n.n|I.n.n.n.n.n>
+
+Level: <level: 1 - Book Title; 2 - Section; 3 - Topic; 4 - Subtopic; 5 - Detail; 6 - Subdetail; >
+```
+
+The first note within the collection — essentially the title page for the book — should have a blank `seq` value, and a level of `1`. 
+
+I've provided text labels to go along with the numeric `level` values. These are meant to be suggestive and an aid when assigning level values — there is no associated funcationality. 
+
+I've also provided formatting codes for the `seq` field, to specify how I want the various levels to be displayed. 
+
+Once you have these two fields added, there are a few more steps to take. 
+
+First, change the *Collection > Sort* value to Seq + Title. 
+
+Next change the *Collection > Display Mode* to Streamlined. 
+
+Then change the *Collection > Outline Tab* setting to Outline with Seq. 
+
+

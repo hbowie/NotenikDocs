@@ -1,0 +1,19 @@
+Title:  The Making of a Web Book using Notenik
+
+Level:  1
+
+Body:
+
+I recently used Notenik to write, organize and publish a new web book. 
+
+[Notenik](https://notenik.app) is available for free from the [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984?mt=12). 
+
+The resulting website can be found at [About Humans.net](https://abouthumans.net).
+
+All of the project files are available on GitHub at [hbowie/about-humans](https://github.com/hbowie/about-humans). 
+
+This project is notable for its minimal reliance on script files and template files, instead generating all of the output HTML through a simple export function. 
+
+This document explains some of the details of how I did this. 
+
+
