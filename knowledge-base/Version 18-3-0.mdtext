@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2026-01-22
+
+Teaser:
+
+Fixed a problem with navigation from a Collection Index; Improved iCal Export to allow a non-contiguous selection; Improved File Open function to support either projects or collections; Added special class Values for use with outlining; Fixed an Outline tab bug; Improved the Tasks by Date sort; Added a new Starter Pack that uses the PARA organizing method. 
+
 Timestamp: 20260107184151
 
 Body:
@@ -20,4 +26,20 @@ Made a change to the [[Context Menu]] Export to iCal function so that the select
 
 ##### Modified File Open Functionality
 
-When invoking the *File > Open* command, Notenik will now allow the user to select any folder or file, and will then do its best to open the specified (or enclosing) folder as either a [[project folder]] or a [[collection folder]], depending on the contents of the folder. 
+When invoking the *File > Open* command, Notenik will now allow the user to select any folder or file, and will then do its best to open the specified (or enclosing) folder as either a [[project folder]] or a [[collection folder]], depending on the contents of the folder.
+
+##### Added Special Class Values for Outlining
+
+Added three [[Special Class Values]] to be used for outlining: `header`, `item` and `action`.
+
+##### Fixed an Outline Tab Bug
+
+There was a bug on the [[Outline Tab]] that sometimes erred in assigning children to parents. This has been corrected.
+
+##### Tasks by Date Sort Improved
+
+When sorting a Collection using *Tasks by Date* the [[Seq]] field is no longer included as a column in the table if the Collection is using the [[Outline Tab]] with the Seq field.
+
+##### Added a New Starter Pack
+
+Added a [[PARA Pack]] as another option when creating a new Collection. 

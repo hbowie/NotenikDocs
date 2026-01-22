@@ -36,4 +36,12 @@ Frontmatter and bibliographic entries are often not shown with their sequence nu
 
 A class of `quote` or `quotation` indicate that the entire body of the Note is to be treated as a quotation, and displayed with special `blockquote` formatting. Also, if the [[Attribution]] field is used, then the Attribution will be displayed beneath the Quotation.
 
+Additionally, the following class values provide some extra convenience when dragging and dropping items into a Collection that is sorted by [[Seq]]. 
+
+| Class Value | Significance |
+| ---------------- | ---------------- |
+| header | Identifies a Note meant to simply be a header in an outline. | 
+| item      | Identifies a Note containing some significant information, possibly with a `header` Note above it. |
+| action   | Similar to an `item`, but with one or more fields typical of a 'to do' Note (date, status, etc.) |
+
 [bkdsgn]: https://en.wikipedia.org/wiki/Book_design
