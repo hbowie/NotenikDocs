@@ -42,3 +42,15 @@ There are two options to [[Change the Sort Sequence for your Collection]] that i
 
 + Folder + TItle
 + Folder + Date + Title
+
+The line in the template file would look something like the following:
+
+````
+Folder: <folder>
+````
+
+There is a provision for naming some sub-folders to be excluded from the Notenik logic. For example, to exclude folders named `sub 2` and `sub 3`, one might change the field's line to look something like the following:
+
+````
+Folder: <folder: excluding: sub 2, sub 3, >
+````

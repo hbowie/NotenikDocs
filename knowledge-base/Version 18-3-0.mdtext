@@ -1,6 +1,6 @@
 Title:  Version 18.3.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-01-22
 Teaser:
 
 Fixed a problem with navigation from a Collection Index; Improved iCal Export to allow a non-contiguous selection; Improved File Open function to support either projects or collections; Added special class Values for use with outlining; Fixed an Outline tab bug; Improved the Tasks by Date sort; Added a new Starter Pack that uses the PARA organizing method. 
+
 
 Timestamp: 20260107184151
 
@@ -42,4 +43,4 @@ When sorting a Collection using *Tasks by Date* the [[Seq]] field is no longer i
 
 ##### Added a New Starter Pack
 
-Added a [[PARA Pack]] as another option when creating a new Collection. 
+Added a [[PARA Pack]] as another option when creating a new Collection.

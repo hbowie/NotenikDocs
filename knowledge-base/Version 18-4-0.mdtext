@@ -1,0 +1,15 @@
+Title:  Version 18.4.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260127220940
+
+Body:
+
+##### Added Support for Sub-folder Exclusion
+
+Modified the [[Folder]] field type to allow specified sub-folders to be excluded from the list of selectable folders.
