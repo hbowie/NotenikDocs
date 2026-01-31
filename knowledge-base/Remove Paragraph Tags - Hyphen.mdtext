@@ -16,3 +16,5 @@ Body:
 
 When used following the [[Markdown to HTML - O]] modifier,  a dash ('-', aka minus sign) indicates that leading and trailing paragraph tags should be stripped from the output.
 
+When used in other contexts, simply strips spaces and newlines from the front and back of the associated value. 
+

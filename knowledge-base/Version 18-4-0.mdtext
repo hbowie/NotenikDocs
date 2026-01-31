@@ -13,3 +13,11 @@ Body:
 ##### Added Support for Sub-folder Exclusion
 
 Modified the [[Folder]] field type to allow specified sub-folders to be excluded from the list of selectable folders.
+
+##### Extended Functionality of Remove Para Tags
+
+Modified the [[Remove Paragraph Tags Mod]] so that it will strip leading and trailing newline characters when invoked without a preceding modifier to convert to HTML. 
+
+##### Modified LongText to Avoid Streamlined Display
+
+When using a [[longtext]] field type, Notenik will now suppress the field from a [[Streamlined Reading]] display. 
