@@ -20,4 +20,8 @@ Modified the [[Remove Paragraph Tags Mod]] so that it will strip leading and tra
 
 ##### Modified LongText to Avoid Streamlined Display
 
-When using a [[longtext]] field type, Notenik will now suppress the field from a [[Streamlined Reading]] display. 
+When using a [[longtext]] field type, Notenik will now suppress the field from a [[Streamlined Reading]] display.
+
+##### Avoid Rewriting Identical Files with Web Book Export
+
+For an [[Export as Web Book]], Notenik was previously rewriting HTML  files that had no changes, therefore triggering those files to also be uploaded via FTP to the web server — again, even though they were unchanged. This practice has been corrected. 
