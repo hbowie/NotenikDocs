@@ -1,10 +1,17 @@
 Title:  Version 18.4.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2026-02-05
+
+Teaser:
+
+Added Support for Sub-folder Exclusion; Extended Functionality of Remove Para Tags variable modifier; Modified LongText field type to Avoid inclusion in Streamlined Display; Avoid Rewriting Identical Files with Web Book Export.
+
 
 Timestamp: 20260127220940
 
@@ -24,4 +31,4 @@ When using a [[longtext]] field type, Notenik will now suppress the field from a
 
 ##### Avoid Rewriting Identical Files with Web Book Export
 
-For an [[Export as Web Book]], Notenik was previously rewriting HTML  files that had no changes, therefore triggering those files to also be uploaded via FTP to the web server — again, even though they were unchanged. This practice has been corrected. 
+For an [[Export as Web Book]], Notenik was previously rewriting HTML  files that had no changes, therefore triggering those files to also be uploaded via FTP to the web server — again, even though they were unchanged. This practice has been corrected.
