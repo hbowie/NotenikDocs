@@ -12,13 +12,19 @@ Timestamp: 20211116184349
 
 Body:
 
-The Share w/Options command beneath the Note menu offers many powerful options for sharing the current note. 
+The *Share w/Options* command beneath the *Note* menu offers many powerful options for sharing the current note. 
 
-These options fall into four different categories. 
+These options fall into several different categories. 
 
 ##### Content
 
-You can choose to share the entire Note, with all of its fields, or only the Body of the Note, or only the Teaser field. 
+You can choose to share: 
+
++ The entire Note, with all of its fields;
++ The Body of the Note only;
++ The Teaser field only;
++ The Title only;
++ The [[Wiki Style Link]] to the note. 
 
 ##### Destination
 
@@ -41,11 +47,15 @@ Choose from any of the following options.
 + Markdown with quote-from -- Markdown quote formatting using the [[quote-from]] command. 
 + Notenik -- This is the same format used when saving a Note to disk. 
 + Microblog Post -- Formats your Note in a manner suitable for Mastodon (among others). Body comes first, followed by Tags, formatted with hashes and CamelCase.
-+ Using Merge Template -- Formats your Note using a [[Merge Template]] that you specify. If a `reports` subfolder is available within your Collection, then Notenik will start there. The Merge Template should start with a `nextrec` command, and end with a `loop` command. An `output` command need not be present, but will send the generated output to the specified file if it is present.
++ Using Display Template -- Formats your Note using a [[Merge Template]] that you specify. If a `reports` subfolder is available within your Collection, then Notenik will start there. The Merge Template should start with a `nextrec` command, and end with a `loop` command. An `output` command need not be present, but will send the generated output to the specified file if it is present.
 
 ##### Template
 
 For truly custom share options, you can create a folder named `share` within your collection, and then place one or more [[Merge Templates]] within that folder. These files should start with a `<?nextrec?>` command and end with a `<?loop?>` command, and should not include an `<?output?>` command. Since a share template will prescribe both content and format, the selection of a template will cause those settings to be ignored. 
+
+##### Absolute Wikilinks
+
+If this box is checked, and if one of the HTML formats has been selected, then Notenik will convert Markdown [[wiki-style links]] to absolute links, using the supplied site and path. This can be useful if you wish to generate HTML that can be placed anywhere (including within an email) without suffering from any broken links. 
 
 ##### Posting to a Microblog
 

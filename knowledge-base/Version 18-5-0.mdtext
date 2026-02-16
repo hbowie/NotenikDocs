@@ -12,8 +12,12 @@ Body:
 
 ##### Fixed Web Book Site Export Bug
 
-As a result of changes made in [[Version 18.4.0]], the Web Book Export as Site function was deleting all output image files, but only replacing them if the corresponding note changed. This has been corrected, so that all image files will be rewritten.
+As a result of changes made in [[Version 18.4.0]], the Web Book Export as Site function was deleting all output image files, but only replacing them if the associated note changed. This has been corrected, so that all image files will be rewritten.
 
 ##### Eliminated Tahoe Menu Item Images
 
-There have been several recent blog posts decrying macOS Tahoe's rather liberal and indiscriminate scattering of small image icons across an app's menus. See this [Rogue Amoeba blog post](https://weblog.rogueamoeba.com/2026/01/10/removing-tahoes-unwanted-menu-icons/) for a summary. This change removes all such visual flotsam, using [this code](https://gist.github.com/brentsimmons/8dbe00e8acbeede26baaaebd06a867fc) from Brent Simmons. 
+There have been several recent blog posts decrying macOS Tahoe's rather liberal and indiscriminate scattering of small image icons across an app's menus. See this [Rogue Amoeba blog post](https://weblog.rogueamoeba.com/2026/01/10/removing-tahoes-unwanted-menu-icons/) for a summary. This change removes all such visual flotsam, using [this code](https://gist.github.com/brentsimmons/8dbe00e8acbeede26baaaebd06a867fc) from Brent Simmons.
+
+##### Added Option for Absolute Wikilinks When Sharing
+
+The [[Share with Options]] function has been expanded to allow [[Wiki Style Links]] to be made absolute. 
