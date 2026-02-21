@@ -37,3 +37,24 @@ The title field (or other [[Note Identifiers]]) serves as a Note's unique identi
 When a title is used within an HTML document or fragment, Notenik will apply Markdown parsing to the field. This is primarily useful in applying styling within a Title field. 
 
 Also see the [[Long Title]] field, for cases in which longer titles are desired at the top of Streamline Reading displays.
+
+##### Styling
+
+Note titles may contain some limited [span](https://daringfireball.net/projects/markdown/syntax#span) elements, in order to apply some limited styling. The following elements are supported within the title field. 
+
+| Styling | Markdown allowed | HTML allowed |
+| ---- | ---- | ---- |
+| *emphasis* (appears as italics) | \*words\* or \_words\_ | `<em>`words`</em>` |
+| <cite>cite</cite> (appears as italics) | n/a | `<cite>`Title`</cite>` |
+| __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
+| `code` | \`code\` | not supported |
+
+Sensible support for these elements requires several interesting considerations. 
+
+1. When presented in web form, as on the Display tab, any embedded Markdown must be converted to HTML ;
+2. HTML must be preserved when the field appears in a web context;
+3. Original formatting codes (Markdown and/or HTML) must be preserved in the raw field value; 
+4. When presented in a list or an outline or a table, the title should be shown without formatting elements of any kind (neither original codes nor any generated ones);
+5. When being used to generate a unique Note ID, or a sort key, or a filename, all formatting codes should be discarded.
+
+When using a Title field as a variable in a [[Merge Template]], consider use of the [[Title Variant - ^T]] [[Variable Modifier]], especially if any of your title values contain any span elements for styling (emphasis, etc.). 

@@ -20,4 +20,35 @@ There have been several recent blog posts decrying macOS Tahoe's rather liberal 
 
 ##### Added Option for Absolute Wikilinks When Sharing
 
-The [[Share with Options]] function has been expanded to allow [[Wiki Style Links]] to be made absolute. 
+The [[Share with Options]] function has been expanded to allow [[Wiki Style Links]] to be made absolute. This is useful for taking a note with wikilinks and publishing somewhere outside of its original collection. 
+
+##### Refinement of Span Handling in Titles
+
+Processing of the [[Title]] and [[Long Title]] fields has been improved to allow the embedding of some [span elements](https://daringfireball.net/projects/markdown/syntax#span) within titles, as identified below. 
+
+| Styling | Markdown allowed | HTML allowed |
+| ---- | ---- | ---- |
+| *emphasis* (appears as italics) | \*words\* or \_words\_ | `<em>`words`</em>` |
+| <cite>cite</cite> (appears as italics) | n/a | `<cite>`Title`</cite>` |
+| __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
+| `code` | \`code\` | not supported |
+
+Sensible support for these elements requires several interesting considerations. 
+
+1. When presented in web form, as on the Display tab, any embedded Markdown must be converted to HTML ;
+2. HTML must be preserved when the field appears in a web context;
+3. Original formatting codes (Markdown and/or HTML) must be preserved in the raw field value; 
+4. When presented in a list or an outline or a table, the title should be shown without formatting elements of any kind (neither original codes nor any generated ones);
+5. When being used to generate a unique Note ID, or a sort key, or a filename, all formatting codes should be discarded.
+
+##### New Merge Template Variable Modifier for Title Variants
+
+A new [[Variable Modifier]] of [[Title Variant - ^T]] has been added, to allow selection of a specific title variant (plain, HTML, Markdown, etc.) in a [[Merge Template]].
+
+##### Small Changes in Handling of Titles
+
+Some small changes were made in the handling of the [[Title]] field. 
+
+Notenik uses a "lowest common denominator" variant for determining the uniqueness of a note title. Previously this meant ignoring all punctuation as insignificant. However there are some punctuation characters that express a relationship between the terms or references on either side, and these are now being included in the algorithm for boiling a title down to its lowest common denominator. These characters are: `<`, `>`, `=` and `+`.
+
+These same characters may now also be included in filenames, for the same reason.

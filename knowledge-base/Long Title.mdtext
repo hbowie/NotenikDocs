@@ -18,4 +18,21 @@ A `long-title` field is meant to complement the standard [[Title]] field.
 
 A `long-title` field can be useful for collections for which the standard title will be sufficient for lists of notes, but for which longer titles are desired to appear at the top of each display, when using the [[Streamlined Reading]] display mode.
 
-When a long title is used within an HTML document or fragment, Notenik will apply Markdown parsing to the field. This is primarily useful in applying styling within a Long Title field. 
+When a long title is used within an HTML document or fragment, Notenik will apply Markdown parsing to the field. This is primarily useful in applying styling within a Long Title field.
+
+##### Styling
+
+Long titles may contain some limited [span](https://daringfireball.net/projects/markdown/syntax#span) elements, in order to apply some limited styling. The following elements are supported within the`long-title` field. 
+
+| Styling | Markdown allowed | HTML allowed |
+| ---- | ---- | ---- |
+| *emphasis* (appears as italics) | \*words\* or \_words\_ | `<em>`words`</em>` |
+| <cite>cite</cite> (appears as italics) | n/a | `<cite>`Title`</cite>` |
+| __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
+| `code` | \`code\` | not supported |
+
+Sensible support for these elements requires several interesting considerations. 
+
+1. When presented in web form, as on the Display tab, any embedded Markdown must be converted to HTML ;
+2. HTML must be preserved when the field appears in a web context;
+3. Original formatting codes (Markdown and/or HTML) must be preserved in the raw field value.

@@ -1,0 +1,32 @@
+Title:  Title Variant - ^T
+
+Seq:    9.3.36
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260221005050
+
+Body:
+
+This variable modifier makes use of the '`^`' key to *shift* Notenik into a different set of functions to be performed by the following letter(s). 
+
+When the letter '`T`' follows this *shift* character, it will engage the *Title Variant* function, which will apply one of several rules to a [[Title]] field, or any other similarly short text field. 
+
+Another letter may optionally follow the `^t` sequence, and the following letter (or lack thereof) will affect the modification process in the following ways. 
+
+| Following Letter | Modifier example | Variant |
+| ---- | ---- | ---- |
+| `p` | `&^tp` | Plain, only removing any styling indicators (emphasis, etc.) |
+| `h` or `o` | `&^th` | Convert to HTML |
+| `f` or `w` | `&^tf` | Convert to lower-case file name, with dashes separating words |
+| `m` or `t` | `&^tm` | No conversion, leaving original Markdown |
+| anything else | `&^t` | Plain, only removing styling indicators |
+
+For example, here's how you might prepare a title field for HTML presentation. 
+
+```
+<h1>=$title&^th$=</h1>
+```
+
