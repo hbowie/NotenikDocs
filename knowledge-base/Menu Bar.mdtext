@@ -67,3 +67,7 @@ This provides the usual tools for accessing windows.
 ##### Help menu
 
 This provides access to many useful links, including one to open the *Notenik Knowledge Base* as a read-only collection within Notenik.
+
+##### Menu Bar Extra
+
+Notenik can provision an optional [Menu Bar Extra](https://en.wikipedia.org/wiki/Menu_extra), which is a special item appearing on the right side of the menu bar. 

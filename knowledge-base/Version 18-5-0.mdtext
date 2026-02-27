@@ -1,6 +1,6 @@
 Title:  Version 18.5.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-02-23
 Teaser:
 
 Fixed an image-related bug in the Web Book Export as Site function; Eliminated unnecessary image icons in menu items; Added option for resolving relative wiki links when using the Share with Options function; Refinement of styling handling in note titles; Refinement of file naming to accommodate some meaningful punctuation characters.  
+
 
 Timestamp: 20260206195012
 

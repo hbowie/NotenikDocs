@@ -1,0 +1,33 @@
+Title:  Create Menu Bar Extra?
+
+Seq:    7.1.1.2
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20260227171525
+
+Body:
+
+Apple provides the ability for an app to create a [Menu Bar Extra](https://en.wikipedia.org/wiki/Menu_extra), which is a small icon appearing to the right of the macOS menu bar, and allowing user access to some of an app's functions from a menu, even when the app is not frontmost on your Mac's display (and so is not showing the app's other menu items on the left). 
+
+For Notenik, creation of such an icon is optional, and is controlled through this App General Setting. 
+
+When this option is set to *On*, Notenik will place a small letter `N`, enclosed in a circle, within this Menu Bar Extra area located on the right side of the menu bar. 
+
+Clicking on this icon will reveal a menu containing the following items. Clicking on any of these will cause the corresponding Notenik Collection to be opened or, if already open, to be made frontmost. 
+
++ [[The Essential Collection]]
+
++ [[The General Notes Collection]]
+
++ All currently open Collection windows (other than the Essential or General collections)
+
++ All other recently opened Collections
+
++ The Notenik Knowledge Base
+
+This handy menu is meant to provide quick and easy access to your frequently used Notenik Collections. 
+
+Note that the labels displayed for the various types of collections are subtly different. In general, Notenik tries to use the Collection Title to identify each collection; however, these are not available for the recently opened collections, and so Notenik instead uses the trailing folder name(s) in the collections' paths. 
