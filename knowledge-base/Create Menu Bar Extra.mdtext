@@ -24,10 +24,12 @@ Clicking on this icon will reveal a menu containing the following items. Clickin
 
 + All currently open Collection windows (other than the Essential or General collections)
 
++ The last script file run (if any)
+
 + All other recently opened Collections
 
 + The Notenik Knowledge Base
 
 This handy menu is meant to provide quick and easy access to your frequently used Notenik Collections. 
 
-Note that the labels displayed for the various types of collections are subtly different. In general, Notenik tries to use the Collection Title to identify each collection; however, these are not available for the recently opened collections, and so Notenik instead uses the trailing folder name(s) in the collections' paths. 
+Note that the labels displayed for the various types of collections are subtly different. In general, Notenik tries to use the Collection Title to identify each collection; however, these are not available for the recently opened collections, and so Notenik instead uses the trailing folder name(s) in the collections' paths.
