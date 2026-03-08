@@ -45,6 +45,7 @@ Note titles may contain some limited [span](https://daringfireball.net/projects/
 | Styling | Markdown allowed | HTML allowed |
 | ---- | ---- | ---- |
 | *emphasis* (appears as italics) | \*words\* or \_words\_ | `<em>`words`</em>` |
+| underscores within a word (e.g. SP_Type) | `SP_Type` | n/a |
 | <cite>cite</cite> (appears as italics) | n/a | `<cite>`Title`</cite>` |
 | __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
 | `code` | \`code\` | not supported |
@@ -57,4 +58,4 @@ Sensible support for these elements requires several interesting considerations.
 4. When presented in a list or an outline or a table, the title should be shown without formatting elements of any kind (neither original codes nor any generated ones);
 5. When being used to generate a unique Note ID, or a sort key, or a filename, all formatting codes should be discarded.
 
-When using a Title field as a variable in a [[Merge Template]], consider use of the [[Title Variant - ^T]] [[Variable Modifier]], especially if any of your title values contain any span elements for styling (emphasis, etc.). 
+When using a Title field as a variable in a [[Merge Template]], consider use of the [[Title Variant - ^T]] [[Variable Modifier]], especially if any of your title values contain any span elements for styling (emphasis, etc.).

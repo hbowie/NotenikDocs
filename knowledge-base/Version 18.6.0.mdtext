@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2026-03-07
+
+Teaser:
+
+Added an optional menu bar extra (for the right side of the menu bar); fixed limited Markdown parsing of the Title field to leave underscores within words undisturbed.  
+
 Timestamp: 20260227021544
 
 Body:
@@ -13,3 +19,7 @@ Body:
 ##### Added Optional Menu Bar Extra
 
 Added a [[General Setting]] option to [[Create Menu Bar Extra]].
+
+##### Allow Embedded Underscores in Titles
+
+Fixed the new simplified Markdown parsing for [[Title]] fields to preserve underscores within words, without any HTML conversion. 
