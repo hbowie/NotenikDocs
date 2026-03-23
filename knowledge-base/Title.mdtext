@@ -40,7 +40,7 @@ Also see the [[Long Title]] field, for cases in which longer titles are desired 
 
 ##### Styling
 
-Note titles may contain some limited [span](https://daringfireball.net/projects/markdown/syntax#span) elements, in order to apply some limited styling. The following elements are supported within the title field. 
+Note titles may contain some limited HTML elements, or their Markdown equivalents, in order to apply some limited styling. The following elements are supported within the title field. 
 
 | Styling | Markdown allowed | HTML allowed |
 | ---- | ---- | ---- |
@@ -49,6 +49,7 @@ Note titles may contain some limited [span](https://daringfireball.net/projects/
 | <cite>cite</cite> (appears as italics) | n/a | `<cite>`Title`</cite>` |
 | __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
 | `code` | \`code\` | not supported |
+| line<br />break | not supported | ` <br />` |
 
 Sensible support for these elements requires several interesting considerations. 
 
