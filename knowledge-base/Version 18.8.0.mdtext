@@ -1,0 +1,41 @@
+Title:  Version 18.8.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2026-04-05
+
+Teaser:
+
+Improved Notenik app icon to better support dark, clear and tinted styles; default Tahoe menu item images have been restored; added support for smart quotes in titles; additional slide styling for presentation display mode; added a toggle to actually present a presentation; made a few default CSS styling improvements. 
+
+Timestamp: 20260330212732
+
+Body:
+
+##### Improved Notenik App Icon
+
+The Notenik app icon has been updated to add a dark variant, now allowing the user to usefully select a *System Settings -> Appearance -> Icon & Widget Style* other than the default. 
+
+##### Tahoe Default Menu Item Images Restored
+
+This reverses a change made in [[Version 18.5.0]]. The code implemented in that release also removed menu items beneath the green button in the upper left corner of the window. 
+
+##### Support Smart Quotes in Titles
+
+The newish [[Title]] parsing logic has been further refined to allow straight double quotes to be converted to curly quotes. 
+
+##### Additional Slide Styling
+
+When in [[Presentation Mode]], the display of each Note will be wrapped in a `div` with a class value of `slide`. Default CSS will then limit the maximum width of each slide to 40 em. 
+
+##### Added View -> Presentation Toggle
+
+A new option beneath the *View* menu will now apply several changes at once to put a Collection into full presentation mode. See [[Presentation Mode]] for details. 
+
+##### CSS Styling Improvements
+
+A few improvements and adjustments were made to Notenik's default CSS. This code is now included in the Knowledge Base Reference section as [[Default CSS]].

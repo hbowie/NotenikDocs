@@ -50,6 +50,7 @@ Note titles may contain some limited HTML elements, or their Markdown equivalent
 | __strong__ (appears as bold) | \*\*words\*\* or \_\_words\_\_ | `<strong>`words`</strong>` |
 | `code` | \`code\` | not supported |
 | line<br />break | not supported | ` <br />` |
+| "Smart Quotes" | `"` – Straight double quotes | n/a |
 
 Sensible support for these elements requires several interesting considerations. 
 

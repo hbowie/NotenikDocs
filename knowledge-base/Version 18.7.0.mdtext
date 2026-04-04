@@ -1,6 +1,6 @@
 Title:  Version 18.7.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-03-23
 Teaser:
 
 The parsing function for Title fields now supports embedded HTML line breaks; made several improvements to Presentation Display mode; added a new Starter Pack for presentations; added a new export option for presentations. 
+
 
 Timestamp: 20260309002432
 

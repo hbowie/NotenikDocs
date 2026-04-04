@@ -6,7 +6,7 @@ Level:  4 - chunk
 
 Class:  non-version
 
-Index:  Display Mode; Presentation Mode; 
+Index:  Display Mode; Presentation Mode; boost factor; 
 
 Timestamp: 20231005155618
 
@@ -20,4 +20,8 @@ The primary difference between these two modes is that, in Presentation mode, th
 
 The rationale for this behavior is that, if you are using a Notenik Collection to make a presentation to an audience, you typically want to focus attention on one Note at a time, and so want to prevent the listeners from jumping ahead to consideration of the subject of following Notes. 
 
+When in [[Presentation Mode]], the display of each Note will be wrapped in a `div` with a class value of `slide`. Default CSS will then limit the maximum width of each slide to 40 em. 
+
 When making a presentation, you will typically also want to use CMD-Y to toggle the display of the List/Tabs views to the left of the Display.
+
+Another useful option is the *View -> Presentation Toggle* function. In addition to placing the current Collection into Presentation Mode, this toggle will also hide the left side of the Display, and will apply a "boost factor" to the font size. This factor defaults to 1.2 (adjusting the display font size to 120% of normal), but this number can later be tweaked by an edit to the Collection's `- INFO.nnk` file.  

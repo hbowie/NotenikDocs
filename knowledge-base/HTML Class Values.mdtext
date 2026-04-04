@@ -30,6 +30,7 @@ The following HTML class values are assigned by Notenik. Click on a column headi
 | div | footnotes | [[Footnotes]] 
 | div | search-form | [[Generate a Collection Search Page]]
 | div | search-page | [[Generate a Collection Search Page]]
+| div | slide | Style a note in [[Presentation Mode]]
 | figure | notenik-quote-attrib | [[Attribution]]
 | li | checklist-item | [[Task Lists]]
 | li | outline-li-bullet | [[Generate a Collection Table of Contents]]
