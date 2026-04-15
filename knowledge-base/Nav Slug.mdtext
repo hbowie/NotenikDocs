@@ -1,0 +1,48 @@
+Title:  Nav Slug
+
+Seq:    9.2.3.10
+
+Level:  5 - details
+
+Class:  non-version
+
+Timestamp: 20260415020117
+
+Body:
+
+Any variable name not defined elsewhere, and starting with the literal `nav`, will be treated as a Nav Slug, and interpreted in the following ways, based on the variable name following the `nav` prefix. 
+
+##### Direction
+
+The next part of the variable name will determine the direction of navigation, as follows. 
+
+| var name segment | direction |
+| ---- | ---- |
+| `next` | First eligible following note |
+| `prev` | First eligible preceding note |
+| `prior` | *same as `prev`* |
+| `home` | First note in sorted collection |
+| `top` | *same as `home`* |
+| `parent` | First preceding note at higher level |
+
+##### Data Descriptor
+
+The next part of the following name will determine the type of data to be returned, as follows. 
+
+| var name segment | data descriptor |
+| ---- | ---- |
+| `title` | The title of the note to which we are navigating |
+| `link` | The link pointing to the note to which we are navigating |
+
+##### Title Format
+
+If the data descriptor is requesting a note title, then the format of the note title can be specified with the next (and final) segment of the variable name.
+
+| var name segment | title variant |
+| ---- | ---- |
+| `common` | Lowest common denominator, with spaces and punctuation removed, and letters changed to lowercase |
+| `html` | Markdown formatting converted to HTML |
+| `macfilename` | Suitable for use as a filename on a Mac |
+| `plain` | Markdown and HTML formatting codes are removed |
+| `trimmed` | Exactly as entered, with only leading and trailing spaces removed |
+| `webfilename` | Suitable for use as a filename on a website |

@@ -1,6 +1,6 @@
 Title:  Work Type
 
-Seq:    5.12.6
+Seq:    5.13.6
 
 Level:  4 - chunk
 
@@ -66,4 +66,4 @@ The types marked with an asterisk are considered major types, meaning that the t
 
 The `Quotation` type has some special meaning and logic associated with it. This type means that the quotation was itself a quotation found in a source by a different author. With this type, Notenik expects the work title to be something like "Quoted in The Long Goodbye" or "Quote from The Long Goodbye". When this type is found, Notenik will generate the phrase "as quoted in" to precede the actual work title when generating an attribution. 
 
-`Quotaton from minor` works in a similar way, but treats the title as a minor work, to be enclosed in quotation marks rather than being italicized. 
+`Quotaton from minor` works in a similar way, but treats the title as a minor work, to be enclosed in quotation marks rather than being italicized.

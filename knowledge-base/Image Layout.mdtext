@@ -1,0 +1,22 @@
+Title:  Image Layout
+
+Seq:    5.11.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260409173932
+
+Body:
+
+The phrase `Image Layout` can be used as both a field label and a type. 
+
+This field can be controlled to use how a [[Image Name|named image]] will appear within a Display view. 
+
+There are currently only two available values. 
+
++ `below title full width` – This option places the image below the Title field, but above the Body, and the image width is allowed to stretch to its full width across the display. This is the default. 
+
++ `below title right side` — This option places the image to the right of the Body text, without any flowing of text around the image. This is intended to be especially useful for [[Presentation Mode]], since the traditional landscape mode for presentations generally provides more room for this sort of side-by-side layout. 
+

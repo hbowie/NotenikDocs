@@ -1,0 +1,122 @@
+Title:  Presenting with Notenik
+
+Seq:    11.13
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Index:  presentations; 
+
+Timestamp: 20260410191932
+
+Body:
+
+{:toc}
+
+## Introduction 
+
+Over time I have gradually added some features to Notenik to make it useful for creating simple, straightforward presentations. 
+
+My own experience with such slide decks stretches back several decades, all the way to use of [overhead projectors](https://en.wikipedia.org/wiki/Overhead_projector).
+
+Fast forward to present time, and people are typically using PowerPoint or Keynote or Google Slides to assemble decks like these. 
+
+I’m one of those kooks who has been attracted to the idea of using HTML for presentations for a long time, going back to the original days of Eric Meyer’s [S5: A Simple Standards-Based Slide Show System](https://meyerweb.com/eric/tools/s5/).
+
+And there's also an admitted attraction to leveraging Markdown for creation of such decks. (For another, very different, take on this sort of thing, be sure and check out the fairly new [iA Presenter](https://ia.net/presenter).)
+
+So I suppose it was only a matter of time until I got around to adding enough features to Notenik to make it moderately useful for such a task. 
+
+Here's how it's done. 
+
+## The Starter Pack
+
+Notenik has a [[Starter Pack]] that can be used to build a presentation. 
+
+After you [[Create a New Collection]] using the [[Presentation Pack]], you will have a Collection with all the fields and settings I recommend for such an effort. 
+
+Additionally, the contents of this new Collection will cover much of the same material I'm about to go over here. 
+
+If you'd like to see what that looks like, you can find an exported copy on the Notenik website at [notenik.app/sample-presentation](https://notenik.app/sample-presentation/). 
+
+## Collection Sort and Display Mode
+
+Your Collection should be sorted by *Seq + Title*, so that you can use a [[Seq]] field to put your slides into your desired order. 
+
+Your Collection Display Mode should be set to [[Presentation Mode]], which will minimize the display of control fields, and instead focus attention on the primary content fields, with some minimal navigation links. 
+
+## Special Class Values
+
+There are two special [[Class]] values that can be used to control formatting. 
+
++ `title` — this slide (normally the first), will only show the *title*, *by* and *author* fields. 
+
++ `slide` — used for all non-title slides
+
+## The Fields
+
+The [[Fields]], as usual, form the essential kernel for a particular use case. 
+
+### Template File
+
+Here's [[the Collection Template File]] you'll find after selecting the recommended starter pack.
+
+```
+Title: <title>
+
+Tags: <tags>
+
+Level: <level: >
+
+Seq: <seq>
+
+Class: <class: slide, title >
+
+By: <author>
+
+Date: <date>
+
+Image Name: <imagename>
+
+Image Name Dark: <imagename>
+
+Image Layout: <imagelayout>
+
+Script: <longtext>
+
+Body: 
+
+```
+
+### Field Usage
+
+And here's the way these fields are put to use for making presentations. 
+
+| Field Label      | Type    | Usage |
+| ---------------- | ------- | ----- |
+| [[Title]]        | content | Displayed at the top of each slide |
+| [[Tags]]         | n/a     | Not used for presentations |
+| [[Level]]        | control | Useful for controlling the size of the title font |
+| [[Seq]]          | control | controls the sequence of the slides |
+| [[Class]]        | control | `title` for the first slide, `slide` for others |
+| By ([[Author]])  | content | Only shown on the title slide |
+| [[Date]]         | content | Only shown on the title slide |
+| [[Image Name]]   | content | the name of the image file to be displayed with a light appearance |
+| [[Image Name Dark]] | content | the name of the image file to be displayed with a dark appearance |
+| [[Image Layout]] | control | used to control the placement of the image
+| Script ([[longtext]]) | aux content | intended for the speaker's notes |
+| [[Body]]         | content | Primary content for slides of class `slide` |
+
+## The Presentation Toggle
+
+Another useful option is the *View -> Presentation Toggle* function. In addition to placing the current Collection into Presentation Mode, this toggle will also hide the left side of the Display, and will apply a "boost factor" to the font size. This factor defaults to 1.2 (adjusting the display font size to 120% of normal), but this number can later be tweaked by an edit to the Collection's `- INFO.nnk` file.
+
+## The Export Option
+
+Notenik supports presentations made from within the app itself. 
+
+But you may also export a Notenik presentation to a set of files that can be viewed using any modern web browser, on any platform. 
+
+This can be done using the *File -> Export* function. You will then need to select *Web Presentation* as the desired output format. Then the output folder you select (including perhaps a new one you create as part of the export) will contain all of the exported files, including an `index.html` file that duplicates the first slide in the deck. Each note/slide will be exported to its own web page within the selected/created folder. The resulting folder can be uploaded to a website, using standard FTP, or can be accessed locally on your Mac. 
+

@@ -1,0 +1,27 @@
+Title:  Version 18.9.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260409172649
+
+Body:
+
+##### Added a New Image Layout Field
+
+The new [[Image Layout]] field provides some flexibility for placement of an image within a Display view. 
+
+##### Fixed a Folder Exclusion Bug
+
+When using the exclusion option for the [[Folder]] field, Notenik had been erroneously rewriting the field's line in [[the Collection Template File]] with problematic data. This problem has been corrected.
+
+##### Added New Use Case
+
+Added a new [[Presenting with Notenik]] use case, summarizing the fields and features typically used to craft and display a presentation.
+
+##### Added New Nav Slug
+
+Added a new [[Nav Slug]] as a [[Derived Variable]] within the topic of [[Merge Variables]]. This can be used to access navigational info (e.g. next, prior and home) within a [[Merge Template]].

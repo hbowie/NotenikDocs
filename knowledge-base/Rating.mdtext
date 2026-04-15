@@ -1,6 +1,6 @@
 Title:  Rating
 
-Seq:    5.12.4
+Seq:    5.13.4
 
 Level:  4 - chunk
 
@@ -22,4 +22,4 @@ A `rating` field is expected to contain a numeric value (integer or double) that
 
 When editing, a rating field will appear as a single line of editable text.
 
-See the [[Repeat - ^R]] variable modifier if you'd like to convert a numeric rating to a series of stars. 
+See the [[Repeat - ^R]] variable modifier if you'd like to convert a numeric rating to a series of stars.

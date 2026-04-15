@@ -1,0 +1,25 @@
+Title:  Steps for Adding a New Field
+
+Tags:   fields
+
+Body:
+
+1. Add Standard labels (proper and common) to the NotenikConstants class.
+2. Create a new xxxValue class in the values group.
+3. Create a new xxxType class in the values group
+4. If needed, create a new xxxPickList class in the values group. 
+5. Add the new field to the AllTypes class in the values group
+6. If this will be a commonly used field, add the new field to the CollectionPrefsViewController class in the collectionPrefs group
+7. Add the field label to the FieldLabel class, if needed. 
+8. Add the new field definition to the NoteCollection class
+9. Add the appropriate field-specific methods to the Note class. 
+10. Modify the NoteLineParser class if there is any special parsing logic for the new field type. 
+11. Modify the NoteLineMaker class if there is any special logic for writing out a Note with this field. 
+12. Modify the ApplyTemplateValues class if there is any special logic associated with setting Collection field definitions, etc. 
+13. Add the xxxPickList class to the ValuePickLists class, in the values group (???)
+14. Create a new xxxTokenDelegate class in the views group, for a Tokenized field
+15. Create a new xxxView class in the views Group
+16. Add new xxxView class to ViewFactory in the views group
+17. Update NoteFieldsToHTML and/or NoteDisplay for any special display logic. 
+18. Modify the saveTemplateFile method in the FileIO class if there is any special logic used when saving the field to the Collection template file. 
+

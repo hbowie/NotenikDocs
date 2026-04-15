@@ -1,6 +1,6 @@
 Title:  Version 18.8.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-04-05
 Teaser:
 
 Improved Notenik app icon to better support dark, clear and tinted styles; default Tahoe menu item images have been restored; added support for smart quotes in titles; additional slide styling for presentation display mode; added a toggle to actually present a presentation; made a few default CSS styling improvements. 
+
 
 Timestamp: 20260330212732
 

@@ -1,0 +1,26 @@
+Title:  Image Name Dark
+
+Seq:    5.11.2
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260409173553
+
+Body:
+
+This is a field that can be used to specify an alternate image for use when the app appearance is set to dark. 
+
+Note that the field *type* is still `imagename`, but the field *label* contains the word `dark`.  
+
+See the following for an example of what this might look like in the Collection's template file. 
+
+```
+Image Name: <imagename>
+
+Image Name Dark: <imagename>
+```
+
+If you like, you can set both the image name fields to display the same image. However, if you don’t set the dark image name and you are using a Dark display, then no image will appear.
+
