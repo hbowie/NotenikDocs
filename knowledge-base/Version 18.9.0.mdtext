@@ -25,3 +25,7 @@ Added a new [[Presenting with Notenik]] use case, summarizing the fields and fea
 ##### Added New Nav Slug
 
 Added a new [[Nav Slug]] as a [[Derived Variable]] within the topic of [[Merge Variables]]. This can be used to access navigational info (e.g. next, prior and home) within a [[Merge Template]].
+
+##### Fixed YAML Representation of Wiki Links and Back Links
+
+When a [[Collection Settings]] Preferred File Format of YAML Frontmatter was requested, and when [[Back Links]] were being used, the [[Wiki Links]] and Back Links were not being stored in a YAML-compliant fashion. This has been corrected. 
