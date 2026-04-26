@@ -1,0 +1,51 @@
+Title:  Choice of Text Editors
+
+Seq:    6.1.10
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260423185812
+
+Body:
+
+Starting with [[Version 18.9.0]], Notenik has implemented a mechanism for allowing you to choose from a list of desired text editors. 
+
+##### File -> Add Editing App(s)
+
+Rather than offering you all possible installed applications that might be capable of opening a selected note file, Notenik gives you an opportunity to select the editing apps you might wish to use. 
+
+This can be done using the *File -> Add Editing App(s)...* menu item. 
+
+After selecting this menu item, Notenik will prompt you to select a file or a folder. 
+
+If you select a folder (your primary Applications folder, for example), then Notenik will scan all of the apps within looking for a list of known "friendly" text editors. 
+
+This list currently includes the following:
+
++ BBEdit
++ CotEditor  
++ iA Writer  
++ iWriter Pro  
++ Marked 2  
++ MarkEdit  
++ MultiMarkdown Composer  
++ Nova    
++ Typora  
+
+If you wish to add a specific app, then you can do this by selecting that specific app, instead of selecting a folder. 
+
+There is no way to remove a specific app from the list. However, there is another *File* menu command to *Clear Editing Apps*, which will clear the list and allow you to start over.
+
+The setup process should only need to be done once, or when adding (or removing) a new text editor to your list. From that point on, Notenik will save your desired list of editing apps as part of your persistent User Defaults. 
+
+##### Note -> Edit In
+
+Once you have selected your desired editing apps, then you will see beneath the *Note* menu a new item named *Edit In*. This opens a submenu listing all of your selected editing apps. Pick any one of them to open the currently selected note in that app!
+
+##### Contextual Menus Too
+
+You will also see this new submenu from the Contextual (dropdown) menu available from the List tab and the optional Outline tab. 
+
+

@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2026-04-26
+
+Teaser:
+
+Added a new Image Layout field; Fixed a Folder exclusion bug; Documented a new Use Case for Presenting with Notenik; Added a new Nav Slug that can be used to access navigational info within a Merge Template; Fixed optional YAML representation of Wiki Links and Backlinks; Provided a new option to choose a desired text editor from a curated list. 
+
 Timestamp: 20260409172649
 
 Body:
@@ -28,4 +34,8 @@ Added a new [[Nav Slug]] as a [[Derived Variable]] within the topic of [[Merge V
 
 ##### Fixed YAML Representation of Wiki Links and Back Links
 
-When a [[Collection Settings]] Preferred File Format of YAML Frontmatter was requested, and when [[Back Links]] were being used, the [[Wiki Links]] and Back Links were not being stored in a YAML-compliant fashion. This has been corrected. 
+When a [[Collection Settings]] Preferred File Format of YAML Frontmatter was requested, and when [[Back Links]] were being used, the [[Wiki Links]] and Back Links were not being stored in a YAML-compliant fashion. This has been corrected.
+
+##### New Option To Select Desired Text Editor
+
+Notenik now offers a [[Choice of Text Editors]]. Once you indicate the editors you would like to see, then you can pick whichever one you like whenever the text editing mood strikes you, without being locked into the single default editor for your choice of file extension.
