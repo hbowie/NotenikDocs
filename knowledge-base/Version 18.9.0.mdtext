@@ -1,6 +1,6 @@
 Title:  Version 18.9.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-04-26
 Teaser:
 
 Added a new Image Layout field; Fixed a Folder exclusion bug; Documented a new Use Case for Presenting with Notenik; Added a new Nav Slug that can be used to access navigational info within a Merge Template; Fixed optional YAML representation of Wiki Links and Backlinks; Provided a new option to choose a desired text editor from a curated list. 
+
 
 Timestamp: 20260409172649
 

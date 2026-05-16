@@ -1,0 +1,15 @@
+Title:  Version 19.0.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260516162514
+
+Body:
+
+##### Added New Mark Field Type
+
+Added a new field type of [[Mark]] that can be used to visibly flag selected notes. 
