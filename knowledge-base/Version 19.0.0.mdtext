@@ -6,10 +6,16 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2026-05-20
+
+Teaser:
+
+Added new Mark field type, for marking selected notes for subsequent action. 
+
 Timestamp: 20260516162514
 
 Body:
 
 ##### Added New Mark Field Type
 
-Added a new field type of [[Mark]] that can be used to visibly flag selected notes. 
+Added a new field type of [[Mark]] that can be used to visibly flag selected notes.
