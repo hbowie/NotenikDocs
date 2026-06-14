@@ -24,7 +24,7 @@ When a note has a Mark field, and it is set to true, then we can say that the no
 
 ##### Interpretation of Values
 
-If a Mark field is edited using a external text editor, or some other app, then text values will be interpreted in the following way. 
+If a Mark field is edited using an external text editor, or some other app, then text values will be interpreted in the following way. 
 
 + Anything starting with the letter 'y' (such as 'yes') will be interpreted as `true`;
 + Anything starting with the letter 'n' (such as 'no') will be interpreted as false;
@@ -43,7 +43,7 @@ On the List tab, the designator will be shown in a separate column, with a headi
 
 On the Tags and Outline tabs, the designator will be shown as a suffix appearing at the end of a note's title. 
 
-The default designator will be 'Mk'. 
+The default designator will be a [black flag](https://symbl.cc/en/2691/). 
 
 The default can be changed via a configuration setting on the Mark field definition line in the collection template file. 
 
@@ -57,6 +57,44 @@ For example, the following template line could be used to identify a [flag chara
 Mark: <mark: 2691>
 ```
 
+Here is a brief list of other possibilities. 
+
+⚑
+BLACK FLAG
+2691
+
+⛳︎
+FLAG IN HOLE
+26F3
+
+★
+BLACK STAR
+2605
+
+✻
+TEARDROP-SPOKED ASTERISK
+273B
+
+☛
+BLACK RIGHT POINTING INDEX
+261B
+
+➼
+WEDGE-TAILED RIGHTWARDS ARROW
+27BC
+
+●
+BLACK CIRCLE
+25CF
+
+◼︎
+BLACK MEDIUM SQUARE
+25FC
+
+✓
+CHECK MARK
+2713
+
 ##### Marking and Unmarking
 
 The Mark field can be updated on the Edit tab by checking or unchecking a check box. 
@@ -68,4 +106,16 @@ Using this contextual menu item has several advantages:
 + A note's Mark field can be toggled without having to either *Edit* or *Save* the note to be updated; 
 + A range of notes can be acted upon all at once, by selecting a range and then invoking the context menu on any note in the selected range;
 + On the Tags tab, all notes with a certain Tag can be toggled at once, by selecting and then context-clicking on the row representing the tag itself; 
-+ On the Outline tab, an entire branch of the outline can be tagged or untagged by selecting and then context-clicking on a parent. 
++ On the Outline tab, an entire branch of the outline can be tagged or untagged by selecting and then context-clicking on a parent.
+
+##### Filtering
+
+The *Collection -> Filter* submenu provides three options for a collection containing a Mark field. 
+
+1. Show All
+2. Show Marked Only
+3. Show Unmarked Only
+
+The second and third options can be used to filter all of the collection views (*List*, *Tags* and, optionally, *Outline*) so that they show only the selected subset of the entire collection. 
+
+Note that the filtering option selected is not very "sticky." It will be reset to show all whenever the collection is reloaded for any reason.

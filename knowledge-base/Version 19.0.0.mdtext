@@ -1,6 +1,6 @@
 Title:  Version 19.0.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-05-20
 Teaser:
 
 Added new Mark field type, for marking selected notes for subsequent action. 
+
 
 Timestamp: 20260516162514
 

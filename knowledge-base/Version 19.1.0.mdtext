@@ -1,0 +1,61 @@
+Title:  Version 19.1.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2026-06-14
+
+Teaser:
+
+Added filtering based on contents of the Mark field; Made a black flag the default Mark signifier; Added a separate window for the Speaker's Script; Added another separate window for the presentation itself; Adjusted some irregularities in the Edit Fonts window; Added "Liner Notes" as a valid Work Type; Improved handling of Work Type pluralization; Added two new Merge Template Variable Modifier Tile Variant options; Changed the request for Text Editing of the Collection Template file to be done asynchronously, so as to avoid blocking the main thread; The menu previously known as "Transform" has now been changed to "Odds", primarily for the sake of brevity. 
+
+Timestamp: 20260601171953
+
+Body:
+
+##### Added Filtering Based on Mark Field
+
+The *Collection -> Filter* submenu now allows filtering of a collection based on the settings of the [[Mark]] field. 
+
+##### Made Black Flag the Default Mark Signifier
+
+The Unicode [black flag](https://symbl.cc/en/2691/) character is now the default signifier for the [[Mark]] field. 
+
+##### Added Separate Window for Speaker's Script
+
+The *View -> Spoken Script* toggle can now be used to bring up a window containing a speaker's script. 
+
+##### Added Separate Window for Presentation
+
+The *View -> Show Presentation Window* menu item can now be used to bring up a separate window containing a presentation. Documentation for this is still incomplete. 
+
+##### Adjusted Edit Fonts Window
+
+When you use the *View -> Adjust Edit Fonts* menu item to [[Tailor the Edit Tab]], the resulting window had been a bit munted by the Tahoe UI changes. This has been fixed.
+
+##### Added Liner Notes as Work Type
+
+Added "Liner Notes" as a valid [[Work Type]].
+
+##### Better Handling of Work Type Pluralization
+
+Work types are always singular, but if they can be pluralized by adding an 's', then the plural form, when specified, will still result in the standard singular value being selected. In other words, for example, a value of 'books' will be converted to 'book'. 
+
+##### New Title Variants 
+
+Two new [[Title Variant - ^T]] [[Variable Modifier]] options have been added: one to obtain a lowest common denominator form, and the other to obtain a Mac filename. 
+
+##### Merge Template Commands Allow Trailing Spaces
+
+[[Merge Commands]] will now be recognized as such when their lines contain trailing spaces. 
+
+##### Text Editing of Template File Now Asynchronous
+
+When the user selects *Collection -> Text Edit Collection's Template File*, Notenik will now make an asyncronous request, so that the main app flow is not blocked if the request runs into insurmountable problems.
+
+##### Transform Menu Changed to Odds
+
+The menu formerly titled *Transform* has now been changed to *Odds* (as in "odds and sods" or "odds and ends"). The primary motivation for the change was simply to reclaim some menu space and free it up for other uses. But also the items beneath this menu are really sort of a collection of odd items anyway.
