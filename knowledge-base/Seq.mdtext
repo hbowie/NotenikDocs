@@ -74,7 +74,7 @@ Starting with [[Version 7.9.0]], you can also modify the Seq values for an entir
 
 Formatting codes may be specified for a Seq field. 
 
-The codes specified here will be used to format all Seq values, with the exception of special [Class|classes of notes] that have their own special formatting codes. 
+The codes specified here will be used to format all Seq values, with the exception of special [[Class|classes of notes]] that have their own special formatting codes. 
 
 These codes can serve three distinct purposes.
 
@@ -104,6 +104,14 @@ And then within each formatting string, one formatting character can be specifie
 
 Any other, non-meaningful character will be treated as a literal to be used as a prefix, separator, or suffix, depending on its position. 
 
+In addition, a complete word followed by a space before a level will be treated as a literal, as in the following example:
+
+```
+Seq: <seq: I.n.A.n|Article I:|xSection n. |xxA.>
+```
+
+The effect, using the above example, would be to display a Seq value of `1` as "Article I: ", and a Seq value of `1.2` as "Section 2. ". 
+
 Note that the first formatting string would generally not exclude any levels, while following ones might well exclude more significant levels, instead relying on context to orient the reader. 
 
 Here's an example of how such codes might appear in a collection template file. (The first value of Seq: specifies the field label. The second value of seq specifies the field type. The formatting codes then follow the colon.)
@@ -125,4 +133,3 @@ And here's how a series of Seq values might appear after formatting using these 
 ##### Seq Formatting by Class
 
 Also see the page on [[Class Template Files]] to learn how you can vary seq formatting by [[Class]].
-

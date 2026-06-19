@@ -1,0 +1,32 @@
+Title:  Embedded Video
+
+Seq:    4.4.11
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260618160328
+
+Body:
+
+The normal [Markdown image syntax](https://daringfireball.net/projects/markdown/syntax#img) can also be used to embed a video. 
+
+Following is an example of how this would look. 
+
+```
+![](my_video.mov)
+```
+
+Note that there is no alt text, and the video file must have an extension of `.mov` or `.mp4`. 
+
+The resulting HTML will look something like the following. 
+
+```
+<video controls>
+<source src="my_video.mov" type="video/mp4" />
+</video>
+```
+
+
+

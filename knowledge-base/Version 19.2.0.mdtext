@@ -1,0 +1,27 @@
+Title:  Version 19.2.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260617220150
+
+Body:
+
+##### Rejiggered Collection Settings
+
+The [[Collection Settings]] window has been modified so that it takes up less vertical space, to enable it to fit into smaller screens. 
+
+##### Improved Seq Formatting String Options
+
+A [[Seq]] formatting string can now include a leading word, such as "Article" or "Section", to be used as a literal appearing before the seq value itself.
+
+##### Added Image Layout Below Body
+
+Added a new [[Image Layout]] option to place the image `below body full width`.
+
+##### Added Support for Embedded Video
+
+See [[Embedded Video]] within the [[Markdown]] section. 

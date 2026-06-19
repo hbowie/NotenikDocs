@@ -1,6 +1,6 @@
 Title:  Version 19.1.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-06-14
 Teaser:
 
 Added filtering based on contents of the Mark field; Made a black flag the default Mark signifier; Added a separate window for the Speaker's Script; Added another separate window for the presentation itself; Adjusted some irregularities in the Edit Fonts window; Added "Liner Notes" as a valid Work Type; Improved handling of Work Type pluralization; Added two new Merge Template Variable Modifier Tile Variant options; Changed the request for Text Editing of the Collection Template file to be done asynchronously, so as to avoid blocking the main thread; The menu previously known as "Transform" has now been changed to "Odds", primarily for the sake of brevity. 
+
 
 Timestamp: 20260601171953
 
