@@ -1,0 +1,20 @@
+Title:  Version 19.3.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260704150144
+
+Body:
+
+##### Added Reload Prompts
+
+When using the Notenik commands to *Text Edit Note*, or to *Text Edit Collection's Template file*, Notenik will now prompt the user to perform the appropriate reload when the user returns to Notenik. 
+
+It's important to understand how these prompts work (and don't work). Notenik does not check the disk file to see if it's been updated. However, when the user chooses one of these *text edit* commands, it sets a flag indicating the user's request. When the user next returns to Notenik, Notenik them prompts for the reload. 
+
+Importantly, the prompts will not be triggered if the user simply switches to a text editor without using one of the *text edit* commands. 
+

@@ -1,4 +1,4 @@
-Title:  Embedded Video
+Title:  Embedded Audio and Video
 
 Seq:    4.4.11
 
@@ -10,7 +10,7 @@ Timestamp: 20260618160328
 
 Body:
 
-The normal [Markdown image syntax](https://daringfireball.net/projects/markdown/syntax#img) can also be used to embed a video. 
+The normal [Markdown image syntax](https://daringfireball.net/projects/markdown/syntax#img) can also be used to embed a video or an audio file. 
 
 Following is an example of how this would look. 
 
@@ -28,5 +28,4 @@ The resulting HTML will look something like the following.
 </video>
 ```
 
-
-
+Something comparable will be done with audio files having an `.mp3` extension. 

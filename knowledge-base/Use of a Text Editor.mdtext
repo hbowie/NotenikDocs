@@ -23,6 +23,6 @@ All of your Notenik files are plain text files that can be opened, viewed and ed
 
 Notenik has a couple of menu commands that make it easy to open a file in your preferred text editor. 
 
-Use the Note > Text Edit Note command to open the currently displayed note in your default text editor. When you're done with your external edits, and have saved the file, use the Note > Reload Note command to see the results of your external edits within Notenik.
+Use the *Note > Text Edit Note* command to open the currently displayed note in your default text editor. When you're done with your external edits, and have saved the file, use the *Note > Reload Note* command to see the results of your external edits within Notenik. Also, starting with [[Version 19.3.0]], Notenik will prompt you to reload the note when you return to Notenik.
 
-Use the Collection > Text Edit Collection's Template file command to open [[the Collection template file]] in your preferred text editor. When you are done with your external edits, use the Collection > Reload Collection command to see the results of any changes made.
+Use the *Collection > Text Edit Collection's Template file* command to open [[the Collection template file]] in your preferred text editor. When you are done with your external edits, use the *Collection > Reload Collection* command to see the results of any changes made. Also, starting with [[Version 19.3.0]], Notenik will prompt you to reload the collection when you return to Notenik.
