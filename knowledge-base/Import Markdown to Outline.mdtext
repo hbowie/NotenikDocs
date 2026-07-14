@@ -1,0 +1,23 @@
+Title:  Import Markdown to Outline
+
+Seq:    8.4.3
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260714160751
+
+Body:
+
+This function imports a [standard Markdown file](https://daringfireball.net/projects/markdown/syntax) containing headers at various levels. Each header becomes the [[Title]] value for a Note, the level of the heading becomes the [[Level]] value, and everything following the header (and before the next header) becomes the [[Body]] value. 
+
+A [[Seq]] value is calculated using ascending numbers, with a separate numbering for each level. 
+
+A level 1 header is expected at the beginning of the file, and the corresponding Note will have a blank Seq value, with ascending numbers starting at level 2. 
+
+The Collection receiving the import must have Seq and Level fields defined, and must be sorted by Seq. 
+
+Any Notes in the Receiving Collection will be retained. 
+
+If an imported Note has a Title field that matches the Title for an existing Note in the Collection, then the existing Note will be updated with the imported Body, Level and Seq values. 

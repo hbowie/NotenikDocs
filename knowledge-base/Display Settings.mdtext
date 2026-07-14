@@ -16,7 +16,7 @@ You can alter the appearance of your notes on the Display tab by selecting the D
 
 In either case, you will then be presented with the Display Settings window, where you may make the following adjustments, and then click OK to apply your changes, or Cancel to exit without applying your changes. 
 
-Note that the Display settings here will apply to the display of all of your Collections, not just the one you may be currently viewing. 
+Note that the Display settings here will generally apply to the display of all of your Collections, not just the one you may be currently viewing, with the exception of Collections that have had the [[Special Fonts Configuration]] flag set on. 
 
 + **Center Headings?** -- You may specify `n/a` to leave them left-justified, or specify a range of heading levels that you wish to see centered. 
 

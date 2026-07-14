@@ -1,0 +1,13 @@
+Title:  Special Fonts Configuration
+
+Seq:    7.3.10
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260710164609
+
+Body:
+
+Normally changes in [[Display Settings]] apply equally to all Collections. However, by checking this box you can indicate you wish any further changes in these typography settings to be preserved only for the current Collection, thereby establishing a special fonts configuration for this particular Collection. 

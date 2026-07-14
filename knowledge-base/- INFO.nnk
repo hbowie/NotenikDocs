@@ -12,7 +12,7 @@ Sort Blank Dates Last: true
 
 Other Fields Allowed: false
 
-Last Index Selected: 444
+Last Index Selected: 0
 
 Mirror Auto Index: false
 
@@ -52,9 +52,9 @@ Note File Format: nnk
 
 Hash Tags: notenik-field
 
-Window Numbers: 382.0;0.0;1058.0;891.0;500.0;
+Window Numbers: 1273.0;0.0;1230.0;1392.0;500.0;
 
-Column Widths: datemod: 100, 180, 250; tags: 50, 100, 1200; rank: 50, 80, 250; x: 12, 20, 1500; mk: 24, 36, 48; title: 200, 436, 1500; date: 80, 120, 1500; klass: 60, 80, 150; seq: 30, 80, 1500; statusdigit: 20, 30, 50; author: 100, 200, 1000; dateadded: 100, 180, 250; 
+Column Widths: seq: 30, 80, 1500; mk: 24, 36, 48; author: 100, 200, 1000; title: 200, 436, 1500; statusdigit: 20, 30, 50; dateadded: 100, 180, 250; date: 80, 120, 1500; datemod: 100, 180, 250; rank: 50, 80, 250; x: 12, 20, 1500; klass: 60, 80, 150; tags: 50, 100, 1200; 
 
 author Note ID: collectionauthor
 
@@ -71,4 +71,22 @@ titlesuffix Note ID: titlesuffix
 Note Picker Action: Copy and Paste Wikilink
 
 Boost Factor: 1.2
+
+Special Fonts Config: true
+
+display-font: Concourse 3
+
+display-size: 15
+
+h-display-font: Equity B Caps
+
+h-display-size: 2.0
+
+list-display-font: - System Font -
+
+list-display-size: 13
+
+heading-center-start: 1
+
+heading-center-finish: 2
 
