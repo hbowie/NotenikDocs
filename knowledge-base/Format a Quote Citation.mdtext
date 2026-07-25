@@ -55,3 +55,13 @@ As the example illustrates, the `quote-from` command has six positional paramete
 Any of these parameters may be left blank, if unavailable. 
 
 As you can see, Notenik applies the `quote-from` class to the `<p>`  tag, so that the appearance of the citation line can be easily modified by supplying your own `display.css` file when you [[Tailor the Display]].
+
+##### Bonus Parm
+
+After coming up with this initial command configuration, I realized that it's quite common to want to provide an author's or speaker's title, or brief description of their qualifications, immediately after their name. 
+
+And so now this an optional parm that can immediately follow the name of the Author. 
+
+However, if this field is not used, then it need not be indicated as missing or blank through the use of an additional pipe symbol. 
+
+Notenik simply examines this first parm following the name of the Author and, if it looks like a date, assumes that it is; on the other hand, if it does not appear to be a date, then it is assumed to be the author's Title, with the Date of Publication and other fields following, as described above. 

@@ -1,0 +1,27 @@
+Title:  Version 19.4.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260716190601
+
+Body:
+
+##### Alternating Row Colors Now Optional
+
+The [[App Settings]] now contain an option, as part of the [[Other Settings]], to turn off the alternating row colors on the List tab. 
+
+##### Home Navigation Command Added
+
+The *Nav* menu now contains a *Home* function that will return the user to the first note in the current Collection, duplicating the function of the Home button in the Toolbar. The command has a keyboard shortcut of Shift-Cmd-H. 
+
+##### Author Title added as Optional Parm for Quote Citation
+
+When using the Markdown command to [[Format a Quote Citation]], the Title of the author/speaker may now be specified as the first parameter following the name of the Author.
+
+##### Added an Image Class Field
+
+[[Image Class]] can be used as a field label in order to specify a CSS class value to be assigned to an `img` tag. 

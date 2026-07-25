@@ -29,6 +29,7 @@ Following are the keyboard shortcuts available within the app.
 |      |       | Opt | Cmd |  G  | Open [[General Notes]]
 |      |       |     | Cmd |  H  | Hide Notenik ([Mac Standard][mkeys])
 |      |       | Opt | Cmd |  H  | Hide Others ([Mac Standard][mkeys])
+|      | Shift |   | Cmd | H | Home – First Note in Sort Sequence
 |      |       |     | Cmd |  I  | Increment [[Date]] or [[Seq]]
 |      |       |     | Cmd |  J  | Reload Note (see [[Use of a Text Editor]])
 |      |       |     | Cmd |  K  | Close (i.e. *kill*) a Note (see [[Task-Related Fields]])

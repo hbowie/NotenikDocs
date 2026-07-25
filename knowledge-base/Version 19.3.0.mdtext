@@ -1,6 +1,6 @@
 Title:  Version 19.3.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-07-14
 Teaser:
 
 Added App Setting for Reload Actions following Text Editing; Moved some App Settings to a new tab named 'Other', to reduce clutter; Added a new option to tweak font settings for particular Collections; Added new Markdown Import function for a Markdown doc with headers, separating each section into a separate Note. 
+
 
 Timestamp: 20260704150144
 
