@@ -1,6 +1,6 @@
 Title:  Version 19.4.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-07-28
 Teaser:
 
 Alternating row colors on the List tab are now optional; A Nav menu item to go Home (top of list) has been added; An author title may now be included in a Quote-From citation; Added an Image-Class field that can be used to apply a class to an image identified in the Image Name field; Single quotes around values are now removed when reading a Note from disk, to increase compatibility with YAML processing conventions.
+
 
 Timestamp: 20260716190601
 
@@ -34,5 +35,4 @@ When using the Markdown command to [[Format a Quote Citation]], the Title of the
 
 ##### Stripping of Single Quotes Around Values
 
-Since other processors sometimes emit values enclosed in single quotes, Notenik now looks for these and strips them when found. 
-
+Since other processors sometimes emit values enclosed in single quotes, Notenik now looks for these and strips them when found.

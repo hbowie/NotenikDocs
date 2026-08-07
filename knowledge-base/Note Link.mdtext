@@ -1,0 +1,31 @@
+Title:  Note Link
+
+Seq:    5.5.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260802163124
+
+Body:
+
+The phrase `note link` can be used as both a label and a type. 
+
+When editing, the user will be presented with a [combo box](https://en.wikipedia.org/wiki/Combo_box) allowing a selection of Note titles within the current Collection. 
+
+When displayed, the target Note title will become an active link, allowing the user to click on it in order to be taken to the target. 
+
+Functionally, a `note-link` field behaves similarly to a [[Wiki Style Link]] within a Markdown field, the difference being that the field type is separated from any surrounding text and allowed to stand on its own.
+
+Here is an example of how the defining line might appear within [[the Collection Template File]]:
+
+```
+Recording Artist: <notelink>
+```
+
+The list of potential target notes may be limited to those of a single [[Class]] by placing the class name following the field type, as in the following example. 
+
+```
+Recording Artist: <notelink: artist >
+```

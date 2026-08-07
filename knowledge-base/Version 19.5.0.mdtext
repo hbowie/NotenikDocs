@@ -1,0 +1,15 @@
+Title:  Version 19.5.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260802162652
+
+Body:
+
+##### New Note Link Field Type
+
+Added a [[Note Link]] field type to allow something like a wiki link, but confined to a single field, instead of appearing within a string of Markdown text. 
