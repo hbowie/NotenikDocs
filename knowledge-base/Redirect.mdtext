@@ -1,0 +1,56 @@
+Title:  Redirect
+
+Seq:    5.12.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260807234500
+
+Body:
+
+The word `Redirect` can be used as a field label. It is not valid as a field type. The field type for a `Redirect` field should be [[String]], which is the default. 
+
+Here's how the defining line in a [[Collection Template File]] might appear. 
+
+```
+Redirect: 
+```
+
+A `Redirect` field can be used to specify the path for a web page that will redirect to the primary page created from the current Note. 
+
+Such a field may prove useful when an author decides to improve the URL that points to an output web page, but still wishes the page to be accessible from its old URL as well. 
+
+When using the [[Export as Web Book]] function, and choosing to export the book as a site, Notenik will automatically generate the redirecting page. 
+
+Note that the redirect value should be specified relative to the top of the output site. 
+
+Here's an example. 
+
+Let's say we have a Note titled "All Along The Watchtower" that is part of a [[Web Book]]. 
+
+The Notenik Export function would generate a web page for this Note with a filename of `all-along-the-watchtower.html`.
+
+But let's say further that the same web page used to exist at a different address. 
+
+So we enter a value of `tracks/watchtower.html` into the Redirect field. 
+
+Now Notenik, as part of the export function, will generate a second web page for this Note, at the specified relative address. And the HTML for the page would look something like the following, following the pattern defined in the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Redirections#html_redirections). 
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>All Along The Watchtower</title>
+    <meta http-equiv="refresh" content="0; URL=../all-along-the-watchtower.html" />
+</head>
+<body>
+<p>Please click <a href="../all-along-the-watchtower.html">here</a> to view the new location for this page.</p></body>
+</html>
+```
+
+
+
+

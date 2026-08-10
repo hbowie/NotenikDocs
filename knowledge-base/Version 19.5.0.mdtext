@@ -12,4 +12,12 @@ Body:
 
 ##### New Note Link Field Type
 
-Added a [[Note Link]] field type to allow something like a wiki link, but confined to a single field, instead of appearing within a string of Markdown text. 
+Added a [[Note Link]] field type to allow something like a wiki link, but confined to a single field, instead of appearing within a string of Markdown text.
+
+##### New Redirect Field Label
+
+Added a [[Redirect]] field label that can be used to generate a page that simply redirects a web browser from the *redirect* location to the primary location.
+
+##### Links to Favicon Files Now Generated
+
+When using the [[Export as Web Book]] function to export a web book as a site, Notenik will now check the output folder for the presence of one or more [Favicon](https://en.wikipedia.org/wiki/Favicon) files and then, if found, will generate the appropriate HTML [link](https://en.wikipedia.org/wiki/Favicon) elements to ensure that browsers find and use the favicon files. 

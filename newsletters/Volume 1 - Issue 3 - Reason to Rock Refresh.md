@@ -74,3 +74,10 @@ While linking to another website has proven increasingly problematic, many Markd
 From the beginning, I've talked about *Reason to Rock* as a book that happens to be published on the web, instead of in print. Matthew Butterick has also come out in favor of the "web-based book," as [he calls it](https://practicaltypography.com/why-theres-no-e-book-or-pdf.html). Not a lot of others have jumped on this particular bandwagon, but that's ok: I'm happy to be in good company. 
 
 Today I'm even more thrilled than in '01 to be publishing something deserving to be called a "book," but freely available on the web, and taking full advantage of web technologies. And my app Notenik has been gradually but steadily evolving in a direction that makes this sort of publishing easier than ever.
+
+## A Simple Export
+
+When I first published *Reason to Rock* I used lots of CSV files and scripts and templates to create the finished website. 
+
+Now I'm just using a simple web book export out of Notenik. 
+

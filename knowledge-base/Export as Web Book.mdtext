@@ -54,6 +54,14 @@ For an example of a Web Book, see the [one on the Notenik.app website](https://n
 
 If you select the option to export to a Web Book as a Site, then the HTML pages will be generated at the top of the output folder, instead of within an `EPUB` folder, and the other EPUB-specific outputs will be skipped. Additionally, the first page of the 'book' will be written twice, once with a file name of `index.html`.
 
+In addition, when using the Export as Web Book function to export a web book as a site, Notenik will now check the output folder for the presence of one or more [Favicon](https://en.wikipedia.org/wiki/Favicon) files and then, if found, will generate the appropriate HTML [link](https://en.wikipedia.org/wiki/Favicon) elements to ensure that browsers find and use the favicon files. 
+
+The following file names will be recognized.
+
++ `favicon.ico`
++ `favicon.png`
++ `favicon.svg`
+
 ##### Web Book as EPUB
 
 With this option, an actual file with an `.epub` extension will be generated. The required metadata should be supplied via the [[Supply EPUB Metadata]] Markdown command. 
