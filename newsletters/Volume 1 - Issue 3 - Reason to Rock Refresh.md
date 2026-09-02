@@ -6,14 +6,16 @@ Level:  3
 
 Body:
 
-I'm currently working on a refresh of the *Reason to Rock* web book, which was originally published back in 2001 – a quarter of a century ago!
+I've just finished a refresh of the *Reason to Rock* web book, which was originally published back in 2001 – a quarter of a century ago!
 
 If you'd like to see both old and new:
 
-+ The 2001 version (for now) is still at [ReasonToRock.com](https://reasontorock.com)
-+ The 2026 version (still a work-in-progress) is at [ReasonToRock.com/refresh/](https://www.reasontorock.com/refresh/)
++ The 2001 version is at [ReasonToRock.com/v01](https://reasontorock.com/v01/index.html)
++ The 2026 version is now available at [ReasonToRock.com](https://www.reasontorock.com)
 
-I'm making a number of changes to the site and the way it is put together, and I thought it might be interesting to describe these, both as a historical record of the site, but also as a way of comparing the web of today to the World Wide Web of '01. 
+I've made a number of changes to the site and the way it is put together, and I thought it might be interesting to describe these, both as a historical record of the site, but also as a way of comparing the web of today to the World Wide Web of '01. 
+
+By the way, there's a companion piece to this one at [ReasonToRock.com/the-2026-refresh.html](https://www.reasontorock.com/the-2026-refresh.html) that talks more about content changes. This piece will be more focused on technical details involving Notenik and the Web. 
 
 So, here goes!
 
@@ -35,11 +37,11 @@ In reading over my words written 25 years ago, I'm still very happy with them. I
 
 ## Google search results
 
-When I first launched the site, it was briefly at the top of Google results when searching for "rock music," but the site has been gradually buried in the flood of content now available on the web. In particular, written content of enduring value has continually lost ground to other sorts of stuff, such as videos and news sites – anything to feed the insatiable desire for something "new" to keep people's attention, and fuel the advertising business that keeps coffers full. 
+When I first launched the site, it was briefly at the top of Google results when searching for "rock music," but the site has been gradually buried in the flood of content now available on the web. In particular, intelligent content of enduring value has continually lost ground to other sorts of stuff, such as videos and news sites – anything to feed the insatiable desire for something brief and "new" to keep people's attention, and fuel the advertising business that keeps coffers full. 
 
 ## Textile to Markdown
 
-When I started work on the site, I was writing in raw HTML. And then, when [lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) became a thing, I switched over to [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)). But [Markdown](https://daringfireball.net/projects/markdown/) is now deservedly the king of this particular hill, and so I'm using [Typora](https://typora.io) to convert from one to the other. 
+When I started work on the site, I was writing in raw HTML. And then, when [lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) became a thing, I switched over to [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)). But [Markdown](https://daringfireball.net/projects/markdown/) is now deservedly the king of this particular hill, and so I've used [Typora](https://typora.io) to convert all the content from Textile to Markdown. (For those who may be interested, you can find the content at [github.com/hbowie/reason-to-rock-26](https://github.com/hbowie/reason-to-rock-26/tree/main/content/reason-to-rock).)  
 
 ## PSTextMerge to Notenik
 
@@ -81,3 +83,6 @@ When I first published *Reason to Rock* I used lots of CSV files and scripts and
 
 Now I'm just using a simple web book export out of Notenik. 
 
+## Bottom Line
+
+A lot has changed over the last twenty-five years. But not everything. And the web book *Reason to Rock*, chronicling the aesthetics of the rock era, is still around, and now better than ever. 

@@ -1,10 +1,17 @@
 Title:  Version 19.5.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2026-08-11
+
+Teaser:
+
+Added a Note Link field type (for linking to another note); Added a Redirect field label, to generate redirect pages from old page locations to new ones; Added code to generate HTML link tags to identify favicons for web books exported as sites. 
+
 
 Timestamp: 20260802162652
 
@@ -20,4 +27,4 @@ Added a [[Redirect]] field label that can be used to generate a page that simply
 
 ##### Links to Favicon Files Now Generated
 
-When using the [[Export as Web Book]] function to export a web book as a site, Notenik will now check the output folder for the presence of one or more [Favicon](https://en.wikipedia.org/wiki/Favicon) files and then, if found, will generate the appropriate HTML [link](https://en.wikipedia.org/wiki/Favicon) elements to ensure that browsers find and use the favicon files. 
+When using the [[Export as Web Book]] function to export a web book as a site, Notenik will now check the output folder for the presence of one or more [Favicon](https://en.wikipedia.org/wiki/Favicon) files and then, if found, will generate the appropriate HTML [link](https://en.wikipedia.org/wiki/Favicon) elements to ensure that browsers find and use the favicon files.

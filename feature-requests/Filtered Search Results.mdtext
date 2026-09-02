@@ -1,0 +1,13 @@
+Title:  Filtered Search Results
+
+Request Date: 2026-07-21
+
+Link:   https://discourse.notenik.app/t/a-search-filter-bar-above-the-list/884?u=hbowie
+
+Body:
+
+A function that I would really love to see would be a search bar at the top of the list which would filter the list to include only notes that contained the text in the search bar.
+
+The search would include all text in any note, including any field values, names or tags. But this would be mainly for text in the body of the note.
+
+Any notes not containing the search term would be hidden. Would this be possible?

@@ -1,0 +1,15 @@
+Title:  Window Reuse
+
+Body:
+
+Here's how the window reuse logic works. 
+
+## WindowJuggler
+
+The `WindowJuggler` class is used to keep track of windows, to ensure duplicates aren't opened. 
+
+When the user requests to open a collection, the `findWindow(withURL: x)` method is called. If a window is returned, then that is used without opening a second window for the same collection. 
+
+When the user closes a window, the `CollectionJuggler.windowClosing` method is called, which in turn calls the `WindowJuggler.windowClosing(withController: x)` method. 
+
+

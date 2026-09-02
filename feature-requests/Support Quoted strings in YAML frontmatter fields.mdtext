@@ -1,0 +1,13 @@
+---
+Title: Support Quoted strings in YAML frontmatter fields
+Implemented Version: 19.4.0
+Request Date: 2026-07-25
+Link: https://discourse.notenik.app/t/quoted-strings-in-yaml-frontmatter-fields/886?u=hbowie
+---
+
+Python scripts which use YAML fronmatter when acting on markdown notes tend to add quotes to certain strings like sequence values such as 
+`` seq:`2.1` ``
+or 
+`` created:`2026-07-23T18:05:40+00:00' ``
+
+I am wondering if it is possible to get Notenik to strip the quotes and not keep the quote characters as part of the value for these fields. That would help with collections processed using such scripts.

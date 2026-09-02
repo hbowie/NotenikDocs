@@ -1,0 +1,20 @@
+Title:  Version 19.6.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260901001408
+
+Body:
+
+##### Fixed Window Reuse Problem
+
+When a user requests a Collection to be opened, and it is already open in an existing window, Notenik will generally bring that window forward rather than opening a second window for the same Collection. However, this was not working when a user opened a Collection, then closed it, then issued multiple subsequent requests to open it. This has been fixed.
+
+##### Added a Filtered Search Option
+
+Added a new command beneath the *Nav* menu to *Search and Filter*.  See the [[Search]] page for instructions on how this can be used. 
+
