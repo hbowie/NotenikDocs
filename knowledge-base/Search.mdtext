@@ -64,4 +64,6 @@ A *Filter Results* option is also available as part of an *Advanced Search*, and
 
 After executing such a *Search & Filter* command, the user has a couple of options available for returning to the full set of Notes in the Collection. The first option is to use the *Collection -> Filter > Show All* command. The second option is to simply clear the contents of the *Search* control in the Toolbar. 
 
-Note that a filtered search uses some of the same logic as is used for filtering based on the contents of a [[Mark]] field, with the result that these two types of filtering cannot be combined. 
+Note that a filtered search uses some of the same logic as is used for filtering based on the contents of a [[Mark]] field, with the result that these two types of filtering cannot be combined.
+
+Note also that filtered search results will prevent found Notes from successfully linking to other Notes that might be in the full Collection, but not part of the found set. 

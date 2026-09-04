@@ -6,6 +6,12 @@ Level:  3 - chapter
 
 Class:  version
 
+Date:   2026-09-04
+
+Teaser:
+
+Fixed a problem that sometimes prevented a request to open a Collection from making use of an existing Window in which the Collection was already open; Also added an option to filter search results, so that only the matching Notes show up in the List tab. 
+
 Timestamp: 20260901001408
 
 Body:
@@ -16,5 +22,4 @@ When a user requests a Collection to be opened, and it is already open in an exi
 
 ##### Added a Filtered Search Option
 
-Added a new command beneath the *Nav* menu to *Search and Filter*.  See the [[Search]] page for instructions on how this can be used. 
-
+Added a new command beneath the *Nav* menu to *Search and Filter*.  See the [[Search]] page for instructions on how this can be used.
