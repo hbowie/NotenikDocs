@@ -1,6 +1,6 @@
 Title:  Version 19.6.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
@@ -11,6 +11,7 @@ Date:   2026-09-04
 Teaser:
 
 Fixed a problem that sometimes prevented a request to open a Collection from making use of an existing Window in which the Collection was already open; Also added an option to filter search results, so that only the matching Notes show up in the List tab. 
+
 
 Timestamp: 20260901001408
 

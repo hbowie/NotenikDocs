@@ -1,0 +1,20 @@
+Title:  Version 19.7.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Timestamp: 20260909220940
+
+Body:
+
+##### New Link Formatting Option
+
+There is now a simplifying formatting option for the Scheme portion of a [[Link]]. For the Scheme, simplification will result in a simple descriptor of the type of link. For a Scheme of `http` or `https`, the descriptor will be "Web Link"; for the `notenik` scheme, the descriptor will be "Notenik Link", and so forth. When the Scheme is simplified, it is generally best to exclude the other URL parts. This results in a short clickable phrase instead of a long and possibly convoluted URL. 
+
+##### Scan for Collections Added
+
+Added a new function to [[Scan for Collections]], as another means of [[Managing a Bunch of Collections]]. 
+

@@ -8,5 +8,7 @@ Seq: <seq>
 
 Level: <level: >
 
+Date: <date>
+
 Body: 
 

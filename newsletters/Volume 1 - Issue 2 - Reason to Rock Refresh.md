@@ -1,8 +1,10 @@
-Title:  Volume 1, Issue 3 - Reason to Rock Refresh
+Title:  Volume 1, Issue 2 - Reason to Rock Refresh
 
-Seq:    1.3
+Seq:    1.2
 
 Level:  3
+
+Date:   2026-09-06
 
 Body:
 
@@ -29,7 +31,7 @@ It's easy to overlook this and take it for granted, but this speaks to the treme
 
 ## BBEdit still doesn't suck!
 
-I used BBEdit as a text editor back in '01, and I'm still happily using it today.
+I used [BBEdit](https://www.barebones.com/products/bbedit/index.html) as a text editor back in '01, and I'm still happily using it today. (And if you'd like to learn more about how BBEdit can be used with Notenik, refer back to [Volume 1, Issue 1](https://news.notenik.app/archive/volume-1-issue-1-text-editor-options/) of this newsletter.)
 
 ## The words hold up
 
@@ -41,7 +43,7 @@ When I first launched the site, it was briefly at the top of Google results when
 
 ## Textile to Markdown
 
-When I started work on the site, I was writing in raw HTML. And then, when [lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) became a thing, I switched over to [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)). But [Markdown](https://daringfireball.net/projects/markdown/) is now deservedly the king of this particular hill, and so I've used [Typora](https://typora.io) to convert all the content from Textile to Markdown. (For those who may be interested, you can find the content at [github.com/hbowie/reason-to-rock-26](https://github.com/hbowie/reason-to-rock-26/tree/main/content/reason-to-rock).)  
+When I started work on the site, I was writing in raw HTML. And then, when [lightweight markup languages](https://en.wikipedia.org/wiki/Lightweight_markup_language) became a thing, I switched over to [Textile](https://en.wikipedia.org/wiki/Textile_(markup_language)). But [Markdown](https://daringfireball.net/projects/markdown/) is now deservedly the king of this particular hill, and so I've used [Typora](https://typora.io) to convert all the content from Textile to Markdown. (For those who may be interested, you can find the content as part of the project at [github.com/hbowie/reason-to-rock-26](https://github.com/hbowie/reason-to-rock-26).)  
 
 ## PSTextMerge to Notenik
 
@@ -85,4 +87,16 @@ Now I'm just using a simple web book export out of Notenik.
 
 ## Bottom Line
 
-A lot has changed over the last twenty-five years. But not everything. And the web book *Reason to Rock*, chronicling the aesthetics of the rock era, is still around, and now better than ever. 
+A lot has changed over the last twenty-five years. But not everything. And the web book *Reason to Rock*, chronicling the aesthetics of the rock era, is still around, and now better than ever.
+
+That’s it for our second issue of *Notenik News*. Hopefully this continues to provide interesting and useful information for new, old and possibly future Notenik users.
+
+If you have feedback, or suggestions for topics to be covered in future issues, please post them to our  [Discourse Forum](https://discourse.notenik.app/c/notenik-news/23).
+
+Thanks for reading!
+
+## Reference Links
+
++ [Mac App Store](https://apps.apple.com/us/app/notenik/id1465997984) – Notenik download link
++ [Notenik.app](https://notenik.app) – Notenik website
++ [Notenik News Archives](https://news.notenik.app/archive/) – Newsletter archives

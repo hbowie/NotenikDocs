@@ -1,6 +1,6 @@
 Title:  Volume 1, Issue 2 - Small Pieces Smartly Joined
 
-Seq:    1.2
+Seq:    1.4
 
 Level:  3
 
@@ -24,13 +24,15 @@ I still think some of the basic concepts of the Web still have a lot to offer. T
 
 + Small pieces, with each one containing a distinct capsule of information or idea, having some potential value on its own;
 + A unique, human-readable identifier for each small piece;
-+ User direction applied to the path one takes when navigating through these small pieces, with a traditional linear path being only one such option;
++ Some authorial direction applied to the path one takes when navigating through these small pieces, with a traditional linear path being only one such option;
 + Reading layouts that adapt responsively to the user's screen size, chosen window size, and other preferences;
 + Open, unfettered access offered to anyone with a reasonably modern web browser. 
 
 And so, as an alternative to Weinberger's notion, we might wish to consider the idea of *small pieces smartly joined*. 
 
 Which is, perhaps, the reigning idea behind Notenik: not to collect a bunch of unrelated small pieces, not to patiently wait for the relationships between our pieces to show themselves, but to *consciously architect* the relationships between a particular set of small pieces, thereby fusing them into some larger whole – yet without sacrificing the advantages of the web mentioned above. 
+
+To a large degree, the goal of Notenik is to provide a tool for organizing such small bits, allowing the author/editor to create, view and test the various linkages without (or perhaps before) publishing such a collection to the web. 
 
  
 

@@ -80,12 +80,13 @@ And the five positions represent the following five [components of a URL](https:
 
 A couple of things to note:
 
-+ Such a formatting string will only be applied to links that appear to be valid URLs with a scheme of `http` or `https`. Anything else will simply be displayed as-is.
 + If you fail to supply any formatting string, then the default will be to display all links as-is. 
 
 And now, to explain what we mean by simplifying the presentation of a component. 
 
-First, this only applies to the Host and the Path. There are no simplification algorithms for the other three parts, so they will be displayed as-is, unless they are excluded. 
+First, this only applies to the Scheme, Host and Path. There are no simplification algorithms for the other two parts, so they will be displayed as-is, unless they are excluded. 
+
+For the Scheme, simplification will result in a simple descriptor of the type of link. For a Scheme of `http` or `https`, the descriptor will be "Web Link"; for the `notenik` scheme, the descriptor will be "Notenik Link", and so forth. When the Scheme is simplified, it is generally best to exclude the other URL parts. This results in a short clickable phrase instead of a long and possibly unwieldy URL. 
 
 For the Host, the following rules will be applied:
 

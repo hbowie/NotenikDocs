@@ -1,0 +1,29 @@
+Title:  Scan for Collections
+
+Seq:    6.8.6
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20260909224103
+
+Body:
+
+The *File -> Scan for Collections* menu item will allow you to select a folder, and then search within that folder for all existing Notenik Collections contained within. 
+
+The resulting list of Collections will be shown in a new Collection window. Each Collection will appear as a Note within the results, with the following fields.
+
++ [[Title]] -- This will be the path to the Collection within the scanned folder, but with spaces before and after each `/` in order to make the path more readable. 
++ [[Tags]] -- Either `collection` or `project`
++ [[Link]] -- A Notenik [[Custom URL]] capable of opening the Collection. This will be shown with a simplified scheme. 
+
+Although the resulting window will appear as if it were a Collection or a Project, the scan results will only be retained as long as the window is kept open, and no new `INFO` files will be written to disk anywhere. 
+
+A few important notes concerning this function.
+
++ Notenik will only look for telltale file names and extensions indicating the presence of Notenik Collections and Projects during the scan; no Collections will actually be opened, and no files will be read. This means that the operation should be pretty speedy, but it also means that user-assigned Collection titles are not available to show in the results. 
+
++ The resulting pseudo-Collection can be searched just like a regular Collection, including the ability to *Search & Filter* the results; this can be a useful way to find a Collection whose exact name and/or location you may have forgotten or misremembered. 
+
++ Note lines within the scan results can also be dragged and dropped into any other Collection the user might have open. This can be a quick way to add a Notenik Link to another Collection to an existing Collection. 

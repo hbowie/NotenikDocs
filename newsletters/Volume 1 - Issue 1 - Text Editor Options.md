@@ -4,6 +4,8 @@ Seq:    1.1
 
 Level:  3
 
+Date:   2026-07-25
+
 Body:
 
 Welcome to the first issue of *Notenik News*, the new Notenik email newsletter!
@@ -106,4 +108,3 @@ Well, that's it for our first issue of *Notenik News*. Hopefully this survey of 
 If you have feedback, or suggestions for topics to be covered in future issues, please post them to our [Discourse Forum](https://discourse.notenik.app/c/notenik-news/23).
 
 Thanks for reading!
-
