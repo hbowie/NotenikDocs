@@ -1,10 +1,17 @@
 Title:  Version 19.7.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2026-09-20
+
+Teaser:
+
+New optional simplified display for the Link field; new function to scan any folder for Notenik collections contained within. 
+
 
 Timestamp: 20260909220940
 
@@ -16,5 +23,4 @@ There is now a simplifying formatting option for the Scheme portion of a [[Link]
 
 ##### Scan for Collections Added
 
-Added a new function to [[Scan for Collections]], as another means of [[Managing a Bunch of Collections]]. 
-
+Added a new function to [[Scan for Collections]], as another means of [[Managing a Bunch of Collections]].

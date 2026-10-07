@@ -26,4 +26,4 @@ A few important notes concerning this function.
 
 + The resulting pseudo-Collection can be searched just like a regular Collection, including the ability to *Search & Filter* the results; this can be a useful way to find a Collection whose exact name and/or location you may have forgotten or misremembered. 
 
-+ Note lines within the scan results can also be dragged and dropped into any other Collection the user might have open. This can be a quick way to add a Notenik Link to another Collection to an existing Collection. 
++ Note lines within the scan results can also be dragged and dropped into any other Collection the user might have open. This can be a quick way to add a Notenik Link to a Collection found in the Scan to another Collection that is already open.

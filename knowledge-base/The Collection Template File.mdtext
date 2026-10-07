@@ -14,21 +14,43 @@ Body:
 
 Within each collection folder Notenik stores a special file that it uses as a template for creating notes within that collection.
 
-The file name is always `template`. The file extension of the template file is used as an indicator of the file extension that should be used when creating new notes within that collection. 
+Note that collection templates are very different from [[Merge Templates]], so you should not confuse the two.
+
+{:toc}
+
+##### File Name and Extension
+
+The collection template file name is always `template`. The file extension of the template file is used as an indicator of the file extension that should be used when creating new notes within that collection. 
+
+##### General Format
 
 The contents of the collection template are generally similar to the usual [[Note File Format]]. The collection template should contain a [[field label]] for every field that the user will be allowed to add or edit within the collection. 
 
-You may leave the value (the text following the colon) blank, in which case the field type will be inferred from the label. Alternatively, you may specify the desired type for the field within less than/greater than signs, as in the following example:
+##### Field Type
+
+You may leave the value (the text following the colon) blank, in which case the field type will be inferred from the label. Alternatively, you may specify the desired [[field types|type for the field]] within less than/greater than signs, as in the following example:
 
 ```
 Author Info: <longtext>
 ```
 
-For some field types, a list of allowable values may also accompany the type itself. 
+##### Field Configurations
+
+For some field types, some configuration info, such as a list of allowable values, may also accompany the type itself. 
+
+Here's an example for the [[Pick From]] field type. 
+
+```
+Type: <pick-from: static, post>
+```
+
+##### Use of a Text Editor
 
 Notenik will create and edit a collection's template file for you, in most cases, but for very complex or specialized sets of [[field labels and types]], you may wish to make [[use of a text editor]] to modify the file directly. 
 
-Note that collection templates are very different from [[Merge Templates]], so you should not confuse the two.
+The *Collection > Text Edit Collection's Template File* command can be used to have Notenik open the collection template file using the default text editor for the file's type. 
+
+##### Forcing Empty Field Lines
 
 Also note that, when writing a note to disk, the Notenik default is to avoid writing lines without data. However, if you have fields for which you wish to see note lines with labels only, the default can be overridden by placing a `@` character preceding the field type in the collection template file.  
 
@@ -44,4 +66,31 @@ In this case, the note file would contain a line like the following when the Aut
 Author Info: 
 ```
 
-This can be especially useful if you intend to edit the note file later using a text editor, or some other application. 
+This can be especially useful if you intend to edit the note file later using a text editor, or some other application.
+
+##### Supplying Helper Info
+
+You may also specify info in a collection template file that can be used to provide additional information about a field for use when editing that field. 
+
+There are two types of helper info. These can only be invoked from the *Edit* tab. 
+
+A [tooltip](https://en.wikipedia.org/wiki/Tooltip) will be shown when a user hovers over the field.
+
+The "tip" would be specified in the template file by simply entering an exclamation point, followed by the text of the tip, just before the closing right angle bracket that would normally conclude the definition of a field. 
+
+For example: 
+
+```
+Date: <date ! The due date for an action item >
+```
+
+Alternatively (or, additionally), instructions can be provided by entering the information following a pair of exclamation points, as in the following example. 
+
+```
+Date: <date !! Enter the due date for the action item. >
+```
+
+For each field that has available instructions, the edit user will see a button following the field label, with the button containing the letter 'i'. Clicking the button will cause the instructions for that field to appear in a new *Edit Instructions* window. Clicking on the 'i' button for an additional field will add that field's instructions to the same window. (Clicking again on an 'i' button will then remove that field's instructions from the auxiliary window.)
+
+The instructions can include basic Markdown formatting.  
+
