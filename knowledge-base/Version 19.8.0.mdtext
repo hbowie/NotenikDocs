@@ -1,10 +1,17 @@
 Title:  Version 19.8.0
 
-Seq:    13.1
+Seq:    13.2
 
 Level:  3 - chapter
 
 Class:  version
+
+Date:   2026-10-07
+
+Teaser:
+
+Added helper info for fields, that can be referenced when editing a note, 
+
 
 Timestamp: 20261003204557
 
@@ -12,4 +19,4 @@ Body:
 
 ##### Added Helper Info for Fields
 
-Tooltips and or more detailed instructions can now be provided for fields. This helper info can be invoked when editing a note. See the *Supplying Helper Info* section within [[The Collection Template File]] description for details. 
+Tooltips and or more detailed instructions can now be provided for fields. This helper info can be invoked when editing a note. See the *Supplying Helper Info* section within [[The Collection Template File]] description for details.

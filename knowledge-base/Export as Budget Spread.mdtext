@@ -1,0 +1,42 @@
+Title:  Export as Budget Spread
+
+Seq:    8.4.9
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20261030183825
+
+Body:
+
+If your collection has an [[Amount]] field and a [[Spread]] field, then you may use this export format to generate a [CSV file](https://en.wikipedia.org/wiki/Comma-separated_values) with a separate column for each month of the year. This CSV file can then be opened in just about any spreadsheet app. 
+
+The resulting file will contain the following columns. 
+
+Seq
+: The [[Seq]] value for the line item. The collection is assumed to be sorted by this field, and it is assumed that this field has one or more levels, separated by periods, with the number of levels implying the depth of the item. 
+
+Item
+: The [[Title]] value of the Note, indented by the number of levels in the Seq field. 
+
+S/D
+: Either an 'S' if this is a summary line, or a 'D' if it is a detail line. If it is a summary line (meaning it has subordinate lines containing amounts, but has no amount specified itself), then the amounts in the following fields will be summarized from the subordinate detail. 
+
+Level
+: A digit representing the level of this item within the implied outline structure, with a topmost line carrying a level of '1'. 
+
+Type
+: This is a field that can be useful when loading budget values into [Monarch Money](https://www.monarch.com). If the output is sorted by this field, plus the Seq field, then the items should appear in the same sequence expected by that tool. Note that, when populating this field, Notenik will expect there to be a topmost note with a title of 'Income', in order to identify the income items and get them at the top. 
+
+Annual
+: This will be the sum of all the individual month amounts. 
+
+Jan - Dec
+: There will be one column for each month, containing the detail or summarized amount for that month. 
+
+
+
+
+
+

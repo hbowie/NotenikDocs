@@ -104,9 +104,13 @@ Following are the supported formats.
 
 	See the following section, [[Export as Web Presentation]], for further info on this option. 
 
-	When exporting the Notes in a Collection, you will be presented with a few options for the export. 
+* Export as Budget Spread
 
-* Output Format: Described above. 
+	See the following section, [[Export as Budget Spread]] for complete info. 
+
+When exporting the Notes in a Collection, you will be presented with a few options for the export. 
+
+In addition to selecting a file format from the ones described above, the user can supply values for the following fields. 
 
 * File extension: Pick from the list or type in a custom extension. 
 

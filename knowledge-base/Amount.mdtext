@@ -1,0 +1,19 @@
+Title:  Amount
+
+Seq:    5.16.1
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Index:  budgeting; amount; 
+
+Timestamp: 20261030182237
+
+Body:
+
+The word `Amount` can be used as a label, but not as a type.
+
+An amount field can be used to hold a currency value, for use in [[budgeting]]. 
+
+It is best used in combination with a field of type [[Spread]]. 

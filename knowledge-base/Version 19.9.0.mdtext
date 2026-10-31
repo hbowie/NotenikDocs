@@ -1,0 +1,25 @@
+Title:  Version 19.9.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2026-11-01
+
+Teaser:
+
+Fixed a Markdown include problem, and added Budgeting support. 
+
+Timestamp: 20261030171849
+
+Body:
+
+##### Fixed an Include Problem
+
+When using the Markdown command to [[Include a Note or File]], and when making use of a [[Merge Template]] to [[Tailor the Display]], the include command was not being processed. This has been corrected.
+
+##### Added Support for Budgeting
+
+See the [[Budgeting with Notenik]] use case for complete info. 

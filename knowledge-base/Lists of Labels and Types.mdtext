@@ -25,14 +25,15 @@ Each field label/type is discussed below, grouped into logical collections.
 + [[Fields Useful for Reviews, Citations and Quotations]]
 + [[Fields Used to Identify Various Kinds of Notes]]
 + [[Fields for Travel Planning]]
++ [[Fields for Budgeting]]
 + [[General-Purpose Fields]]
 + [[System-Assigned Dates and Times]]
-
 
 For ease of reference, when looking for a specific field type, here's an alphabetical index to all of them. 
 
 + [[Address]]
 + [[AKA]]
++ [[Amount]]
 + [[Artist]]
 + [[Attribution]]
 + [[Author]]
@@ -75,6 +76,7 @@ For ease of reference, when looking for a specific field type, here's an alphabe
 + [[Redirect]]
 + [[Seq]]
 + [[Short ID]]
++ [[Spread]]
 + [[Status]]
 + [[String]]
 + [[Tags]]

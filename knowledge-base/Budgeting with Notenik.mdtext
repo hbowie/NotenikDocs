@@ -1,0 +1,85 @@
+Title:  Budgeting with Notenik
+
+AKA:    budgeting
+
+Seq:    11.14
+
+Level:  3 - chapter
+
+Class:  non-version
+
+Timestamp: 20261030181324
+
+Body:
+
+At first glance, making use of Notenik for [budgeting](https://consumer.gov/your-money/making-budget) may seem rather odd. (And, truth to tell, perhaps even on second glance as well). 
+
+But let me explain. 
+
+I'm in the habit every fall of putting together a family budget for the coming year. 
+
+And then I use some sort of personal finance tool to track our spending as the year progresses, comparing it to the budget. 
+
+The finance tools generally have a way of establishing a budget, but I don't like using those tools for coming up with the budget, for several reasons:
+
+1. I sometimes experiment with different tools, so I want the initial budget to be independent from the tracking tool;
+
+2. The personal finance apps generally make you set up categories in one place, and then enter budget numbers for the categories in a different place, and I like to be able to do both at once;
+
+3. The finance apps generally only allow you two levels of categories, and I sometimes want more (for tracking individual subscriptions, for example); 
+
+4. Every finance app seems to offer a different way of spreading an annual budget across the months of the year, and most of these approaches make data entry cumbersome. 
+
+And so, for all these reasons, I'm in the habit of creating my budget in a separate app. 
+
+So, why not use a spreadsheet? 
+
+That's a good question, and for many years I have. 
+
+But then this year I got an early start on the effort, and it occurred to me that Notenik could be used for this, with a couple of additional pieces of functionality, and so I decided to give it a whirl. 
+
+Part of my motivation goes back to one of my original reasons for creating Notenik: I wanted discrete fields, but I also wanted a place for free-form text, and I didn't want both uncomfortably crammed into a single set of rows and columns.
+
+And so here's the recipe for creating a budget collection with Notenik. 
+
+##### Starter Pack
+
+Use the [[Budget Pack]] to initialize your new budgeting collection. 
+
+##### Fields
+
+First, start with the right ingredients: in this case, fields. 
+
++ [[Title]] – The brief title for this budget line. There should generally be one top-level Note titled 'Income', and another titled 'Expense'. 
+
++ [[Seq]] – This field is used both to keep things in whatever sequence you'd prefer, and to express varying levels of depth within an implied outline structure. 
+
++ [[Amount]] – This should contain the decimal value of the amount to be budgeted per month for this item. If this is a summary line (meaning that detail is provided at a lower level within the outline), then the Amount field should be left blank. 
+
++ [[Spread]] – This should contain the names (or 3-letter abbreviations) of the months for which the amount should be budgeted; if this field is left blank, then the amount will be spread to all months. 
+
++ Discretionary (defined as a [[Boolean]] field) – Check this box to indicate that this is a line item whose amounts can be varied from month to month, at the user's discretion. 
+
++ [[Link]] – Use this field to store any kind of reference link that may be useful when managing this item. 
+
++ [[Body]] – Use the Body field for any notes you want to associate with the line item. 
+
+##### Entry and Review
+
+You'll want to sort your budget collection by `Seq + Title`. 
+
+Note that you can use the Seq field to enter your budget in the form of an [[Using Notenik as an Outliner|outline]], and then make use of all the available Notenik tools for creating, managing and reviewing an outline, including the [[Outline Tab]].
+
+##### Export to CSV
+
+Once you have all your budget items entered, you're ready to export into a format that can be viewed as a spreadsheet.
+
+For this you can use the [[Export as Budget Spread]] function. This will produce a nice little CSV file with your amounts spread into appropriate columns by month, your annual amounts totaled, and your high-level summary totals filled in. 
+
+Can this be imported into your financial app? Well, no: as far as I can tell, none of these tools provide a category/budget import function. 
+
+But it may make your data entry easier. And it does provide an ongoing reference to how much you intended to spend on various categories. 
+
+FWIW, I just did a little comparison of Banktivty vs. Monarch Money, and ended up choosing Monarch Money for this year. We'll see how it goes!
+
+Also, FWIW, while you can open your CSV export file using either Apple's Numbers app, or MS Excel, I chose to open it using the relatively new [Nought Spreadsheet](https://www.nought.app) app, and was really happy with the resulting presentation.

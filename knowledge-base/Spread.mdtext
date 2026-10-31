@@ -1,0 +1,41 @@
+Title:  Spread
+
+Seq:    5.16.2
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20261030182531
+
+Body:
+
+The word `Spread` can be used as both a label and a type.
+
+A Collection should not have more than one field of type `spread`.
+
+This field type allows the user to assign one or more months to an associated [[Amount]].
+
+This field is meant to be used for [[budgeting]]. 
+
+Here's an example of how it might be defined in a [[Collection Template File]].
+
+```
+Months: <spread>
+```
+
+If the field is left blank, then that will be interpeted to mean that the associated Amount should be assigned identically to all twelve months of the year. 
+
+Alternatively, this field might contain one or more month names, separated by spaces and/or commas, to indicate which months of the year should have the Amount assigned. 
+
+The month names may be abbreviated to three letters or more. 
+
+For example, here's how you might specify when to make your quarterly estimated tax payments in the US:
+
+```
+Apr, Jun, Sep, Jan
+```
+
+
+
+
