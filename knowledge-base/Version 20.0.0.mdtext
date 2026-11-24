@@ -1,0 +1,29 @@
+Title:  Version 20.0.0
+
+Seq:    13.1
+
+Level:  3 - chapter
+
+Class:  version
+
+Date:   2026-11-24
+
+Teaser:
+
+Added a Weekdays Recurs option; Added a new Markdown extension combining HTML details, summary and heading tags. 
+
+Timestamp: 20261110230247
+
+Body:
+
+##### Added Weekdays Recurs Option
+
+The [[Recurs]] field has been expanded to allow multiple days of the week to be named, as in the following example: 
+
+* `Mon, Wed & Fri`
+
+This example would cause the associated task to recur on every Monday, Wednesday and Friday.
+
+##### Added Markdown Extension for Details
+
+Added a new Markdown command to [[Generate Details and Summary Tags for Headings]].

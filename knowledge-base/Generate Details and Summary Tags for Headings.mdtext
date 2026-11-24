@@ -1,0 +1,55 @@
+Title:  Generate Details and Summary Tags for Headings
+
+Seq:    4.8.10
+
+Level:  4 - chunk
+
+Class:  non-version
+
+Timestamp: 20261118212214
+
+Body:
+
+The `<details>` and `<summary>` tags are relatively new additions to the [HTML spec](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/summary). The `summary` tag allows an HTML heading to be enclosed and, in fact, this seems like a relatively useful combination. 
+
+There are ways to include the `details` & `summary` tags within Markdown (see [here](https://markdownformatting.com/collapsible-sections)) but this technique just involves writing straight HTML and is fairly verbose for Markdown. 
+
+So, as an extension to the original Markdown spec, Notenik allows a greater-than sign to be included just before the usual hash marks to indicate a heading, as in the following example.
+
+```
+>##### Words from Others on this Topic
+
+Words from others. 
+```
+
+And then, from this, generate something like the following. 
+
+```
+<details>
+<summary>
+<h5>Words from Others on this Topic</h5>
+</summary>
+<p>Words from others. </p>
+</details>
+```
+
+And this would then appear as follows. 
+
+>##### Words from Others on this Topic
+
+Words from others. 
+
+##### Additional Syntax Commentary
+
+This syntax is (at least to my knowledge) unique to Notenik, but it seems pretty simple and straightforward and even a bit intuitive (if you read the greater-than sign as suggestive of a disclosure triangle). 
+
+The generated `details` tags will enclose the content following the heading, up to the end of the content, or to a following heading with a level less than or equal to the starting heading. 
+
+In practice this means:
+
++ You can include lower-level headings within the content wrapped in the `details` tags;
+
++ Only one `details` tag can be active at a time, so you can't nest this command within the content implied by another.
+
+Also, to be clear, the hash mark(s) must immediately follow the greater-than sign, without any intervening space(s), otherwise normal Markdown syntax will produce a heading within a [blockquote](https://daringfireball.net/projects/markdown/syntax#blockquote). 
+
